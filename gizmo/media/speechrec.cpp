@@ -7,7 +7,7 @@
 using namespace std;
 
 SpeechRecognition::SpeechRecognition() :
-    m_ps(NULL), m_config(NULL), m_endpointer(NULL),
+    m_ps(NULL), m_config(NULL), m_vad(NULL),
     m_utteranceStarted(false), m_haveTimestamp(false), m_flushed(false),
     m_framePeriod(0.0), m_deltaTime(0.0), m_utteranceTime(0.0),
     m_timeBase(0.0), m_minProb(1.0f), m_minLen(0)
@@ -16,12 +16,15 @@ SpeechRecognition::SpeechRecognition() :
     if (m_config == NULL)
         throw EXCEPTION("can't init Sphinx configuration")
             .module("SpeechRecognition", "ps_config_init");
+    // Preserve SphinxBase's original preprocessing default. Asset parameters
+    // passed later through setParam() can explicitly disable it.
+    ps_config_set_bool(m_config, "remove_noise", TRUE);
 }
 
 SpeechRecognition::~SpeechRecognition()
 {
     // Destructors must also release resources after a failed/cancelled start.
-    ps_endpointer_free(m_endpointer);
+    ps_vad_free(m_vad);
     ps_free(m_ps);
     ps_config_free(m_config);
 }
@@ -60,14 +63,28 @@ bool SpeechRecognition::removeWordsListener(WordsListener listener)
 void SpeechRecognition::setMinWordProb(float minProb) { m_minProb = minProb; }
 void SpeechRecognition::setMinWordLen(unsigned minLen) { m_minLen = minLen; }
 
-void SpeechRecognition::resetEndpointer()
+void SpeechRecognition::resetVad()
 {
-    ps_endpointer_free(m_endpointer);
-    m_endpointer = ps_endpointer_init(0.0, 0.0, PS_VAD_LOOSE,
-            static_cast<int>(ps_config_int(m_config, "samprate")), 0.0);
-    if (m_endpointer == NULL)
-        throw EXCEPTION("can't init speech endpointer")
-            .module("SpeechRecognition", "ps_endpointer_init");
+    ps_vad_free(m_vad);
+    const int sampleRate = static_cast<int>(ps_config_int(m_config, "samprate"));
+    m_vad = ps_vad_init(PS_VAD_LOOSE, sampleRate, 0.01);
+    if (m_vad == NULL)
+        throw EXCEPTION("can't init speech voice activity detection")
+            .module("SpeechRecognition", "ps_vad_init");
+    const size_t frameSize = ps_vad_frame_size(m_vad);
+    const long frate = ps_config_int(m_config, "frate");
+    // SphinxBase defaults: prespeech 20, confirmation 10, hangover 50
+    // recognition frames. Derive durations from the model's frame rate,
+    // independently of the VAD's actual supported input frame size.
+    const auto frames = [=](unsigned legacyFrames) {
+        const uint64_t numerator = uint64_t(legacyFrames) * sampleRate;
+        const uint64_t denominator = uint64_t(frate) * frameSize;
+        return static_cast<size_t>((numerator + denominator - 1) / denominator);
+    };
+    m_segments.reset(new SpeechSegmenter(frames(20), frames(10), frames(50),
+            [this](const int16_t *pcm, size_t count, uint64_t first, bool begin, bool end) {
+                processSpeech(pcm, count, first, begin, end);
+            }));
     m_samples.clear();
     m_flushed = false;
 }
@@ -90,7 +107,7 @@ void SpeechRecognition::start(const AVStream *stream)
     m_utteranceTime = 0.0;
     m_haveTimestamp = false;
     m_utteranceStarted = false;
-    resetEndpointer();
+    resetVad();
 }
 
 void SpeechRecognition::endUtterance()
@@ -111,28 +128,45 @@ void SpeechRecognition::stop()
         ps_free(m_ps);
         m_ps = NULL;
     }
-    ps_endpointer_free(m_endpointer);
-    m_endpointer = NULL;
+    ps_vad_free(m_vad);
+    m_vad = NULL;
     m_samples.clear();
 }
 
-void SpeechRecognition::processSpeech(const int16_t *samples, size_t count)
+void SpeechRecognition::processSpeech(const int16_t *samples, size_t count,
+        uint64_t firstSample, bool begin, bool end)
 {
-    if (samples == NULL || count == 0)
-        return;
-    if (!m_utteranceStarted) {
+    if (begin) {
         if (ps_start_utt(m_ps) < 0)
             throw EXCEPTION("can't start utterance")
                 .module("SpeechRecognition", "ps_start_utt");
         m_utteranceStarted = true;
-        // PS5 segmentation frame indices restart for each utterance.
-        m_utteranceTime = ps_endpointer_speech_start(m_endpointer);
+        m_utteranceTime = static_cast<double>(firstSample)
+            / static_cast<double>(ps_config_int(m_config, "samprate"));
     }
-    if (ps_process_raw(m_ps, samples, count, FALSE, FALSE) < 0)
+    if (count && ps_process_raw(m_ps, samples, count, FALSE, FALSE) < 0)
         throw EXCEPTION("speech recognition error")
             .module("SpeechRecognition", "ps_process_raw");
-    if (!ps_endpointer_in_speech(m_endpointer))
+    if (end)
         endUtterance();
+}
+
+void SpeechRecognition::processVadFrame(const int16_t *samples, size_t count)
+{
+    const size_t frameSize = ps_vad_frame_size(m_vad);
+    // Classify a padded final frame, but never send fabricated PCM to ASR.
+    std::vector<int16_t> padded;
+    const int16_t *input = samples;
+    if (count != frameSize) {
+        padded.assign(frameSize, 0);
+        std::copy(samples, samples + count, padded.begin());
+        input = padded.data();
+    }
+    const ps_vad_class_t decision = ps_vad_classify(m_vad, input);
+    if (decision == PS_VAD_ERROR)
+        throw EXCEPTION("speech voice activity detection error")
+            .module("SpeechRecognition", "ps_vad_classify");
+    m_segments->push(samples, count, decision == PS_VAD_SPEECH);
 }
 
 void SpeechRecognition::feed(const AVFrame *frame)
@@ -143,12 +177,10 @@ void SpeechRecognition::feed(const AVFrame *frame)
     }
     const int16_t *data = reinterpret_cast<const int16_t*>(frame->data[0]);
     m_samples.insert(m_samples.end(), data, data + frame->nb_samples);
-    const size_t frameSize = ps_endpointer_frame_size(m_endpointer);
+    const size_t frameSize = ps_vad_frame_size(m_vad);
     size_t consumed = 0;
     while (m_samples.size() - consumed >= frameSize) {
-        const int16_t *speech = ps_endpointer_process(m_endpointer,
-                m_samples.data() + consumed);
-        processSpeech(speech, frameSize);
+        processVadFrame(m_samples.data() + consumed, frameSize);
         consumed += frameSize;
     }
     m_samples.erase(m_samples.begin(), m_samples.begin() + consumed);
@@ -156,15 +188,11 @@ void SpeechRecognition::feed(const AVFrame *frame)
 
 void SpeechRecognition::flush()
 {
-    if (m_endpointer == NULL || m_flushed)
+    if (m_vad == NULL || m_flushed)
         return;
-    size_t count = 0;
-    // Pass a valid pointer even for an empty final frame (the API may memcpy 0).
-    const int16_t empty = 0;
-    const int16_t *speech = ps_endpointer_end_stream(m_endpointer,
-            m_samples.empty() ? &empty : m_samples.data(), m_samples.size(), &count);
-    processSpeech(speech, count);
-    endUtterance();
+    if (!m_samples.empty())
+        processVadFrame(m_samples.data(), m_samples.size());
+    m_segments->flush();
     m_samples.clear();
     m_flushed = true;
 }
@@ -174,13 +202,13 @@ void SpeechRecognition::discontinuity()
     flush();
     m_deltaTime = 0.0;
     m_haveTimestamp = false;
-    // The compatibility function returns -1 when noise removal is disabled
-    // (as it is in existing CMUSphinx assets): there are no stats to reset.
+    // The compatibility function returns -1 if an asset disables noise
+    // removal: in that configuration there are no noise statistics to reset.
     if (m_ps && ps_config_bool(m_config, "remove_noise") && ps_start_stream(m_ps) < 0)
         throw EXCEPTION("can't reset speech recognition engine")
             .module("SpeechRecognition", "ps_start_stream");
     if (m_ps)
-        resetEndpointer();
+        resetVad();
 }
 
 void SpeechRecognition::parseUtterance()

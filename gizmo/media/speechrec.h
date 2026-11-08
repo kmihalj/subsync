@@ -4,7 +4,9 @@
 #include "avout.h"
 #include "text/words.h"
 #include <pocketsphinx.h>
-#include <pocketsphinx/endpointer.h>
+#include <pocketsphinx/vad.h>
+#include "speechsegmenter.h"
+#include <memory>
 #include <string>
 #include <vector>
 
@@ -37,14 +39,17 @@ class SpeechRecognition : public AVOutput
 
 	private:
 		void parseUtterance();
-		void resetEndpointer();
-		void processSpeech(const int16_t *samples, size_t count);
+		void resetVad();
+		void processVadFrame(const int16_t *samples, size_t count);
+		void processSpeech(const int16_t *samples, size_t count,
+				uint64_t firstSample, bool begin, bool end);
 		void endUtterance();
 
 	private:
 		ps_decoder_t *m_ps;
 		ps_config_t *m_config;
-		ps_endpointer_t *m_endpointer;
+		ps_vad_t *m_vad;
+		std::unique_ptr<SpeechSegmenter> m_segments;
 		std::vector<int16_t> m_samples;
 
 		bool m_utteranceStarted;
