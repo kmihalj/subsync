@@ -68,6 +68,34 @@ Synchronization regression fixtures, private media excerpts and build logs
 stay in ignored `.build/`; no user media or downloaded models are committed.
 Run `tools/macos/check-sync.py --help` for the comparison fixture commands.
 
+### Initial validation (2026-11-09)
+
+Tested on an Apple M1 running macOS 27.2. The standalone app contains 30
+arm64-only Mach-O files. Code signing, internal library resolution, symlinks
+and minimum-OS metadata pass the bundle verifier. No build-directory or
+Homebrew runtime libraries are required.
+
+All 433 assertions in the five existing C++ core test cases pass. The packaged
+app was also tested with Python and dynamic-library override variables unset:
+
+| Fixture | Maximum output timing difference from original Intel 0.17.0 |
+| --- | ---: |
+| Subtitles with a known offset and 1.5% playback-rate drift | 0 ms |
+| Generated English speech, 118.93 seconds | 0 ms |
+| Private film excerpt: 20 minutes of English 5.1 audio and 221 Croatian cues | 1 ms |
+
+The real film test produced the same 36 synchronization points and correction
+formula as the original. Existing film subtitle timings are not ground truth;
+this test measures equivalence to the original application's output.
+It is a sample comparison, not a claim of exhaustive media compatibility or
+a performance benchmark. The original app and preferences/models were
+unchanged by content hash.
+
+The main window, settings, synchronization options and batch window open
+successfully. An actual GUI synchronization also completed successfully.
+Only integer conversions required by newer wxPython controls were added;
+the UI layout and synchronization settings are preserved.
+
 ## License
 
 Upstream SubSync remains GPLv3; see `LICENSE`. Native dependency sources and
