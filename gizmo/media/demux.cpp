@@ -6,7 +6,7 @@
 using namespace std;
 
 
-static AVInputFormat *getInputFormatByFname(const char *path);
+static const AVInputFormat *getInputFormatByFname(const char *path);
 
 
 #define VALIDATE_STREAM_ID(streamId) \
@@ -44,7 +44,7 @@ Demux::Demux(const string &fileName, function<bool()> runCb) :
 				ffmpegCodeDescription(res).c_str());
 
 		// try to detect container by file extension - works for slightly broken subtitles
-		AVInputFormat *fmt = getInputFormatByFname(fileName.c_str());
+		const AVInputFormat *fmt = getInputFormatByFname(fileName.c_str());
 		if (fmt && avformat_open_input(&m_formatContext, fileName.c_str(), fmt, NULL) == 0)
 			res = 0;
 	}
@@ -138,8 +138,7 @@ void Demux::stop()
 
 bool Demux::step()
 {
-	AVPacket packet;
-	av_init_packet(&packet);
+	AVPacket packet = {};
 
 	int res = av_read_frame(m_formatContext, &packet);
 
@@ -258,7 +257,7 @@ bool Demux::Stream::disconnectDecoder(shared_ptr<Decoder> decoder)
 
 /*** Helper functions ***/
 
-AVInputFormat *getInputFormatByFname(const char *path)
+const AVInputFormat *getInputFormatByFname(const char *path)
 {
 	const char *p = strrchr(path, '.');
 	if (p == NULL)
@@ -284,20 +283,20 @@ AVInputFormat *getInputFormatByFname(const char *path)
 		"txt", "vplayer",
 	};
 
-	AVInputFormat *fmt = NULL;
+	const AVInputFormat *fmt = NULL;
 	for (size_t i = 0; i < sizeof(formatExtensions)/sizeof(const char*); i += 2)
 	{
 		if (strcmp(ext.c_str(), formatExtensions[i]) == 0)
 		{
 			const char *name = formatExtensions[i + 1];
-			fmt = (AVInputFormat*) av_find_input_format(name);
+			fmt = av_find_input_format(name);
 			logger::info("demux", "found format %s by extension for %s", name, path);
 			break;
 		}
 	}
 
 	if (fmt == NULL)
-		fmt = (AVInputFormat*) av_find_input_format(ext.c_str());
+		fmt = av_find_input_format(ext.c_str());
 
 	if (fmt == NULL)
 		logger::warn("demux", "couldn't find format by extension for %s", path);

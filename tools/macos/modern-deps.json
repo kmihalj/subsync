@@ -1,0 +1,13 @@
+{
+  "architecture": "arm64",
+  "ffmpeg": {
+    "version": "9.0.2",
+    "source": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+    "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e"
+  },
+  "pocketsphinx": {
+    "version": "5.1.1",
+    "source": "https://codeload.github.com/cmusphinx/pocketsphinx/tar.gz/refs/tags/v5.1.1",
+    "sha256": "e2db414eb66618cd0a98de77507db32517a48f6900b06bfb94c0acc4bef5761d"
+  }
+}

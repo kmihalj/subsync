@@ -26,11 +26,12 @@ SubtitleDec::SubtitleDec() :
 
 SubtitleDec::~SubtitleDec()
 {
+	avcodec_free_context(&m_codecCtx);
 }
 
 void SubtitleDec::start(const AVStream *stream)
 {
-	AVCodec *codec = (AVCodec*) avcodec_find_decoder(stream->codecpar->codec_id);
+	const AVCodec *codec = avcodec_find_decoder(stream->codecpar->codec_id);
 	if (codec == NULL)
 		throw EXCEPTION("can't find suitable subtitle decoder")
 			.module("SubtitleDec", "avcodec_find_decoder");
@@ -81,13 +82,12 @@ void SubtitleDec::start(const AVStream *stream)
 
 void SubtitleDec::stop()
 {
-	avcodec_close(m_codecCtx);
 	avcodec_free_context(&m_codecCtx);
 }
 
 bool SubtitleDec::feed(const AVPacket *packet)
 {
-	AVSubtitle sub;
+	AVSubtitle sub = {};
 	int gotSub;
 
 	int len = avcodec_decode_subtitle2(m_codecCtx, &sub, &gotSub,
@@ -169,10 +169,7 @@ void SubtitleDec::feedWordsOutput(float beginTime, float endTime, const char *da
 
 void SubtitleDec::flush()
 {
-	AVPacket packet;
-	av_init_packet(&packet);
-	packet.data = NULL;
-	packet.size = 0;
+	AVPacket packet = {};
 	feed(&packet);
 }
 

@@ -4,7 +4,9 @@
 #include "avout.h"
 #include "text/words.h"
 #include <pocketsphinx.h>
+#include <pocketsphinx/endpointer.h>
 #include <string>
+#include <vector>
 
 
 class SpeechRecognition : public AVOutput
@@ -35,15 +37,23 @@ class SpeechRecognition : public AVOutput
 
 	private:
 		void parseUtterance();
+		void resetEndpointer();
+		void processSpeech(const int16_t *samples, size_t count);
+		void endUtterance();
 
 	private:
 		ps_decoder_t *m_ps;
-		cmd_ln_t *m_config;
+		ps_config_t *m_config;
+		ps_endpointer_t *m_endpointer;
+		std::vector<int16_t> m_samples;
 
 		bool m_utteranceStarted;
+		bool m_haveTimestamp;
+		bool m_flushed;
 
 		double m_framePeriod;
 		double m_deltaTime;
+		double m_utteranceTime;
 		double m_timeBase;
 
 		WordsNotifier m_wordsNotifier;

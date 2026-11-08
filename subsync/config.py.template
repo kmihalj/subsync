@@ -24,7 +24,7 @@ elif sys.platform == 'darwin':
     # Keep the original Intel application's preferences and models untouched.
     configdir = os.path.abspath(os.path.expanduser(os.environ.get(
         'SUBSYNC_CONFIG_DIR',
-        os.path.join(os.path.expanduser('~'), 'Library', 'Application Support', 'SubSync ARM'))))
+        os.path.join(os.path.expanduser('~'), 'Library', 'Application Support', 'SubSync ARM Modern'))))
     shareddir = configdir
     # The upstream update feed contains Intel applications only.
     assetupd = None

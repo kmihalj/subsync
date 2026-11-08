@@ -37,7 +37,7 @@ static AVCodecContext *makeCodecContext(const AVStream *stream)
 	if (stream->codecpar == NULL)
 		return NULL;
 
-	AVCodec *codec = (AVCodec*) avcodec_find_decoder(stream->codecpar->codec_id);
+	const AVCodec *codec = avcodec_find_decoder(stream->codecpar->codec_id);
 	if (codec == NULL)
 		return NULL;
 
@@ -61,7 +61,7 @@ StreamFormat::StreamFormat(unsigned no, const AVStream *stream) : no(no)
 	if (stream == NULL)
 		return;
 
-	if (AVCodec *codec = (AVCodec*) avcodec_find_decoder(stream->codecpar->codec_id))
+	if (const AVCodec *codec = avcodec_find_decoder(stream->codecpar->codec_id))
 	{
 		this->codec = codec->name ? codec->name : "";
 	}
@@ -144,11 +144,17 @@ AudioFormat::AudioFormat(const AVCodecContext *ctx)
 	{
 		sampleFormat  = ctx->sample_fmt;
 		sampleRate    = ctx->sample_rate;
-		channelsNo    = ctx->channels;
-		channelLayout = ctx->channel_layout;
+		channelsNo    = ctx->ch_layout.nb_channels;
+		channelLayout = ctx->ch_layout.order == AV_CHANNEL_ORDER_NATIVE
+			? ctx->ch_layout.u.mask : 0;
 
 		if (channelLayout == 0)
-			channelLayout = av_get_default_channel_layout(ctx->channels);
+		{
+			AVChannelLayout layout = {};
+			av_channel_layout_default(&layout, channelsNo);
+			channelLayout = layout.order == AV_CHANNEL_ORDER_NATIVE ? layout.u.mask : 0;
+			av_channel_layout_uninit(&layout);
+		}
 	}
 }
 
@@ -163,11 +169,17 @@ AudioFormat::AudioFormat(const AVFrame *frame)
 	{
 		sampleFormat  = (AVSampleFormat) frame->format;
 		sampleRate    = frame->sample_rate;
-		channelsNo    = frame->channels;
-		channelLayout = frame->channel_layout;
+		channelsNo    = frame->ch_layout.nb_channels;
+		channelLayout = frame->ch_layout.order == AV_CHANNEL_ORDER_NATIVE
+			? frame->ch_layout.u.mask : 0;
 
 		if (channelLayout == 0)
-			channelLayout = av_get_default_channel_layout(frame->channels);
+		{
+			AVChannelLayout layout = {};
+			av_channel_layout_default(&layout, channelsNo);
+			channelLayout = layout.order == AV_CHANNEL_ORDER_NATIVE ? layout.u.mask : 0;
+			av_channel_layout_uninit(&layout);
+		}
 	}
 }
 
@@ -178,8 +190,9 @@ AudioFormat::AudioFormat(AVSampleFormat sampleFormat, unsigned sampleRate,
 	channelsNo(0),
 	channelLayout(channelLayout)
 {
-	for (uint64_t id = 1; id <= channelLayout; id <<= 1)
+	for (unsigned i = 0; i < 64; ++i)
 	{
+		const uint64_t id = 1ull << i;
 		if (id & channelLayout)
 			channelsNo++;
 	}
@@ -226,22 +239,25 @@ string AudioFormat::toString() const
 
 const char *AudioFormat::getChannelName(uint64_t id)
 {
-	return av_get_channel_name(id);
+	if (id == 0 || (id & (id - 1)))
+		return NULL;
+	static thread_local char name[64];
+	const AVChannel channel = static_cast<AVChannel>(__builtin_ctzll(id));
+	return av_channel_name(name, sizeof(name), channel) >= 0 ? name : NULL;
 }
 
 const char *AudioFormat::getChannelDescription(uint64_t id)
 {
-	return av_get_channel_description(id);
+	if (id == 0 || (id & (id - 1)))
+		return NULL;
+	static thread_local char description[128];
+	const AVChannel channel = static_cast<AVChannel>(__builtin_ctzll(id));
+	return av_channel_description(description, sizeof(description), channel) >= 0
+		? description : NULL;
 }
 
 uint64_t AudioFormat::getChannelIdByName(const char *name)
 {
-	for (int i = 0; i <= 63; i++)
-	{
-		const uint64_t id = 1ull << i;
-		const char *n = av_get_channel_name(id);
-		if (n && strcmp(name, n) == 0)
-			return id;
-	}
-	return 0;
+	const AVChannel channel = av_channel_from_string(name);
+	return channel >= 0 && channel < 64 ? 1ull << channel : 0;
 }

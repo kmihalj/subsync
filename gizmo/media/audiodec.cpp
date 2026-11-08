@@ -18,11 +18,13 @@ AudioDec::AudioDec() :
 
 AudioDec::~AudioDec()
 {
+	av_frame_free(&m_frame);
+	avcodec_free_context(&m_codecCtx);
 }
 
 void AudioDec::start(const AVStream *stream)
 {
-	AVCodec *codec = (AVCodec*) avcodec_find_decoder(stream->codecpar->codec_id);
+	const AVCodec *codec = avcodec_find_decoder(stream->codecpar->codec_id);
 	if (codec == NULL)
 		throw EXCEPTION("can't find suitable audio codec")
 			.module("AudioDec", "avcodec_find_decoder");
@@ -59,7 +61,6 @@ void AudioDec::stop()
 		m_output->stop();
 
 	av_frame_free(&m_frame);
-	avcodec_close(m_codecCtx);
 	avcodec_free_context(&m_codecCtx);
 }
 
@@ -85,7 +86,7 @@ bool AudioDec::feed(const AVPacket *packet)
 	if ((ret < 0) && (ret != AVERROR(EAGAIN)) && (ret != AVERROR_EOF))
 		throw EXCEPTION_FFMPEG("audio decoder failed", ret)
 			.module("AudioDec", "avcodec_send_packet")
-			.time(m_timeBase * packet->pts);
+			.time(packet ? m_timeBase * packet->pts : 0.0);
 
 	bool gotFrame = false;
 	while (true)
@@ -98,11 +99,14 @@ bool AudioDec::feed(const AVPacket *packet)
 		if (ret < 0)
 			throw EXCEPTION_FFMPEG("audio decoder failed", ret)
 				.module("AudioDec", "avcodec_receive_frame")
-				.time(m_timeBase * packet->pts);
+				.time(packet ? m_timeBase * packet->pts : 0.0);
 
-		if (m_frame->channel_layout == 0)
-			m_frame->channel_layout
-				= av_get_default_channel_layout(m_frame->channels);
+		if (m_frame->ch_layout.order == AV_CHANNEL_ORDER_UNSPEC)
+		{
+			int channels = m_frame->ch_layout.nb_channels;
+			av_channel_layout_uninit(&m_frame->ch_layout);
+			av_channel_layout_default(&m_frame->ch_layout, channels);
+		}
 
 		if (m_output)
 			m_output->feed(m_frame);
@@ -113,11 +117,7 @@ bool AudioDec::feed(const AVPacket *packet)
 
 void AudioDec::flush()
 {
-	AVPacket packet;
-	av_init_packet(&packet);
-	packet.data = NULL;
-	packet.size = 0;
-	while (feed(&packet));
+	feed(NULL);
 
 	if (m_output)
 		m_output->flush();
@@ -125,6 +125,8 @@ void AudioDec::flush()
 
 void AudioDec::discontinuity()
 {
+	avcodec_flush_buffers(m_codecCtx);
+	m_firstPacket = true;
 	if (m_output)
 		m_output->discontinuity();
 }

@@ -34,8 +34,7 @@ void Resampler::connectOutput(shared_ptr<AVOutput> output,
 
 	m_outFrame = av_frame_alloc();
 	m_outFrame->format = format.sampleFormat;
-	m_outFrame->channels = format.channelsNo;
-	m_outFrame->channel_layout = format.channelLayout;
+	av_channel_layout_from_mask(&m_outFrame->ch_layout, format.channelLayout);
 	m_outFrame->sample_rate = format.sampleRate;
 	m_outFrame->nb_samples = bufferSize;
 
@@ -81,19 +80,24 @@ static vector<double> makeMixMap(const AudioFormat &out, const AudioFormat &in,
 	vector<double> mixMap;
 	mixMap.resize(in.channelsNo * out.channelsNo);
 
+	AVChannelLayout input = {}, output = {};
+	av_channel_layout_from_mask(&input, in.channelLayout);
+	av_channel_layout_from_mask(&output, out.channelLayout);
 	for (const auto &ch : channelsMap)
 	{
-		int i = av_get_channel_layout_channel_index(
-				in.channelLayout,
-				get<0>(ch.first));
-
-		int o = av_get_channel_layout_channel_index(
-				out.channelLayout,
-				get<1>(ch.first));
+		const uint64_t inMask = get<0>(ch.first), outMask = get<1>(ch.first);
+		if (!inMask || (inMask & (inMask - 1)) || !outMask || (outMask & (outMask - 1)))
+			continue;
+		int i = av_channel_layout_index_from_channel(&input,
+				static_cast<AVChannel>(__builtin_ctzll(inMask)));
+		int o = av_channel_layout_index_from_channel(&output,
+				static_cast<AVChannel>(__builtin_ctzll(outMask)));
 
 		if (i >= 0 && o >= 0)
-			mixMap[i * out.channelsNo + o] = ch.second;
+			mixMap[o * in.channelsNo + i] = ch.second;
 	}
+	av_channel_layout_uninit(&input);
+	av_channel_layout_uninit(&output);
 
 	return mixMap;
 }
@@ -103,21 +107,25 @@ void Resampler::initSwrContext(const AudioFormat &out, const AudioFormat &in)
 	if (swr_is_initialized(m_swr))
 		swr_close(m_swr);
 
-	m_swr = swr_alloc_set_opts(m_swr,
-			out.channelLayout, out.sampleFormat, out.sampleRate,
-			in.channelLayout,  in.sampleFormat,  in.sampleRate,
-			0, NULL);
+	AVChannelLayout input = {}, output = {};
+	av_channel_layout_from_mask(&input, in.channelLayout);
+	av_channel_layout_from_mask(&output, out.channelLayout);
+	int configured = swr_alloc_set_opts2(&m_swr,
+			&output, out.sampleFormat, out.sampleRate,
+			&input, in.sampleFormat, in.sampleRate, 0, NULL);
+	av_channel_layout_uninit(&input);
+	av_channel_layout_uninit(&output);
 
-	if (m_swr == NULL)
+	if (configured < 0 || m_swr == NULL)
 		throw EXCEPTION("can't initialize resampler context")
-			.module("Resampler", "swr_alloc_set_opts")
+			.module("Resampler", "swr_alloc_set_opts2")
 			.add("input", in.toString())
 			.add("output", out.toString());
 
 	if (!m_channelsMap.empty())
 	{
 		vector<double> mixMap = makeMixMap(out, in, m_channelsMap);
-		int res = swr_set_matrix(m_swr, mixMap.data(), out.channelsNo);
+		int res = swr_set_matrix(m_swr, mixMap.data(), in.channelsNo);
 		if (res < 0)
 			throw EXCEPTION_FFMPEG("can't initialize audio mixer", res)
 				.module("Resampler", "swr_set_matrix")
@@ -199,10 +207,14 @@ void Resampler::flush()
 				m_output->feed(m_outFrame);
 		}
 	}
+	if (m_output)
+		m_output->flush();
 }
 
 void Resampler::discontinuity()
 {
+	// Samples buffered before a seek must never leak into the next region.
+	swr_close(m_swr);
 	if (m_output)
 		m_output->discontinuity();
 }

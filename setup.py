@@ -86,7 +86,6 @@ class build_ext(setuptools.command.build_ext.build_ext):
 
         sphinx_libs = [
                 'pocketsphinx',
-                'sphinxbase',
                 ]
 
         if use_pkg_config:
