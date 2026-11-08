@@ -74,15 +74,12 @@ void Resampler::stop()
 	swr_close(m_swr);
 }
 
-static vector<double> makeMixMap(const AudioFormat &out, const AudioFormat &in,
+static vector<double> makeMixMap(const AVChannelLayout &output, const AVChannelLayout &input,
 		Resampler::ChannelsMap channelsMap)
 {
 	vector<double> mixMap;
-	mixMap.resize(in.channelsNo * out.channelsNo);
+	mixMap.resize(input.nb_channels * output.nb_channels);
 
-	AVChannelLayout input = {}, output = {};
-	av_channel_layout_from_mask(&input, in.channelLayout);
-	av_channel_layout_from_mask(&output, out.channelLayout);
 	for (const auto &ch : channelsMap)
 	{
 		const uint64_t inMask = get<0>(ch.first), outMask = get<1>(ch.first);
@@ -94,27 +91,23 @@ static vector<double> makeMixMap(const AudioFormat &out, const AudioFormat &in,
 				static_cast<AVChannel>(__builtin_ctzll(outMask)));
 
 		if (i >= 0 && o >= 0)
-			mixMap[o * in.channelsNo + i] = ch.second;
+			mixMap[o * input.nb_channels + i] = ch.second;
 	}
-	av_channel_layout_uninit(&input);
-	av_channel_layout_uninit(&output);
 
 	return mixMap;
 }
 
-void Resampler::initSwrContext(const AudioFormat &out, const AudioFormat &in)
+void Resampler::initSwrContext(const AVFrame *outFrame, const AVFrame *inFrame)
 {
+	const AudioFormat out(outFrame), in(inFrame);
 	if (swr_is_initialized(m_swr))
 		swr_close(m_swr);
 
-	AVChannelLayout input = {}, output = {};
-	av_channel_layout_from_mask(&input, in.channelLayout);
-	av_channel_layout_from_mask(&output, out.channelLayout);
+	// AudioFormat's legacy bitmask describes a set of speakers, not their
+	// sample order. Preserve FFmpeg's actual CUSTOM/AMBISONIC layout here.
 	int configured = swr_alloc_set_opts2(&m_swr,
-			&output, out.sampleFormat, out.sampleRate,
-			&input, in.sampleFormat, in.sampleRate, 0, NULL);
-	av_channel_layout_uninit(&input);
-	av_channel_layout_uninit(&output);
+			&outFrame->ch_layout, out.sampleFormat, out.sampleRate,
+			&inFrame->ch_layout, in.sampleFormat, in.sampleRate, 0, NULL);
 
 	if (configured < 0 || m_swr == NULL)
 		throw EXCEPTION("can't initialize resampler context")
@@ -124,7 +117,7 @@ void Resampler::initSwrContext(const AudioFormat &out, const AudioFormat &in)
 
 	if (!m_channelsMap.empty())
 	{
-		vector<double> mixMap = makeMixMap(out, in, m_channelsMap);
+		vector<double> mixMap = makeMixMap(outFrame->ch_layout, inFrame->ch_layout, m_channelsMap);
 		int res = swr_set_matrix(m_swr, mixMap.data(), in.channelsNo);
 		if (res < 0)
 			throw EXCEPTION_FFMPEG("can't initialize audio mixer", res)

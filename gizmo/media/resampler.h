@@ -52,7 +52,7 @@ class Resampler : public AVOutput
 		virtual void discontinuity();
 
 	private:
-		void initSwrContext(const AudioFormat &out, const AudioFormat &in);
+		void initSwrContext(const AVFrame *out, const AVFrame *in);
 
 	private:
 		std::shared_ptr<AVOutput> m_output;

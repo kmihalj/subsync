@@ -9,6 +9,32 @@ extern "C"
 
 using namespace std;
 
+// Keep the public bitmask API for the GUI, while retaining the actual set
+// of speakers in a custom-order layout. Resampling uses the original
+// AVChannelLayout directly because the mask cannot describe sample order.
+static uint64_t channelMask(const AVChannelLayout &layout)
+{
+	if (layout.order == AV_CHANNEL_ORDER_NATIVE)
+		return layout.u.mask;
+	if (layout.order == AV_CHANNEL_ORDER_UNSPEC)
+	{
+		AVChannelLayout standard = {};
+		av_channel_layout_default(&standard, layout.nb_channels);
+		const uint64_t mask = standard.order == AV_CHANNEL_ORDER_NATIVE ? standard.u.mask : 0;
+		av_channel_layout_uninit(&standard);
+		return mask;
+	}
+	uint64_t mask = 0;
+	for (int i = 0; i < layout.nb_channels; ++i)
+	{
+		const AVChannel channel = av_channel_layout_channel_from_index(&layout, i);
+		if (channel < 0 || channel >= 64)
+			return 0; // The legacy GUI cannot represent ambisonic/unknown IDs.
+		mask |= 1ull << channel;
+	}
+	return mask;
+}
+
 
 static const char *sampleFormatToName(AVSampleFormat format)
 {
@@ -145,16 +171,7 @@ AudioFormat::AudioFormat(const AVCodecContext *ctx)
 		sampleFormat  = ctx->sample_fmt;
 		sampleRate    = ctx->sample_rate;
 		channelsNo    = ctx->ch_layout.nb_channels;
-		channelLayout = ctx->ch_layout.order == AV_CHANNEL_ORDER_NATIVE
-			? ctx->ch_layout.u.mask : 0;
-
-		if (channelLayout == 0)
-		{
-			AVChannelLayout layout = {};
-			av_channel_layout_default(&layout, channelsNo);
-			channelLayout = layout.order == AV_CHANNEL_ORDER_NATIVE ? layout.u.mask : 0;
-			av_channel_layout_uninit(&layout);
-		}
+		channelLayout = channelMask(ctx->ch_layout);
 	}
 }
 
@@ -170,16 +187,7 @@ AudioFormat::AudioFormat(const AVFrame *frame)
 		sampleFormat  = (AVSampleFormat) frame->format;
 		sampleRate    = frame->sample_rate;
 		channelsNo    = frame->ch_layout.nb_channels;
-		channelLayout = frame->ch_layout.order == AV_CHANNEL_ORDER_NATIVE
-			? frame->ch_layout.u.mask : 0;
-
-		if (channelLayout == 0)
-		{
-			AVChannelLayout layout = {};
-			av_channel_layout_default(&layout, channelsNo);
-			channelLayout = layout.order == AV_CHANNEL_ORDER_NATIVE ? layout.u.mask : 0;
-			av_channel_layout_uninit(&layout);
-		}
+		channelLayout = channelMask(frame->ch_layout);
 	}
 }
 

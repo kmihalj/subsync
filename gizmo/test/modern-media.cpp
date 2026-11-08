@@ -129,5 +129,36 @@ int main(int argc,char **argv) {
         for(size_t i=100;i+100<sink->samples.size();i++)
             check(abs(sink->samples[i]-2000)<=1,"custom stereo-to-mono matrix is incorrect");
         cout<<"PASS custom channel matrix, 48k-to-16k conversion, resampler EOF drain\n";
+
+        const auto customSink=make_shared<Sink>();
+        Resampler customResampler;
+        customResampler.connectOutput(customSink,
+                AudioFormat(AV_SAMPLE_FMT_S16,16000,AV_CH_LAYOUT_MONO));
+        customResampler.setChannelMap({{{AV_CH_FRONT_RIGHT,AV_CH_FRONT_CENTER},1.0},
+                                       {{AV_CH_FRONT_LEFT,AV_CH_FRONT_CENTER},0.0}});
+        customResampler.start(&stream);
+        for(size_t i=0;i<4800;i++){stereo[2*i]=3000;stereo[2*i+1]=1000;}
+        AVFrame customFrame={};
+        customFrame.data[0]=reinterpret_cast<uint8_t*>(stereo.data());
+        customFrame.extended_data=customFrame.data;
+        customFrame.linesize[0]=stereo.size()*2;
+        customFrame.nb_samples=4800;
+        customFrame.sample_rate=48000;
+        customFrame.format=AV_SAMPLE_FMT_S16;
+        check(av_channel_layout_custom_init(&customFrame.ch_layout,2)==0,
+                "cannot construct custom-order regression fixture");
+        customFrame.ch_layout.u.map[0].id=AV_CHAN_FRONT_RIGHT;
+        customFrame.ch_layout.u.map[1].id=AV_CHAN_FRONT_LEFT;
+        check(AudioFormat(&customFrame).channelLayout==AV_CH_LAYOUT_STEREO,
+                "custom layout metadata lost its speaker set");
+        customResampler.feed(&customFrame);
+        av_channel_layout_uninit(&customFrame.ch_layout);
+        customResampler.flush();
+        customResampler.stop();
+        check(customSink->samples.size()==1600,"custom layout lost samples at EOF");
+        for(size_t i=100;i+100<customSink->samples.size();i++)
+            check(abs(customSink->samples[i]-3000)<=1,
+                    "custom layout mixed LEFT instead of RIGHT");
+        cout<<"PASS reversed custom channel order, named channel selection, EOF drain\n";
     } catch(const exception &e) { cerr<<"FAIL "<<e.what()<<'\n';return 1; }
 }
