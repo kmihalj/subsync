@@ -21,9 +21,13 @@ elif sys.platform == 'linux':
     assetupd =  None
 
 elif sys.platform == 'darwin':
-    configdir = os.path.join(os.path.expanduser('~'), 'Library', 'Preferences', appname)
+    # Keep the original Intel application's preferences and models untouched.
+    configdir = os.path.abspath(os.path.expanduser(os.environ.get(
+        'SUBSYNC_CONFIG_DIR',
+        os.path.join(os.path.expanduser('~'), 'Library', 'Application Support', 'SubSync ARM'))))
     shareddir = configdir
-    assetupd = 'subsync/mac-x86_64'
+    # The upstream update feed contains Intel applications only.
+    assetupd = None
 
 else:
     configdir = datadir
