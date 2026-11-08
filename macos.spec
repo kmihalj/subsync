@@ -1,21 +1,28 @@
 # -*- mode: python ; coding: utf-8 -*-
 import os
+from PyInstaller.utils.hooks import copy_metadata
 
 version = {}
 exec(open(os.path.join(SPECPATH, 'subsync', 'version.py')).read(), version)
 app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM')
 bundle_id = os.environ.get('SUBSYNC_BUNDLE_ID', 'org.kmihalj.subsync.arm64')
+prefix = os.environ.get('SUBSYNC_DEPS_PREFIX', os.path.join(SPECPATH, '.build', 'legacy-prefix'))
+data_files = [
+    ('LICENSE', '.'),
+    ('subsync/key.pub', '.'),
+    ('subsync/img', 'img'),
+    ('subsync/locale', 'locale'),
+    ('doc/macos-arm64.md', 'documentation'),
+    (os.path.join(prefix, 'share', 'licenses'), 'licenses/native'),
+]
+for distribution in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy'):
+    data_files += copy_metadata(distribution)
 
 a = Analysis(
     ['bin/subsync'],
     pathex=[SPECPATH],
     binaries=[],
-    datas=[
-        ('LICENSE', '.'),
-        ('subsync/key.pub', '.'),
-        ('subsync/img', 'img'),
-        ('subsync/locale', 'locale'),
-    ],
+    datas=data_files,
     hiddenimports=['certifi'],
     hookspath=[],
     runtime_hooks=[],
