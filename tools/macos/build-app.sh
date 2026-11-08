@@ -36,7 +36,7 @@ export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig"
 export PKG_CONFIG_LIBDIR="$PREFIX/lib/pkgconfig"
 export DYLD_LIBRARY_PATH="$PREFIX/lib"
 cp subsync/config.py.template subsync/config.py
-"$PYTHON" setup.py build_ext --inplace
+"$PYTHON" setup.py build_ext --inplace --force
 "$PYTHON" setup.py gen_version
 "$PYTHON" -c 'import platform, gizmo; assert platform.machine() == "arm64"; print("Native gizmo:", gizmo.__file__)'
 make -C gizmo/test -j4
