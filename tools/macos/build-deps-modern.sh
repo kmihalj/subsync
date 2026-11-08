@@ -44,7 +44,7 @@ if [[ ! -f "$PREFIX/.ffmpeg-$FFMPEG_VERSION" ]]; then
         cd "$SOURCES/ffmpeg-$FFMPEG_VERSION"
         ./configure --prefix="$PREFIX" --arch=aarch64 --target-os=darwin \
             --cc="$CC" --cxx="$CXX" --enable-shared --disable-static \
-            --disable-autodetect --enable-iconv --enable-securetransport \
+            --disable-autodetect --enable-iconv --enable-securetransport --extra-libs=-liconv \
             --disable-doc --disable-debug --disable-programs \
             --extra-cflags="$CFLAGS" --extra-ldflags="$LDFLAGS"
         make -j "$JOBS"
