@@ -35,3 +35,8 @@ CppCheckResults.xml
 .eggs
 *.egg-info
 *.snap
+/.build/
+/.venv/
+/subsync/config.py
+/subsync/version.py
+/gizmo/test/tests
