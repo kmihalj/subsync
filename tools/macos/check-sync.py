@@ -231,7 +231,9 @@ def run(args):
     command = args.command
     if not command:
         raise ValueError("--command requires the SubSync executable (optionally with its Python runner)")
-    command[0] = str(Path(command[0]).resolve()) if "/" in command[0] else command[0]
+    # Preserve a virtualenv Python symlink: resolving it would bypass that
+    # environment's site-packages and run the underlying standalone Python.
+    command[0] = os.path.abspath(command[0]) if "/" in command[0] else command[0]
     env = dict(os.environ, HOME=str(home), TMPDIR=str(temporary))
     # Native forks can also honor this explicit override; original 0.17 honors HOME.
     env["SUBSYNC_CONFIG_DIR"] = str(home / "Library/Preferences/subsync")

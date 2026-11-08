@@ -1,0 +1,34 @@
+{
+  "target": "macOS arm64",
+  "deployment_target": "11.0 (overridable via MACOSX_DEPLOYMENT_TARGET)",
+  "purpose": "Preserve the original SubSync speech/VAD behavior for the first native port.",
+  "dependencies": [
+    {
+      "name": "FFmpeg",
+      "version": "4.4.8",
+      "url": "https://ffmpeg.org/releases/ffmpeg-4.4.8.tar.xz",
+      "sha256": "c73848c4ae283d9eaee7be3b276affbc3543380483555500d0dd2c9b7e1c39c3"
+    },
+    {
+      "name": "SphinxBase",
+      "commit": "617e53691889336a482631380f75b453445d0dae",
+      "url": "https://codeload.github.com/cmusphinx/sphinxbase/tar.gz/617e53691889336a482631380f75b453445d0dae",
+      "sha256": "d09942840bd8c70c7fc19396407c37def1342f6f8ad08671e1e2a70561aa3829"
+    },
+    {
+      "name": "PocketSphinx",
+      "tag": "last-pre-1.0",
+      "commit": "5da71f0a05350c923676b02a69423d1291825d5b",
+      "url": "https://codeload.github.com/cmusphinx/pocketsphinx/tar.gz/5da71f0a05350c923676b02a69423d1291825d5b",
+      "sha256": "1bfc90ae0ec7e3bfa6f4d26d8ec8df60b6834e531849fa8fb3821ca9e901bc9a"
+    }
+  ],
+  "build_tools": [
+    {
+      "name": "Automake",
+      "version": "1.18.1",
+      "url": "https://ftp.gnu.org/gnu/automake/automake-1.18.1.tar.xz",
+      "sha256": "168aa363278351b89af56684448f525a5bce5079d0b6842bd910fdd3f1646887"
+    }
+  ]
+}
