@@ -13,6 +13,7 @@ data_files = [
     ('subsync/img', 'img'),
     ('subsync/locale', 'locale'),
     ('doc/macos-arm64.md', 'documentation'),
+    ('doc/macos-modern-deps.md', 'documentation'),
     (os.path.join(prefix, 'share', 'licenses'), 'licenses/native'),
 ]
 for distribution in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy'):
