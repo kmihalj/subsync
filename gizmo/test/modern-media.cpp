@@ -162,7 +162,7 @@ int main(int argc,char **argv) {
         rec.start(&stream);
         words.clear();
         vector<int16_t> partial=speech;
-        partial.resize(min(partial.size(),size_t(16000*2.1)));
+        partial.resize(min(partial.size(),size_t(16000*2.1)+73));
         feed(rec,partial,0);
         check(words.empty(),"truncated fixture unexpectedly ended before EOF");
         rec.flush();
