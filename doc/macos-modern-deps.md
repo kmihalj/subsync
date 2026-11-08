@@ -12,7 +12,7 @@ onto the media timeline. Recognition results can differ from the legacy
 speech engine; compare real media before selecting this build for daily use.
 
 The application uses the separate `SubSync ARM Modern` preference directory.
-`SUBSYNC_CONFIG_DIR` and `SUBSYNC_ASSET_DIR` can override it for isolated tests.
+`SUBSYNC_CONFIG_DIR` can override it for isolated tests.
 Existing `.speech` models and dictionaries are read through the existing asset
 loader. Model data is not embedded in the application bundle.
 
