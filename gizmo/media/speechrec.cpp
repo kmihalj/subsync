@@ -64,7 +64,7 @@ void SpeechRecognition::resetEndpointer()
 {
     ps_endpointer_free(m_endpointer);
     m_endpointer = ps_endpointer_init(0.0, 0.0, PS_VAD_LOOSE,
-            static_cast<int>(ps_config_float(m_config, "samprate")), 0.0);
+            static_cast<int>(ps_config_int(m_config, "samprate")), 0.0);
     if (m_endpointer == NULL)
         throw EXCEPTION("can't init speech endpointer")
             .module("SpeechRecognition", "ps_endpointer_init");
@@ -174,7 +174,9 @@ void SpeechRecognition::discontinuity()
     flush();
     m_deltaTime = 0.0;
     m_haveTimestamp = false;
-    if (m_ps && ps_start_stream(m_ps) < 0)
+    // The compatibility function returns -1 when noise removal is disabled
+    // (as it is in existing CMUSphinx assets): there are no stats to reset.
+    if (m_ps && ps_config_bool(m_config, "remove_noise") && ps_start_stream(m_ps) < 0)
         throw EXCEPTION("can't reset speech recognition engine")
             .module("SpeechRecognition", "ps_start_stream");
     if (m_ps)

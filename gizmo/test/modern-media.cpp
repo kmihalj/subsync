@@ -36,6 +36,8 @@ static void configure(SpeechRecognition &rec, const string &model) {
     rec.setParam("-lm", model+"/en-us.lm.bin");
     rec.setParam("-dict", model+"/cmudict-en-us.dict");
     rec.setParam("-logfn", "/dev/null");
+    // Existing SubSync speech assets can disable the legacy noise estimator.
+    rec.setParam("-remove_noise", "no");
     rec.setMinWordProb(0.0);
 }
 struct Sink : AVOutput {
