@@ -163,6 +163,22 @@ class GuiTests(unittest.TestCase):
         translations.setLanguage('en')
         print('Native settings dimensions:', dimensions)
 
+    def test_about_credit_and_screen_bounds_all_languages(self):
+        import wx
+        from subsync.gui.aboutwin import AboutWin
+        for code in sorted(NAMES):
+            translations.setLanguage(code)
+            with self.subTest(locale=code):
+                dialog = AboutWin(None)
+                text = dialog.m_staticText10.GetLabel()
+                self.assertIn('Michał Szymaniak', text)
+                self.assertIn('Krešimir Mihalj', text)
+                display = wx.Display(dialog).GetClientArea()
+                self.assertLessEqual(dialog.GetSize().width, display.width)
+                self.assertLessEqual(dialog.GetSize().height, display.height)
+                dialog.Destroy()
+        translations.setLanguage('en')
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

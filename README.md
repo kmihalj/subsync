@@ -21,7 +21,10 @@ See the installation notes in the release and DMG for first-launch instructions.
 ## Development
 
 The single maintained version is on `main` and targets macOS ARM64 only.
-See [build and validation details](doc/macos-modern-deps.md).
+See [build and validation details](doc/macos-modern-deps.md),
+[release validation](doc/validation-1.0.md),
+[privacy information](doc/privacy.md) and the optional
+[App Store preparation target](doc/app-store-preparation.md).
 
 Fork author and maintainer: **[Krešimir Mihalj (kmihalj)](https://github.com/kmihalj)**.
 This fork adds native macOS ARM support, current media/speech libraries,

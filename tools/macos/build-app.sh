@@ -55,6 +55,7 @@ tools/macos/build-native-frontend.sh
 "$PYTHON" setup.py gen_version
 "$PYTHON" tools/macos/test-localization.py
 "$PYTHON" tools/macos/test-build-metadata.py
+"$PYTHON" -m unittest discover -s tests -p 'test_macos_*.py'
 "$PYTHON" -c 'import platform, gizmo; assert platform.machine() == "arm64"; print("Native gizmo:", gizmo.__file__)'
 make -C gizmo/test -j4
 tools/macos/test-cep-tail.sh

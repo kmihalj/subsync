@@ -89,7 +89,34 @@ def verify(app):
     version_tuple = lambda value: tuple((list(map(int, value.split('.'))) + [0, 0])[:3])
     required = max(minimums, key=version_tuple) if minimums else None
     with (app / 'Contents/Info.plist').open('rb') as stream:
-        declared = plistlib.load(stream).get('LSMinimumSystemVersion', '0.0')
+        info = plistlib.load(stream)
+        declared = info.get('LSMinimumSystemVersion', '0.0')
+    if not re.fullmatch(r'\d+\.\d+\.\d+', info.get('CFBundleShortVersionString', '')):
+        errors.append('Marketing version must have three numeric components')
+    if not re.fullmatch(r'[1-9]\d{0,3}(?:\.\d{1,2}){0,2}', info.get('CFBundleVersion', '')):
+        errors.append('Build number must follow CFBundleVersion numeric format')
+    actual_locales = {'en'} | {path.parent.parent.name for path in
+        (app / 'Contents/Resources/locale').glob('*/LC_MESSAGES/messages.mo')}
+    advertised = info.get('CFBundleLocalizations', [])
+    if set(advertised) != actual_locales or len(advertised) != 46:
+        errors.append('Bundle localization metadata does not match the 46 shipped UI languages')
+    distribution = info.get('SubSyncDistribution')
+    if distribution not in ('public', 'appstore'):
+        errors.append('Unknown or missing distribution policy')
+    if distribution == 'appstore':
+        raw = output('/usr/bin/codesign', '-d', '--entitlements', ':-', str(app))
+        try:
+            start = raw.index('<?xml')
+            finish = raw.index('</plist>', start) + len('</plist>')
+            entitlements = plistlib.loads(raw[start:finish].encode())
+            required_entitlements = ('com.apple.security.app-sandbox',
+                'com.apple.security.files.user-selected.read-write',
+                'com.apple.security.files.bookmarks.app-scope',
+                'com.apple.security.network.client')
+            if any(entitlements.get(key) is not True for key in required_entitlements):
+                errors.append('App Store preview is missing required sandbox entitlements')
+        except (ValueError, plistlib.InvalidFileException):
+            errors.append('Cannot read App Store preview entitlements')
     if required and version_tuple(required) > version_tuple(declared):
         errors.append(f'Bundle declares macOS {declared}, but a binary requires {required}')
     try:
@@ -98,6 +125,9 @@ def verify(app):
         errors.append(f'Code signature verification: {exc.output.strip()}')
     result = {'app': str(app), 'mach_o_count': len(binaries), 'architecture': 'arm64',
               'declared_minimum_macos': declared, 'binary_minimum_macos': required,
+              'version': info.get('CFBundleShortVersionString'),
+              'build': info.get('CFBundleVersion'), 'ui_languages': len(advertised),
+              'distribution': distribution,
               'errors': errors}
     print(json.dumps(result, indent=2))
     return not errors
