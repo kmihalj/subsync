@@ -6,12 +6,13 @@
 #include <cmath>
 #include <sstream>
 #include <iomanip>
+#include <algorithm>
 
 using namespace std;
 
 SpeechRecognition::SpeechRecognition() :
     m_ps(NULL), m_config(NULL), m_frontend(NULL), m_decoderOpen(false),
-    m_utteranceStarted(false), m_haveTimestamp(false), m_flushed(false),
+    m_utteranceStarted(false), m_haveTimestamp(false), m_flushed(false), m_pcmQuantum(0),
     m_framePeriod(0.0), m_deltaTime(0.0), m_utteranceTime(0.0),
     m_timeBase(0.0), m_minProb(1.0f), m_minLen(0)
 {
@@ -80,6 +81,13 @@ void SpeechRecognition::createFrontend()
     if (ss_frontend_ceplen(m_frontend)!=ps_config_int(configuration,"ceplen"))
         throw EXCEPTION("compatibility frontend feature dimensions differ")
             .module("SpeechRecognition","createFrontend");
+    const int shift=ss_frontend_frame_shift(m_frontend);
+    if (shift<=0)
+        throw EXCEPTION("invalid compatibility frontend frame shift")
+            .module("SpeechRecognition","createFrontend");
+    m_pcmQuantum=static_cast<size_t>(shift);
+    m_pcmPending.clear();
+    m_pcmPending.reserve(m_pcmQuantum);
 }
 
 void SpeechRecognition::start(const AVStream *stream)
@@ -152,7 +160,22 @@ void SpeechRecognition::feed(const AVFrame *frame)
         m_haveTimestamp=true;
     }
     const int16_t *data=reinterpret_cast<const int16_t*>(frame->data[0]);
-    if (ss_frontend_process(m_frontend,data,frame->nb_samples,cepCallback,this)<0)
+    size_t remaining=static_cast<size_t>(frame->nb_samples);
+    while (remaining) {
+        const size_t take=min(remaining,m_pcmQuantum-m_pcmPending.size());
+        m_pcmPending.insert(m_pcmPending.end(),data,data+take);
+        data+=take;
+        remaining-=take;
+        if (m_pcmPending.size()==m_pcmQuantum) {
+            processPcm(m_pcmPending.data(),m_pcmPending.size());
+            m_pcmPending.clear();
+        }
+    }
+}
+
+void SpeechRecognition::processPcm(const int16_t *data,size_t samples)
+{
+    if (ss_frontend_process(m_frontend,data,samples,cepCallback,this)<0)
         throw EXCEPTION("compatibility frontend processing error")
             .module("SpeechRecognition","frontendProcess");
     const bool speech=ss_frontend_in_speech(m_frontend);
@@ -170,6 +193,11 @@ void SpeechRecognition::feed(const AVFrame *frame)
 void SpeechRecognition::flush()
 {
     if (!m_ps || m_flushed) return;
+    // Process the actual incomplete final quantum once; invent no samples.
+    if (!m_pcmPending.empty()) {
+        processPcm(m_pcmPending.data(),m_pcmPending.size());
+        m_pcmPending.clear();
+    }
     endUtterance();
     m_flushed=true;
 }
@@ -181,6 +209,7 @@ void SpeechRecognition::discontinuity()
     m_deltaTime=0.0;
     m_utteranceTime=0.0;
     m_haveTimestamp=false;
+    m_pcmPending.clear();
     ss_frontend_start_stream(m_frontend);
     if (ss_frontend_start_utt(m_frontend)<0 || ps_start_utt(m_ps)<0)
         throw EXCEPTION("can't restart speech recognition")

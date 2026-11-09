@@ -19,6 +19,7 @@ int ss_frontend_start_utt(struct ss_frontend *fe);
 void ss_frontend_start_stream(struct ss_frontend *fe);
 int ss_frontend_in_speech(struct ss_frontend *fe);
 int ss_frontend_ceplen(struct ss_frontend *fe);
+int ss_frontend_frame_shift(struct ss_frontend *fe);
 #ifdef __cplusplus
 }
 #endif

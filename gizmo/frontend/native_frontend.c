@@ -16,6 +16,8 @@ struct ss_frontend {
     mfcc_t **mfcc;
     float32 **floats;
     int buffer_frames;
+    int pending_frames;
+    int pending_offset;
 };
 static int valid_configuration(ps_config_t *config,int capacity)
 {
@@ -72,12 +74,19 @@ int ss_frontend_process(struct ss_frontend *fe,const int16_t *pcm,size_t count,
         ss_cep_callback output,void *context)
 {
     while (count) {
-        int32 frames=fe->buffer_frames,offset=0;
+        int32 frames=fe->buffer_frames-fe->pending_frames,offset=0;
         const size_t before=count;
-        if (fe_process_frames(fe->fe,&pcm,&count,fe->mfcc,&frames,&offset)<0) return -1;
-        if (frames) {
-            fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,frames);
-            if (output(context,fe->floats,frames,offset)<0) return -1;
+        if (fe_process_frames(fe->fe,&pcm,&count,fe->mfcc+fe->pending_frames,&frames,&offset)<0)
+            return -1;
+        if (offset>0) fe->pending_offset=offset;
+        fe->pending_frames+=frames;
+        /* Normalization sees fixed feature batches, independent of how the
+         * media decoder happens to divide PCM into packets. */
+        if (fe->pending_frames==fe->buffer_frames) {
+            fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,fe->pending_frames);
+            if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0) return -1;
+            fe->pending_frames=0;
+            fe->pending_offset=0;
         }
         if (before==count && frames==0) return -2;
     }
@@ -86,14 +95,28 @@ int ss_frontend_process(struct ss_frontend *fe,const int16_t *pcm,size_t count,
 int ss_frontend_end_utt(struct ss_frontend *fe,ss_cep_callback output,void *context)
 {
     int32 frames=0;
-    if (fe_end_utt(fe->fe,fe->mfcc[0],&frames)<0) return -1;
-    if (frames) {
-        fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,frames);
-        return output(context,fe->floats,frames,0);
+    if (fe_end_utt(fe->fe,fe->mfcc[fe->pending_frames],&frames)<0) return -1;
+    fe->pending_frames+=frames;
+    if (fe->pending_frames) {
+        fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,fe->pending_frames);
+        if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0) return -1;
+        fe->pending_frames=0;
+        fe->pending_offset=0;
     }
     return 0;
 }
-int ss_frontend_start_utt(struct ss_frontend *fe) {return fe_start_utt(fe->fe);}
+int ss_frontend_start_utt(struct ss_frontend *fe)
+{
+    fe->pending_frames=0;
+    fe->pending_offset=0;
+    return fe_start_utt(fe->fe);
+}
 void ss_frontend_start_stream(struct ss_frontend *fe) {fe_start_stream(fe->fe);}
 int ss_frontend_in_speech(struct ss_frontend *fe) {return fe_get_vad_state(fe->fe);}
 int ss_frontend_ceplen(struct ss_frontend *fe) {return fe_get_output_size(fe->fe);}
+int ss_frontend_frame_shift(struct ss_frontend *fe)
+{
+    int shift=0;
+    fe_get_input_size(fe->fe,&shift,NULL);
+    return shift;
+}
