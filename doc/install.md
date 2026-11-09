@@ -1,4 +1,9 @@
 # SubSync installation
+
+These are historical upstream instructions. This fork maintains native
+macOS ARM64 only; on this branch use [the modern Mac build guide](macos-modern-deps.md).
+The modern build does not require SphinxBase or `SPHINXBASE_DIR`.
+
 You could download release builds from [download page](https://sc0ty.github.io/subsync/en/download.html).
 
 ## Prerequisites
