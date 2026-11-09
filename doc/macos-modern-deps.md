@@ -4,15 +4,21 @@ This branch targets Apple Silicon only. It builds FFmpeg 9.0.2 and
 PocketSphinx 5.1.1 from the sources and SHA256 hashes recorded in
 `tools/macos/modern-deps.json`. No separate Sphinxbase library is used.
 
-The original CPU word matching and correlation code and the graphical
-interface remain in use. PocketSphinx 5 no longer provides the old decoder
-voice-activity detection. This branch uses its public 10 ms VAD API and an
-explicit PCM buffer retaining the legacy 20-frame context, 10-frame speech
-confirmation and 50-frame silence hangover policy. Durations are derived
-from the model frame rate; word times use the actual first decoded sample.
-The original spectral noise-removal default is preserved, while explicit
-model overrides still take priority. Recognition results can differ from
-the legacy engine; compare real media before selecting this build for daily use.
+The original CPU word matching, correlation code and graphical interface
+remain in use. An owned, namespaced audio frontend retains the original
+energy/SNR speech detection and streaming context while the current
+PocketSphinx decoder performs recognition through its public CEP API.
+Current PocketSphinx DSP implementations and explicitly attributed
+compatibility code are compiled into SubSync; deprecated SphinxBase/SphinxAD
+libraries and the old decoder are not linked or bundled. See
+`gizmo/frontend/UPSTREAM.md` and the per-file provenance manifests.
+
+PocketSphinx 5.1.1 has a small local correction for the public streaming CEP
+API: utterance termination drains all dynamic-feature lookahead frames,
+including when the output ring wraps. The source patch and its hash are
+recorded in `tools/macos/modern-deps.json` and included in native licenses.
+The fix leaves the raw PCM input path unchanged. No matching thresholds
+are relaxed to obtain successful comparisons.
 
 The application uses the separate `SubSync ARM Modern` preference directory.
 `SUBSYNC_CONFIG_DIR` can override it for isolated tests.
@@ -21,16 +27,16 @@ loader. Model data is not embedded in the application bundle.
 
 ## Build
 
-From an Apple Silicon Mac, use the shared macOS build script with these
-experimental selections:
+From an Apple Silicon Mac:
 
 ```sh
-SUBSYNC_APP_NAME='SubSync ARM Modern' \
-SUBSYNC_BUNDLE_ID='org.kmihalj.subsync.arm64.modern' \
-SUBSYNC_DEPS_PREFIX="$PWD/.build/modern-prefix" \
-SUBSYNC_DEPS_SCRIPT="$PWD/tools/macos/build-deps-modern.sh" \
 tools/macos/build-app.sh
 ```
+
+On this experimental branch the default dependency script, prefix, app name
+and bundle identifier all select the modern build. Optional
+`SUBSYNC_DEPS_PREFIX` and `SUBSYNC_APP_NAME` overrides support isolated builds.
+The historical build instructions belong to the `macos-arm64` branch.
 
 The default minimum target is macOS 11.0. All build products stay inside the
 checkout. The script does not replace an installed application.

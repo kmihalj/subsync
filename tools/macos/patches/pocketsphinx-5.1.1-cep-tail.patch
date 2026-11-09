@@ -1,0 +1,83 @@
+--- a/src/acmod.h
++++ b/src/acmod.h
+@@ -180,6 +180,7 @@
+ 
+     /* A whole bunch of flags and counters: */
+     uint8 state;        /**< State of utterance processing. */
++    uint8 cep_input;    /**< Public streaming cepstral input needs feature-tail drain. */
+     uint8 compallsen;   /**< Compute all senones? */
+     uint8 grow_feat;    /**< Whether to grow feat_buf. */
+     uint8 insen_swap;   /**< Whether to swap input senone score. */
+--- a/src/acmod.c
++++ b/src/acmod.c
+@@ -409,6 +409,7 @@
+ {
+     fe_start_utt(acmod->fe);
+     acmod->state = ACMOD_STARTED;
++    acmod->cep_input = FALSE;
+     acmod->n_mfc_frame = 0;
+     acmod->n_feat_frame = 0;
+     acmod->mfc_outidx = 0;
+@@ -424,6 +425,7 @@
+ acmod_end_utt(acmod_t *acmod)
+ {
+     int32 nfr = 0;
++    int drain_cep = acmod->cep_input && acmod->state == ACMOD_PROCESSING;
+ 
+     acmod->state = ACMOD_ENDED;
+     if (acmod->n_mfc_frame < acmod->n_mfc_alloc) {
+@@ -434,7 +436,7 @@
+         fe_end_utt(acmod->fe, acmod->mfc_buf[inptr], &nfr);
+         acmod->n_mfc_frame += nfr;
+         /* Process whatever's left, and any leadout. */
+-        if (nfr)
++        if (nfr || drain_cep)
+             nfr = acmod_process_mfcbuf(acmod);
+         else /* Make sure to update CMN! */
+             feat_update_stats(acmod->fcb);
+@@ -715,6 +717,34 @@
+     }
+ 
+ 
++    /* Cepstral input can end with only the dynamic-feature lookahead left.
++     * Generate the final window once, then copy it across the ring boundary.
++     * Do not discard it, or call the feature extractor twice (which would
++     * duplicate end padding and CMN updates). Raw-input behavior is unchanged.
++     */
++    if (acmod->cep_input && acmod->state == ACMOD_ENDED
++        && inptr + nfeat > acmod->n_feat_alloc) {
++        int32 frame, stream;
++        mfcc_t ***tail = feat_array_alloc(acmod->fcb, nfeat);
++        nfeat = feat_s2mfc2feat_live(acmod->fcb, *inout_cep, &ncep,
++                                   FALSE, TRUE, tail);
++        if (nfeat < 0) {
++            feat_array_free(tail);
++            return -1;
++        }
++        for (frame = 0; frame < nfeat; ++frame) {
++            int32 dest = (inptr + frame) % acmod->n_feat_alloc;
++            for (stream = 0; stream < feat_dimension1(acmod->fcb); ++stream)
++                memcpy(acmod->feat_buf[dest][stream], tail[frame][stream],
++                       feat_dimension2(acmod->fcb, stream) * sizeof(mfcc_t));
++        }
++        feat_array_free(tail);
++        acmod->n_feat_frame += nfeat;
++        *inout_n_frames -= ncep;
++        *inout_cep += ncep;
++        return orig_n_frames - *inout_n_frames;
++    }
++
+     /* FIXME: we can't split the last frame drop properly to be on the boundary, so just return */
+     if (inptr + nfeat > acmod->n_feat_alloc && acmod->state == ACMOD_ENDED) {
+ 	*inout_n_frames -= ncep;
+--- a/src/pocketsphinx.c
++++ b/src/pocketsphinx.c
+@@ -1261,6 +1261,8 @@
+                int full_utt)
+ {
+     int n_searchfr = 0;
++    if (n_frames > 0)
++        ps->acmod->cep_input = TRUE;
+ 
+ #ifdef FIXED_POINT
+     mfcc_t **idata, **ptr;

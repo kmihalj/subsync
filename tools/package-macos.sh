@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 BASE=$(cd "$(dirname "$0")/.." && pwd)
-APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
+APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM Modern}
 APP="$BASE/dist/$APP_NAME.app"
 VERSION=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$APP/Contents/Info.plist")
 mkdir -p "$BASE/.build" "$BASE/dist"

@@ -27,6 +27,8 @@ def verify(app):
             '@executable_path', str(executable_dir)))
 
     for path in sorted(app.rglob('*')):
+        if re.search(r'(?:libsphinxbase|libsphinxad|libpocketsphinx\.[0-4](?:\.|$))', path.name, re.I):
+            errors.append(f'{path.relative_to(app)}: obsolete speech library is forbidden in the modern app')
         if path.is_symlink():
             if not path.exists() or not inside_bundle(path):
                 errors.append(f'{path.relative_to(app)}: dangling or external symlink')
@@ -63,6 +65,8 @@ def verify(app):
                     minimums.add(match.group(1))
         for line in output('/usr/bin/otool', '-L', str(path)).splitlines()[1:]:
             dependency = line.strip().split(' (compatibility version', 1)[0]
+            if re.search(r'(?:libsphinxbase|libsphinxad|libpocketsphinx\.[0-4](?:\.|$))', dependency, re.I):
+                errors.append(f'{relative}: obsolete speech dependency {dependency}')
             if dependency in install_ids or dependency.startswith(('/System/Library/', '/usr/lib/')):
                 continue
             if dependency.startswith('/'):

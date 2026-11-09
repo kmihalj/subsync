@@ -29,19 +29,23 @@ fi
 PYTHON="$ROOT/.venv/bin/python"
 "$UV" pip sync --python "$PYTHON" tools/macos/requirements-build.txt
 export PATH="$ROOT/.venv/bin:$ROOT/.build/bin:$PATH"
-PREFIX=${SUBSYNC_DEPS_PREFIX:-$ROOT/.build/legacy-prefix}
-DEPS_SCRIPT=${SUBSYNC_DEPS_SCRIPT:-$ROOT/tools/macos/build-deps-legacy.sh}
+export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM Modern}
+export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.modern}
+export SUBSYNC_DEPS_PREFIX=${SUBSYNC_DEPS_PREFIX:-$ROOT/.build/modern-prefix}
+PREFIX=$SUBSYNC_DEPS_PREFIX
+DEPS_SCRIPT=${SUBSYNC_DEPS_SCRIPT:-$ROOT/tools/macos/build-deps-modern.sh}
 "$DEPS_SCRIPT"
 export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig"
 export PKG_CONFIG_LIBDIR="$PREFIX/lib/pkgconfig"
 export DYLD_LIBRARY_PATH="$PREFIX/lib"
 cp subsync/config.py.template subsync/config.py
+tools/macos/build-native-frontend.sh
 "$PYTHON" setup.py build_ext --inplace --force
 "$PYTHON" setup.py gen_version
 "$PYTHON" -c 'import platform, gizmo; assert platform.machine() == "arm64"; print("Native gizmo:", gizmo.__file__)'
 make -C gizmo/test -j4
 "$PYTHON" -m PyInstaller --noconfirm --clean macos.spec
-APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
+APP_NAME=$SUBSYNC_APP_NAME
 "$PYTHON" tools/macos/verify-bundle.py "dist/$APP_NAME.app"
 tools/package-macos.sh
 echo "Built: $ROOT/dist/$APP_NAME.app"

@@ -8,6 +8,13 @@
   "pocketsphinx": {
     "version": "5.1.1",
     "source": "https://codeload.github.com/cmusphinx/pocketsphinx/tar.gz/refs/tags/v5.1.1",
-    "sha256": "e2db414eb66618cd0a98de77507db32517a48f6900b06bfb94c0acc4bef5761d"
+    "sha256": "e2db414eb66618cd0a98de77507db32517a48f6900b06bfb94c0acc4bef5761d",
+    "local_patches": [
+      {
+        "file": "tools/macos/patches/pocketsphinx-5.1.1-cep-tail.patch",
+        "sha256": "bd7e04b8a0a8a0f063de03cdb0076d941f00a9b0de67d1e97d5305be23288bde",
+        "purpose": "Drain dynamic-feature lookahead when a public streaming cepstral utterance ends; preserve raw PCM behavior."
+      }
+    ]
   }
 }

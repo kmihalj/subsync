@@ -13,6 +13,8 @@ excerpts belong in ignored `.build/`, `.venv/`, `build/` or `dist/` directories.
 Keep FFmpeg/PocketSphinx API and speech/VAD modernization in
 `experimental/modern-deps` until its output has been compared with the legacy
 build. Do not change matching thresholds merely to make a comparison pass.
+The experimental app must not link or bundle deprecated SphinxBase, SphinxAD,
+or legacy PocketSphinx libraries. Old libraries are test-only references.
 
 Use separate app names, bundle identifiers and profiles for each variant.
 Keep the upstream Intel application updater disabled.
