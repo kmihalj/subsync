@@ -284,5 +284,20 @@ class StoreAssetsTests(unittest.TestCase):
         self.assertEqual({call.args[0] for call in manager.getAsset.call_args_list}, set(remote))
 
 
+class NativeBusyDialogTests(unittest.TestCase):
+    def test_real_wx_timer_completes_busy_dialog(self):
+        app = busydlg.wx.GetApp()
+        created = app is None
+        if created:
+            app = busydlg.wx.App(False)
+        try:
+            with busydlg.BusyDlg(None, 'Disposable timer regression') as dialog:
+                self.assertEqual(dialog.ShowModalWhile(lambda: False, .001), busydlg.wx.ID_OK)
+                self.assertFalse(dialog.timer.IsRunning())
+        finally:
+            if created:
+                app.Destroy()
+
+
 if __name__ == '__main__':
     unittest.main()
