@@ -41,7 +41,6 @@ class SpeechRecognition : public AVOutput
 		int processCep(float **cep, int frames, int streamFrame);
 		static int cepCallback(void *context, float **cep, int frames, int streamFrame);
 		void endUtterance();
-		void processPcm(const int16_t *pcm, size_t count);
 
 	private:
 		ps_decoder_t *m_ps;
@@ -52,8 +51,6 @@ class SpeechRecognition : public AVOutput
 		bool m_utteranceStarted;
 		bool m_haveTimestamp;
 		bool m_flushed;
-		std::vector<int16_t> m_pcmPending;
-		size_t m_pcmQuantum;
 
 		double m_framePeriod;
 		double m_deltaTime;

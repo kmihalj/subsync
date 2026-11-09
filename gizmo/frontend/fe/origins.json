@@ -91,7 +91,7 @@
       "sha256": "252328aebc23ac2f67442d325a575e5bf455763efff5bdfd53b266631f7270c9"
     }
   ],
-  "adaptation": "Current PocketSphinx 5.1.1 validation/initialization/DSP/warps; SphinxBase SNR-VAD, prespeech buffer and global stream frame clock restored. No model parser or ASR code is copied.",
+  "adaptation": "Current PocketSphinx 5.1.1 validation/initialization/DSP/warps; classic SNR-VAD, prespeech buffer and global stream frame clock restored. Streaming MFCC ring scheduling follows the original frontend handoff. No model parser, acoustic scoring or search algorithm is copied.",
   "additional_origins": [
     {
       "origin": "SphinxBase 617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_noise.c",
@@ -114,6 +114,11 @@
       "use": "Current configuration validation, parameter parsing and initialization bodies retained."
     },
     {
+      "origin": "PocketSphinx 5da71f0a05350c923676b02a69423d1291825d5b/src/libpocketsphinx/acmod.c",
+      "sha256": "76f57facb5f12d447da49dbe1fcc2aa0e9c8fe2e718a4095ee18ae356f4c2bef",
+      "use": "Streaming MFCC ring write/read wrap schedule and utterance cursor reset only, implemented in ../native_frontend.c. Public PS5 APIs perform feature normalization and all decoding."
+    },
+    {
       "origin": "pocketsphinx-5da71f0a05350c923676b02a69423d1291825d5b/include/cmdln_macro.h",
       "sha256": "a9e0491ab7f42cd2c7d4ca9d1b333fd0b4fed521d7816e7cabaabd3899df65b7",
       "use": "Published original FLOAT32 option list, retained with explicit IEEE binary32 narrowing in SpeechRecognition before current public decoder initialization. No FLOAT64 beam option changes."
@@ -126,7 +131,8 @@
   ],
   "upstreams": [
     "https://github.com/cmusphinx/pocketsphinx/tree/v5.1.1/src/fe",
-    "https://github.com/cmusphinx/sphinxbase/tree/617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe"
+    "https://github.com/cmusphinx/sphinxbase/tree/617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe",
+    "https://github.com/cmusphinx/pocketsphinx/blob/5da71f0a05350c923676b02a69423d1291825d5b/src/libpocketsphinx/acmod.c"
   ],
   "numeric_compatibility": {
     "float32_options": [
