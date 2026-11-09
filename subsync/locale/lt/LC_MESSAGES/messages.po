@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "subtitrų / nuorodos takelio numeris"
 
 msgid "subtitle/text"
-msgstr "paantraštė/tekstas"
+msgstr "subtitrai/tekstas"
 
 msgid "subtitles"
 msgstr "subtitrai"

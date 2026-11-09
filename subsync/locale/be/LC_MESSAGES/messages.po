@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "нумар субтытраў/спасылкі"
 
 msgid "subtitle/text"
-msgstr "субтытры/тэкст"
+msgstr "субцітры/тэкст"
 
 msgid "subtitles"
 msgstr "субцітры"

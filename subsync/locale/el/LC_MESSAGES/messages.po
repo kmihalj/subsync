@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "υπότιτλος/αριθμός κομματιού αναφοράς"
 
 msgid "subtitle/text"
-msgstr "υπότιτλος/κείμενο"
+msgstr "υπότιτλοι/κείμενο"
 
 msgid "subtitles"
 msgstr "υπότιτλοι"

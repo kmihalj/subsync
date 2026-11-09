@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "subtiitrite/viiteloo number"
 
 msgid "subtitle/text"
-msgstr "alapealkiri/tekst"
+msgstr "subtiitrid/tekst"
 
 msgid "subtitles"
 msgstr "subtiitrid"

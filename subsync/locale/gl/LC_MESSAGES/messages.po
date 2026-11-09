@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "número de pista de subtítulo/referencia"
 
 msgid "subtitle/text"
-msgstr "subtítulo/texto"
+msgstr "subtítulos/texto"
 
 msgid "subtitles"
 msgstr "subtítulos"

@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "númer texta/tilvísunarlags"
 
 msgid "subtitle/text"
-msgstr "texti/texti"
+msgstr "skjátexti/texti"
 
 msgid "subtitles"
 msgstr "textar"

@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "fo-thiotal / àireamh slighe iomraidh"
 
 msgid "subtitle/text"
-msgstr "fo-thiotal/teacsa"
+msgstr "fo-thiotalan/teacsa"
 
 msgid "subtitles"
 msgstr "fo-thiotalan"

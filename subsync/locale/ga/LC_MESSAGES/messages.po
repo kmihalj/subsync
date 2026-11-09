@@ -1099,7 +1099,7 @@ msgid "subtitle/reference stream number"
 msgstr "fotheideal/uimhir rian tagartha"
 
 msgid "subtitle/text"
-msgstr "fotheideal/téacs"
+msgstr "fotheidil/téacs"
 
 msgid "subtitles"
 msgstr "fotheidil"
