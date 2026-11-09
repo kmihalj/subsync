@@ -52,6 +52,8 @@ class CatalogTests(unittest.TestCase):
         entries = {'': 'Language: hr\nContent-Type: text/plain; charset=UTF-8\n'}
         entries.update((message, message) for message in catalog.source_messages())
         for original, replacement in [('{} min', 'min'), ('{sub_path}', '{putanja}'),
+                                      ('version ', 'verzija'),
+                                      ('dictionary {} / {}', 'rječnik {} / {1}'),
                                       ('Subtitle\nSpeech\nSynchronizer', 'Subtitle Speech Synchronizer')]:
             with self.subTest(message=original):
                 damaged = dict(entries, **{original: replacement})
@@ -61,6 +63,20 @@ class CatalogTests(unittest.TestCase):
     def test_reject_duplicate_input_keys(self):
         with self.assertRaises(ValueError):
             json.loads('{"0":"one","0":"two"}', object_pairs_hook=catalog.unique_object)
+
+    def test_ui_translation_preserves_media_language_choices(self):
+        from subsync.data import languages
+        baseline = [(item.code3, item.encodings, item.ngrams, item.rightToLeft)
+                    for item in languages.languages]
+        try:
+            for code in sorted(NAMES):
+                with self.subTest(locale=code):
+                    translations.setLanguage(code)
+                    self.assertEqual([(item.code3, item.encodings, item.ngrams, item.rightToLeft)
+                                      for item in languages.languages], baseline)
+                    self.assertEqual(len({item.name for item in languages.languages}), 45)
+        finally:
+            translations.setLanguage('en')
 
 
 class SelectionTests(unittest.TestCase):
@@ -140,6 +156,9 @@ class GuiTests(unittest.TestCase):
                 dimensions.append((code, dialog.GetSize().width, dialog.GetSize().height))
                 self.assertGreater(dialog.GetSize().width, 0)
                 self.assertGreater(dialog.GetSize().height, 0)
+                display = wx.Display(dialog).GetClientArea()
+                self.assertLessEqual(dialog.GetSize().width, display.width)
+                self.assertLessEqual(dialog.GetSize().height, display.height)
                 dialog.Destroy()
         translations.setLanguage('en')
         print('Native settings dimensions:', dimensions)

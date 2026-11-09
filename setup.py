@@ -313,19 +313,10 @@ class gen_doc(setuptools.Command):
 
 
 def read_version():
-    try:
-        version_long = subprocess.check_output(['git', 'describe', '--tags']).decode('UTF-8').strip()
-        v = version_long[re.search('\d', version_long).start():].split('-')
-        if len(v) > 1:
-            version = '{}.{}'.format(v[0], v[1])
-        else:
-            version = '{}.0'.format(v[0])
-    except Exception as e:
-        print('Version not recognized, using default, reason: ' + str(e))
-        version_long = 'custom'
-        version = '0.0.0'
-
-    return version_long, version
+    import runpy
+    helper = runpy.run_path(os.path.join(os.path.dirname(__file__),
+            'tools', 'macos', 'version_metadata.py'))
+    return helper['source_version']()
 
 
 def write_version_file(version_long, version, path=None):

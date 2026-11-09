@@ -29,8 +29,18 @@ fi
 PYTHON="$ROOT/.venv/bin/python"
 "$UV" pip sync --python "$PYTHON" tools/macos/requirements-build.txt
 export PATH="$ROOT/.venv/bin:$ROOT/.build/bin:$PATH"
-export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
-export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.modern}
+export SUBSYNC_DISTRIBUTION=${SUBSYNC_DISTRIBUTION:-public}
+case "$SUBSYNC_DISTRIBUTION" in
+    public)
+        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
+        export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.modern}
+        ;;
+    appstore)
+        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM Store Preview}
+        export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.store}
+        ;;
+    *) echo 'SUBSYNC_DISTRIBUTION must be public or appstore' >&2; exit 1 ;;
+esac
 export SUBSYNC_DEPS_PREFIX=${SUBSYNC_DEPS_PREFIX:-$ROOT/.build/modern-prefix}
 PREFIX=$SUBSYNC_DEPS_PREFIX
 DEPS_SCRIPT=${SUBSYNC_DEPS_SCRIPT:-$ROOT/tools/macos/build-deps-modern.sh}
@@ -43,6 +53,8 @@ cp subsync/config.py.template subsync/config.py
 tools/macos/build-native-frontend.sh
 "$PYTHON" setup.py build_ext --inplace --force
 "$PYTHON" setup.py gen_version
+"$PYTHON" tools/macos/test-localization.py
+"$PYTHON" tools/macos/test-build-metadata.py
 "$PYTHON" -c 'import platform, gizmo; assert platform.machine() == "arm64"; print("Native gizmo:", gizmo.__file__)'
 make -C gizmo/test -j4
 tools/macos/test-cep-tail.sh

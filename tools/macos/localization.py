@@ -93,14 +93,25 @@ def literal(message):
 
 def placeholders(message):
     # Each anonymous field receives its actual positional argument index.
-    result, position = [], 0
+    result, position, automatic, numbered = [], 0, False, False
     for _, field, spec, conversion in string.Formatter().parse(message):
         if field is not None:
             if field == '':
+                automatic = True
                 field = str(position)
                 position += 1
+            elif field.partition('.')[0].partition('[')[0].isdigit():
+                numbered = True
             result.append((field, spec, conversion))
+    if automatic and numbered:
+        raise ValueError('Mixed automatic and numbered format fields')
     return Counter(result)
+
+
+def match_spacing(original, translated):
+    prefix = re.match(r'^\s*', original).group()
+    suffix = re.search(r'\s*$', original).group()
+    return prefix + translated.strip() + suffix
 
 
 def validate(locale, entries):
@@ -126,6 +137,8 @@ def validate(locale, entries):
             raise ValueError(f'{locale}: line breaks changed: {original!r}')
         if original.count('&') != translated.count('&'):
             raise ValueError(f'{locale}: menu accelerator count changed: {original!r}')
+        if match_spacing(original, translated) != translated:
+            raise ValueError(f'{locale}: message boundary whitespace changed: {original!r}')
         if 'Michał Szymaniak' in original and 'Michał Szymaniak' not in translated:
             raise ValueError(f'{locale}: original author credit changed')
 
@@ -180,9 +193,10 @@ def import_catalog(locale, path):
               'Content-Transfer-Encoding: 8bit\n'
               'X-Translation-Review: Machine-assisted draft; linguistic review pending\n')
     entries = {'': header}
-    entries.update((message, supplied[str(i)]) for i, message in enumerate(messages))
-    if not all(isinstance(value, str) for value in entries.values()):
+    if not all(isinstance(value, str) for value in supplied.values()):
         raise ValueError(f'{locale}: translation must be text')
+    entries.update((message, match_spacing(message, supplied[str(i)]))
+                   for i, message in enumerate(messages))
     validate(locale, entries)
     quote = lambda value: json.dumps(value, ensure_ascii=False)
     lines = ['# SubSync UI translation. GPL-3.0-or-later, as the application.',

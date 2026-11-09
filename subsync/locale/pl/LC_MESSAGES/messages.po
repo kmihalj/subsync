@@ -310,9 +310,7 @@ msgstr "zrzuć logi do wskazanego pliku"
 msgid ""
 "dump words to file, or to standard output if there is no PATH, SRC is one "
 "of:  "
-msgstr ""
-"zrzuć wyrazy do pliku lub na standardowe wyjście jeżeli nie podano PATH, SRC "
-"przyjmuje wartości: "
+msgstr "zrzuć wyrazy do pliku lub na standardowe wyjście jeżeli nie podano PATH, SRC przyjmuje wartości:  "
 
 #: subsync/data/languages.py:21
 msgid "Albanian"
@@ -633,7 +631,7 @@ msgstr "Nie wybrano języka dla:"
 
 #: subsync/gui/components/assetsdlg.py:77
 msgid "subtitles: "
-msgstr "napisy:"
+msgstr "napisy: "
 
 #: subsync/gui/components/assetsdlg.py:80
 msgid "references: "

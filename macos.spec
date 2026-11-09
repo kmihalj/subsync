@@ -1,11 +1,21 @@
 # -*- mode: python ; coding: utf-8 -*-
 import os
+import runpy
 from PyInstaller.utils.hooks import copy_metadata
 
 version = {}
 exec(open(os.path.join(SPECPATH, 'subsync', 'version.py')).read(), version)
-app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM')
-bundle_id = os.environ.get('SUBSYNC_BUNDLE_ID', 'org.kmihalj.subsync.arm64.modern')
+distribution = os.environ.get('SUBSYNC_DISTRIBUTION', 'public')
+if distribution not in ('public', 'appstore'):
+    raise ValueError('SUBSYNC_DISTRIBUTION must be public or appstore')
+store = distribution == 'appstore'
+app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM Store Preview' if store else 'SubSync ARM')
+bundle_id = os.environ.get('SUBSYNC_BUNDLE_ID', 'org.kmihalj.subsync.arm64.store' if store else 'org.kmihalj.subsync.arm64.modern')
+metadata = runpy.run_path(os.path.join(SPECPATH, 'tools/macos/version_metadata.py'))
+marketing_version, build_number = metadata['bundle_versions'](version['version_short'])
+ui_languages = runpy.run_path(os.path.join(SPECPATH, 'subsync/data/uilanguages.py'))['NAMES']
+identity = os.environ.get('SUBSYNC_CODESIGN_IDENTITY') or None
+entitlements = os.path.join(SPECPATH, 'resources/appstore.entitlements') if store else None
 prefix = os.environ.get('SUBSYNC_DEPS_PREFIX', os.path.join(SPECPATH, '.build', 'modern-prefix'))
 data_files = [
     ('LICENSE', '.'),
@@ -46,8 +56,8 @@ exe = EXE(
     console=False,
     argv_emulation=False,
     target_arch='arm64',
-    codesign_identity=None,
-    entitlements_file=None,
+    codesign_identity=identity,
+    entitlements_file=entitlements,
 )
 coll = COLLECT(exe, a.binaries, a.datas, strip=False, upx=False, name=app_name)
 app = BUNDLE(
@@ -58,8 +68,12 @@ app = BUNDLE(
     info_plist={
         'CFBundleName': app_name,
         'CFBundleDisplayName': app_name,
-        'CFBundleShortVersionString': version['version_short'],
-        'CFBundleVersion': version['version_short'],
+        'CFBundleShortVersionString': marketing_version,
+        'CFBundleVersion': build_number,
+        'CFBundleDevelopmentRegion': 'en',
+        'CFBundleLocalizations': sorted(ui_languages),
+        'LSApplicationCategoryType': 'public.app-category.video',
+        'SubSyncDistribution': distribution,
         'LSMinimumSystemVersion': os.environ.get('MACOSX_DEPLOYMENT_TARGET', '11.0'),
         'NSHighResolutionCapable': True,
     },

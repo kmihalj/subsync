@@ -23,9 +23,14 @@ elif sys.platform == 'linux':
 elif sys.platform == 'darwin':
     # Keep the original Intel application's preferences and models untouched.
     # Retain the earlier native preview's profile name for existing users.
-    configdir = os.path.abspath(os.path.expanduser(os.environ.get(
-        'SUBSYNC_CONFIG_DIR',
-        os.path.join(os.path.expanduser('~'), 'Library', 'Application Support', 'SubSync ARM Modern'))))
+    from subsync.macos.mode import is_appstore_build
+    if is_appstore_build():
+        from subsync.macos.native import application_support_directory
+        configdir = str(application_support_directory())
+    else:
+        configdir = os.path.abspath(os.path.expanduser(os.environ.get(
+            'SUBSYNC_CONFIG_DIR',
+            os.path.join(os.path.expanduser('~'), 'Library', 'Application Support', 'SubSync ARM Modern'))))
     shareddir = configdir
     # The upstream update feed contains Intel applications only.
     assetupd = None
