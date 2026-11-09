@@ -1,6 +1,8 @@
 // Timing invariants for identical PCM through fresh PocketSphinx recognizers.
 // Recognition is compared only within one preprocessing configuration: adding
 // silence or reusing a recognizer can legitimately change its adaptation state.
+// --original-packets preserves original batch-dependent adaptation, while
+// --strict-packets (also the default) checks the stronger packet invariant.
 #include "media/speechrec.h"
 #include <algorithm>
 #include <cmath>
@@ -101,10 +103,63 @@ static double compare(const vector<Word> &reference, const vector<Word> &candida
     return maxError;
 }
 
+static void validWords(const vector<Word> &words, double origin, double duration)
+{
+    require(words.size() >= 4, "Insufficient clean-fixture words");
+    double previous = origin;
+    for (size_t i = 0; i < words.size(); ++i) {
+        require(!words[i].text.empty(), "Recognized an empty word");
+        require(words[i].time >= previous && words[i].time <= origin + duration + 0.001,
+                "Word timestamp is out of order or outside the PCM duration");
+        previous = words[i].time;
+    }
+}
+
+static void originalPackets(const string &model, const vector<int16_t> &pcm,
+        Noise noise, int64_t origin, int64_t shift, const string &label)
+{
+    const double shiftSeconds = double(shift) / 48000.0;
+    vector<Word> first;
+    for (const size_t chunk : {size_t(997), size_t(320), size_t(4096)}) {
+        const auto reference = recognize(model, pcm, noise, chunk, origin);
+        const auto repeat = recognize(model, pcm, noise, chunk, origin);
+        const auto shifted = recognize(model, pcm, noise, chunk, origin + shift);
+        validWords(reference, double(origin) / 48000.0, double(pcm.size()) / 16000.0);
+        compare(reference, repeat, 0.0, label + " / identical packet replay");
+        for (size_t i = 0; i < reference.size(); ++i)
+            require(reference[i].time == repeat[i].time, "Identical packet replay changed time");
+        const double ptsError = compare(reference, shifted, shiftSeconds,
+                label + " / per-chunk media PTS offset");
+        if (first.empty()) first = reference;
+        size_t changedScores = 0, changedTextPositions = first.size() > reference.size()
+            ? first.size() - reference.size() : reference.size() - first.size();
+        double timingDelta = 0.0, scoreDelta = 0.0;
+        for (size_t i = 0; i < min(first.size(), reference.size()); ++i) {
+            if (first[i].text != reference[i].text) { ++changedTextPositions; continue; }
+            changedScores += first[i].score != reference[i].score;
+            timingDelta = max(timingDelta, abs(double(reference[i].time) - first[i].time));
+            scoreDelta = max(scoreDelta, abs(double(reference[i].score) - first[i].score));
+        }
+        cout << "PASS ORIGINAL_PACKET_SEMANTICS " << label << " chunk=" << chunk
+             << ": identical replay; PTS error=" << ptsError * 1000.0
+             << " ms; versus chunk997 words=" << first.size() << '/' << reference.size()
+             << ", changed text positions=" << changedTextPositions
+             << ", matched-word timing=" << timingDelta * 1000.0
+             << " ms, changed probabilities=" << changedScores
+             << ", max probability delta=" << scoreDelta << '\n';
+        if (noise == Noise::Default && chunk == 997)
+            compare(reference, recognize(model, pcm, Noise::Enabled, chunk, origin),
+                    0.0, "default versus explicit remove_noise=yes");
+    }
+}
+
 int main(int argc, char **argv)
 {
     try {
-        require(argc == 3, "Usage: speech-invariance-test MODEL_DIRECTORY GOFORWARD_RAW");
+        require(argc == 3 || (argc == 4 && (string(argv[3]) == "--strict-packets"
+                    || string(argv[3]) == "--original-packets")),
+                "Usage: speech-invariance-test MODEL_DIRECTORY GOFORWARD_RAW [--strict-packets|--original-packets]");
+        const bool strictPackets = argc == 3 || string(argv[3]) == "--strict-packets";
         const vector<int16_t> utterance = readPcm(argv[2]);
         vector<int16_t> pcm = utterance;
         pcm.resize(pcm.size() + 11696, 0);
@@ -118,6 +173,10 @@ int main(int argc, char **argv)
         for (const Noise noise : {Noise::Default, Noise::Disabled}) {
             const string label = noise == Noise::Default
                 ? "default remove_noise=yes" : "explicit remove_noise=no";
+            if (!strictPackets) {
+                originalPackets(argv[1], pcm, noise, origin, shift, label);
+                continue;
+            }
             const auto reference = recognize(argv[1], pcm, noise, 997, origin);
             const auto shifted = recognize(argv[1], pcm, noise, 997, origin + shift);
             const double shiftError = compare(reference, shifted, shiftSeconds,

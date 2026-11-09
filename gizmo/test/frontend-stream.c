@@ -10,7 +10,7 @@
 
 struct sink {
     int capacity, ceplen, reject, invalid;
-    size_t calls;
+    size_t calls, frames;
 };
 
 static int output(void *context, float **cep, int frames, int offset)
@@ -33,6 +33,7 @@ static int output(void *context, float **cep, int frames, int offset)
         }
     }
     ++sink->calls;
+    sink->frames += (size_t)frames;
     return sink->reject ? -1 : 0;
 }
 
@@ -46,7 +47,7 @@ static struct ss_frontend *create(int capacity, int noise, struct sink *sink)
     frontend = ss_frontend_create_config(config, capacity);
     ps_config_free(config);
     if (!frontend) return NULL;
-    *sink = (struct sink){capacity, ss_frontend_ceplen(frontend), 0, 0, 0};
+    *sink = (struct sink){capacity, ss_frontend_ceplen(frontend), 0, 0, 0, 0};
     ss_frontend_start_stream(frontend);
     if (ss_frontend_start_utt(frontend) < 0) {
         ss_frontend_free(frontend);
@@ -72,10 +73,16 @@ static int normal_case(const int16_t *pcm, size_t count, size_t chunk,
     }
     if (!failed && ss_frontend_end_utt(frontend, output, &sink) < 0) failed = 1;
     const size_t calls = sink.calls;
+    const size_t frames = sink.frames;
     if (!failed && (ss_frontend_end_utt(frontend, output, &sink) < 0
-            || sink.calls != calls)) failed = 1;
+            || sink.calls != calls || sink.frames != frames)) failed = 1;
     if (!failed && (ss_frontend_start_utt(frontend) < 0
-            || ss_frontend_end_utt(frontend, output, &sink) < 0)) failed = 1;
+            || ss_frontend_end_utt(frontend, output, &sink) < 0
+            || sink.frames != frames)) failed = 1;
+    /* At 16 kHz / 100 frames per second, even with a padded EOF there
+     * cannot be more output frames than this. VAD can legitimately emit
+     * fewer frames; buffer shape cannot invent any or emit empty input. */
+    if (sink.frames > count / 160 + 1 || (!count && sink.frames)) failed = 1;
     ss_frontend_free(frontend);
     return failed || sink.invalid;
 }

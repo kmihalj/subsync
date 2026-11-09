@@ -1,4 +1,6 @@
 #!/bin/bash
+# Pass --original-packets for the original streaming contract; the default
+# and --strict-packets retain the stricter packet-invariance assertions.
 set -Eeuo pipefail
 source "$(dirname "$0")/native-test-common.sh"
 native_test_require_ffmpeg avformat avcodec swresample avutil
@@ -12,4 +14,4 @@ trap 'rm -rf "$MODEL_FIXTURE"' EXIT
     "$ROOT/gizmo/text/words.cpp" "$ROOT/gizmo/text/utf8.cpp" "$FRONTEND_ARCHIVE" \
     "${NATIVE_TEST_LDFLAGS[@]}" -lavformat -lavcodec -lswresample -lavutil -lpocketsphinx \
     -o "$BUILD/tests/modern-media-test"
-"$BUILD/tests/modern-media-test" "$MODEL_FIXTURE" "$TEST_PCM"
+"$BUILD/tests/modern-media-test" "$MODEL_FIXTURE" "$TEST_PCM" "$@"

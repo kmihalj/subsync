@@ -1,5 +1,7 @@
 #!/bin/bash
 # Compile and run deterministic timing properties against the isolated PS5 build.
+# Pass --original-packets for same-packet replay and per-chunk PTS checks.
+# The default and --strict-packets retain strict cross-packet assertions.
 set -Eeuo pipefail
 source "$(dirname "$0")/native-test-common.sh"
 native_test_require_ffmpeg avformat avcodec avutil
@@ -12,4 +14,4 @@ trap 'rm -rf "$MODEL_FIXTURE"' EXIT
     "$ROOT/gizmo/text/utf8.cpp" "$FRONTEND_ARCHIVE" \
     "${NATIVE_TEST_LDFLAGS[@]}" -lavformat -lavcodec -lavutil -lpocketsphinx \
     -o "$BUILD/tests/speech-invariance-test"
-"$BUILD/tests/speech-invariance-test" "$MODEL_FIXTURE" "$TEST_PCM"
+"$BUILD/tests/speech-invariance-test" "$MODEL_FIXTURE" "$TEST_PCM" "$@"

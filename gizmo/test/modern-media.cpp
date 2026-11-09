@@ -2,6 +2,7 @@
 #include "media/speechrec.h"
 #include "media/speechsegmenter.h"
 #include "media/resampler.h"
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <iterator>
@@ -40,6 +41,58 @@ static void configure(SpeechRecognition &rec, const string &model, bool removeNo
     // Existing SubSync speech assets can disable the legacy noise estimator.
     rec.setParam("-remove_noise", removeNoise ? "yes" : "no");
     rec.setMinWordProb(0.0);
+}
+static vector<Word> recognize(const string &model,const vector<int16_t> &pcm,
+        const AVStream &stream,size_t chunk,bool noise,int64_t origin) {
+    SpeechRecognition rec;
+    configure(rec,model,noise);
+    vector<Word> words;
+    rec.addWordsListener([&](const Word &word){words.push_back(word);});
+    rec.start(&stream);feed(rec,pcm,origin,chunk);rec.flush();rec.stop();
+    return words;
+}
+static void originalPackets(const string &model,const vector<int16_t> &pcm,const AVStream &stream) {
+    for(const bool noise:{false,true}) {
+        vector<Word> first;
+        for(const size_t chunk:{size_t(997),size_t(320),size_t(4096)}) {
+            const auto words=recognize(model,pcm,stream,chunk,noise,160000);
+            const auto repeat=recognize(model,pcm,stream,chunk,noise,160000);
+            const auto shifted=recognize(model,pcm,stream,chunk,noise,320000);
+            check(!words.empty() && words.size()==repeat.size()
+                    && words.size()==shifted.size(),"original packet replay changed word count");
+            double previous=10.0,ptsError=0.0,timingDelta=0.0,scoreDelta=0.0;
+            size_t changedScores=0;
+            if(first.empty())first=words;
+            size_t changedTextPositions=first.size()>words.size()?first.size()-words.size():words.size()-first.size();
+            for(size_t i=0;i<words.size();i++) {
+                check(!words[i].text.empty() && isfinite(words[i].time)
+                        && isfinite(words[i].score) && words[i].time>=previous
+                        && words[i].time<=10.0+pcm.size()/16000.0+0.001,
+                        "original packets produced empty text or invalid word timing");
+                check(words[i].text==repeat[i].text && words[i].time==repeat[i].time
+                        && words[i].score==repeat[i].score,"identical packet replay changed words");
+                check(words[i].text==shifted[i].text && words[i].score==shifted[i].score,
+                        "media PTS shift changed words or probabilities");
+                const double error=abs(double(shifted[i].time)-words[i].time-10.0);
+                check(error<=0.001,"per-chunk media PTS shift changed relative timing");
+                ptsError=max(ptsError,error);
+                previous=words[i].time;
+                if(i<first.size()) {
+                    if(words[i].text!=first[i].text)++changedTextPositions;
+                    else {
+                        timingDelta=max(timingDelta,abs(double(words[i].time)-first[i].time));
+                        scoreDelta=max(scoreDelta,abs(double(words[i].score)-first[i].score));
+                        changedScores+=words[i].score!=first[i].score;
+                    }
+                }
+            }
+            cout<<"PASS ORIGINAL_PACKET_SEMANTICS noise="<<noise<<" chunk="<<chunk
+                <<": identical replay; PTS error="<<ptsError*1000<<" ms; versus chunk997 words="
+                <<first.size()<<'/'<<words.size()<<", changed text positions="<<changedTextPositions
+                <<", matched-word timing="<<timingDelta*1000<<" ms, changed probabilities="<<changedScores
+                <<", max probability delta="<<scoreDelta<<'\n';
+        }
+    }
 }
 static void testSegmentation()
 {
@@ -93,7 +146,10 @@ struct Sink : AVOutput {
 };
 int main(int argc,char **argv) {
     try {
-        check(argc==3,"usage: modern-media-test MODEL_DIRECTORY GOFORWARD_RAW");
+        check(argc==3 || (argc==4 && (string(argv[3])=="--strict-packets"
+                    || string(argv[3])=="--original-packets")),
+                "usage: modern-media-test MODEL_DIRECTORY GOFORWARD_RAW [--strict-packets|--original-packets]");
+        const bool strictPackets=argc==3 || string(argv[3])=="--strict-packets";
         testSegmentation();
         const auto speech=readRaw(argv[2]);
         AVStream stream={};
@@ -120,6 +176,7 @@ int main(int argc,char **argv) {
         check(forwards[0]>=10 && forwards[0]<12,"first utterance lost media PTS offset");
         check(abs(forwards[1]-forwards[0]-separation)<0.12,
                 "second utterance lost its per-utterance timestamp offset");
+        if(strictPackets) {
         const vector<Word> chunkReference=words;
         SpeechRecognition chunked;
         configure(chunked,argv[1]);
@@ -150,6 +207,7 @@ int main(int argc,char **argv) {
             check(noiseSmall[i].text==noiseLarge[i].text &&
                     abs(noiseSmall[i].time-noiseLarge[i].time)<0.0001,
                     "noise removal changed timing with decoder chunking");
+        } else originalPackets(argv[1],two,stream);
         const auto before=words.size();
         rec.flush();
         check(words.size()==before,"double flush duplicated words");
@@ -169,7 +227,9 @@ int main(int argc,char **argv) {
         rec.flush();
         check(!words.empty(),"EOF did not drain pending speech");
         rec.stop();
-        cout<<"PASS silence, utterance offsets, chunk invariance, double flush, seek reset, EOF speech drain\n";
+        cout<<"PASS silence, utterance offsets, "
+            <<(strictPackets?"strict chunk invariance":"original packet semantics")
+            <<", double flush, seek reset, EOF speech drain\n";
 
         const auto sink=make_shared<Sink>();
         Resampler resampler;
