@@ -14,8 +14,8 @@ libraries and the old decoder are not linked or bundled. See
 `gizmo/frontend/UPSTREAM.md` and the per-file provenance manifests.
 
 PocketSphinx 5.1.1 has two documented local compatibility corrections.
-The public streaming CEP
-API correction: utterance termination drains all dynamic-feature lookahead frames,
+The public streaming CEP API now drains all dynamic-feature lookahead frames
+at utterance termination,
 including when the output ring wraps. The source patch and its hash are
 recorded in `tools/macos/modern-deps.json` and included in native licenses.
 That fix leaves the raw PCM input path unchanged. A new bounded
@@ -47,7 +47,8 @@ checkout. The script does not replace an installed application.
 
 ## Regression checks
 
-`tools/macos/test-modern-media.sh` builds a standalone native integration test.
+`tools/macos/test-modern-media.sh --original-packets` builds a standalone
+native integration test with the restored packet-handling contract.
 It uses the downloaded PocketSphinx source's `goforward.raw` fixture and model
 and checks silence, multiple utterances, nonzero media timestamps, EOF speech
 drain, repeated flush, a discontinuity, custom stereo mixing and resampler
@@ -57,10 +58,16 @@ drain. It needs the dependencies produced by `build-deps-modern.sh`.
 `tools/macos/test-cep-tail.sh` checks 64 public CEP tail/reset cases around
 feature and ring boundaries. `tools/macos/test-frontend-invalid.sh` checks
 malformed input configurations and upstream warp/FFT overflow regressions.
-The application build script runs these checks before packaging.
-`tools/macos/test-speech-invariance.sh` checks that changing decoder packet
-sizes or the media timestamp origin cannot change recognized words, scores
-or relative word times. It covers both enabled and disabled noise removal.
+`tools/macos/test-frontend-stream.sh` checks 400 queue/EOF/reset cases and
+consumer-callback failure recovery. The application build script runs these
+checks before packaging.
+`tools/macos/test-speech-invariance.sh --original-packets` checks repeatable
+recognition and exact timestamp-origin shifts in both noise-removal modes,
+and reports changes caused by different decoder block sizes. The original
+frontend's live adaptation and utterance endings depend on packet boundaries;
+this behavior is intentionally retained for compatibility. The earlier v2
+contract remains available with `--strict-packets`; exact cross-packet score
+and timing equality is not promised by this restored frontend.
 `tools/macos/check-sync.py` compares complete CLI synchronizations against the
 original Intel application, using isolated preferences and output files. Run
 it against the final packaged app as well as the source build.
@@ -138,3 +145,58 @@ and all source media/captions remain unchanged by the recorded safety checks.
 `tools/macos/compare-suite.py` prepares private multi-film offset/drift
 fixtures and compares immutable app snapshots. It verifies the tested app
 hash before reusing results; its public summary excludes private source paths.
+
+### Compatibility frontend (v3, 2026-11-09)
+
+The selected frontend restores original energy/SNR detection, streaming MFCC
+ring boundaries and an empty initial CMN history. Formerly FLOAT32 decoder
+options retain their original float32 numeric values; original FLOAT64
+search beams retain their full precision. Current PocketSphinx still owns
+feature expansion and recognition. FFmpeg remains 9.0.2; PocketSphinx remains
+5.1.1 with the two explicitly recorded local compatibility corrections.
+
+The selected source candidate was compared with the same immutable original
+Intel outputs, models and unchanged matching thresholds:
+
+| Fixture | v2 maximum difference vs Intel | v3 source candidate |
+| --- | ---: | ---: |
+| Generated speech | 18 ms | 2 ms |
+| Original 20-minute AAC 5.1 sample | 215 ms | 24 ms |
+| E-AC3 5.1 sample, offset / rate drift | 160 / 160 ms | 203 / 202 ms |
+| AC3 5.1 sample, offset / rate drift | 213 / 213 ms | 165 / 31 ms |
+| Additional AC3 stereo sample, offset / rate drift | failed / failed | 249 / 154 ms |
+
+Generated speech is within 9 ms of its known cue times. Film values measure
+agreement with the original app, not absolute timing accuracy: the supplied
+captions are not verified ground truth. The E-AC3 result is slightly farther
+from the original than v2; the other listed comparisons improve, and both
+previously unsuccessful stereo-film cases complete without relaxing the
+minimum point count or confidence/distance thresholds.
+
+Offset-versus-rate-drift output agreement is 1 ms, 135 ms and 14 ms for the
+three additional films. This reflects the retained matching/point selection
+algorithm; it is not uniformly identical under transformed input captions.
+
+A separate independent frontend oracle compared exact coefficients, ring
+batches, stream frame offsets, VAD states and EOF behavior with the historical
+test-only reference: both noise modes passed on all 19,250,859 PCM samples
+and 56,400 real decoder chunks (20 minutes), using the actual model geometry.
+The old library is not needed by the app or the normal build/test scripts.
+
+The restored original packet contract deliberately retains live adaptation
+and utterance boundaries at decoder block boundaries. Controlled tests of
+both old and new frontends observe 5–10 ms word-time changes on the clean
+speech fixture when block sizes change; probabilities can change too.
+Repeating the same blocks and shifting only the media timestamp origin are
+covered independently. No exact cross-packet equality is claimed.
+
+Two globally packet-invariant alternatives were evaluated and rejected:
+fixed seven-frame handoff failed both stereo-film jobs; canonical PCM steps
+with the original ring exceeded the unchanged 500 ms comparison limit on one
+stereo-film job (571 ms). No per-film engine selection is used.
+
+The existing 433 algorithm assertions and all 105 upstream PocketSphinx tests
+pass. Additional checks cover 64 CEP tail/reset cases, malformed/overflow
+configurations and 400 streaming/partial-EOF/reset cases with callback-error
+recovery. Sanitized checks and final packaged comparisons are recorded in the
+separate v3 validation report; the installed original app is never replaced.

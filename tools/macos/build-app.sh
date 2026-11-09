@@ -46,8 +46,9 @@ tools/macos/build-native-frontend.sh
 make -C gizmo/test -j4
 tools/macos/test-cep-tail.sh
 tools/macos/test-frontend-invalid.sh
-tools/macos/test-modern-media.sh
-tools/macos/test-speech-invariance.sh
+tools/macos/test-frontend-stream.sh
+tools/macos/test-modern-media.sh --original-packets
+tools/macos/test-speech-invariance.sh --original-packets
 "$PYTHON" -m PyInstaller --noconfirm --clean macos.spec
 APP_NAME=$SUBSYNC_APP_NAME
 "$PYTHON" tools/macos/verify-bundle.py "dist/$APP_NAME.app"
