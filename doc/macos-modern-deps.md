@@ -200,3 +200,25 @@ pass. Additional checks cover 64 CEP tail/reset cases, malformed/overflow
 configurations and 400 streaming/partial-EOF/reset cases with callback-error
 recovery. Sanitized checks and final packaged comparisons are recorded in the
 separate v3 validation report; the installed original app is never replaced.
+
+#### Final v3 package verification
+
+The standalone 0.17.33 package (runtime build `9eb49a3`) was rerun on all nine
+cases above with Python/dyld overrides cleared. All passed. Every audio output
+is byte-identical to the selected source candidate; text output is identical
+to the original/v2 control. An independent parser recomputed all metrics.
+
+The unchanged application content SHA256 is
+`35bbb94caa393beb06904d6bbcb8c4d38702f9dfffea21ed1cf17db82ea69b04`.
+Its ZIP SHA256 is
+`09ab4863bdf35ef5d5645859a281dac0557690c331c80eb403cf0c9e4a8990d5`.
+The ZIP was extracted and the app hash and deep/strict signature verified
+again. All 28 Mach-O files are arm64 only. Main window, Settings and Batch
+were checked in the packaged GUI without saving settings or writing media.
+All original-app/profile and source-media protection checks pass.
+
+The required original-packet media/speech suites, malformed-input suite,
+400 stream/EOF/reset cases and callback-failure recovery pass on the final
+source. Independent ASan/UBSan checks pass. The old strict packet-equality
+checks remain unchanged and explicitly selectable for comparison; that
+v2-only contract is not claimed for the restored original frontend.
