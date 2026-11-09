@@ -1199,3 +1199,6 @@ msgstr "{} runas atpazīšanas modelis"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Atzara autors un uzturētājs: {}"
+
+msgid "Support development"
+msgstr "Atbalstīt izstrādi"

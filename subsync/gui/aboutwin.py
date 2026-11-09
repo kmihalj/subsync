@@ -18,6 +18,14 @@ class AboutWin(subsync.gui.layout.aboutwin.AboutWin):
                 _('Fork author and maintainer: {}').format('Krešimir Mihalj') +
                 '\nhttps://github.com/kmihalj/subsync')
 
+        # Keep the fork's extra control outside the generated form layout.
+        self.m_buttonSupport = wx.Button(self.m_panelMain, wx.ID_ANY,
+                _('Support development'))
+        self.m_buttonWebsite.GetContainingSizer().Insert(3,
+                self.m_buttonSupport, 0, wx.ALL, 5)
+        self.m_buttonSupport.MoveAfterInTabOrder(self.m_buttonWebsite)
+        self.m_buttonSupport.Bind(wx.EVT_BUTTON, self.onButtonSupportClick)
+
         self.m_buttonClose.SetFocus()
         self.Fit()
         self.Layout()
@@ -37,6 +45,9 @@ class AboutWin(subsync.gui.layout.aboutwin.AboutWin):
 
     def onButtonWebsiteClick(self, event):
         wx.LaunchDefaultBrowser('https://github.com/kmihalj/subsync')
+
+    def onButtonSupportClick(self, event):
+        wx.LaunchDefaultBrowser('https://github.com/sponsors/kmihalj')
 
 
 credits='''SubSync macOS ARM fork - Krešimir Mihalj (kmihalj)

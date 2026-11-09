@@ -32,11 +32,11 @@ export PATH="$ROOT/.venv/bin:$ROOT/.build/bin:$PATH"
 export SUBSYNC_DISTRIBUTION=${SUBSYNC_DISTRIBUTION:-public}
 case "$SUBSYNC_DISTRIBUTION" in
     public)
-        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
+        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync}
         export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.modern}
         ;;
     appstore)
-        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM Store Preview}
+        export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync Store Preview}
         export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.store}
         ;;
     *) echo 'SUBSYNC_DISTRIBUTION must be public or appstore' >&2; exit 1 ;;

@@ -1199,3 +1199,6 @@ msgstr "{} konuşma tanıma modeli"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Çatalın yazarı ve bakım sorumlusu: {}"
+
+msgid "Support development"
+msgstr "Geliştirmeyi destekle"

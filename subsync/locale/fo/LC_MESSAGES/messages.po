@@ -1199,3 +1199,6 @@ msgstr "talukennismyndil fyri {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Høvundur og viðlíkahaldari av frágreiningini: {}"
+
+msgid "Support development"
+msgstr "Stuðla menningini"

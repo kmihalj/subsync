@@ -1199,3 +1199,6 @@ msgstr "maodely famantarana fitenenana {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Mpanoratra sy mpikojakoja ny fork: {}"
+
+msgid "Support development"
+msgstr "Tohano ny fampandrosoana"

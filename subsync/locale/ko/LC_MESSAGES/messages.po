@@ -1199,3 +1199,6 @@ msgstr "{} 음성 인식 모델"
 
 msgid "Fork author and maintainer: {}"
 msgstr "포크 작성자 및 유지 관리자: {}"
+
+msgid "Support development"
+msgstr "개발 후원"

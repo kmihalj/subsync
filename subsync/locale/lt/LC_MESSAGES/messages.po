@@ -1199,3 +1199,6 @@ msgstr "{} kalbos atpažinimo modelis"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Atšakos autorius ir prižiūrėtojas: {}"
+
+msgid "Support development"
+msgstr "Paremti kūrimą"

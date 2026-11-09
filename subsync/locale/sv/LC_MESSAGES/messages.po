@@ -1199,3 +1199,6 @@ msgstr "taligenkänningsmodell för {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Författare och underhållare av förgreningen: {}"
+
+msgid "Support development"
+msgstr "Stöd utvecklingen"

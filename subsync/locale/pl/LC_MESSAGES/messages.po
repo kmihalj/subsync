@@ -2044,3 +2044,6 @@ msgstr "Niedozwolony wzór wyjściowy"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autor i opiekun forka: {}"
+
+msgid "Support development"
+msgstr "Wesprzyj rozwój"

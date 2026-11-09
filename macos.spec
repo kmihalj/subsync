@@ -10,7 +10,7 @@ distribution = os.environ.get('SUBSYNC_DISTRIBUTION', 'public')
 if distribution not in ('public', 'appstore'):
     raise ValueError('SUBSYNC_DISTRIBUTION must be public or appstore')
 store = distribution == 'appstore'
-app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM Store Preview' if store else 'SubSync ARM')
+app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync Store Preview' if store else 'SubSync')
 bundle_id = os.environ.get('SUBSYNC_BUNDLE_ID', 'org.kmihalj.subsync.arm64.store' if store else 'org.kmihalj.subsync.arm64.modern')
 metadata = runpy.run_path(os.path.join(SPECPATH, 'tools/macos/version_metadata.py'))
 marketing_version, build_number = metadata['bundle_versions'](version['version_short'])

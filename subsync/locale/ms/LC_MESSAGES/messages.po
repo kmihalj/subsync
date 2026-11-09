@@ -1199,3 +1199,6 @@ msgstr "model pengecaman pertuturan {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Pengarang dan penyelenggara fork: {}"
+
+msgid "Support development"
+msgstr "Sokong pembangunan"

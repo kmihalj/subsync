@@ -1199,3 +1199,6 @@ msgstr "model za prepoznavanje govora za jezik {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autor i održavatelj forka: {}"
+
+msgid "Support development"
+msgstr "Podrži razvoj"

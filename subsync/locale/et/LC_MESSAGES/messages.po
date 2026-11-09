@@ -1199,3 +1199,6 @@ msgstr "{} kõnetuvastusmudel"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Haru autor ja hooldaja: {}"
+
+msgid "Support development"
+msgstr "Toeta arendust"

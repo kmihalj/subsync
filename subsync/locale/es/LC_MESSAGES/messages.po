@@ -1199,3 +1199,6 @@ msgstr "modelo de reconocimiento de voz de {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autor y mantenedor de la bifurcación: {}"
+
+msgid "Support development"
+msgstr "Apoyar el desarrollo"

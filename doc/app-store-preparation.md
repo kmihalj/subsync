@@ -12,7 +12,7 @@ SUBSYNC_RELEASE_VERSION=1.0 \
 tools/macos/build-app.sh
 ```
 
-This produces an ad-hoc signed `SubSync ARM Store Preview.app`, with a separate
+This produces an ad-hoc signed `SubSync Store Preview.app`, with a separate
 bundle identifier. It is a development artifact, not an approved App Store app.
 The packaged `SubSyncDistribution` property controls policy; a frozen public app
 ignores environment attempts to switch it into store mode.

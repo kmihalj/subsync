@@ -1199,3 +1199,6 @@ msgstr "مدل بازشناسی گفتار {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "نویسنده و نگهدارندهٔ انشعاب: {}"
+
+msgid "Support development"
+msgstr "حمایت از توسعه"

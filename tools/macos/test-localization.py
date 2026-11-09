@@ -36,7 +36,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_all_actual_catalogs_and_mo_roundtrip(self):
         messages = catalog.source_messages()
-        self.assertEqual(len(messages), 394)
+        self.assertEqual(len(messages), 395)
         self.assertEqual(set(translations.listLanguages()), set(NAMES))
         for code in sorted(set(NAMES) - {'en'}):
             with self.subTest(locale=code):
@@ -166,18 +166,56 @@ class GuiTests(unittest.TestCase):
     def test_about_credit_and_screen_bounds_all_languages(self):
         import wx
         from subsync.gui.aboutwin import AboutWin
-        for code in sorted(NAMES):
-            translations.setLanguage(code)
-            with self.subTest(locale=code):
-                dialog = AboutWin(None)
-                text = dialog.m_staticText10.GetLabel()
-                self.assertIn('Michał Szymaniak', text)
-                self.assertIn('Krešimir Mihalj', text)
-                display = wx.Display(dialog).GetClientArea()
-                self.assertLessEqual(dialog.GetSize().width, display.width)
-                self.assertLessEqual(dialog.GetSize().height, display.height)
-                dialog.Destroy()
+        try:
+            for code in sorted(NAMES):
+                translations.setLanguage(code)
+                with self.subTest(locale=code):
+                    dialog = AboutWin(None)
+                    try:
+                        dialog.CentreOnScreen()
+                        dialog.Show()
+                        self.app.Yield()
+                        text = dialog.m_staticText10.GetLabel()
+                        self.assertIn('Michał Szymaniak', text)
+                        self.assertIn('Krešimir Mihalj', text)
+                        display = wx.Display(dialog).GetClientArea()
+                        self.assertLessEqual(dialog.GetSize().width, display.width)
+                        self.assertLessEqual(dialog.GetSize().height, display.height)
+
+                        button = dialog.m_buttonSupport
+                        expected = translations._('Support development')
+                        self.assertEqual(button.GetLabel(), expected)
+                        if code != 'en':
+                            self.assertNotEqual(expected, 'Support development')
+                        self.assertTrue(button.IsShownOnScreen())
+                        self.assertTrue(button.IsEnabled())
+                        self.assertGreater(button.GetSize().width, 0)
+                        self.assertGreater(button.GetSize().height, 0)
+                        self.assertGreaterEqual(button.GetSize().width, button.GetBestSize().width)
+                        self.assertGreaterEqual(button.GetSize().height, button.GetBestSize().height)
+                        self.assertTrue(button.GetParent().GetClientRect().Contains(button.GetRect()))
+                        self.assertTrue(display.Contains(button.GetScreenRect()))
+                    finally:
+                        dialog.Destroy()
+        finally:
+            translations.setLanguage('en')
+
+    def test_support_button_event_opens_sponsor_url(self):
+        import wx
+        from subsync.gui.aboutwin import AboutWin
         translations.setLanguage('en')
+        dialog = AboutWin(None)
+        try:
+            dialog.Show()
+            self.app.Yield()
+            button = dialog.m_buttonSupport
+            event = wx.CommandEvent(wx.EVT_BUTTON.typeId, button.GetId())
+            event.SetEventObject(button)
+            with patch('subsync.gui.aboutwin.wx.LaunchDefaultBrowser', return_value=True) as launch:
+                self.assertTrue(button.GetEventHandler().ProcessEvent(event))
+                launch.assert_called_once_with('https://github.com/sponsors/kmihalj')
+        finally:
+            dialog.Destroy()
 
 
 if __name__ == '__main__':

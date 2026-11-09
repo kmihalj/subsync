@@ -1199,3 +1199,6 @@ msgstr "modail aithneachaidh cainnte {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Ùghdar agus neach-glèidhidh na forc: {}"
+
+msgid "Support development"
+msgstr "Cuir taic ris an leasachadh"

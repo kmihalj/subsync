@@ -1199,3 +1199,6 @@ msgstr "{} beszédfelismerő modell"
 
 msgid "Fork author and maintainer: {}"
 msgstr "A fork szerzője és karbantartója: {}"
+
+msgid "Support development"
+msgstr "A fejlesztés támogatása"

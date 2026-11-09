@@ -1199,3 +1199,6 @@ msgstr "modeli i njohjes së të folurit {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autori dhe mirëmbajtësi i degëzimit: {}"
+
+msgid "Support development"
+msgstr "Mbështet zhvillimin"

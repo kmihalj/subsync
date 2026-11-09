@@ -1199,3 +1199,6 @@ msgstr "{} の音声認識モデル"
 
 msgid "Fork author and maintainer: {}"
 msgstr "フォークの作者・保守担当者: {}"
+
+msgid "Support development"
+msgstr "開発を支援"

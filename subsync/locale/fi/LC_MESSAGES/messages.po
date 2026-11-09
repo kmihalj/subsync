@@ -1199,3 +1199,6 @@ msgstr "{} puheentunnistusmalli"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Haaran tekijä ja ylläpitäjä: {}"
+
+msgid "Support development"
+msgstr "Tue kehitystä"

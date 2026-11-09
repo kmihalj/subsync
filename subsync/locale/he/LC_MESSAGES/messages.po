@@ -1199,3 +1199,6 @@ msgstr "מודל זיהוי דיבור לשפה {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "יוצר הפיצול והאחראי לתחזוקתו: {}"
+
+msgid "Support development"
+msgstr "תמיכה בפיתוח"

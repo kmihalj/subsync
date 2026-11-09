@@ -1199,3 +1199,6 @@ msgstr "{} 语音识别模型"
 
 msgid "Fork author and maintainer: {}"
 msgstr "分支作者及维护者：{}"
+
+msgid "Support development"
+msgstr "支持开发"

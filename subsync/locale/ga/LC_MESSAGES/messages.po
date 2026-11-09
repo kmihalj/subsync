@@ -1199,3 +1199,6 @@ msgstr "samhail aitheantais cainte {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Údar agus cothabhálaí an fhorc: {}"
+
+msgid "Support development"
+msgstr "Tacaigh leis an bhforbairt"

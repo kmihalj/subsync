@@ -13,8 +13,8 @@ interface and synchronization algorithm.
 
 ## Download
 
-Download the compiled DMG from [release 1.0](https://github.com/kmihalj/subsync/releases/tag/1.0).
-It contains `SubSync ARM.app` and an Applications shortcut.
+Download the compiled DMG from the [latest release](https://github.com/kmihalj/subsync/releases/latest).
+It contains `SubSync.app` and an Applications shortcut.
 The current community build is ad-hoc signed and is not Apple notarized.
 See the installation notes in the release and DMG for first-launch instructions.
 
@@ -22,7 +22,7 @@ See the installation notes in the release and DMG for first-launch instructions.
 
 The single maintained version is on `main` and targets macOS ARM64 only.
 See [build and validation details](doc/macos-modern-deps.md),
-[release validation](doc/validation-1.0.md),
+[release validation](doc/validation-1.0.1.md),
 [privacy information](doc/privacy.md) and the optional
 [App Store preparation target](doc/app-store-preparation.md).
 
@@ -37,3 +37,5 @@ Original copyright notices and third-party licenses are retained.
 
 The application remains free. Optional support helps maintain this native Mac
 version: [GitHub Sponsors](https://github.com/sponsors/kmihalj).
+The About window also offers a **Support development** button that opens this
+page in your browser.

@@ -15,7 +15,9 @@ matching thresholds merely to make a comparison pass. Do not link or bundle
 deprecated SphinxBase, SphinxAD or legacy PocketSphinx libraries. Historical
 libraries and immutable old app snapshots are test-only references in .build.
 
-Use a separate app name, bundle identifier and profile from the installed Intel app.
+Keep generated apps inside the project; never install over the Intel app.
+The public app is named `SubSync.app` at the user's request. Retain its separate
+bundle identifier and profile so it cannot use the installed Intel app's data.
 Keep the upstream Intel application updater disabled.
 
 For changed media/recognition code, run the meaningful media integration tests

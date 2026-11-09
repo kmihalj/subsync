@@ -1199,3 +1199,6 @@ msgstr "{} мадэль распазнання маўлення"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Аўтар і суправаджальнік форка: {}"
+
+msgid "Support development"
+msgstr "Падтрымаць распрацоўку"

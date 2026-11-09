@@ -1199,3 +1199,6 @@ msgstr "modelo de reconhecimento de fala de {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autor e responsável pela manutenção do fork: {}"
+
+msgid "Support development"
+msgstr "Apoiar o desenvolvimento"

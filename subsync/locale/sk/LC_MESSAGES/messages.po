@@ -1199,3 +1199,6 @@ msgstr "{} model rozpoznávania reči"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Autor a správca forku: {}"
+
+msgid "Support development"
+msgstr "Podporiť vývoj"

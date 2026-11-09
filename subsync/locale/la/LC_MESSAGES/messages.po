@@ -1199,3 +1199,6 @@ msgstr "exemplar agnitionis vocis {}"
 
 msgid "Fork author and maintainer: {}"
 msgstr "Auctor et curator huius rami: {}"
+
+msgid "Support development"
+msgstr "Progressum sustine"
