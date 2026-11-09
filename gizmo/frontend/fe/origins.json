@@ -112,10 +112,42 @@
       "origin": "PocketSphinx v5.1.1/src/fe/fe_interface.c",
       "sha256": "3ae510ade9cf12b52985e6905d6b94c93f88c41da20e4b9b9dd1a91ba1237ad0",
       "use": "Current configuration validation, parameter parsing and initialization bodies retained."
+    },
+    {
+      "origin": "pocketsphinx-5da71f0a05350c923676b02a69423d1291825d5b/include/cmdln_macro.h",
+      "sha256": "a9e0491ab7f42cd2c7d4ca9d1b333fd0b4fed521d7816e7cabaabd3899df65b7",
+      "use": "Published original FLOAT32 option list, retained with explicit IEEE binary32 narrowing in SpeechRecognition before current public decoder initialization. No FLOAT64 beam option changes."
+    },
+    {
+      "origin": "sphinxbase-617e53691889336a482631380f75b453445d0dae/include/sphinxbase/cmd_ln.h",
+      "sha256": "ed95b2450bac25bf31c0034df63a69bf6fb48edef0b04dbe959c696d0dd420ff",
+      "use": "Original cmd_ln_float32_r getter casts stored doubles to float32; reproduced with public ps_config getters/setters, without the old parser."
     }
   ],
   "upstreams": [
     "https://github.com/cmusphinx/pocketsphinx/tree/v5.1.1/src/fe",
     "https://github.com/cmusphinx/sphinxbase/tree/617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe"
-  ]
+  ],
+  "numeric_compatibility": {
+    "float32_options": [
+      "pl_pip",
+      "lw",
+      "fwdflatlw",
+      "bestpathlw",
+      "ascale",
+      "wip",
+      "nwpen",
+      "pip",
+      "uw",
+      "silprob",
+      "fillprob",
+      "tmatfloor",
+      "varfloor",
+      "mixwfloor",
+      "logbase"
+    ],
+    "initial_cmn_history_frames": 0,
+    "explicit_asset_overrides_retained": true,
+    "normalization_and_decoding": "Current PocketSphinx 5.1.1 public APIs and versioned CEP/initial-history patch."
+  }
 }

@@ -18,6 +18,7 @@ struct ss_frontend {
     int buffer_frames;
     int pending_frames;
     int pending_offset;
+    int failed;
 };
 static int valid_configuration(ps_config_t *config,int capacity)
 {
@@ -28,7 +29,8 @@ static int valid_configuration(ps_config_t *config,int capacity)
     if (!transform || !endian || !warp) return 0;
     if (strcmp(transform,"legacy") && strcmp(transform,"dct") && strcmp(transform,"htk")) return 0;
     if (strcmp(endian,"little") && strcmp(endian,"big")) return 0;
-    if (strcmp(warp,"inverse_linear") && strcmp(warp,"affine") && strcmp(warp,"piecewise_linear")) return 0;
+    if (strcmp(warp,"inverse_linear") && strcmp(warp,"affine") && strcmp(warp,"piecewise_linear")
+            && strcmp(warp,"inverse") && strcmp(warp,"linear") && strcmp(warp,"piecewise")) return 0;
     const long rate=ps_config_int(config,"samprate");
     const long frate=ps_config_int(config,"frate");
     const long nfft=ps_config_int(config,"nfft");
@@ -73,33 +75,40 @@ void ss_frontend_free(struct ss_frontend *fe)
 int ss_frontend_process(struct ss_frontend *fe,const int16_t *pcm,size_t count,
         ss_cep_callback output,void *context)
 {
+    if (fe->failed || (!pcm && count) || !output) return -1;
     while (count) {
         int32 frames=fe->buffer_frames-fe->pending_frames,offset=0;
         const size_t before=count;
         if (fe_process_frames(fe->fe,&pcm,&count,fe->mfcc+fe->pending_frames,&frames,&offset)<0)
-            return -1;
+            {fe->failed=1;return -1;}
         if (offset>0) fe->pending_offset=offset;
         fe->pending_frames+=frames;
         /* Normalization sees fixed feature batches, independent of how the
          * media decoder happens to divide PCM into packets. */
         if (fe->pending_frames==fe->buffer_frames) {
             fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,fe->pending_frames);
-            if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0) return -1;
+            if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0)
+                {fe->failed=1;return -1;}
             fe->pending_frames=0;
             fe->pending_offset=0;
         }
-        if (before==count && frames==0) return -2;
+        if (before==count && frames==0) {fe->failed=1;return -2;}
     }
     return 0;
 }
 int ss_frontend_end_utt(struct ss_frontend *fe,ss_cep_callback output,void *context)
 {
     int32 frames=0;
-    if (fe_end_utt(fe->fe,fe->mfcc[fe->pending_frames],&frames)<0) return -1;
+    // A rejected callback may already have consumed part of its CEP batch.
+    // Abort until explicit utterance reset; never retry or append past it.
+    if (fe->failed || !output || fe->pending_frames>=fe->buffer_frames) return -1;
+    if (fe_end_utt(fe->fe,fe->mfcc[fe->pending_frames],&frames)<0)
+        {fe->failed=1;return -1;}
     fe->pending_frames+=frames;
     if (fe->pending_frames) {
         fe_mfcc_to_float(fe->fe,fe->mfcc,fe->floats,fe->pending_frames);
-        if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0) return -1;
+        if (output(context,fe->floats,fe->pending_frames,fe->pending_offset)<0)
+            {fe->failed=1;return -1;}
         fe->pending_frames=0;
         fe->pending_offset=0;
     }
@@ -109,6 +118,7 @@ int ss_frontend_start_utt(struct ss_frontend *fe)
 {
     fe->pending_frames=0;
     fe->pending_offset=0;
+    fe->failed=0;
     return fe_start_utt(fe->fe);
 }
 void ss_frontend_start_stream(struct ss_frontend *fe) {fe_start_stream(fe->fe);}

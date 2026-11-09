@@ -7,6 +7,7 @@
 #include <sstream>
 #include <iomanip>
 #include <algorithm>
+#include <limits>
 
 using namespace std;
 
@@ -23,6 +24,14 @@ SpeechRecognition::SpeechRecognition() :
     // Preserve SphinxBase's original preprocessing default. Asset parameters
     // passed later through setParam() can explicitly disable it.
     ps_config_set_bool(m_config, "remove_noise", TRUE);
+    // Original CMN initialization supplied a mean without synthetic history.
+    // Later .speech asset parameters can explicitly select another history.
+    if (!ps_config_set_int(m_config,"cmninit_frames",0)) {
+        ps_config_free(m_config);
+        m_config=NULL;
+        throw EXCEPTION("PocketSphinx initial-history option is unavailable")
+            .module("SpeechRecognition","ps_config_set_int");
+    }
 }
 
 SpeechRecognition::~SpeechRecognition()
@@ -94,6 +103,24 @@ void SpeechRecognition::start(const AVStream *stream)
 {
     if (m_ps)
         stop();
+    // Original cmd_ln_float32_r narrowed these configuration values before
+    // logmath/acoustic/search initialization.  PS5's generic float accessor
+    // returns doubles. Preserve that public option's original numeric value,
+    // including explicit asset overrides; retain full precision for FLOAT64
+    // beam options. The pinned origin table is in frontend/fe/origins.json.
+    static const char *const originalFloat32[]={
+        "pl_pip","lw","fwdflatlw","bestpathlw","ascale","wip","nwpen",
+        "pip","uw","silprob","fillprob","tmatfloor","varfloor",
+        "mixwfloor","logbase"
+    };
+    for (const char *name:originalFloat32) {
+        const double value=ps_config_float(m_config,name);
+        if (!isfinite(value) || abs(value)>numeric_limits<float>::max())
+            throw EXCEPTION("invalid original floating-point parameter")
+                .module("SpeechRecognition","numericCompatibility")
+                .add("parameter",name);
+        ps_config_set_float(m_config,name,static_cast<double>(static_cast<float>(value)));
+    }
     m_ps = ps_init(m_config);
     if (m_ps == NULL)
         throw EXCEPTION("can't init Sphinx engine")
