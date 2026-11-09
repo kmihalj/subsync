@@ -41,9 +41,15 @@ class ChoiceLang(ChoiceCustomLang):
 
 class ChoiceGuiLang(ChoiceCustomLang):
     def __init__(self, *args, **kwargs):
-        from subsync.data import languages
+        from subsync.data.uilanguages import NAMES
         from subsync.translations import listLanguages as langs
 
         super().__init__(*args, **kwargs)
         self.Append(_('default'), None)
-        self.addSortedLangs({ languages.get(code2=x, name=x).name: x for x in langs() })
+        self.addSortedLangs({ NAMES[x]: x for x in langs() })
+
+    def SetValue(self, lang):
+        from subsync.data.uilanguages import normalize
+        if isinstance(lang, str):
+            lang = normalize(lang)
+        return super().SetValue(lang)

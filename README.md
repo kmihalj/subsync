@@ -1,17 +1,32 @@
-# SubSync for macOS ARM64
+# SubSync for macOS Apple Silicon
 
-This fork focuses on native Apple Silicon builds while preserving SubSync's
-existing wxPython interface and synchronization algorithm.
+SubSync synchronizes subtitles with audio or with another subtitle track.
+This maintained fork runs natively on Apple Silicon and preserves the familiar
+interface and synchronization algorithm.
 
-- `macos-arm64`: compatibility build using the original speech recognition API.
-- `experimental/modern-deps`: separate FFmpeg / PocketSphinx modernization.
+- Native macOS ARM64; no Rosetta dependency.
+- FFmpeg 9.0.2 and PocketSphinx 5.1.1 with documented compatibility fixes.
+- 46 interface languages: the union of 24 official EU languages and the
+  45 subtitle-selector languages. Translations are machine-assisted drafts;
+  native-language corrections are welcome.
+- Free and open source under GPLv3. All features are available without payment.
 
-Current branch build instructions and validation status:
-[modern macOS ARM64](doc/macos-modern-deps.md). This branch uses FFmpeg 9.0.2
-and PocketSphinx 5.1.1 with documented compatibility corrections; deprecated
-SphinxBase libraries are not required or bundled.
+## Download
 
-## Upstream deprecation notice
-The original project is no longer actively maintained.
+Download the compiled DMG from [release 1.0](https://github.com/kmihalj/subsync/releases/tag/1.0).
+It contains `SubSync ARM.app` and an Applications shortcut.
+The current community build is ad-hoc signed and is not Apple notarized.
+See the installation notes in the release and DMG for first-launch instructions.
 
-For details see [#197](https://github.com/sc0ty/subsync/issues/197).
+## Development
+
+The single maintained version is on `main` and targets macOS ARM64 only.
+See [build and validation details](doc/macos-modern-deps.md).
+
+Based on [sc0ty/SubSync](https://github.com/sc0ty/subsync) by Michał Szymaniak.
+Original copyright notices and third-party licenses are retained.
+
+## Support development
+
+The application remains free. Optional support helps maintain this native Mac
+version: [GitHub Sponsors](https://github.com/sponsors/kmihalj).

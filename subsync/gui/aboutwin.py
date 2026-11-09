@@ -22,12 +22,12 @@ class AboutWin(subsync.gui.layout.aboutwin.AboutWin):
         wx.CallAfter(self.Fit)
 
     def onButtonLicenseClick(self, event):
-        dlg = wx.lib.dialogs.ScrolledMessageDialog(self, license, 'License',
+        dlg = wx.lib.dialogs.ScrolledMessageDialog(self, license, _('License'),
                 size=(500, 800))
         dlg.ShowModal()
 
     def onButtonCreditsClick(self, event):
-        dlg = wx.lib.dialogs.ScrolledMessageDialog(self, credits, 'Credits',
+        dlg = wx.lib.dialogs.ScrolledMessageDialog(self, credits, _('Credits'),
                 size=(600, 300))
         dlg.ShowModal()
 

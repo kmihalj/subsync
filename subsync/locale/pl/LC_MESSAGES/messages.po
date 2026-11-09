@@ -661,7 +661,7 @@ msgstr "&Język"
 
 #: subsync/gui/components/batchlist/batchlist.py:44
 msgid "Character &encoding"
-msgstr "Kodowanie znaków"
+msgstr "&Kodowanie znaków"
 
 #: subsync/gui/components/batchlist/batchlist.py:47
 msgid "Audio &channels"
@@ -870,13 +870,7 @@ msgid ""
 "It could also use another subtitle as a reference.\n"
 "\n"
 "Author: Michał Szymaniak"
-msgstr ""
-"Narzędzie do automatycznej synchronizacji napisów do filmu.\n"
-"Synchronizacja odbywa się poprzez słuchanie ścieżki audio.\n"
-"W razie konieczności, ścieżka ta zostanie przetłumaczona.\n"
-"Możliwa jest również synchronizacja z innymi napisami.\n"
-"\n"
-"Autor: Michał Szymaniak"
+msgstr "Narzędzie do automatycznej synchronizacji napisów do filmu.\nSynchronizacja odbywa się poprzez słuchanie ścieżki audio, tłumaczonej w razie potrzeby.\nMożliwa jest również synchronizacja z innymi napisami.\n\nAutor: Michał Szymaniak"
 
 #: subsync/gui/layout/aboutwin.py:85
 msgid "License"
@@ -938,7 +932,7 @@ msgstr "Max zmiana:"
 
 #: subsync/gui/layout/batchwin.py:145 subsync/gui/layout/mainwin.py:75
 msgid "999 min"
-msgstr ""
+msgstr "999 min"
 
 #: subsync/gui/layout/batchwin.py:150
 msgid "Effort:"
@@ -946,7 +940,7 @@ msgstr "Wysiłek:"
 
 #: subsync/gui/layout/batchwin.py:163
 msgid "0.50"
-msgstr ""
+msgstr "0.50"
 
 #: subsync/gui/layout/batchwin.py:197
 msgid "Edit failed tasks"
@@ -1229,12 +1223,12 @@ msgstr "wzór:"
 #: subsync/gui/layout/outpatternwin.py:138
 #, python-brace-format
 msgid "{sub_path}"
-msgstr ""
+msgstr "{sub_path}"
 
 #: subsync/gui/layout/outpatternwin.py:145
 #, python-brace-format
 msgid "{ref_path}"
-msgstr ""
+msgstr "{ref_path}"
 
 #: subsync/gui/layout/outpatternwin.py:152
 msgid "subtitle/reference file full path"
@@ -1243,12 +1237,12 @@ msgstr "pełna ścieżka napisów/referencji"
 #: subsync/gui/layout/outpatternwin.py:157
 #, python-brace-format
 msgid "{sub_no}"
-msgstr ""
+msgstr "{sub_no}"
 
 #: subsync/gui/layout/outpatternwin.py:164
 #, python-brace-format
 msgid "{ref_no}"
-msgstr ""
+msgstr "{ref_no}"
 
 #: subsync/gui/layout/outpatternwin.py:171
 msgid "subtitle/reference stream number"
@@ -1257,12 +1251,12 @@ msgstr "numer strumienia napisów/referencji"
 #: subsync/gui/layout/outpatternwin.py:176
 #, python-brace-format
 msgid "{sub_lang}"
-msgstr ""
+msgstr "{sub_lang}"
 
 #: subsync/gui/layout/outpatternwin.py:183
 #, python-brace-format
 msgid "{ref_lang}"
-msgstr ""
+msgstr "{ref_lang}"
 
 #: subsync/gui/layout/outpatternwin.py:190
 msgid "subtitle/reference 3-letters language code"
@@ -1271,12 +1265,12 @@ msgstr "3-literowy kod języka napisów/referencji"
 #: subsync/gui/layout/outpatternwin.py:195
 #, python-brace-format
 msgid "{sub_lang2}"
-msgstr ""
+msgstr "{sub_lang2}"
 
 #: subsync/gui/layout/outpatternwin.py:202
 #, python-brace-format
 msgid "{ref_lang2}"
-msgstr ""
+msgstr "{ref_lang2}"
 
 #: subsync/gui/layout/outpatternwin.py:209
 msgid "subtitle/reference 2-letters language code"
@@ -1285,12 +1279,12 @@ msgstr "2-literowy kod języka napisów/referencji"
 #: subsync/gui/layout/outpatternwin.py:214
 #, python-brace-format
 msgid "{sub_name}"
-msgstr ""
+msgstr "{sub_name}"
 
 #: subsync/gui/layout/outpatternwin.py:221
 #, python-brace-format
 msgid "{ref_name}"
-msgstr ""
+msgstr "{ref_name}"
 
 #: subsync/gui/layout/outpatternwin.py:228
 msgid "file name (without path and extension)"
@@ -1299,12 +1293,12 @@ msgstr "nazwa pliku (bez folderu i rozszerzenia)"
 #: subsync/gui/layout/outpatternwin.py:233
 #, python-brace-format
 msgid "{sub_dir}"
-msgstr ""
+msgstr "{sub_dir}"
 
 #: subsync/gui/layout/outpatternwin.py:240
 #, python-brace-format
 msgid "{ref_dir}"
-msgstr ""
+msgstr "{ref_dir}"
 
 #: subsync/gui/layout/outpatternwin.py:247
 msgid "directory path"
@@ -1312,7 +1306,7 @@ msgstr "ścieżka folderu"
 
 #: subsync/gui/layout/outpatternwin.py:252
 msgid "{if:<field>:<value>}"
-msgstr "{if:<pole>:<wartosc>}"
+msgstr "{if:<field>:<value>}"
 
 #: subsync/gui/layout/outpatternwin.py:259
 msgid "if <field> is set, append <value>"
@@ -1320,7 +1314,7 @@ msgstr "jeśli <pole> istnieje, użyj <wartosc>"
 
 #: subsync/gui/layout/outpatternwin.py:264
 msgid "{if_not:<field>:<value>}"
-msgstr "{if_not:<pole>:<wartosc>}"
+msgstr "{if_not:<field>:<value>}"
 
 #: subsync/gui/layout/outpatternwin.py:271
 msgid "if <field> is not set, append <value>"
@@ -1420,23 +1414,23 @@ msgstr "wszystko"
 
 #: subsync/gui/layout/settingswin.py:278
 msgid "debug"
-msgstr ""
+msgstr "debugowanie"
 
 #: subsync/gui/layout/settingswin.py:278
 msgid "info"
-msgstr ""
+msgstr "informacje"
 
 #: subsync/gui/layout/settingswin.py:278
 msgid "warning"
-msgstr ""
+msgstr "ostrzeżenie"
 
 #: subsync/gui/layout/settingswin.py:278
 msgid "error"
-msgstr ""
+msgstr "błąd"
 
 #: subsync/gui/layout/settingswin.py:278
 msgid "critical"
-msgstr ""
+msgstr "krytyczny"
 
 #: subsync/gui/layout/settingswin.py:292
 msgid "log to file"
@@ -1524,29 +1518,27 @@ msgid ""
 "Initial synchronization is done.\n"
 "You could save subtitles already.\n"
 "If they don't match, wait for a better result."
-msgstr ""
-"Wstępna synchronizacja zakończona.\n"
-"Możesz już zapisać napisy lub zaczekaj na lepszy rezultat."
+msgstr "Wstępna synchronizacja została zakończona.\nMożesz już zapisać napisy.\nJeśli nie pasują, poczekaj na lepszy wynik."
 
 #: subsync/gui/layout/syncwin.py:207
 msgid "Enable save button"
-msgstr ""
+msgstr "Włącz przycisk zapisu"
 
 #: subsync/gui/layout/syncwin.py:212
 msgid "Dump subtitle words"
-msgstr ""
+msgstr "Zapisz słowa napisów"
 
 #: subsync/gui/layout/syncwin.py:215
 msgid "Dump reference words"
-msgstr ""
+msgstr "Zapisz słowa odniesienia"
 
 #: subsync/gui/layout/syncwin.py:220
 msgid "Dump all synchronization points"
-msgstr ""
+msgstr "Zapisz wszystkie punkty synchronizacji"
 
 #: subsync/gui/layout/syncwin.py:223
 msgid "Dump used synchronization points"
-msgstr ""
+msgstr "Zapisz użyte punkty synchronizacji"
 
 #: subsync/gui/layout/syncwin.py:238
 msgid "Save"

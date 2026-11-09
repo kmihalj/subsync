@@ -39,6 +39,7 @@ export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig"
 export PKG_CONFIG_LIBDIR="$PREFIX/lib/pkgconfig"
 export DYLD_LIBRARY_PATH="$PREFIX/lib"
 cp subsync/config.py.template subsync/config.py
+"$PYTHON" tools/macos/localization.py compile
 tools/macos/build-native-frontend.sh
 "$PYTHON" setup.py build_ext --inplace --force
 "$PYTHON" setup.py gen_version
