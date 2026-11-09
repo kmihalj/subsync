@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Türkçe\nLanguage: tr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Hakkında"
+
+msgid "&Add files (auto sort)"
+msgstr "&Dosya ekle (otomatik sırala)"
+
+msgid "&Close"
+msgstr "&Kapat"
+
+msgid "&Edit"
+msgstr "&Düzenle"
+
+msgid "&Export list"
+msgstr "&Listeyi dışa aktar"
+
+msgid "&File"
+msgstr "&Dosya"
+
+msgid "&Help"
+msgstr "&Yardım"
+
+msgid "&Import list"
+msgstr "&Listeyi içe aktar"
+
+msgid "&Language"
+msgstr "&Dil"
+
+msgid "&New"
+msgstr "&Yeni"
+
+msgid "&Properties"
+msgstr "&Özellikler"
+
+msgid "&Propeties"
+msgstr "&Özellikler"
+
+msgid "&Remove"
+msgstr "&Kaldır"
+
+msgid ", {} points"
+msgstr ", {} nokta"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "Otomatik seçim için 0."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 dakika"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<otomatik>"
+
+msgid "<empty>"
+msgstr "<boş>"
+
+msgid "<other>"
+msgstr "<diğer>"
+
+msgid "<undefined>"
+msgstr "<tanımsız>"
+
+msgid "About"
+msgstr "Hakkında"
+
+msgid "Add"
+msgstr "Ekle"
+
+msgid "Add &folder"
+msgstr "&Klasör ekle"
+
+msgid "Add &references"
+msgstr "&Başvuru ekle"
+
+msgid "Add &subtitles"
+msgstr "&Altyazı ekle"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Arnavutça"
+
+msgid "All files"
+msgstr "Tüm dosyalar"
+
+msgid "All supported files"
+msgstr "Desteklenen tüm dosyalar"
+
+msgid "Another update in progress"
+msgstr "Başka bir güncelleme sürüyor"
+
+msgid "Application upgrade"
+msgstr "Uygulama yükseltmesi"
+
+msgid "Arabic"
+msgstr "Arapça"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Var olan çıktı dosyalarının üzerine yazmak istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Ayarları varsayılan değerlere döndürmek istediğinizden emin misiniz?"
+
+msgid "Asset installation failed"
+msgstr "Kaynaklar yüklenemedi"
+
+msgid "Au&to sort"
+msgstr "&Otomatik sırala"
+
+msgid "Audio &channels"
+msgstr "Ses &kanalları"
+
+msgid "Audio channels"
+msgstr "Ses kanalları"
+
+msgid "Audio channels:"
+msgstr "Ses kanalları:"
+
+msgid "Auto detect"
+msgstr "Otomatik algıla"
+
+msgid "Auto sort"
+msgstr "Otomatik sırala"
+
+msgid "Batch Processing"
+msgstr "Toplu İşlem"
+
+msgid "Batch processing"
+msgstr "Toplu işlem"
+
+msgid "Belarusian"
+msgstr "Belarusça"
+
+msgid "Bulgarian"
+msgstr "Bulgarca"
+
+msgid "Can't save subtitle file"
+msgstr "Altyazı dosyası kaydedilemiyor"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Cannot load settings file, {}"
+msgstr "Ayar dosyası yüklenemiyor, {}"
+
+msgid "Catalan"
+msgstr "Katalanca"
+
+msgid "Character &encoding"
+msgstr "Karakter &kodlaması"
+
+msgid "Character encoding"
+msgstr "Karakter kodlaması"
+
+msgid "Character encoding:"
+msgstr "Karakter kodlaması:"
+
+msgid "Check for updates"
+msgstr "Güncellemeleri denetle"
+
+msgid "Checking for update..."
+msgstr "Güncellemeler denetleniyor..."
+
+msgid "Chinese"
+msgstr "Çince"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Eşitlenmiş altyazılar kaydedilemedi"
+
+msgid "Couldn't synchronize"
+msgstr "Eşitlenemedi"
+
+msgid "Credits"
+msgstr "Katkıda bulunanlar"
+
+msgid "Croatian"
+msgstr "Hırvatça"
+
+msgid "Current file:"
+msgstr "Geçerli dosya:"
+
+msgid "Czech"
+msgstr "Çekçe"
+
+msgid "Danish"
+msgstr "Danca"
+
+msgid "Debug"
+msgstr "Hata ayıklama"
+
+msgid "Debug options:"
+msgstr "Hata ayıklama seçenekleri:"
+
+msgid "Do you want to clear all items?"
+msgstr "Tüm öğeleri temizlemek istiyor musunuz?"
+
+msgid "Download"
+msgstr "İndir"
+
+msgid "Download assets"
+msgstr "Kaynakları indir"
+
+msgid "Download now?"
+msgstr "Şimdi indirilsin mi?"
+
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+msgid "Downloading assets list..."
+msgstr "Kaynak listesi indiriliyor..."
+
+msgid "Drop files here to add sorted"
+msgstr "Dosyaları sıralayarak eklemek için buraya bırakın"
+
+msgid "Dump all synchronization points"
+msgstr "Tüm eşitleme noktalarını dök"
+
+msgid "Dump reference words"
+msgstr "Başvuru sözcüklerini dök"
+
+msgid "Dump subtitle words"
+msgstr "Altyazı sözcüklerini dök"
+
+msgid "Dump used synchronization points"
+msgstr "Kullanılan eşitleme noktalarını dök"
+
+msgid "Dutch"
+msgstr "Felemenkçe"
+
+msgid "ETA:"
+msgstr "Kalan süre:"
+
+msgid "Edit all tasks"
+msgstr "Tüm görevleri düzenle"
+
+msgid "Edit failed tasks"
+msgstr "Başarısız görevleri düzenle"
+
+msgid "Effort:"
+msgstr "Çaba:"
+
+msgid "Elapsed:"
+msgstr "Geçen süre:"
+
+msgid "Enable save button"
+msgstr "Kaydet düğmesini etkinleştir"
+
+msgid "English"
+msgstr "İngilizce"
+
+msgid "Error"
+msgstr "Hata"
+
+msgid "Error during reference read"
+msgstr "Başvuru okunurken hata oluştu"
+
+msgid "Error during subtitles read"
+msgstr "Altyazılar okunurken hata oluştu"
+
+msgid "Estonian"
+msgstr "Estonca"
+
+msgid "Everything synchronized successfully"
+msgstr "Tümü başarıyla eşitlendi"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Tümü eşitlendi, ancak hatalar oluştu"
+
+msgid "Extractor jobs no:"
+msgstr "Çıkarma görevi sayısı:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Faroe dili"
+
+msgid "File name:"
+msgstr "Dosya adı:"
+
+msgid "File type:"
+msgstr "Dosya türü:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Günlükte gösterilmeyecek modüller (her satıra bir tane):"
+
+msgid "Finnish"
+msgstr "Fince"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Çıktı altyazısının zaman damgalarını belirtilen saniye kadar kaydır."
+
+msgid "Following assets could be updated:"
+msgstr "Şu kaynaklar güncellenebilir:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Devam etmek için şu kaynaklar indirilmelidir:"
+
+msgid "Following files could not be added:"
+msgstr "Şu dosyalar eklenemedi:"
+
+msgid "French"
+msgstr "Fransızca"
+
+msgid "GUI options:"
+msgstr "Grafik arayüz seçenekleri:"
+
+msgid "Gaelic"
+msgstr "İskoç Gaelcesi"
+
+msgid "Galician"
+msgstr "Galiçyaca"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "General options:"
+msgstr "Genel seçenekler:"
+
+msgid "German"
+msgstr "Almanca"
+
+msgid "Got errors, synchronization failed"
+msgstr "Hatalar oluştu, eşitleme başarısız"
+
+msgid "Greek"
+msgstr "Yunanca"
+
+msgid "Headless options:"
+msgstr "Arayüzsüz çalışma seçenekleri:"
+
+msgid "Hebrew"
+msgstr "İbranice"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Altyazıları eşitlemek için harcanacak çaba. Daha yüksek bir değer daha iyi eşitleme sağlar, ancak daha uzun sürer."
+
+msgid "Hungarian"
+msgstr "Macarca"
+
+msgid "Icelandic"
+msgstr "İzlandaca"
+
+msgid "In seconds."
+msgstr "Saniye cinsinden."
+
+msgid "Indonesian"
+msgstr "Endonezce"
+
+msgid "Info"
+msgstr "Bilgi"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "İlk eşitleme tamamlandı.\nAltyazıları şimdiden kaydedebilirsiniz.\nUyumlu değillerse daha iyi bir sonuç için bekleyin."
+
+msgid "Initializing..."
+msgstr "Başlatılıyor..."
+
+msgid "Input file:"
+msgstr "Girdi dosyası:"
+
+msgid "Invalid output pattern"
+msgstr "Geçersiz çıktı kalıbı"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Geçersiz çıktı kalıbı, geçersiz anahtar sözcük: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Geçersiz çıktı kalıbı, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Geçersiz konuşma sesi biçimi"
+
+msgid "Italian"
+msgstr "İtalyanca"
+
+msgid "Japanese"
+msgstr "Japonca"
+
+msgid "Korean"
+msgstr "Korece"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Dil seçmek zorunlu değildir, ancak eşitleme doğruluğunu önemli ölçüde artırabilir.\nDevam etmek istiyor musunuz?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Dil değişiklikleri uygulama yeniden başlatıldıktan sonra geçerli olur"
+
+msgid "Language:"
+msgstr "Dil:"
+
+msgid "Languages"
+msgstr "Diller"
+
+msgid "Latin"
+msgstr "Latince"
+
+msgid "Latvian"
+msgstr "Letonca"
+
+msgid "License"
+msgstr "Lisans"
+
+msgid "Lithuanian"
+msgstr "Litvanca"
+
+msgid "Loading, please wait..."
+msgstr "Yükleniyor, lütfen bekleyin..."
+
+msgid "Logging level:"
+msgstr "Günlük düzeyi:"
+
+msgid "Malagasy"
+msgstr "Malgaşça"
+
+msgid "Malay"
+msgstr "Malayca"
+
+msgid "Maltese"
+msgstr "Maltaca"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "En fazla düzeltme. Altyazı zamanı bu değerden fazla değiştirilmez. Daha yüksek değer eşitlemeyi uzatır, ancak çok düşük bir değer eşitlemenin başarısız olmasına yol açabilir."
+
+msgid "Max adjustment:"
+msgstr "En fazla düzeltme:"
+
+msgid "Max points distance:"
+msgstr "Noktalar arası en fazla uzaklık:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Saniye cinsinden kabul edilebilir en yüksek eşitleme hatası. Hatası bu değerden büyük olan noktalar atılır."
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Min correlation factor:"
+msgstr "En düşük korelasyon katsayısı:"
+
+msgid "Min points no:"
+msgstr "En az nokta sayısı:"
+
+msgid "Min speech recognition score:"
+msgstr "En düşük konuşma tanıma puanı:"
+
+msgid "Min word length (letters):"
+msgstr "En az sözcük uzunluğu (harf):"
+
+msgid "Min words similarity:"
+msgstr "En düşük sözcük benzerliği:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "0.0 ile 1.0 arasında en düşük korelasyon katsayısı. Eşitleme sonucunu belirlemek için kullanılır. Katsayı daha düşükse eşitleme başarısız olur."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "0.0 ile 1.0 arasında en düşük konuşma tanıma puanı. Daha düşük puanla tanınan sözcükler reddedilir."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Harf cinsinden en az sözcük uzunluğu. Daha kısa sözcükler eşitleme noktası olarak kullanılmaz. Yalnızca alfabe kullanan dillere uygulanır."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Eşitleme noktaları için en düşük sözcük benzerliği. 0.0 ile 1.0 arasındadır."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "En az eşitleme noktası sayısı. Çok yüksek ayarlanması çok sayıda yanlış eşleşmeye yol açabilir."
+
+msgid "New synchronization"
+msgstr "Yeni eşitleme"
+
+msgid "New version is available. Update now?"
+msgstr "Yeni bir sürüm var. Şimdi güncellensin mi?"
+
+msgid "No language selected"
+msgstr "Dil seçilmedi"
+
+msgid "No language selected for:"
+msgstr "Şunlar için dil seçilmedi:"
+
+msgid "No need to synchronize"
+msgstr "Eşitleme gerekmiyor"
+
+msgid "Norwegian"
+msgstr "Norveççe"
+
+msgid "Not supported stream type"
+msgstr "Desteklenmeyen akış türü"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Aynı anda çalışan eşitleme iş parçacığı sayısı."
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Output directory:"
+msgstr "Çıktı dizini:"
+
+msgid "Output encoding:"
+msgstr "Çıktı kodlaması:"
+
+msgid "Output file names"
+msgstr "Çıktı dosyası adları"
+
+msgid "Output file not set"
+msgstr "Çıktı dosyası belirtilmedi"
+
+msgid "Output filename:"
+msgstr "Çıktı dosyası adı:"
+
+msgid "Output timing offset:"
+msgstr "Çıktı zaman kaydırması:"
+
+msgid "Overwrite existing files"
+msgstr "Var olan dosyaların üzerine yaz"
+
+msgid "Overwrite files?"
+msgstr "Dosyaların üzerine yazılsın mı?"
+
+msgid "Persian"
+msgstr "Farsça"
+
+msgid "Polish"
+msgstr "Lehçe"
+
+msgid "Portuguese"
+msgstr "Portekizce"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Eşitleme sırasında uykuya geçmeyi önle"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Eşitleme sırasında sistemin uykuya geçmesini önler.\nTüm platformlarda çalışmayabilir."
+
+msgid "Reference file not set"
+msgstr "Başvuru dosyası belirtilmedi"
+
+msgid "References (video or other subtitles):"
+msgstr "Başvurular (video veya başka altyazılar):"
+
+msgid "Remove"
+msgstr "Kaldır"
+
+msgid "Remove items"
+msgstr "Öğeleri kaldır"
+
+msgid "Restore defaults"
+msgstr "Varsayılanları geri yükle"
+
+msgid "Romanian"
+msgstr "Rumence"
+
+msgid "Russian"
+msgstr "Rusça"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Select"
+msgstr "Seç"
+
+msgid "Select &all"
+msgstr "&Tümünü seç"
+
+msgid "Select &stream"
+msgstr "&Akış seç"
+
+msgid "Select all &references"
+msgstr "Tüm &başvuruları seç"
+
+msgid "Select all &subtitles"
+msgstr "Tüm &altyazıları seç"
+
+msgid "Select all o&utputs"
+msgstr "Tüm &çıktıları seç"
+
+msgid "Select audio channels to listen to:"
+msgstr "Dinlenecek ses kanallarını seçin:"
+
+msgid "Select character encoding"
+msgstr "Karakter kodlamasını seçin"
+
+msgid "Select directory"
+msgstr "Dizin seçin"
+
+msgid "Select file"
+msgstr "Dosya seçin"
+
+msgid "Select language"
+msgstr "Dil seçin"
+
+msgid "Select output"
+msgstr "Çıktı seçin"
+
+msgid "Select output directory"
+msgstr "Çıktı dizinini seçin"
+
+msgid "Select output subtitles framerate:"
+msgstr "Çıktı altyazısının kare hızını seçin:"
+
+msgid "Select reference language first"
+msgstr "Önce başvuru dilini seçin"
+
+msgid "Select stream"
+msgstr "Akış seçin"
+
+msgid "Select stream by language:"
+msgstr "Dile göre akış seçin:"
+
+msgid "Select stream by title:"
+msgstr "Başlığa göre akış seçin:"
+
+msgid "Select stream by type:"
+msgstr "Türe göre akış seçin:"
+
+msgid "Select stream:"
+msgstr "Akış seçin:"
+
+msgid "Select streams"
+msgstr "Akışları seçin"
+
+msgid "Serbian"
+msgstr "Sırpça"
+
+msgid "Set &input stream"
+msgstr "&Girdi akışını ayarla"
+
+msgid "Set &output location"
+msgstr "&Çıktı konumunu ayarla"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Show popups:"
+msgstr "Açılır bildirimler:"
+
+msgid "Signature verification failed"
+msgstr "İmza doğrulanamadı"
+
+msgid "Slovak"
+msgstr "Slovakça"
+
+msgid "Slovenian"
+msgstr "Slovence"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Bazı başvuru altyazıları çözülemiyor (kodlama geçersiz olabilir mi?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Bazı altyazılar çözülemiyor (kodlama geçersiz olabilir mi?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Bazı görevler eşitlenemedi"
+
+msgid "Spanish"
+msgstr "İspanyolca"
+
+msgid "Start"
+msgstr "Başlat"
+
+msgid "Status:"
+msgstr "Durum:"
+
+msgid "Stop"
+msgstr "Durdur"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Altyazı\nKonuşma\nEşitleyicisi"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Altyazı Konuşma Eşitleyicisi"
+
+msgid "Subtitle files"
+msgstr "Altyazı dosyaları"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Altyazılar başvuruyla aynı olamaz"
+
+msgid "Subtitles not set"
+msgstr "Altyazılar belirtilmedi"
+
+msgid "Subtitles synchronized"
+msgstr "Altyazılar eşitlendi"
+
+msgid "Subtitles:"
+msgstr "Altyazılar:"
+
+msgid "Swedish"
+msgstr "İsveççe"
+
+msgid "Synchronization"
+msgstr "Eşitleme"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "{} dilleri arasında eşitleme şu anda desteklenmiyor."
+
+msgid "Synchronization job:"
+msgstr "Eşitleme görevi:"
+
+msgid "Synchronization options:"
+msgstr "Eşitleme seçenekleri:"
+
+msgid "Synchronization terminated"
+msgstr "Eşitleme sonlandırıldı"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "{} dilindeki sesle eşitleme şu anda desteklenmiyor."
+
+msgid "Synchronization: 0 points"
+msgstr "Eşitleme: 0 nokta"
+
+msgid "Synchronization: {} points"
+msgstr "Eşitleme: {} nokta"
+
+msgid "Synchronizing..."
+msgstr "Eşitleniyor..."
+
+msgid "Task:"
+msgstr "Görev:"
+
+msgid "Terminating, please wait..."
+msgstr "Sonlandırılıyor, lütfen bekleyin..."
+
+msgid "Terminating..."
+msgstr "Sonlandırılıyor..."
+
+msgid "There are no usable streams"
+msgstr "Kullanılabilir akış yok"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "{} dilinden {} diline çeviri sözlüğü yok"
+
+msgid "There is no matching stream in {}"
+msgstr "{} içinde eşleşen akış yok"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "{} dili için konuşma tanıma modeli yok"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Bu, film altyazılarını otomatik olarak eşitleyen bir araçtır.\nEşitleme, ses kaydı analiz edilerek ve gerektiğinde çevrilerek yapılır.\nBaşka bir altyazı da başvuru olarak kullanılabilir.\n\nYazar: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Tamamen başarısız"
+
+msgid "Total progress:"
+msgstr "Toplam ilerleme:"
+
+msgid "Turkish"
+msgstr "Türkçe"
+
+msgid "Ukrainian"
+msgstr "Ukraynaca"
+
+msgid "Unexpected error occurred"
+msgstr "Beklenmeyen bir hata oluştu"
+
+msgid "Unknown file extension"
+msgstr "Bilinmeyen dosya uzantısı"
+
+msgid "Update assets"
+msgstr "Kaynakları güncelle"
+
+msgid "Update instalation failed miserably"
+msgstr "Güncelleme yüklenemedi"
+
+msgid "Update not available"
+msgstr "Güncelleme yok"
+
+msgid "Update now?"
+msgstr "Şimdi güncellensin mi?"
+
+msgid "Updates:"
+msgstr "Güncellemeler:"
+
+msgid "Upgrade"
+msgstr "Yükselt"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Kullanım: {} [SEÇENEKLER]"
+
+msgid "Video files"
+msgstr "Video dosyaları"
+
+msgid "Website"
+msgstr "Web sitesi"
+
+msgid "Your version is up to date"
+msgstr "Sürümünüz güncel"
+
+msgid "[details]"
+msgstr "[ayrıntılar]"
+
+msgid "[errors]"
+msgstr "[hatalar]"
+
+msgid "[hide]"
+msgstr "[gizle]"
+
+msgid "[show more]"
+msgstr "[daha fazla göster]"
+
+msgid "all"
+msgstr "tümü"
+
+msgid "all channels"
+msgstr "tüm kanallar"
+
+msgid "and {} more"
+msgstr "ve {} tane daha"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "2 harfli dil kodu ekle (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "3 harfli dil kodu ekle (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "akış numarası ekle"
+
+msgid "ask for update on exit"
+msgstr "çıkarken güncellemeyi sor"
+
+msgid "audio"
+msgstr "ses"
+
+msgid "auto"
+msgstr "otomatik"
+
+msgid "auto select"
+msgstr "otomatik seç"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "dosyanın üzerine yazmayı onayla (toplu işlem kipinde)"
+
+msgid "correlation:"
+msgstr "korelasyon:"
+
+msgid "couldn't synchronize"
+msgstr "eşitlenemedi"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "özel derleme"
+
+msgid "custom names:"
+msgstr "özel adlar:"
+
+msgid "custom selection"
+msgstr "özel seçim"
+
+msgid "custom value:"
+msgstr "özel değer:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "varsayılan"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "eşitleme görevi tanımla; birden çok kez yinelenebilir"
+
+msgid "description"
+msgstr "açıklama"
+
+msgid "dictionary {} / {}"
+msgstr "sözlük {} / {}"
+
+msgid "directory path"
+msgstr "dizin yolu"
+
+msgid "display this help text and exit"
+msgstr "bu yardım metnini göster ve çık"
+
+msgid "display version information and exit"
+msgstr "sürüm bilgisini göster ve çık"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "eksik kaynaklar için uzak sunucuya bağlanma"
+
+msgid "don't show this message again"
+msgstr "bu iletiyi tekrar gösterme"
+
+msgid "done"
+msgstr "tamamlandı"
+
+msgid "download updates automatically"
+msgstr "güncellemeleri otomatik indir"
+
+msgid "downloading"
+msgstr "indiriliyor"
+
+msgid "drop here"
+msgstr "buraya bırakın"
+
+msgid "dump logs to specified file"
+msgstr "günlükleri belirtilen dosyaya yaz"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "sözcükleri dosyaya veya PATH yoksa standart çıktıya dök; SRC şu değerlerden biridir:  "
+
+msgid "elapsed time:"
+msgstr "geçen süre:"
+
+msgid "enable advanced debug options"
+msgstr "gelişmiş hata ayıklama seçeneklerini etkinleştir"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "dosya adı (yol ve uzantı olmadan)"
+
+msgid "files with matching streams"
+msgstr "eşleşen akışları olan dosyalar"
+
+msgid "files without matching streams"
+msgstr "eşleşen akışları olmayan dosyalar"
+
+msgid "formula:"
+msgstr "formül:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "harcanacak çaba (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "<field> belirtilmemişse <value> ekle"
+
+msgid "if <field> is set, append <value>"
+msgstr "<field> belirtilmişse <value> ekle"
+
+msgid "import list of tasks from YAML file"
+msgstr "görev listesini YAML dosyasından içe aktar"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "dil"
+
+msgid "language not selected"
+msgstr "dil seçilmedi"
+
+msgid "less than minute"
+msgstr "bir dakikadan az"
+
+msgid "log to file"
+msgstr "günlüğü dosyaya yaz"
+
+msgid "max change:"
+msgstr "en fazla değişiklik:"
+
+msgid "missing assets:"
+msgstr "eksik kaynaklar:"
+
+msgid "name"
+msgstr "ad"
+
+msgid "open batch processing window"
+msgstr "toplu işlem penceresini aç"
+
+msgid "operation failed"
+msgstr "işlem başarısız"
+
+msgid "operation finished successfully"
+msgstr "işlem başarıyla tamamlandı"
+
+msgid "output character encoding"
+msgstr "çıktı karakter kodlaması"
+
+msgid "output file path or pattern"
+msgstr "çıktı dosyası yolu veya kalıbı"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "çıktı kare hızı (FPS tabanlı altyazılar için)"
+
+msgid "outputs"
+msgstr "çıktılar"
+
+msgid "overwrite existing files"
+msgstr "var olan dosyaların üzerine yaz"
+
+msgid "path to reference file"
+msgstr "başvuru dosyasının yolu"
+
+msgid "path to subtitle file"
+msgstr "altyazı dosyasının yolu"
+
+msgid "pattern:"
+msgstr "kalıp:"
+
+msgid "predefined names:"
+msgstr "önceden tanımlanmış adlar:"
+
+msgid "processing..."
+msgstr "işleniyor..."
+
+msgid "queued..."
+msgstr "kuyrukta..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "başvuru ses kanalı eşlemesi (ses başvuruları için)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "başvuru karakter kodlaması (altyazı başvuruları için)"
+
+msgid "reference framerate"
+msgstr "başvuru kare hızı"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "başvuru dili (2 veya 3 harfli ISO kodu)"
+
+msgid "reference stream no"
+msgstr "başvuru akış numarası"
+
+msgid "references"
+msgstr "başvurular"
+
+msgid "references: "
+msgstr "başvurular: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "grafik arayüz olmadan çalıştır"
+
+msgid "same as input subtitles"
+msgstr "girdi altyazılarıyla aynı"
+
+msgid "same as reference file"
+msgstr "başvuru dosyasıyla aynı"
+
+msgid "select custom folder"
+msgstr "özel klasör seç"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "dile göre başvuru akışı seç (3 harfli ISO kodu)"
+
+msgid "select reference stream by type"
+msgstr "türe göre başvuru akışı seç"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "dile göre altyazı akışı seç (3 harfli ISO kodu)"
+
+msgid "set logging level"
+msgstr "günlük düzeyini ayarla"
+
+msgid "stream"
+msgstr "akış"
+
+msgid "subtitle character encoding"
+msgstr "altyazı karakter kodlaması"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "altyazı kare hızı (FPS tabanlı altyazılar için)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "altyazı dili (2 veya 3 harfli ISO kodu)"
+
+msgid "subtitle stream no"
+msgstr "altyazı akış numarası"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "altyazı/başvuru için 2 harfli dil kodu"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "altyazı/başvuru için 3 harfli dil kodu"
+
+msgid "subtitle/reference file full path"
+msgstr "altyazı/başvuru dosyasının tam yolu"
+
+msgid "subtitle/reference stream number"
+msgstr "altyazı/başvuru akış numarası"
+
+msgid "subtitle/text"
+msgstr "altyazı/metin"
+
+msgid "subtitles"
+msgstr "altyazılar"
+
+msgid "subtitles: "
+msgstr "altyazılar: "
+
+msgid "synchronizing"
+msgstr "eşitleniyor"
+
+msgid "terminated"
+msgstr "sonlandırıldı"
+
+msgid "type"
+msgstr "tür"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "kullanıcı arayüzü dili (2 harfli ISO kodu)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "ayrıntı düzeyi (0 - 3)"
+
+msgid "version "
+msgstr "sürüm "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} saat"
+
+msgid "{} min"
+msgstr "{} dk"
+
+msgid "{} minutes"
+msgstr "{} dakika"
+
+msgid "{} speech recognition model"
+msgstr "{} konuşma tanıma modeli"

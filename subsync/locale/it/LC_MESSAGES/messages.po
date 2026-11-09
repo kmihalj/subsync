@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Italiano\nLanguage: it\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Informazioni"
+
+msgid "&Add files (auto sort)"
+msgstr "&Aggiungi file (ordina automaticamente)"
+
+msgid "&Close"
+msgstr "&Chiudi"
+
+msgid "&Edit"
+msgstr "&Modifica"
+
+msgid "&Export list"
+msgstr "&Esporta elenco"
+
+msgid "&File"
+msgstr "&File"
+
+msgid "&Help"
+msgstr "&Aiuto"
+
+msgid "&Import list"
+msgstr "&Importa elenco"
+
+msgid "&Language"
+msgstr "&Lingua"
+
+msgid "&New"
+msgstr "&Nuovo"
+
+msgid "&Properties"
+msgstr "&Proprietà"
+
+msgid "&Propeties"
+msgstr "&Proprietà"
+
+msgid "&Remove"
+msgstr "&Rimuovi"
+
+msgid ", {} points"
+msgstr ", {} punti"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 per la selezione automatica."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minuto"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automatico>"
+
+msgid "<empty>"
+msgstr "<vuoto>"
+
+msgid "<other>"
+msgstr "<altro>"
+
+msgid "<undefined>"
+msgstr "<non definito>"
+
+msgid "About"
+msgstr "Informazioni"
+
+msgid "Add"
+msgstr "Aggiungi"
+
+msgid "Add &folder"
+msgstr "Aggiungi &cartella"
+
+msgid "Add &references"
+msgstr "Aggiungi &riferimenti"
+
+msgid "Add &subtitles"
+msgstr "Aggiungi &sottotitoli"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "albanese"
+
+msgid "All files"
+msgstr "Tutti i file"
+
+msgid "All supported files"
+msgstr "Tutti i file supportati"
+
+msgid "Another update in progress"
+msgstr "Un altro aggiornamento è in corso"
+
+msgid "Application upgrade"
+msgstr "Aggiornamento dell’applicazione"
+
+msgid "Arabic"
+msgstr "arabo"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Vuoi davvero sovrascrivere i file di uscita esistenti?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Vuoi davvero ripristinare le impostazioni predefinite?"
+
+msgid "Asset installation failed"
+msgstr "Installazione delle risorse non riuscita"
+
+msgid "Au&to sort"
+msgstr "Ordina au&tomaticamente"
+
+msgid "Audio &channels"
+msgstr "&Canali audio"
+
+msgid "Audio channels"
+msgstr "Canali audio"
+
+msgid "Audio channels:"
+msgstr "Canali audio:"
+
+msgid "Auto detect"
+msgstr "Rileva automaticamente"
+
+msgid "Auto sort"
+msgstr "Ordina automaticamente"
+
+msgid "Batch Processing"
+msgstr "Elaborazione in serie"
+
+msgid "Batch processing"
+msgstr "Elaborazione in serie"
+
+msgid "Belarusian"
+msgstr "bielorusso"
+
+msgid "Bulgarian"
+msgstr "bulgaro"
+
+msgid "Can't save subtitle file"
+msgstr "Impossibile salvare il file dei sottotitoli"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Cannot load settings file, {}"
+msgstr "Impossibile caricare il file delle impostazioni, {}"
+
+msgid "Catalan"
+msgstr "catalano"
+
+msgid "Character &encoding"
+msgstr "&Codifica dei caratteri"
+
+msgid "Character encoding"
+msgstr "Codifica dei caratteri"
+
+msgid "Character encoding:"
+msgstr "Codifica dei caratteri:"
+
+msgid "Check for updates"
+msgstr "Controlla aggiornamenti"
+
+msgid "Checking for update..."
+msgstr "Ricerca di aggiornamenti..."
+
+msgid "Chinese"
+msgstr "cinese"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Impossibile salvare i sottotitoli sincronizzati"
+
+msgid "Couldn't synchronize"
+msgstr "Sincronizzazione non riuscita"
+
+msgid "Credits"
+msgstr "Riconoscimenti"
+
+msgid "Croatian"
+msgstr "croato"
+
+msgid "Current file:"
+msgstr "File corrente:"
+
+msgid "Czech"
+msgstr "ceco"
+
+msgid "Danish"
+msgstr "danese"
+
+msgid "Debug"
+msgstr "Diagnostica"
+
+msgid "Debug options:"
+msgstr "Opzioni di diagnostica:"
+
+msgid "Do you want to clear all items?"
+msgstr "Vuoi rimuovere tutti gli elementi?"
+
+msgid "Download"
+msgstr "Scarica"
+
+msgid "Download assets"
+msgstr "Scarica risorse"
+
+msgid "Download now?"
+msgstr "Scaricare ora?"
+
+msgid "Downloading"
+msgstr "Download in corso"
+
+msgid "Downloading assets list..."
+msgstr "Download dell’elenco delle risorse..."
+
+msgid "Drop files here to add sorted"
+msgstr "Trascina qui i file per aggiungerli in ordine"
+
+msgid "Dump all synchronization points"
+msgstr "Esporta tutti i punti di sincronizzazione"
+
+msgid "Dump reference words"
+msgstr "Esporta le parole del riferimento"
+
+msgid "Dump subtitle words"
+msgstr "Esporta le parole dei sottotitoli"
+
+msgid "Dump used synchronization points"
+msgstr "Esporta i punti di sincronizzazione utilizzati"
+
+msgid "Dutch"
+msgstr "olandese"
+
+msgid "ETA:"
+msgstr "Tempo rimanente:"
+
+msgid "Edit all tasks"
+msgstr "Modifica tutte le attività"
+
+msgid "Edit failed tasks"
+msgstr "Modifica le attività non riuscite"
+
+msgid "Effort:"
+msgstr "Impegno:"
+
+msgid "Elapsed:"
+msgstr "Tempo trascorso:"
+
+msgid "Enable save button"
+msgstr "Abilita il pulsante di salvataggio"
+
+msgid "English"
+msgstr "inglese"
+
+msgid "Error"
+msgstr "Errore"
+
+msgid "Error during reference read"
+msgstr "Errore durante la lettura del riferimento"
+
+msgid "Error during subtitles read"
+msgstr "Errore durante la lettura dei sottotitoli"
+
+msgid "Estonian"
+msgstr "estone"
+
+msgid "Everything synchronized successfully"
+msgstr "Tutti gli elementi sono stati sincronizzati"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Tutti gli elementi sono stati sincronizzati, ma si sono verificati errori"
+
+msgid "Extractor jobs no:"
+msgstr "Numero di attività di estrazione:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "faroese"
+
+msgid "File name:"
+msgstr "Nome del file:"
+
+msgid "File type:"
+msgstr "Tipo di file:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Escludi i registri di questi moduli (uno per riga):"
+
+msgid "Finnish"
+msgstr "finlandese"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Sposta i tempi dei sottotitoli di uscita del numero di secondi indicato."
+
+msgid "Following assets could be updated:"
+msgstr "È possibile aggiornare le seguenti risorse:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Per continuare è necessario scaricare le seguenti risorse:"
+
+msgid "Following files could not be added:"
+msgstr "Impossibile aggiungere i seguenti file:"
+
+msgid "French"
+msgstr "francese"
+
+msgid "GUI options:"
+msgstr "Opzioni dell’interfaccia grafica:"
+
+msgid "Gaelic"
+msgstr "gaelico scozzese"
+
+msgid "Galician"
+msgstr "galiziano"
+
+msgid "General"
+msgstr "Generale"
+
+msgid "General options:"
+msgstr "Opzioni generali:"
+
+msgid "German"
+msgstr "tedesco"
+
+msgid "Got errors, synchronization failed"
+msgstr "Si sono verificati errori, sincronizzazione non riuscita"
+
+msgid "Greek"
+msgstr "greco"
+
+msgid "Headless options:"
+msgstr "Opzioni senza interfaccia grafica:"
+
+msgid "Hebrew"
+msgstr "ebraico"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Impegno da dedicare alla sincronizzazione dei sottotitoli. Un valore maggiore migliora il risultato, ma richiede più tempo."
+
+msgid "Hungarian"
+msgstr "ungherese"
+
+msgid "Icelandic"
+msgstr "islandese"
+
+msgid "In seconds."
+msgstr "In secondi."
+
+msgid "Indonesian"
+msgstr "indonesiano"
+
+msgid "Info"
+msgstr "Informazioni"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "La sincronizzazione iniziale è terminata.\nPuoi già salvare i sottotitoli.\nSe non corrispondono, attendi un risultato migliore."
+
+msgid "Initializing..."
+msgstr "Inizializzazione..."
+
+msgid "Input file:"
+msgstr "File di ingresso:"
+
+msgid "Invalid output pattern"
+msgstr "Modello di uscita non valido"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Modello di uscita non valido, parola chiave non valida: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Modello di uscita non valido, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Formato audio del parlato non valido"
+
+msgid "Italian"
+msgstr "italiano"
+
+msgid "Japanese"
+msgstr "giapponese"
+
+msgid "Korean"
+msgstr "coreano"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "La selezione della lingua è facoltativa, ma può migliorare notevolmente la precisione della sincronizzazione.\nVuoi continuare?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "La modifica della lingua avrà effetto dopo il riavvio dell’applicazione"
+
+msgid "Language:"
+msgstr "Lingua:"
+
+msgid "Languages"
+msgstr "Lingue"
+
+msgid "Latin"
+msgstr "latino"
+
+msgid "Latvian"
+msgstr "lettone"
+
+msgid "License"
+msgstr "Licenza"
+
+msgid "Lithuanian"
+msgstr "lituano"
+
+msgid "Loading, please wait..."
+msgstr "Caricamento, attendere..."
+
+msgid "Logging level:"
+msgstr "Livello di registrazione:"
+
+msgid "Malagasy"
+msgstr "malgascio"
+
+msgid "Malay"
+msgstr "malese"
+
+msgid "Maltese"
+msgstr "maltese"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Regolazione massima. I tempi dei sottotitoli non saranno modificati oltre questo valore. Un valore maggiore allunga la sincronizzazione, ma un valore troppo basso può farla fallire."
+
+msgid "Max adjustment:"
+msgstr "Regolazione massima:"
+
+msgid "Max points distance:"
+msgstr "Distanza massima tra i punti:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Errore massimo di sincronizzazione accettabile, in secondi. I punti con un errore maggiore vengono scartati."
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Min correlation factor:"
+msgstr "Fattore di correlazione minimo:"
+
+msgid "Min points no:"
+msgstr "Numero minimo di punti:"
+
+msgid "Min speech recognition score:"
+msgstr "Punteggio minimo di riconoscimento vocale:"
+
+msgid "Min word length (letters):"
+msgstr "Lunghezza minima delle parole (lettere):"
+
+msgid "Min words similarity:"
+msgstr "Somiglianza minima tra parole:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Fattore di correlazione minimo, tra 0.0 e 1.0, usato per valutare il risultato. Se il fattore è inferiore, la sincronizzazione non riesce."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Punteggio minimo di riconoscimento vocale, tra 0.0 e 1.0. Le parole riconosciute con un punteggio inferiore vengono scartate."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Lunghezza minima delle parole, in lettere. Le parole più brevi non vengono usate come punti di sincronizzazione. Vale solo per le lingue alfabetiche."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Somiglianza minima tra parole per i punti di sincronizzazione. Tra 0.0 e 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Numero minimo di punti di sincronizzazione. Un valore troppo elevato può generare molti falsi positivi."
+
+msgid "New synchronization"
+msgstr "Nuova sincronizzazione"
+
+msgid "New version is available. Update now?"
+msgstr "È disponibile una nuova versione. Aggiornare ora?"
+
+msgid "No language selected"
+msgstr "Nessuna lingua selezionata"
+
+msgid "No language selected for:"
+msgstr "Nessuna lingua selezionata per:"
+
+msgid "No need to synchronize"
+msgstr "Sincronizzazione non necessaria"
+
+msgid "Norwegian"
+msgstr "norvegese"
+
+msgid "Not supported stream type"
+msgstr "Tipo di traccia non supportato"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Numero di thread di sincronizzazione simultanei."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Cartella di uscita:"
+
+msgid "Output encoding:"
+msgstr "Codifica di uscita:"
+
+msgid "Output file names"
+msgstr "Nomi dei file di uscita"
+
+msgid "Output file not set"
+msgstr "File di uscita non impostato"
+
+msgid "Output filename:"
+msgstr "Nome del file di uscita:"
+
+msgid "Output timing offset:"
+msgstr "Spostamento temporale di uscita:"
+
+msgid "Overwrite existing files"
+msgstr "Sovrascrivi i file esistenti"
+
+msgid "Overwrite files?"
+msgstr "Sovrascrivere i file?"
+
+msgid "Persian"
+msgstr "persiano"
+
+msgid "Polish"
+msgstr "polacco"
+
+msgid "Portuguese"
+msgstr "portoghese"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Impedisci la sospensione durante la sincronizzazione"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Impedisce la sospensione del sistema durante la sincronizzazione.\nPotrebbe non funzionare su tutte le piattaforme."
+
+msgid "Reference file not set"
+msgstr "File di riferimento non impostato"
+
+msgid "References (video or other subtitles):"
+msgstr "Riferimenti (video o altri sottotitoli):"
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Remove items"
+msgstr "Rimuovi elementi"
+
+msgid "Restore defaults"
+msgstr "Ripristina impostazioni predefinite"
+
+msgid "Romanian"
+msgstr "rumeno"
+
+msgid "Russian"
+msgstr "russo"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Select"
+msgstr "Seleziona"
+
+msgid "Select &all"
+msgstr "Seleziona &tutto"
+
+msgid "Select &stream"
+msgstr "Seleziona &traccia"
+
+msgid "Select all &references"
+msgstr "Seleziona tutti i &riferimenti"
+
+msgid "Select all &subtitles"
+msgstr "Seleziona tutti i &sottotitoli"
+
+msgid "Select all o&utputs"
+msgstr "Seleziona tutte le &uscite"
+
+msgid "Select audio channels to listen to:"
+msgstr "Seleziona i canali audio da ascoltare:"
+
+msgid "Select character encoding"
+msgstr "Seleziona la codifica dei caratteri"
+
+msgid "Select directory"
+msgstr "Seleziona cartella"
+
+msgid "Select file"
+msgstr "Seleziona file"
+
+msgid "Select language"
+msgstr "Seleziona lingua"
+
+msgid "Select output"
+msgstr "Seleziona uscita"
+
+msgid "Select output directory"
+msgstr "Seleziona cartella di uscita"
+
+msgid "Select output subtitles framerate:"
+msgstr "Seleziona la frequenza dei fotogrammi dei sottotitoli di uscita:"
+
+msgid "Select reference language first"
+msgstr "Seleziona prima la lingua del riferimento"
+
+msgid "Select stream"
+msgstr "Seleziona traccia"
+
+msgid "Select stream by language:"
+msgstr "Seleziona traccia per lingua:"
+
+msgid "Select stream by title:"
+msgstr "Seleziona traccia per titolo:"
+
+msgid "Select stream by type:"
+msgstr "Seleziona traccia per tipo:"
+
+msgid "Select stream:"
+msgstr "Seleziona traccia:"
+
+msgid "Select streams"
+msgstr "Seleziona tracce"
+
+msgid "Serbian"
+msgstr "serbo"
+
+msgid "Set &input stream"
+msgstr "Imposta la traccia di &ingresso"
+
+msgid "Set &output location"
+msgstr "Imposta la posizione di &uscita"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Show popups:"
+msgstr "Mostra finestre di avviso:"
+
+msgid "Signature verification failed"
+msgstr "Verifica della firma non riuscita"
+
+msgid "Slovak"
+msgstr "slovacco"
+
+msgid "Slovenian"
+msgstr "sloveno"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Impossibile decodificare alcuni sottotitoli di riferimento (codifica non valida?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Impossibile decodificare alcuni sottotitoli (codifica non valida?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Impossibile sincronizzare alcune attività"
+
+msgid "Spanish"
+msgstr "spagnolo"
+
+msgid "Start"
+msgstr "Avvia"
+
+msgid "Status:"
+msgstr "Stato:"
+
+msgid "Stop"
+msgstr "Arresta"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Sincronizzatore\ndi sottotitoli\ne parlato"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Sincronizzatore di sottotitoli e parlato"
+
+msgid "Subtitle files"
+msgstr "File dei sottotitoli"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "I sottotitoli non possono coincidere con il riferimento"
+
+msgid "Subtitles not set"
+msgstr "Sottotitoli non impostati"
+
+msgid "Subtitles synchronized"
+msgstr "Sottotitoli sincronizzati"
+
+msgid "Subtitles:"
+msgstr "Sottotitoli:"
+
+msgid "Swedish"
+msgstr "svedese"
+
+msgid "Synchronization"
+msgstr "Sincronizzazione"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "La sincronizzazione tra le lingue {} non è attualmente supportata."
+
+msgid "Synchronization job:"
+msgstr "Attività di sincronizzazione:"
+
+msgid "Synchronization options:"
+msgstr "Opzioni di sincronizzazione:"
+
+msgid "Synchronization terminated"
+msgstr "Sincronizzazione interrotta"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "La sincronizzazione con audio in {} non è attualmente supportata."
+
+msgid "Synchronization: 0 points"
+msgstr "Sincronizzazione: 0 punti"
+
+msgid "Synchronization: {} points"
+msgstr "Sincronizzazione: {} punti"
+
+msgid "Synchronizing..."
+msgstr "Sincronizzazione in corso..."
+
+msgid "Task:"
+msgstr "Attività:"
+
+msgid "Terminating, please wait..."
+msgstr "Interruzione in corso, attendere..."
+
+msgid "Terminating..."
+msgstr "Interruzione in corso..."
+
+msgid "There are no usable streams"
+msgstr "Nessuna traccia utilizzabile"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Nessun dizionario per la traduzione da {} a {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Nessuna traccia corrispondente in {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Nessun modello di riconoscimento vocale per la lingua {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Questo strumento sincronizza automaticamente i sottotitoli dei film.\nLa sincronizzazione avviene ascoltando la traccia audio e traducendola se necessario.\nPuò usare anche altri sottotitoli come riferimento.\n\nAutore: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Errore totale"
+
+msgid "Total progress:"
+msgstr "Avanzamento totale:"
+
+msgid "Turkish"
+msgstr "turco"
+
+msgid "Ukrainian"
+msgstr "ucraino"
+
+msgid "Unexpected error occurred"
+msgstr "Si è verificato un errore imprevisto"
+
+msgid "Unknown file extension"
+msgstr "Estensione del file sconosciuta"
+
+msgid "Update assets"
+msgstr "Aggiorna risorse"
+
+msgid "Update instalation failed miserably"
+msgstr "Installazione dell’aggiornamento completamente fallita"
+
+msgid "Update not available"
+msgstr "Nessun aggiornamento disponibile"
+
+msgid "Update now?"
+msgstr "Aggiornare ora?"
+
+msgid "Updates:"
+msgstr "Aggiornamenti:"
+
+msgid "Upgrade"
+msgstr "Aggiorna"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Uso: {} [OPZIONI]"
+
+msgid "Video files"
+msgstr "File video"
+
+msgid "Website"
+msgstr "Sito web"
+
+msgid "Your version is up to date"
+msgstr "La versione è aggiornata"
+
+msgid "[details]"
+msgstr "[dettagli]"
+
+msgid "[errors]"
+msgstr "[errori]"
+
+msgid "[hide]"
+msgstr "[nascondi]"
+
+msgid "[show more]"
+msgstr "[mostra altro]"
+
+msgid "all"
+msgstr "tutto"
+
+msgid "all channels"
+msgstr "tutti i canali"
+
+msgid "and {} more"
+msgstr "e altri {}"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "aggiungi il codice lingua a due lettere (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "aggiungi il codice lingua a tre lettere (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "aggiungi il numero della traccia"
+
+msgid "ask for update on exit"
+msgstr "chiedi di aggiornare all’uscita"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "auto"
+msgstr "automatico"
+
+msgid "auto select"
+msgstr "selezione automatica"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "conferma la sovrascrittura dei file (in modalità in serie)"
+
+msgid "correlation:"
+msgstr "correlazione:"
+
+msgid "couldn't synchronize"
+msgstr "sincronizzazione non riuscita"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "versione personalizzata"
+
+msgid "custom names:"
+msgstr "nomi personalizzati:"
+
+msgid "custom selection"
+msgstr "selezione personalizzata"
+
+msgid "custom value:"
+msgstr "valore personalizzato:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "predefinito"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "definisci un’attività di sincronizzazione; ripetibile più volte"
+
+msgid "description"
+msgstr "descrizione"
+
+msgid "dictionary {} / {}"
+msgstr "dizionario {} / {}"
+
+msgid "directory path"
+msgstr "percorso della cartella"
+
+msgid "display this help text and exit"
+msgstr "mostra questo aiuto ed esci"
+
+msgid "display version information and exit"
+msgstr "mostra le informazioni sulla versione ed esci"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "non contattare il server remoto per ottenere le risorse mancanti"
+
+msgid "don't show this message again"
+msgstr "non mostrare più questo messaggio"
+
+msgid "done"
+msgstr "completato"
+
+msgid "download updates automatically"
+msgstr "scarica automaticamente gli aggiornamenti"
+
+msgid "downloading"
+msgstr "download in corso"
+
+msgid "drop here"
+msgstr "trascina qui"
+
+msgid "dump logs to specified file"
+msgstr "scrivi i registri nel file indicato"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "esporta le parole in un file o sull’uscita standard se manca PATH; SRC è uno dei seguenti:  "
+
+msgid "elapsed time:"
+msgstr "tempo trascorso:"
+
+msgid "enable advanced debug options"
+msgstr "abilita le opzioni avanzate di diagnostica"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "nome del file (senza percorso né estensione)"
+
+msgid "files with matching streams"
+msgstr "file con tracce corrispondenti"
+
+msgid "files without matching streams"
+msgstr "file senza tracce corrispondenti"
+
+msgid "formula:"
+msgstr "formula:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "impegno da dedicare (0.0 – 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "se <field> non è impostato, aggiungi <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "se <field> è impostato, aggiungi <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importa l’elenco delle attività da un file YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "lingua"
+
+msgid "language not selected"
+msgstr "lingua non selezionata"
+
+msgid "less than minute"
+msgstr "meno di un minuto"
+
+msgid "log to file"
+msgstr "registra su file"
+
+msgid "max change:"
+msgstr "modifica massima:"
+
+msgid "missing assets:"
+msgstr "risorse mancanti:"
+
+msgid "name"
+msgstr "nome"
+
+msgid "open batch processing window"
+msgstr "apri la finestra di elaborazione in serie"
+
+msgid "operation failed"
+msgstr "operazione non riuscita"
+
+msgid "operation finished successfully"
+msgstr "operazione completata con successo"
+
+msgid "output character encoding"
+msgstr "codifica dei caratteri di uscita"
+
+msgid "output file path or pattern"
+msgstr "percorso o modello del file di uscita"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "frequenza dei fotogrammi di uscita (per sottotitoli basati su FPS)"
+
+msgid "outputs"
+msgstr "uscite"
+
+msgid "overwrite existing files"
+msgstr "sovrascrivi i file esistenti"
+
+msgid "path to reference file"
+msgstr "percorso del file di riferimento"
+
+msgid "path to subtitle file"
+msgstr "percorso del file dei sottotitoli"
+
+msgid "pattern:"
+msgstr "modello:"
+
+msgid "predefined names:"
+msgstr "nomi predefiniti:"
+
+msgid "processing..."
+msgstr "elaborazione..."
+
+msgid "queued..."
+msgstr "in coda..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "mappatura dei canali audio di riferimento (per riferimenti audio)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "codifica dei caratteri di riferimento (per riferimenti di sottotitoli)"
+
+msgid "reference framerate"
+msgstr "frequenza dei fotogrammi di riferimento"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "lingua di riferimento (codice ISO a due o tre lettere)"
+
+msgid "reference stream no"
+msgstr "numero della traccia di riferimento"
+
+msgid "references"
+msgstr "riferimenti"
+
+msgid "references: "
+msgstr "riferimenti: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "esegui senza interfaccia grafica"
+
+msgid "same as input subtitles"
+msgstr "come i sottotitoli di ingresso"
+
+msgid "same as reference file"
+msgstr "come il file di riferimento"
+
+msgid "select custom folder"
+msgstr "seleziona una cartella personalizzata"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "seleziona la traccia di riferimento per lingua (codice ISO a tre lettere)"
+
+msgid "select reference stream by type"
+msgstr "seleziona la traccia di riferimento per tipo"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "seleziona la traccia dei sottotitoli per lingua (codice ISO a tre lettere)"
+
+msgid "set logging level"
+msgstr "imposta il livello di registrazione"
+
+msgid "stream"
+msgstr "traccia"
+
+msgid "subtitle character encoding"
+msgstr "codifica dei caratteri dei sottotitoli"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "frequenza dei fotogrammi dei sottotitoli (per sottotitoli basati su FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "lingua dei sottotitoli (codice ISO a due o tre lettere)"
+
+msgid "subtitle stream no"
+msgstr "numero della traccia dei sottotitoli"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "codice lingua a due lettere dei sottotitoli o del riferimento"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "codice lingua a tre lettere dei sottotitoli o del riferimento"
+
+msgid "subtitle/reference file full path"
+msgstr "percorso completo del file dei sottotitoli o del riferimento"
+
+msgid "subtitle/reference stream number"
+msgstr "numero della traccia dei sottotitoli o del riferimento"
+
+msgid "subtitle/text"
+msgstr "sottotitolo/testo"
+
+msgid "subtitles"
+msgstr "sottotitoli"
+
+msgid "subtitles: "
+msgstr "sottotitoli: "
+
+msgid "synchronizing"
+msgstr "sincronizzazione in corso"
+
+msgid "terminated"
+msgstr "interrotto"
+
+msgid "type"
+msgstr "tipo"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "lingua dell’interfaccia (codice ISO a due lettere)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "livello di dettaglio (0 – 3)"
+
+msgid "version "
+msgstr "versione "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ore"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minuti"
+
+msgid "{} speech recognition model"
+msgstr "modello di riconoscimento vocale {}"

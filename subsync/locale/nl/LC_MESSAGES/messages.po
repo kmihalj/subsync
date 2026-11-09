@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Nederlands\nLanguage: nl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Over"
+
+msgid "&Add files (auto sort)"
+msgstr "&Bestanden toevoegen (automatisch sorteren)"
+
+msgid "&Close"
+msgstr "&Sluiten"
+
+msgid "&Edit"
+msgstr "&Bewerken"
+
+msgid "&Export list"
+msgstr "&Lijst exporteren"
+
+msgid "&File"
+msgstr "&Bestand"
+
+msgid "&Help"
+msgstr "&Help"
+
+msgid "&Import list"
+msgstr "&Lijst importeren"
+
+msgid "&Language"
+msgstr "&Taal"
+
+msgid "&New"
+msgstr "&Nieuw"
+
+msgid "&Properties"
+msgstr "&Eigenschappen"
+
+msgid "&Propeties"
+msgstr "&Eigenschappen"
+
+msgid "&Remove"
+msgstr "&Verwijderen"
+
+msgid ", {} points"
+msgstr ", {} punten"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 voor automatische selectie."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minuut"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automatisch>"
+
+msgid "<empty>"
+msgstr "<leeg>"
+
+msgid "<other>"
+msgstr "<overig>"
+
+msgid "<undefined>"
+msgstr "<niet gedefinieerd>"
+
+msgid "About"
+msgstr "Over"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Add &folder"
+msgstr "&Map toevoegen"
+
+msgid "Add &references"
+msgstr "&Referenties toevoegen"
+
+msgid "Add &subtitles"
+msgstr "&Ondertitels toevoegen"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albanees"
+
+msgid "All files"
+msgstr "Alle bestanden"
+
+msgid "All supported files"
+msgstr "Alle ondersteunde bestanden"
+
+msgid "Another update in progress"
+msgstr "Er wordt al een andere update uitgevoerd"
+
+msgid "Application upgrade"
+msgstr "Toepassing bijwerken"
+
+msgid "Arabic"
+msgstr "Arabisch"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Wilt u bestaande uitvoerbestanden werkelijk overschrijven?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Wilt u de standaardinstellingen werkelijk herstellen?"
+
+msgid "Asset installation failed"
+msgstr "Installatie van bronnen mislukt"
+
+msgid "Au&to sort"
+msgstr "Au&tomatisch sorteren"
+
+msgid "Audio &channels"
+msgstr "Audio&kanalen"
+
+msgid "Audio channels"
+msgstr "Audiokanalen"
+
+msgid "Audio channels:"
+msgstr "Audiokanalen:"
+
+msgid "Auto detect"
+msgstr "Automatisch detecteren"
+
+msgid "Auto sort"
+msgstr "Automatisch sorteren"
+
+msgid "Batch Processing"
+msgstr "Batchverwerking"
+
+msgid "Batch processing"
+msgstr "Batchverwerking"
+
+msgid "Belarusian"
+msgstr "Belarussisch"
+
+msgid "Bulgarian"
+msgstr "Bulgaars"
+
+msgid "Can't save subtitle file"
+msgstr "Ondertitelbestand kan niet worden opgeslagen"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Cannot load settings file, {}"
+msgstr "Instellingenbestand kan niet worden geladen, {}"
+
+msgid "Catalan"
+msgstr "Catalaans"
+
+msgid "Character &encoding"
+msgstr "&Tekencodering"
+
+msgid "Character encoding"
+msgstr "Tekencodering"
+
+msgid "Character encoding:"
+msgstr "Tekencodering:"
+
+msgid "Check for updates"
+msgstr "Controleren op updates"
+
+msgid "Checking for update..."
+msgstr "Controleren op updates..."
+
+msgid "Chinese"
+msgstr "Chinees"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Gesynchroniseerde ondertitels konden niet worden opgeslagen"
+
+msgid "Couldn't synchronize"
+msgstr "Synchroniseren mislukt"
+
+msgid "Credits"
+msgstr "Met dank aan"
+
+msgid "Croatian"
+msgstr "Kroatisch"
+
+msgid "Current file:"
+msgstr "Huidig bestand:"
+
+msgid "Czech"
+msgstr "Tsjechisch"
+
+msgid "Danish"
+msgstr "Deens"
+
+msgid "Debug"
+msgstr "Foutopsporing"
+
+msgid "Debug options:"
+msgstr "Opties voor foutopsporing:"
+
+msgid "Do you want to clear all items?"
+msgstr "Wilt u alle items verwijderen?"
+
+msgid "Download"
+msgstr "Downloaden"
+
+msgid "Download assets"
+msgstr "Bronnen downloaden"
+
+msgid "Download now?"
+msgstr "Nu downloaden?"
+
+msgid "Downloading"
+msgstr "Downloaden"
+
+msgid "Downloading assets list..."
+msgstr "Bronnenlijst downloaden..."
+
+msgid "Drop files here to add sorted"
+msgstr "Sleep bestanden hierheen om ze gesorteerd toe te voegen"
+
+msgid "Dump all synchronization points"
+msgstr "Alle synchronisatiepunten exporteren"
+
+msgid "Dump reference words"
+msgstr "Referentiewoorden exporteren"
+
+msgid "Dump subtitle words"
+msgstr "Ondertitelwoorden exporteren"
+
+msgid "Dump used synchronization points"
+msgstr "Gebruikte synchronisatiepunten exporteren"
+
+msgid "Dutch"
+msgstr "Nederlands"
+
+msgid "ETA:"
+msgstr "Resterend:"
+
+msgid "Edit all tasks"
+msgstr "Alle taken bewerken"
+
+msgid "Edit failed tasks"
+msgstr "Mislukte taken bewerken"
+
+msgid "Effort:"
+msgstr "Inspanning:"
+
+msgid "Elapsed:"
+msgstr "Verstreken:"
+
+msgid "Enable save button"
+msgstr "Knop voor opslaan inschakelen"
+
+msgid "English"
+msgstr "Engels"
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "Error during reference read"
+msgstr "Fout bij het lezen van de referentie"
+
+msgid "Error during subtitles read"
+msgstr "Fout bij het lezen van ondertitels"
+
+msgid "Estonian"
+msgstr "Estisch"
+
+msgid "Everything synchronized successfully"
+msgstr "Alles is succesvol gesynchroniseerd"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Alles is gesynchroniseerd, maar er zijn fouten opgetreden"
+
+msgid "Extractor jobs no:"
+msgstr "Aantal extractietaken:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Faeröers"
+
+msgid "File name:"
+msgstr "Bestandsnaam:"
+
+msgid "File type:"
+msgstr "Bestandstype:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Logboeken van deze modules uitsluiten (één per regel):"
+
+msgid "Finnish"
+msgstr "Fins"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Tijdstempels van uitvoerondertitels met het opgegeven aantal seconden verschuiven."
+
+msgid "Following assets could be updated:"
+msgstr "De volgende bronnen kunnen worden bijgewerkt:"
+
+msgid "Following assets must be download to continue:"
+msgstr "De volgende bronnen moeten worden gedownload om door te gaan:"
+
+msgid "Following files could not be added:"
+msgstr "De volgende bestanden konden niet worden toegevoegd:"
+
+msgid "French"
+msgstr "Frans"
+
+msgid "GUI options:"
+msgstr "Opties voor de grafische interface:"
+
+msgid "Gaelic"
+msgstr "Schots-Gaelisch"
+
+msgid "Galician"
+msgstr "Galicisch"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "General options:"
+msgstr "Algemene opties:"
+
+msgid "German"
+msgstr "Duits"
+
+msgid "Got errors, synchronization failed"
+msgstr "Er zijn fouten opgetreden; synchronisatie mislukt"
+
+msgid "Greek"
+msgstr "Grieks"
+
+msgid "Headless options:"
+msgstr "Opties zonder grafische interface:"
+
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Hoeveel inspanning aan de synchronisatie wordt besteed. Een hogere waarde levert betere synchronisatie op, maar duurt langer."
+
+msgid "Hungarian"
+msgstr "Hongaars"
+
+msgid "Icelandic"
+msgstr "IJslands"
+
+msgid "In seconds."
+msgstr "In seconden."
+
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+msgid "Info"
+msgstr "Informatie"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "De eerste synchronisatie is voltooid.\nU kunt de ondertitels al opslaan.\nAls ze niet passen, wacht dan op een beter resultaat."
+
+msgid "Initializing..."
+msgstr "Initialiseren..."
+
+msgid "Input file:"
+msgstr "Invoerbestand:"
+
+msgid "Invalid output pattern"
+msgstr "Ongeldig uitvoerpatroon"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Ongeldig uitvoerpatroon, ongeldig trefwoord: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Ongeldig uitvoerpatroon, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Ongeldig audioformaat voor spraak"
+
+msgid "Italian"
+msgstr "Italiaans"
+
+msgid "Japanese"
+msgstr "Japans"
+
+msgid "Korean"
+msgstr "Koreaans"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Een taal kiezen is niet verplicht, maar kan de nauwkeurigheid aanzienlijk verbeteren.\nWilt u doorgaan?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "De taalwijziging wordt van kracht na het opnieuw starten van de toepassing"
+
+msgid "Language:"
+msgstr "Taal:"
+
+msgid "Languages"
+msgstr "Talen"
+
+msgid "Latin"
+msgstr "Latijn"
+
+msgid "Latvian"
+msgstr "Lets"
+
+msgid "License"
+msgstr "Licentie"
+
+msgid "Lithuanian"
+msgstr "Litouws"
+
+msgid "Loading, please wait..."
+msgstr "Laden, even geduld..."
+
+msgid "Logging level:"
+msgstr "Logboekniveau:"
+
+msgid "Malagasy"
+msgstr "Malagassisch"
+
+msgid "Malay"
+msgstr "Maleis"
+
+msgid "Maltese"
+msgstr "Maltees"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maximale aanpassing. De ondertiteltijden worden hoogstens met deze waarde gewijzigd. Een hogere waarde verlengt de synchronisatie; een te lage waarde kan deze laten mislukken."
+
+msgid "Max adjustment:"
+msgstr "Maximale aanpassing:"
+
+msgid "Max points distance:"
+msgstr "Maximale puntafstand:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Maximale toegestane synchronisatiefout in seconden. Punten met een grotere fout worden verworpen."
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Min correlation factor:"
+msgstr "Minimale correlatiefactor:"
+
+msgid "Min points no:"
+msgstr "Minimaal aantal punten:"
+
+msgid "Min speech recognition score:"
+msgstr "Minimale spraakherkenningsscore:"
+
+msgid "Min word length (letters):"
+msgstr "Minimale woordlengte (letters):"
+
+msgid "Min words similarity:"
+msgstr "Minimale woordovereenkomst:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Minimale correlatiefactor tussen 0.0 en 1.0 om het resultaat te beoordelen. Bij een lagere factor mislukt de synchronisatie."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minimale spraakherkenningsscore tussen 0.0 en 1.0. Woorden met een lagere score worden verworpen."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Minimale woordlengte in letters. Kortere woorden worden niet als synchronisatiepunten gebruikt. Geldt alleen voor alfabetische talen."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Minimale woordovereenkomst voor synchronisatiepunten. Tussen 0.0 en 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Minimaal aantal synchronisatiepunten. Een te hoge waarde kan veel fout-positieve treffers veroorzaken."
+
+msgid "New synchronization"
+msgstr "Nieuwe synchronisatie"
+
+msgid "New version is available. Update now?"
+msgstr "Er is een nieuwe versie beschikbaar. Nu bijwerken?"
+
+msgid "No language selected"
+msgstr "Geen taal geselecteerd"
+
+msgid "No language selected for:"
+msgstr "Geen taal geselecteerd voor:"
+
+msgid "No need to synchronize"
+msgstr "Synchroniseren is niet nodig"
+
+msgid "Norwegian"
+msgstr "Noors"
+
+msgid "Not supported stream type"
+msgstr "Niet-ondersteund spoortype"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Aantal gelijktijdige synchronisatiedraden."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Uitvoermap:"
+
+msgid "Output encoding:"
+msgstr "Uitvoercodering:"
+
+msgid "Output file names"
+msgstr "Namen van uitvoerbestanden"
+
+msgid "Output file not set"
+msgstr "Geen uitvoerbestand ingesteld"
+
+msgid "Output filename:"
+msgstr "Uitvoerbestandsnaam:"
+
+msgid "Output timing offset:"
+msgstr "Tijdverschuiving uitvoer:"
+
+msgid "Overwrite existing files"
+msgstr "Bestaande bestanden overschrijven"
+
+msgid "Overwrite files?"
+msgstr "Bestanden overschrijven?"
+
+msgid "Persian"
+msgstr "Perzisch"
+
+msgid "Polish"
+msgstr "Pools"
+
+msgid "Portuguese"
+msgstr "Portugees"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Slaapstand tijdens synchronisatie voorkomen"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Voorkomt dat het systeem tijdens synchronisatie in de slaapstand gaat.\nDit werkt mogelijk niet op alle platforms."
+
+msgid "Reference file not set"
+msgstr "Geen referentiebestand ingesteld"
+
+msgid "References (video or other subtitles):"
+msgstr "Referenties (video of andere ondertitels):"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Remove items"
+msgstr "Items verwijderen"
+
+msgid "Restore defaults"
+msgstr "Standaardinstellingen herstellen"
+
+msgid "Romanian"
+msgstr "Roemeens"
+
+msgid "Russian"
+msgstr "Russisch"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Select"
+msgstr "Selecteren"
+
+msgid "Select &all"
+msgstr "&Alles selecteren"
+
+msgid "Select &stream"
+msgstr "&Spoor selecteren"
+
+msgid "Select all &references"
+msgstr "Alle &referenties selecteren"
+
+msgid "Select all &subtitles"
+msgstr "Alle &ondertitels selecteren"
+
+msgid "Select all o&utputs"
+msgstr "Alle &uitvoer selecteren"
+
+msgid "Select audio channels to listen to:"
+msgstr "Selecteer de audiokanalen om naar te luisteren:"
+
+msgid "Select character encoding"
+msgstr "Tekencodering selecteren"
+
+msgid "Select directory"
+msgstr "Map selecteren"
+
+msgid "Select file"
+msgstr "Bestand selecteren"
+
+msgid "Select language"
+msgstr "Taal selecteren"
+
+msgid "Select output"
+msgstr "Uitvoer selecteren"
+
+msgid "Select output directory"
+msgstr "Uitvoermap selecteren"
+
+msgid "Select output subtitles framerate:"
+msgstr "Selecteer de beeldsnelheid van de uitvoerondertitels:"
+
+msgid "Select reference language first"
+msgstr "Selecteer eerst de referentietaal"
+
+msgid "Select stream"
+msgstr "Spoor selecteren"
+
+msgid "Select stream by language:"
+msgstr "Spoor op taal selecteren:"
+
+msgid "Select stream by title:"
+msgstr "Spoor op titel selecteren:"
+
+msgid "Select stream by type:"
+msgstr "Spoor op type selecteren:"
+
+msgid "Select stream:"
+msgstr "Spoor selecteren:"
+
+msgid "Select streams"
+msgstr "Sporen selecteren"
+
+msgid "Serbian"
+msgstr "Servisch"
+
+msgid "Set &input stream"
+msgstr "&Invoerspoor instellen"
+
+msgid "Set &output location"
+msgstr "&Uitvoerlocatie instellen"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Show popups:"
+msgstr "Pop-upmeldingen weergeven:"
+
+msgid "Signature verification failed"
+msgstr "Verificatie van handtekening mislukt"
+
+msgid "Slovak"
+msgstr "Slowaaks"
+
+msgid "Slovenian"
+msgstr "Sloveens"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Sommige referentieondertitels kunnen niet worden gedecodeerd (ongeldige codering?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Sommige ondertitels kunnen niet worden gedecodeerd (ongeldige codering?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Sommige taken konden niet worden gesynchroniseerd"
+
+msgid "Spanish"
+msgstr "Spaans"
+
+msgid "Start"
+msgstr "Starten"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Stop"
+msgstr "Stoppen"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Spraakgestuurde\nondertitel-\nsynchronisatie"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Spraakgestuurde ondertitelsynchronisatie"
+
+msgid "Subtitle files"
+msgstr "Ondertitelbestanden"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Ondertitels mogen niet gelijk zijn aan de referentie"
+
+msgid "Subtitles not set"
+msgstr "Geen ondertitels ingesteld"
+
+msgid "Subtitles synchronized"
+msgstr "Ondertitels gesynchroniseerd"
+
+msgid "Subtitles:"
+msgstr "Ondertitels:"
+
+msgid "Swedish"
+msgstr "Zweeds"
+
+msgid "Synchronization"
+msgstr "Synchronisatie"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Synchronisatie tussen de talen {} wordt momenteel niet ondersteund."
+
+msgid "Synchronization job:"
+msgstr "Synchronisatietaak:"
+
+msgid "Synchronization options:"
+msgstr "Synchronisatieopties:"
+
+msgid "Synchronization terminated"
+msgstr "Synchronisatie beëindigd"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Synchronisatie met audio in {} wordt momenteel niet ondersteund."
+
+msgid "Synchronization: 0 points"
+msgstr "Synchronisatie: 0 punten"
+
+msgid "Synchronization: {} points"
+msgstr "Synchronisatie: {} punten"
+
+msgid "Synchronizing..."
+msgstr "Synchroniseren..."
+
+msgid "Task:"
+msgstr "Taak:"
+
+msgid "Terminating, please wait..."
+msgstr "Beëindigen, even geduld..."
+
+msgid "Terminating..."
+msgstr "Beëindigen..."
+
+msgid "There are no usable streams"
+msgstr "Er zijn geen bruikbare sporen"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Geen woordenboek voor vertaling van {} naar {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Geen overeenkomend spoor in {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Geen spraakherkenningsmodel voor de taal {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Dit hulpmiddel synchroniseert filmondertitels automatisch.\nHet luistert naar het audiospoor en vertaalt het indien nodig.\nOok andere ondertitels kunnen als referentie dienen.\n\nAuteur: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Volledig mislukt"
+
+msgid "Total progress:"
+msgstr "Totale voortgang:"
+
+msgid "Turkish"
+msgstr "Turks"
+
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+msgid "Unexpected error occurred"
+msgstr "Er is een onverwachte fout opgetreden"
+
+msgid "Unknown file extension"
+msgstr "Onbekende bestandsextensie"
+
+msgid "Update assets"
+msgstr "Bronnen bijwerken"
+
+msgid "Update instalation failed miserably"
+msgstr "Installatie van de update is volledig mislukt"
+
+msgid "Update not available"
+msgstr "Geen update beschikbaar"
+
+msgid "Update now?"
+msgstr "Nu bijwerken?"
+
+msgid "Updates:"
+msgstr "Updates:"
+
+msgid "Upgrade"
+msgstr "Bijwerken"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Gebruik: {} [OPTIES]"
+
+msgid "Video files"
+msgstr "Videobestanden"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Your version is up to date"
+msgstr "Uw versie is bijgewerkt"
+
+msgid "[details]"
+msgstr "[details]"
+
+msgid "[errors]"
+msgstr "[fouten]"
+
+msgid "[hide]"
+msgstr "[verbergen]"
+
+msgid "[show more]"
+msgstr "[meer weergeven]"
+
+msgid "all"
+msgstr "alles"
+
+msgid "all channels"
+msgstr "alle kanalen"
+
+msgid "and {} more"
+msgstr "en nog {}"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "taalcode van twee letters toevoegen (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "taalcode van drie letters toevoegen (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "spoornummer toevoegen"
+
+msgid "ask for update on exit"
+msgstr "bij afsluiten om een update vragen"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "auto"
+msgstr "automatisch"
+
+msgid "auto select"
+msgstr "automatisch selecteren"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "overschrijven van bestanden bevestigen (in batchmodus)"
+
+msgid "correlation:"
+msgstr "correlatie:"
+
+msgid "couldn't synchronize"
+msgstr "synchroniseren mislukt"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "aangepaste versie"
+
+msgid "custom names:"
+msgstr "aangepaste namen:"
+
+msgid "custom selection"
+msgstr "aangepaste selectie"
+
+msgid "custom value:"
+msgstr "aangepaste waarde:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "standaard"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "synchronisatietaak definiëren; kan meerdere keren worden herhaald"
+
+msgid "description"
+msgstr "beschrijving"
+
+msgid "dictionary {} / {}"
+msgstr "woordenboek {} / {}"
+
+msgid "directory path"
+msgstr "mappad"
+
+msgid "display this help text and exit"
+msgstr "deze hulptekst weergeven en afsluiten"
+
+msgid "display version information and exit"
+msgstr "versie-informatie weergeven en afsluiten"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "geen verbinding met een externe server maken voor ontbrekende bronnen"
+
+msgid "don't show this message again"
+msgstr "dit bericht niet meer weergeven"
+
+msgid "done"
+msgstr "gereed"
+
+msgid "download updates automatically"
+msgstr "updates automatisch downloaden"
+
+msgid "downloading"
+msgstr "downloaden"
+
+msgid "drop here"
+msgstr "hier neerzetten"
+
+msgid "dump logs to specified file"
+msgstr "logboeken naar het opgegeven bestand schrijven"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "woorden naar een bestand schrijven of zonder PATH naar standaarduitvoer; SRC is een van:  "
+
+msgid "elapsed time:"
+msgstr "verstreken tijd:"
+
+msgid "enable advanced debug options"
+msgstr "geavanceerde foutopsporingsopties inschakelen"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "bestandsnaam (zonder pad en extensie)"
+
+msgid "files with matching streams"
+msgstr "bestanden met overeenkomende sporen"
+
+msgid "files without matching streams"
+msgstr "bestanden zonder overeenkomende sporen"
+
+msgid "formula:"
+msgstr "formule:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "hoeveel inspanning leveren (0.0 – 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "als <field> niet is ingesteld, <value> toevoegen"
+
+msgid "if <field> is set, append <value>"
+msgstr "als <field> is ingesteld, <value> toevoegen"
+
+msgid "import list of tasks from YAML file"
+msgstr "takenlijst uit een YAML-bestand importeren"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "taal"
+
+msgid "language not selected"
+msgstr "taal niet geselecteerd"
+
+msgid "less than minute"
+msgstr "minder dan een minuut"
+
+msgid "log to file"
+msgstr "naar bestand loggen"
+
+msgid "max change:"
+msgstr "maximale wijziging:"
+
+msgid "missing assets:"
+msgstr "ontbrekende bronnen:"
+
+msgid "name"
+msgstr "naam"
+
+msgid "open batch processing window"
+msgstr "venster voor batchverwerking openen"
+
+msgid "operation failed"
+msgstr "bewerking mislukt"
+
+msgid "operation finished successfully"
+msgstr "bewerking succesvol voltooid"
+
+msgid "output character encoding"
+msgstr "tekencodering van uitvoer"
+
+msgid "output file path or pattern"
+msgstr "pad of patroon van uitvoerbestand"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "beeldsnelheid van uitvoer (voor FPS-gebaseerde ondertitels)"
+
+msgid "outputs"
+msgstr "uitvoer"
+
+msgid "overwrite existing files"
+msgstr "bestaande bestanden overschrijven"
+
+msgid "path to reference file"
+msgstr "pad naar referentiebestand"
+
+msgid "path to subtitle file"
+msgstr "pad naar ondertitelbestand"
+
+msgid "pattern:"
+msgstr "patroon:"
+
+msgid "predefined names:"
+msgstr "vooraf ingestelde namen:"
+
+msgid "processing..."
+msgstr "verwerken..."
+
+msgid "queued..."
+msgstr "in wachtrij..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "toewijzing van referentie-audiokanalen (voor audioreferenties)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "tekencodering van de referentie (voor referentieondertitels)"
+
+msgid "reference framerate"
+msgstr "beeldsnelheid van de referentie"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "referentietaal (ISO-code van twee of drie letters)"
+
+msgid "reference stream no"
+msgstr "nummer van referentiespoor"
+
+msgid "references"
+msgstr "referenties"
+
+msgid "references: "
+msgstr "referenties: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "zonder grafische interface uitvoeren"
+
+msgid "same as input subtitles"
+msgstr "gelijk aan de invoerondertitels"
+
+msgid "same as reference file"
+msgstr "gelijk aan het referentiebestand"
+
+msgid "select custom folder"
+msgstr "aangepaste map selecteren"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "referentiespoor op taal selecteren (ISO-code van drie letters)"
+
+msgid "select reference stream by type"
+msgstr "referentiespoor op type selecteren"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "ondertitelspoor op taal selecteren (ISO-code van drie letters)"
+
+msgid "set logging level"
+msgstr "logboekniveau instellen"
+
+msgid "stream"
+msgstr "spoor"
+
+msgid "subtitle character encoding"
+msgstr "tekencodering van ondertitels"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "beeldsnelheid van ondertitels (voor FPS-gebaseerde ondertitels)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "ondertiteltaal (ISO-code van twee of drie letters)"
+
+msgid "subtitle stream no"
+msgstr "nummer van ondertitelspoor"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "taalcode van twee letters voor ondertitels/referentie"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "taalcode van drie letters voor ondertitels/referentie"
+
+msgid "subtitle/reference file full path"
+msgstr "volledig pad van ondertitel-/referentiebestand"
+
+msgid "subtitle/reference stream number"
+msgstr "spoornummer van ondertitels/referentie"
+
+msgid "subtitle/text"
+msgstr "ondertitel/tekst"
+
+msgid "subtitles"
+msgstr "ondertitels"
+
+msgid "subtitles: "
+msgstr "ondertitels: "
+
+msgid "synchronizing"
+msgstr "synchroniseren"
+
+msgid "terminated"
+msgstr "beëindigd"
+
+msgid "type"
+msgstr "type"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "interfacetaal (ISO-code van twee letters)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "uitgebreidheidsniveau (0 – 3)"
+
+msgid "version "
+msgstr "versie "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} uur"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minuten"
+
+msgid "{} speech recognition model"
+msgstr "spraakherkenningsmodel voor {}"
