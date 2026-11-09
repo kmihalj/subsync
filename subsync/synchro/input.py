@@ -83,7 +83,9 @@ class InputFile(object):
 
     def open(self, path):
         """Open input file."""
-        ss = gizmo.Demux(path).getStreamsInfo()
+        from subsync.macos.access import access
+        with access(path) as path:
+            ss = gizmo.Demux(path).getStreamsInfo()
         streams = {s.no: s for s in ss}
 
         for t in [ 'video', 'audio', 'subtitle/text' ]:

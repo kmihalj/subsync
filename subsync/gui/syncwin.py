@@ -65,6 +65,11 @@ class SyncWin(subsync.gui.layout.syncwin.SyncWin):
         elapsed = time.monotonic() - self.startTime
         self.m_textElapsedTime.SetLabel(utils.timeStampFmt(elapsed))
 
+        if status is None:
+            self.m_gaugeProgress.SetValue(100 if finished else 0)
+            self.updateStatusErrors()
+            return
+
         self.m_textSync.SetLabel(_('Synchronization: {} points').format(status.points))
         self.m_textCorrelation.SetLabel('{:.2f} %'.format(100 * status.factor))
         self.m_textFormula.SetLabel(str(status.formula))
@@ -87,26 +92,27 @@ class SyncWin(subsync.gui.layout.syncwin.SyncWin):
 
     @gui_thread
     def onJobEnd(self, task, status, result):
-        self.showCloseButton()
-        self.onJobUpdate(task, status, not result.terminated)
+        try:
+            self.showCloseButton()
+            self.onJobUpdate(task, status, not result.terminated)
 
-        if status.correlated:
-            self.m_buttonSave.Enable()
-            self.m_bitmapTick.Show()
-            self.m_bitmapCross.Hide()
-            if abs(status.maxChange) > 0.5:
-                self.m_textStatus.SetLabel(_('Subtitles synchronized'))
+            if status is not None and status.correlated:
+                self.m_buttonSave.Enable()
+                self.m_bitmapTick.Show()
+                self.m_bitmapCross.Hide()
+                if abs(status.maxChange) > 0.5:
+                    self.m_textStatus.SetLabel(_('Subtitles synchronized'))
+                else:
+                    self.m_textStatus.SetLabel(_('No need to synchronize'))
             else:
-                self.m_textStatus.SetLabel(_('No need to synchronize'))
-        else:
-            self.m_bitmapTick.Hide()
-            self.m_bitmapCross.Show()
-            self.m_textStatus.SetLabel(_('Couldn\'t synchronize'))
+                self.m_bitmapTick.Hide()
+                self.m_bitmapCross.Show()
+                self.m_textStatus.SetLabel(_('Couldn\'t synchronize'))
 
-        self.Fit()
-        self.Layout()
-
-        self.suspendBlocker.unlock()
+            self.Fit()
+            self.Layout()
+        finally:
+            self.suspendBlocker.unlock()
 
     @gui_thread
     def onError(self, thread, source, err):
@@ -270,6 +276,8 @@ class SyncWin(subsync.gui.layout.syncwin.SyncWin):
         wildcard = '*.csv|*.csv|{}|*.*'.format(_('All files'))
         path = filedlg.showSaveFileDlg(self, wildcard=wildcard)
         if path:
-            with open(path, 'w') as fp:
-                for x, y in pts:
-                    fp.write('{:.3f},{:.3f}\n'.format(x, y))
+            from subsync.macos.access import access
+            with access(path, write=True) as writable:
+                with open(writable, 'w') as fp:
+                    for x, y in pts:
+                        fp.write('{:.3f},{:.3f}\n'.format(x, y))

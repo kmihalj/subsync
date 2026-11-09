@@ -2,6 +2,7 @@ from subsync.synchro.input import SubFile, RefFile
 from subsync.synchro.output import OutputFile
 from subsync import utils
 import yaml
+from subsync.macos.access import access
 
 __pdoc__ = { 'SyncTaskList': False }
 
@@ -57,12 +58,16 @@ class SyncTaskList(object):
     def deserialize(data):
         return [ SyncTask(**d) for d in data ]
 
-    def load(path):
-        with open(path, 'r') as fp:
-            data = yaml.safe_load(fp)
+    def load(path, authorize=None):
+        with access(path) as readable:
+            with open(readable, 'r') as fp:
+                data = yaml.safe_load(fp)
+        if authorize is not None and authorize(data) is False:
+            return None
         return SyncTaskList.deserialize(data)
 
     def save(tasks, path):
         data = [ task.serialize() for task in tasks ]
-        with open(path, 'w') as fp:
-            yaml.dump(data, fp, default_flow_style=False)
+        with access(path, write=True) as writable:
+            with open(writable, 'w') as fp:
+                yaml.dump(data, fp, default_flow_style=False)

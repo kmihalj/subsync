@@ -1,5 +1,6 @@
 from subsync.assets import item, listupdater, assetlist
 from subsync import config, utils
+from subsync.macos.mode import is_appstore_build
 import threading, json
 import os
 
@@ -145,10 +146,15 @@ class AssetManager(object):
 
     def getSelfUpdaterAsset(self):
         """Get asset corresponding with application upgrade (if exist)."""
+        if is_appstore_build():
+            return None
         if config.assetupd and utils.getCurrentVersion():
             return self.getAsset(config.assetupd)
 
     def _updateAssetsRemoteData(self, assets):
+        if is_appstore_build():
+            assets = {identifier: value for identifier, value in assets.items()
+                      if identifier.startswith(('dict/', 'speech/'))}
         logger.info('updating remote asset list, got %i assets', len(assets))
         for id, remote in assets.items():
             if item.validateRemoteData(remote):

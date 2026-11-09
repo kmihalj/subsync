@@ -45,6 +45,11 @@ class Subtitles(pysubs2.SSAFile):
         return res
 
     def save(self, path, encoding=u'utf-8', fmt=None, fps=None, overwrite=False):
+        from subsync.macos.access import access
+        with access(path, write=True) as writable:
+            return self._saveAuthorized(writable, encoding, fmt, fps, overwrite)
+
+    def _saveAuthorized(self, path, encoding, fmt, fps, overwrite):
         if not overwrite and os.path.exists(path):
             logger.info('file "%s" exists, generating new path', path)
             path = genUniquePath(path)

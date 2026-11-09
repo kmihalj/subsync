@@ -93,6 +93,7 @@ class BookmarkRegistry:
         self._lock = threading.RLock()
         self._entries = None
         self._active = {}
+        self._unavailable = set()
         self.store = Path(profile) / 'file-bookmarks.json' if enabled and profile else None
         if enabled and self.store is None:
             raise ValueError('Sandbox file access requires a private profile directory')
@@ -160,23 +161,34 @@ class BookmarkRegistry:
             return path
         canonical = _canonical(path)
         with self._lock:
-            self._load()
+            try:
+                self._load()
+                previous = self._entries
+            except BookmarkStoreError:
+                # An explicit new native selection can recover a corrupt
+                # registry; the unreadable file never authorizes any path.
+                logger.warning('Replacing unreadable permissions after a new selection')
+                previous = []
             data = self._native().create_bookmark(canonical, read_only=not write, directory=directory)
             if not isinstance(data, bytes) or not data or len(data) > 1024 * 1024:
                 raise FileAccessError('Cannot store invalid bookmark data')
             entry = {'id': uuid.uuid4().hex, 'path': canonical, 'aliases': [],
                      'directory': bool(directory), 'writable': bool(write),
                      'data': base64.b64encode(data).decode('ascii')}
-            entries = [old for old in self._entries if not (
+            entries = [old for old in previous if old['id'] not in self._unavailable and not (
                 old['path'] == canonical and old['directory'] == bool(directory)
                 and old['writable'] == bool(write))]
             self._save(entries + [entry])
         return path
 
-    def _choose(self, path, write):
+    def _choose(self, path, write, directory=False):
         candidates = []
         for entry in self._entries:
+            if entry['id'] in self._unavailable:
+                continue
             if write and not entry['writable']:
+                continue
+            if directory and not entry['directory']:
                 continue
             for alias in (entry['path'], *entry['aliases']):
                 if path == alias:
@@ -188,6 +200,21 @@ class BookmarkRegistry:
             raise FileAccessError('Select this file or its containing folder to allow access')
         _, _, entry, relative = max(candidates, key=lambda item: item[:2])
         return entry, relative
+
+    def has_grant(self, path, *, write=False, directory=False):
+        """Check saved selection metadata; acquire() still verifies OS access."""
+        if not self.enabled:
+            return True
+        canonical = _canonical(path)
+        if Path(canonical).is_relative_to(_canonical(self.store.parent)):
+            return True
+        with self._lock:
+            try:
+                self._load()
+                self._choose(canonical, write, directory)
+                return True
+            except FileAccessError:
+                return False
 
     def acquire(self, path, *, write=False):
         if not self.enabled:
@@ -202,7 +229,11 @@ class BookmarkRegistry:
             identifier = entry['id']
             active = self._active.get(identifier)
             if active is None:
-                url = self._native().resolve_bookmark(base64.b64decode(entry['data']))
+                try:
+                    url = self._native().resolve_bookmark(base64.b64decode(entry['data']))
+                except Exception:
+                    self._unavailable.add(identifier)
+                    raise
                 started = False
                 try:
                     started = url.start()
@@ -217,6 +248,7 @@ class BookmarkRegistry:
                         self._save([updated if old['id'] == identifier else old for old in self._entries])
                     active = {'url': url, 'base': base, 'count': 0}
                 except Exception:
+                    self._unavailable.add(identifier)
                     try:
                         if started:
                             url.stop()

@@ -13,6 +13,7 @@ from subsync.data.filetypes import subtitleWildcard, videoWildcard
 from subsync.data import descriptions
 import wx
 import time
+import os
 
 import logging
 logger = logging.getLogger(__name__)
@@ -72,6 +73,17 @@ class BatchWin(subsync.gui.layout.batchwin.BatchWin):
         try:
             tasks = self.m_items.getTasks()
             validator.validateTasks(tasks, outputRequired=True)
+
+            from subsync.macos.mode import is_appstore_build
+            if is_appstore_build():
+                for task in tasks:
+                    original = task.getOutputPath()
+                    directory = filedlg.ensureOutputDirectory(self, os.path.dirname(original))
+                    if directory is None:
+                        return
+                    if directory != os.path.dirname(original):
+                        literal = os.path.join(directory, os.path.basename(original))
+                        task.out.path = literal.replace('{', '{{').replace('}', '}}')
 
             if assetsdlg.validateAssets(self, tasks, askForLang=True):
                 self.m_gaugeTotalProgress.SetRange(100 * len(tasks))
@@ -342,17 +354,18 @@ class BatchWin(subsync.gui.layout.batchwin.BatchWin):
 
     @error_dlg
     def onMenuAddFolderClick(self, event):
-        style = wx.DD_DEFAULT_STYLE | wx.DD_DIR_MUST_EXIST
-        with wx.DirDialog(self, _('Select directory'), style=style) as dlg:
-            if dlg.ShowModal() == wx.ID_OK:
-                self.m_items.addFiles([ dlg.GetPath() ], skipMissing=True)
+        path = filedlg.showDirectoryDlg(self, _('Select directory'))
+        if path is not None:
+            self.m_items.addFiles([path], skipMissing=True)
 
     @error_dlg
     def onMenuImportClick(self, event):
         wildcard = '*.yaml|*.yaml|{}|*.*'.format(_('All files'))
         path = filedlg.showOpenFileDlg(self, wildcard=wildcard)
         if path:
-            tasks = SyncTaskList.load(path)
+            tasks = SyncTaskList.load(path, authorize=lambda data: filedlg.authorizeTaskData(self, data))
+            if tasks is None:
+                return
             self.m_items.removeAll()
             self.m_items.addTasks(tasks)
 

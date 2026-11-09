@@ -4,6 +4,7 @@ import time
 import threading
 from subsync.settings import settings
 from subsync.error import Error
+from subsync.macos import access as file_access
 
 import logging
 logger = logging.getLogger(__name__)
@@ -328,62 +329,90 @@ class SyncController(object):
             self._onFinish(self._terminated)
 
     def _runTask(self, task, timeout, interactive):
+        sync = None
+        scopes = None
+        status = None
+        stopAttempted = False
         try:
-            from .synchronizer import Synchronizer
-            self._onJobStart(task)
-            self._sync = sync = Synchronizer(task.sub, task.ref)
-            sync.onUpdate = self._semaphore.release
-            sync.onError = lambda src, err: self._onError(task, src, err)
+            try:
+                scopes = file_access.access_many([(task.sub.path, False), (task.ref.path, False)])
+                task.sub.path, task.ref.path = scopes.paths
+                from .synchronizer import Synchronizer
+                self._onJobStart(task)
+                self._sync = sync = Synchronizer(task.sub, task.ref)
+                sync.onUpdate = self._semaphore.release
+                sync.onError = lambda src, err: self._onError(task, src, err)
 
-            sync.init(self._options, runCb=lambda: not self._terminated)
-            if not self._terminated:
-                sync.start()
+                sync.init(self._options, runCb=lambda: not self._terminated)
+                if not self._terminated:
+                    sync.start()
 
-            self._onJobInit(task)
+                self._onJobInit(task)
 
-            status = sync.getStatus()
-            minEffort = self._options.get('minEffort', 1.0)
-            if timeout is not None:
-                lastTime = time.monotonic() - timeout
-
-            while not self._terminated and sync.isRunning() \
-                    and (interactive or minEffort >= 1.0 or status.effort < minEffort):
-                self._semaphore.acquire(timeout=timeout)
                 status = sync.getStatus()
-
+                minEffort = self._options.get('minEffort', 1.0)
                 if timeout is not None:
-                    now = time.monotonic()
-                    if now - lastTime >= timeout:
-                        lastTime = now
-                        self._onJobUpdate(task, status)
+                    lastTime = time.monotonic() - timeout
 
-        except Exception as err:
-            logger.warning('%r', err, exc_info=True)
-            self._onError(task, 'core', err)
+                while not self._terminated and sync.isRunning() \
+                        and (interactive or minEffort >= 1.0 or status.effort < minEffort):
+                    self._semaphore.acquire(timeout=timeout)
+                    status = sync.getStatus()
 
-        try:
-            sync.stop(force=True)
-            status = sync.getStatus()
-            logger.info('result: %r', status)
-            succeeded = not self._terminated and status and status.correlated
-            path = None
+                    if timeout is not None:
+                        now = time.monotonic()
+                        if now - lastTime >= timeout:
+                            lastTime = now
+                            self._onJobUpdate(task, status)
 
-            if not interactive and succeeded and task.out:
-                try:
-                    path = self.saveSynchronizedSubtitles(task=task)
+            except Exception as err:
+                if sync is None:
+                    self._sync = None
+                logger.warning('%r', err, exc_info=True)
+                self._onError(task, 'core', err)
 
-                except Exception as err:
-                    logger.warning('subtitle save failed: %r', err, exc_info=True)
-                    self._onError(task, 'core', err)
-                    succeeded = False
+            try:
+                if sync is not None:
+                    stopAttempted = True
+                    sync.stop(force=True)
+                    status = sync.getStatus()
+                logger.info('result: %r', status)
+                succeeded = bool(not self._terminated and status and status.correlated)
+                path = None
 
-            res = SyncJobResult(succeeded, self._terminated, path)
-            self._onJobEnd(task, status, res)
+                if not interactive and succeeded and task.out:
+                    try:
+                        path = self.saveSynchronizedSubtitles(task=task)
+                    except Exception as err:
+                        logger.warning('subtitle save failed: %r', err, exc_info=True)
+                        self._onError(task, 'core', err)
+                        succeeded = False
 
-        except Exception as err:
-            logger.warning('%r', err, exc_info=True)
-            self._onError(task, 'core', err)
+                res = SyncJobResult(succeeded, self._terminated, path)
+                self._onJobEnd(task, status, res)
 
+            except Exception as err:
+                logger.warning('%r', err, exc_info=True)
+                self._onError(task, 'core', err)
         finally:
-            sync.destroy()
+            # The outer lifetime includes user callbacks. Even if an error
+            # listener raises, stop/destroy workers before releasing file URLs.
+            import sys
+            propagating = sys.exc_info()[0] is not None
+            cleanupErrors = []
+            actions = []
+            if sync is not None:
+                if not stopAttempted:
+                    actions.append(lambda: sync.stop(force=True))
+                actions.append(sync.destroy)
+            if scopes is not None:
+                actions.append(scopes.close)
+            for action in actions:
+                try:
+                    action()
+                except Exception as err:
+                    cleanupErrors.append(err)
+                    logger.warning('Task resource cleanup failed', exc_info=True)
             logger.info('task finished %r', task)
+            if cleanupErrors and not propagating:
+                raise cleanupErrors[0]

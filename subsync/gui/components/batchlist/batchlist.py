@@ -189,17 +189,19 @@ class BatchList(ulc.UltimateListCtrl):
             self.EnsureVisible(row)
 
     def loadFiles(self, paths, type, skipMissing=False):
+        from subsync.macos import access as file_access
         items = []
         errors = []
 
         def load(paths, skipMissing):
             for path in paths:
-                if os.path.isdir(path):
-                    for root, _, names in os.walk(path):
-                        paths = [ os.path.join(root, name) for name in names ]
-                        load(paths, skipMissing=True)
-                else:
-                    loadFile(path, skipMissing)
+                with file_access.access(path) as readable:
+                    if os.path.isdir(readable):
+                        for root, _, names in os.walk(readable):
+                            paths = [ os.path.join(root, name) for name in names ]
+                            load(paths, skipMissing=True)
+                    else:
+                        loadFile(readable, skipMissing)
 
         def loadFile(path, skipMissing):
             try:

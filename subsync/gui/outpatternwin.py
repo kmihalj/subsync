@@ -2,6 +2,7 @@ import subsync.gui.layout.outpatternwin
 from subsync.gui.errorwin import error_dlg
 from subsync.synchro import OutputFile
 from subsync.gui.components import popups
+from subsync.gui.components import filedlg
 from subsync.settings import settings
 import wx
 import re
@@ -37,11 +38,10 @@ class OutputPatternWin(subsync.gui.layout.outpatternwin.OutputPatternWin):
     @error_dlg
     def selectCustomFolder(self):
         title = _('Select output directory')
-        style = wx.DD_DEFAULT_STYLE | wx.DD_DIR_MUST_EXIST
-        with wx.DirDialog(self, title, '', style) as dlg:
-            if dlg.ShowModal() == wx.ID_OK:
-                self.customFolder = dlg.GetPath()
-                return True
+        path = filedlg.showDirectoryDlg(self, title, write=True)
+        if path is not None:
+            self.customFolder = path
+            return True
 
     def serializePredefinedPattern(self):
         res = []
@@ -50,7 +50,11 @@ class OutputPatternWin(subsync.gui.layout.outpatternwin.OutputPatternWin):
         elif self.m_radioFolderRef.GetValue():
             res.append('{ref_dir}')
         else:
-            res.append(self.customFolder)
+            from subsync.macos.mode import is_appstore_build
+            folder = self.customFolder
+            if is_appstore_build():
+                folder = folder.replace('{', '{{').replace('}', '}}')
+            res.append(folder)
 
         res.append(os.path.sep)
 

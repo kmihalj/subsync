@@ -2,6 +2,9 @@ from .inputcell import DropPlaceholderItem
 from subsync.synchro import SubFile, RefFile
 from subsync.gui.components.update import updateLocker
 from subsync.gui.components.notifier import DelayedSignalNotifier
+from subsync.macos import access as file_access
+from subsync.macos.mode import is_appstore_build
+import os
 import wx
 
 
@@ -47,6 +50,9 @@ class DropExternal(wx.FileDropTarget):
         self.delayedCancel.clear()
         col = self.parent.getInputCol(x)
         if col is not None:
+            if is_appstore_build():
+                for path in paths:
+                    file_access.remember(path, directory=os.path.isdir(path))
             row = self.parent.getRow(x, y)
             self.apply(row, col, paths)
             return True
