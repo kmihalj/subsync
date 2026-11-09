@@ -35,7 +35,12 @@ POCKETSPHINX_VERSION=5.1.1
 PS_PATCH="$ROOT/tools/macos/patches/pocketsphinx-5.1.1-cep-tail.patch"
 PS_PATCH_SHA256=bd7e04b8a0a8a0f063de03cdb0076d941f00a9b0de67d1e97d5305be23288bde
 printf '%s  %s\n' "$PS_PATCH_SHA256" "$PS_PATCH" | shasum -a 256 -c -
-PS_MARKER="$PREFIX/.pocketsphinx-$POCKETSPHINX_VERSION-cep-$PS_PATCH_SHA256"
+PS_CMN_PATCH="$ROOT/tools/macos/patches/pocketsphinx-5.1.1-cmn-history.patch"
+PS_CMN_PATCH_SHA256=2b00403a522bcecdf42e4fc62603cf43a8889349e17ca099c44867196e07ee10
+printf '%s  %s\n' "$PS_CMN_PATCH_SHA256" "$PS_CMN_PATCH" | shasum -a 256 -c -
+PS_PATCH_ID=$(printf '%s\n' "$PS_PATCH_SHA256" "$PS_CMN_PATCH_SHA256" | shasum -a 256 | cut -d ' ' -f 1)
+PS_MARKER="$PREFIX/.pocketsphinx-$POCKETSPHINX_VERSION-$PS_PATCH_ID"
+PS_SOURCE="$SOURCES/pocketsphinx-$POCKETSPHINX_VERSION-subsync-$PS_PATCH_ID"
 fetch "ffmpeg-$FFMPEG_VERSION.tar.xz" \
     "https://ffmpeg.org/releases/ffmpeg-$FFMPEG_VERSION.tar.xz" \
     8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e
@@ -59,11 +64,11 @@ fi
 if [[ ! -f "$PS_MARKER" ]]; then
     # A patch-specific source/build directory prevents a previous unpatched
     # install marker or CMake cache from silently reusing a different decoder.
-    PS_SOURCE="$SOURCES/pocketsphinx-$POCKETSPHINX_VERSION-subsync-$PS_PATCH_SHA256"
     mkdir -p "$PS_SOURCE"
     tar -xf "$SOURCES/pocketsphinx-$POCKETSPHINX_VERSION.tar.gz" \
         --strip-components=1 -C "$PS_SOURCE"
     patch --batch --forward -p1 -d "$PS_SOURCE" < "$PS_PATCH"
+    patch --batch --forward -p1 -d "$PS_SOURCE" < "$PS_CMN_PATCH"
     (
         cmake -S "$PS_SOURCE" -B "$PS_SOURCE/build-subsync" -G Ninja \
             -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64 \
@@ -75,12 +80,13 @@ if [[ ! -f "$PS_MARKER" ]]; then
     ) >"$BUILD/logs/modern-pocketsphinx.log" 2>&1
     touch "$PS_MARKER"
 fi
+printf '%s\n' "$PS_SOURCE" > "$PREFIX/.subsync-pocketsphinx-source"
 mkdir -p "$PREFIX/share/licenses/ffmpeg" "$PREFIX/share/licenses/pocketsphinx"
 cp "$SOURCES/ffmpeg-$FFMPEG_VERSION/COPYING.LGPLv2.1" \
     "$SOURCES/ffmpeg-$FFMPEG_VERSION/LICENSE.md" "$PREFIX/share/licenses/ffmpeg/"
 tar -xOf "$SOURCES/pocketsphinx-$POCKETSPHINX_VERSION.tar.gz" \
     "pocketsphinx-$POCKETSPHINX_VERSION/LICENSE" > "$PREFIX/share/licenses/pocketsphinx/LICENSE"
-cp "$PS_PATCH" "$PREFIX/share/licenses/pocketsphinx/"
+cp "$PS_PATCH" "$PS_CMN_PATCH" "$PREFIX/share/licenses/pocketsphinx/"
 cp "$ROOT/tools/macos/modern-deps.json" "$PREFIX/share/licenses/"
 pkg-config --modversion libavcodec pocketsphinx
 printf 'Native dependency prefix: %s\n' "$PREFIX"

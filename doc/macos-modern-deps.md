@@ -13,12 +13,16 @@ compatibility code are compiled into SubSync; deprecated SphinxBase/SphinxAD
 libraries and the old decoder are not linked or bundled. See
 `gizmo/frontend/UPSTREAM.md` and the per-file provenance manifests.
 
-PocketSphinx 5.1.1 has a small local correction for the public streaming CEP
-API: utterance termination drains all dynamic-feature lookahead frames,
+PocketSphinx 5.1.1 has two documented local compatibility corrections.
+The public streaming CEP
+API correction: utterance termination drains all dynamic-feature lookahead frames,
 including when the output ring wraps. The source patch and its hash are
 recorded in `tools/macos/modern-deps.json` and included in native licenses.
-The fix leaves the raw PCM input path unchanged. No matching thresholds
-are relaxed to obtain successful comparisons.
+That fix leaves the raw PCM input path unchanged. A new bounded
+`cmninit_frames` configuration option preserves the upstream 500-frame
+initial history by default and allows SubSync to request the original empty
+history explicitly. No matching thresholds are relaxed to obtain successful
+comparisons.
 
 The application uses the separate `SubSync ARM Modern` preference directory.
 `SUBSYNC_CONFIG_DIR` can override it for isolated tests.
@@ -50,6 +54,10 @@ drain, repeated flush, a discontinuity, custom stereo mixing and resampler
 drain. It needs the dependencies produced by `build-deps-modern.sh`.
 
 `make -C gizmo/test` runs the existing algorithm tests.
+`tools/macos/test-cep-tail.sh` checks 64 public CEP tail/reset cases around
+feature and ring boundaries. `tools/macos/test-frontend-invalid.sh` checks
+malformed input configurations and upstream warp/FFT overflow regressions.
+The application build script runs these checks before packaging.
 `tools/macos/test-speech-invariance.sh` checks that changing decoder packet
 sizes or the media timestamp origin cannot change recognized words, scores
 or relative word times. It covers both enabled and disabled noise removal.

@@ -14,6 +14,11 @@
         "file": "tools/macos/patches/pocketsphinx-5.1.1-cep-tail.patch",
         "sha256": "bd7e04b8a0a8a0f063de03cdb0076d941f00a9b0de67d1e97d5305be23288bde",
         "purpose": "Drain dynamic-feature lookahead when a public streaming cepstral utterance ends; preserve raw PCM behavior."
+      },
+      {
+        "file": "tools/macos/patches/pocketsphinx-5.1.1-cmn-history.patch",
+        "sha256": "2b00403a522bcecdf42e4fc62603cf43a8889349e17ca099c44867196e07ee10",
+        "purpose": "Add an explicit initial CMN history count; default remains the upstream 500 frames, SubSync requests the original empty history."
       }
     ]
   }

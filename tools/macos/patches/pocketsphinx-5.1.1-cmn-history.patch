@@ -1,0 +1,38 @@
+--- a/src/acmod.c
++++ b/src/acmod.c
+@@ -187,6 +187,22 @@
+             && ps_config_str(acmod->config, "cmninit")) {
+             E_INFO("Setting initial CMN to %s\n", ps_config_str(acmod->config, "cmninit"));
+             cmn_set_repr(fcb->cmn_struct, ps_config_str(acmod->config, "cmninit"));
++            /* Retain the current 500-frame prior by default. Applications
++             * migrating older models can explicitly request an empty prior
++             * without depending on private CMN structures outside PS. */
++            {
++                long history = ps_config_int(acmod->config, "cmninit_frames");
++                int32 component;
++                if (history < 0 || history > CMN_WIN_HWM) {
++                    E_ERROR("cmninit_frames must be between 0 and %d\n", CMN_WIN_HWM);
++                    feat_free(fcb);
++                    return -1;
++                }
++                for (component = 0; component < fcb->cmn_struct->veclen; ++component)
++                    fcb->cmn_struct->sum[component] =
++                        fcb->cmn_struct->cmn_mean[component] * history;
++                fcb->cmn_struct->nframe = history;
++            }
+         }
+     }
+     if (acmod_feat_mismatch(acmod, fcb)) {
+--- a/src/config_macro.h
++++ b/src/config_macro.h
+@@ -511,6 +511,10 @@
+       ARG_STRING,                                                       \
+       "40,3,-1",                                                        \
+       "Initial values (comma-separated) for cepstral mean when 'live' is used" }, \
++{ "cmninit_frames",                                                    \
++      ARG_INTEGER,                                                      \
++      "500",                                                            \
++      "History frames represented by cmninit (0 restores legacy initial state; 0..800)" }, \
+ { "varnorm",                                                           \
+       ARG_BOOLEAN,                                                      \
+       "no",                                                             \
