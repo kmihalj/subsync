@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Malti\nLanguage: mt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Dwar"
+
+msgid "&Add files (auto sort)"
+msgstr "&Żid fajls (issortja awtomatikament)"
+
+msgid "&Close"
+msgstr "&Agħlaq"
+
+msgid "&Edit"
+msgstr "&Editja"
+
+msgid "&Export list"
+msgstr "&Esporta l-lista"
+
+msgid "&File"
+msgstr "&Fajl"
+
+msgid "&Help"
+msgstr "&Għajnuna"
+
+msgid "&Import list"
+msgstr "&Importa lista"
+
+msgid "&Language"
+msgstr "&Lingwa"
+
+msgid "&New"
+msgstr "&Ġdid"
+
+msgid "&Properties"
+msgstr "&Proprjetajiet"
+
+msgid "&Propeties"
+msgstr "&Proprjetajiet"
+
+msgid "&Remove"
+msgstr "&Neħħi"
+
+msgid ", {} points"
+msgstr ", {} punti"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 għal għażla awtomatika."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "minuta waħda"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<awtomatiku>"
+
+msgid "<empty>"
+msgstr "<vojt>"
+
+msgid "<other>"
+msgstr "<oħrajn>"
+
+msgid "<undefined>"
+msgstr "<mhux definit>"
+
+msgid "About"
+msgstr "Dwar"
+
+msgid "Add"
+msgstr "Żid"
+
+msgid "Add &folder"
+msgstr "Żid &folder"
+
+msgid "Add &references"
+msgstr "Żid &referenzi"
+
+msgid "Add &subtitles"
+msgstr "Żid &sottotitli"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albaniż"
+
+msgid "All files"
+msgstr "Il-fajls kollha"
+
+msgid "All supported files"
+msgstr "Il-fajls kollha appoġġjati"
+
+msgid "Another update in progress"
+msgstr "Diġà għaddej aġġornament ieħor"
+
+msgid "Application upgrade"
+msgstr "Aġġornament tal-applikazzjoni"
+
+msgid "Arabic"
+msgstr "Għarbi"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Żgur li trid tissostitwixxi l-fajls tal-output jekk diġà jeżistu?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Żgur li trid terġa’ tissettja l-valuri prestabbiliti?"
+
+msgid "Asset installation failed"
+msgstr "L-installazzjoni tar-riżorsi falliet"
+
+msgid "Au&to sort"
+msgstr "Issortja &awtomatikament"
+
+msgid "Audio &channels"
+msgstr "&Kanali tal-awdjo"
+
+msgid "Audio channels"
+msgstr "Kanali tal-awdjo"
+
+msgid "Audio channels:"
+msgstr "Kanali tal-awdjo:"
+
+msgid "Auto detect"
+msgstr "Agħraf awtomatikament"
+
+msgid "Auto sort"
+msgstr "Issortja awtomatikament"
+
+msgid "Batch Processing"
+msgstr "Ipproċessar f’lott"
+
+msgid "Batch processing"
+msgstr "Ipproċessar f’lott"
+
+msgid "Belarusian"
+msgstr "Bjelorussu"
+
+msgid "Bulgarian"
+msgstr "Bulgaru"
+
+msgid "Can't save subtitle file"
+msgstr "Ma jistax jiġi ssejvjat il-fajl tas-sottotitli"
+
+msgid "Cancel"
+msgstr "Ikkanċella"
+
+msgid "Cannot load settings file, {}"
+msgstr "Ma jistax jittella’ l-fajl tal-issettjar, {}"
+
+msgid "Catalan"
+msgstr "Katalan"
+
+msgid "Character &encoding"
+msgstr "&Kodifika tal-karattri"
+
+msgid "Character encoding"
+msgstr "Kodifika tal-karattri"
+
+msgid "Character encoding:"
+msgstr "Kodifika tal-karattri:"
+
+msgid "Check for updates"
+msgstr "Iċċekkja għal aġġornamenti"
+
+msgid "Checking for update..."
+msgstr "Qed jiġu ċċekkjati l-aġġornamenti..."
+
+msgid "Chinese"
+msgstr "Ċiniż"
+
+msgid "Close"
+msgstr "Agħlaq"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Ma setgħux jiġu ssejvjati s-sottotitli sinkronizzati"
+
+msgid "Couldn't synchronize"
+msgstr "Ma setgħetx issir is-sinkronizzazzjoni"
+
+msgid "Credits"
+msgstr "Ħajr"
+
+msgid "Croatian"
+msgstr "Kroat"
+
+msgid "Current file:"
+msgstr "Fajl attwali:"
+
+msgid "Czech"
+msgstr "Ċek"
+
+msgid "Danish"
+msgstr "Daniż"
+
+msgid "Debug"
+msgstr "Dijanjostika"
+
+msgid "Debug options:"
+msgstr "Għażliet tad-dijanjostika:"
+
+msgid "Do you want to clear all items?"
+msgstr "Trid tneħħi l-elementi kollha?"
+
+msgid "Download"
+msgstr "Niżżel"
+
+msgid "Download assets"
+msgstr "Niżżel ir-riżorsi"
+
+msgid "Download now?"
+msgstr "Trid tniżżel issa?"
+
+msgid "Downloading"
+msgstr "Qed jitniżżel"
+
+msgid "Downloading assets list..."
+msgstr "Qed titniżżel il-lista tar-riżorsi..."
+
+msgid "Drop files here to add sorted"
+msgstr "Waqqa’ fajls hawn biex iżżidhom f’ordni"
+
+msgid "Dump all synchronization points"
+msgstr "Esporta l-punti kollha ta’ sinkronizzazzjoni"
+
+msgid "Dump reference words"
+msgstr "Esporta l-kliem tar-referenza"
+
+msgid "Dump subtitle words"
+msgstr "Esporta l-kliem tas-sottotitli"
+
+msgid "Dump used synchronization points"
+msgstr "Esporta l-punti ta’ sinkronizzazzjoni użati"
+
+msgid "Dutch"
+msgstr "Olandiż"
+
+msgid "ETA:"
+msgstr "Ħin stmat li fadal:"
+
+msgid "Edit all tasks"
+msgstr "Editja l-kompiti kollha"
+
+msgid "Edit failed tasks"
+msgstr "Editja l-kompiti li fallew"
+
+msgid "Effort:"
+msgstr "Sforz:"
+
+msgid "Elapsed:"
+msgstr "Ħin li għadda:"
+
+msgid "Enable save button"
+msgstr "Attiva l-buttuna biex tissejvja"
+
+msgid "English"
+msgstr "Ingliż"
+
+msgid "Error"
+msgstr "Żball"
+
+msgid "Error during reference read"
+msgstr "Żball waqt il-qari tar-referenza"
+
+msgid "Error during subtitles read"
+msgstr "Żball waqt il-qari tas-sottotitli"
+
+msgid "Estonian"
+msgstr "Estonjan"
+
+msgid "Everything synchronized successfully"
+msgstr "Kollox ġie sinkronizzat b’suċċess"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Kollox ġie sinkronizzat, iżda kien hemm żbalji"
+
+msgid "Extractor jobs no:"
+msgstr "Għadd ta’ kompiti ta’ estrazzjoni:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Fawriż"
+
+msgid "File name:"
+msgstr "Isem il-fajl:"
+
+msgid "File type:"
+msgstr "Tip ta’ fajl:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Iffiltra r-reġistri minn dawn il-moduli (wieħed kull linja):"
+
+msgid "Finnish"
+msgstr "Finlandiż"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Ikkoreġi l-ħinijiet tas-sottotitli tal-output bl-offset mogħti, f’sekondi."
+
+msgid "Following assets could be updated:"
+msgstr "Dawn ir-riżorsi jistgħu jiġu aġġornati:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Dawn ir-riżorsi jridu jitniżżlu biex tkompli:"
+
+msgid "Following files could not be added:"
+msgstr "Dawn il-fajls ma setgħux jiżdiedu:"
+
+msgid "French"
+msgstr "Franċiż"
+
+msgid "GUI options:"
+msgstr "Għażliet tal-interfaċċa grafika:"
+
+msgid "Gaelic"
+msgstr "Għeliku Skoċċiż"
+
+msgid "Galician"
+msgstr "Galizjan"
+
+msgid "General"
+msgstr "Ġenerali"
+
+msgid "General options:"
+msgstr "Għażliet ġenerali:"
+
+msgid "German"
+msgstr "Ġermaniż"
+
+msgid "Got errors, synchronization failed"
+msgstr "Kien hemm żbalji u s-sinkronizzazzjoni falliet"
+
+msgid "Greek"
+msgstr "Grieg"
+
+msgid "Headless options:"
+msgstr "Għażliet mingħajr interfaċċa grafika:"
+
+msgid "Hebrew"
+msgstr "Ebrajk"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "L-isforz meħtieġ għas-sinkronizzazzjoni tas-sottotitli. Valur ogħla jagħti riżultat aħjar, iżda jieħu aktar ħin."
+
+msgid "Hungarian"
+msgstr "Ungeriż"
+
+msgid "Icelandic"
+msgstr "Iżlandiż"
+
+msgid "In seconds."
+msgstr "F’sekondi."
+
+msgid "Indonesian"
+msgstr "Indoneżjan"
+
+msgid "Info"
+msgstr "Informazzjoni"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Is-sinkronizzazzjoni inizjali tlestiet.\nDiġà tista’ tissejvja s-sottotitli.\nJekk għadhom ma jaqblux, stenna riżultat aħjar."
+
+msgid "Initializing..."
+msgstr "Qed jinbeda..."
+
+msgid "Input file:"
+msgstr "Fajl tal-input:"
+
+msgid "Invalid output pattern"
+msgstr "Mudell tal-output mhux validu"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Mudell tal-output mhux validu, kelma prinċipali mhux valida: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Mudell tal-output mhux validu, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Format tal-awdjo għat-taħdit mhux validu"
+
+msgid "Italian"
+msgstr "Taljan"
+
+msgid "Japanese"
+msgstr "Ġappuniż"
+
+msgid "Korean"
+msgstr "Korean"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "L-għażla tal-lingwa mhijiex obbligatorja, iżda tista’ ttejjeb ħafna l-preċiżjoni tas-sinkronizzazzjoni.\nŻgur trid tkompli?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Il-bidla tal-lingwa tidħol fis-seħħ wara li terġa’ tibda l-applikazzjoni"
+
+msgid "Language:"
+msgstr "Lingwa:"
+
+msgid "Languages"
+msgstr "Lingwi"
+
+msgid "Latin"
+msgstr "Latin"
+
+msgid "Latvian"
+msgstr "Latvjan"
+
+msgid "License"
+msgstr "Liċenzja"
+
+msgid "Lithuanian"
+msgstr "Litwan"
+
+msgid "Loading, please wait..."
+msgstr "Qed jittella’, jekk jogħġbok stenna..."
+
+msgid "Logging level:"
+msgstr "Livell tar-reġistrazzjoni:"
+
+msgid "Malagasy"
+msgstr "Malgaż"
+
+msgid "Malay"
+msgstr "Malajan"
+
+msgid "Maltese"
+msgstr "Malti"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "L-aġġustament massimu. Il-ħin tas-sottotitli ma jinbidilx b’aktar minn dan il-valur. Valur ogħla jtawwal is-sinkronizzazzjoni, iżda valur baxx wisq iwassal biex tfalli."
+
+msgid "Max adjustment:"
+msgstr "Aġġustament massimu:"
+
+msgid "Max points distance:"
+msgstr "Devjazzjoni massima tal-punti:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "L-akbar żball aċċettabbli tas-sinkronizzazzjoni, f’sekondi. Punti bi żball akbar minn dan jitwarrbu."
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Min correlation factor:"
+msgstr "Fattur minimu ta’ korrelazzjoni:"
+
+msgid "Min points no:"
+msgstr "Għadd minimu ta’ punti:"
+
+msgid "Min speech recognition score:"
+msgstr "Punteġġ minimu tal-għarfien tat-taħdit:"
+
+msgid "Min word length (letters):"
+msgstr "Tul minimu tal-kliem (ittri):"
+
+msgid "Min words similarity:"
+msgstr "Xebh minimu bejn il-kliem:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Il-fattur minimu ta’ korrelazzjoni, bejn 0.0 u 1.0, jintuża biex jiġi vvalutat ir-riżultat. Jekk il-fattur ikun inqas, is-sinkronizzazzjoni tfalli."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Il-punteġġ minimu tal-għarfien tat-taħdit, bejn 0.0 u 1.0. Kliem b’punteġġ aktar baxx jitwarrab."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "It-tul minimu tal-kliem, f’ittri. Kliem iqsar ma jintużax bħala punti ta’ sinkronizzazzjoni. Japplika biss għal lingwi b’alfabett."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Ix-xebh minimu bejn il-kliem għall-punti ta’ sinkronizzazzjoni. Bejn 0.0 u 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "L-għadd minimu ta’ punti ta’ sinkronizzazzjoni. Valur għoli wisq jista’ joħloq ħafna tqabbil falz."
+
+msgid "New synchronization"
+msgstr "Sinkronizzazzjoni ġdida"
+
+msgid "New version is available. Update now?"
+msgstr "Hemm verżjoni ġdida. Trid taġġorna issa?"
+
+msgid "No language selected"
+msgstr "Ma ntgħażlet ebda lingwa"
+
+msgid "No language selected for:"
+msgstr "Ma ntgħażlet ebda lingwa għal:"
+
+msgid "No need to synchronize"
+msgstr "M’hemmx bżonn ta’ sinkronizzazzjoni"
+
+msgid "Norwegian"
+msgstr "Norveġiż"
+
+msgid "Not supported stream type"
+msgstr "Tip ta’ fluss mhux appoġġjat"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "L-għadd ta’ threads tas-sinkronizzazzjoni li jaħdmu fl-istess ħin."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Direttorju tal-output:"
+
+msgid "Output encoding:"
+msgstr "Kodifika tal-output:"
+
+msgid "Output file names"
+msgstr "Ismijiet tal-fajls tal-output"
+
+msgid "Output file not set"
+msgstr "Ma ġiex issettjat fajl tal-output"
+
+msgid "Output filename:"
+msgstr "Isem il-fajl tal-output:"
+
+msgid "Output timing offset:"
+msgstr "Offset tal-ħin tal-output:"
+
+msgid "Overwrite existing files"
+msgstr "Issostitwixxi l-fajls eżistenti"
+
+msgid "Overwrite files?"
+msgstr "Trid tissostitwixxi l-fajls?"
+
+msgid "Persian"
+msgstr "Persjan"
+
+msgid "Polish"
+msgstr "Pollakk"
+
+msgid "Portuguese"
+msgstr "Portugiż"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Żomm is-sistema mqajma waqt is-sinkronizzazzjoni"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Jipprevjeni lis-sistema milli tidħol fil-modalità sleep waqt is-sinkronizzazzjoni.\nJista’ ma jaħdimx fuq kull pjattaforma."
+
+msgid "Reference file not set"
+msgstr "Ma ġiex issettjat fajl ta’ referenza"
+
+msgid "References (video or other subtitles):"
+msgstr "Referenzi (vidjo jew sottotitli oħra):"
+
+msgid "Remove"
+msgstr "Neħħi"
+
+msgid "Remove items"
+msgstr "Neħħi l-elementi"
+
+msgid "Restore defaults"
+msgstr "Irrestawra l-valuri prestabbiliti"
+
+msgid "Romanian"
+msgstr "Rumen"
+
+msgid "Russian"
+msgstr "Russu"
+
+msgid "Save"
+msgstr "Issejvja"
+
+msgid "Select"
+msgstr "Agħżel"
+
+msgid "Select &all"
+msgstr "Agħżel &kollox"
+
+msgid "Select &stream"
+msgstr "Agħżel &fluss"
+
+msgid "Select all &references"
+msgstr "Agħżel ir-&referenzi kollha"
+
+msgid "Select all &subtitles"
+msgstr "Agħżel is-&sottotitli kollha"
+
+msgid "Select all o&utputs"
+msgstr "Agħżel il-&fajls tal-output kollha"
+
+msgid "Select audio channels to listen to:"
+msgstr "Agħżel il-kanali tal-awdjo li għandhom jinstemgħu:"
+
+msgid "Select character encoding"
+msgstr "Agħżel il-kodifika tal-karattri"
+
+msgid "Select directory"
+msgstr "Agħżel direttorju"
+
+msgid "Select file"
+msgstr "Agħżel fajl"
+
+msgid "Select language"
+msgstr "Agħżel lingwa"
+
+msgid "Select output"
+msgstr "Agħżel l-output"
+
+msgid "Select output directory"
+msgstr "Agħżel id-direttorju tal-output"
+
+msgid "Select output subtitles framerate:"
+msgstr "Agħżel ir-rata tal-frejms tas-sottotitli tal-output:"
+
+msgid "Select reference language first"
+msgstr "L-ewwel agħżel il-lingwa tar-referenza"
+
+msgid "Select stream"
+msgstr "Agħżel fluss"
+
+msgid "Select stream by language:"
+msgstr "Agħżel fluss skont il-lingwa:"
+
+msgid "Select stream by title:"
+msgstr "Agħżel fluss skont it-titlu:"
+
+msgid "Select stream by type:"
+msgstr "Agħżel fluss skont it-tip:"
+
+msgid "Select stream:"
+msgstr "Agħżel fluss:"
+
+msgid "Select streams"
+msgstr "Agħżel il-flussi"
+
+msgid "Serbian"
+msgstr "Serb"
+
+msgid "Set &input stream"
+msgstr "Issettja l-fluss tal-&input"
+
+msgid "Set &output location"
+msgstr "Issettja l-post tal-&output"
+
+msgid "Settings"
+msgstr "Issettjar"
+
+msgid "Show popups:"
+msgstr "Uri messaġġi pop-up:"
+
+msgid "Signature verification failed"
+msgstr "Il-verifika tal-firma falliet"
+
+msgid "Slovak"
+msgstr "Slovakk"
+
+msgid "Slovenian"
+msgstr "Sloven"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Xi sottotitli ta’ referenza ma jistgħux jiġu dekodifikati (kodifika mhux valida?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Xi sottotitli ma jistgħux jiġu dekodifikati (kodifika mhux valida?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Xi kompiti ma setgħux jiġu sinkronizzati"
+
+msgid "Spanish"
+msgstr "Spanjol"
+
+msgid "Start"
+msgstr "Ibda"
+
+msgid "Status:"
+msgstr "Stat:"
+
+msgid "Stop"
+msgstr "Waqqaf"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Sinkronizzatur\ntas-Sottotitli\nu tat-Taħdit"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Sinkronizzatur tas-Sottotitli u tat-Taħdit"
+
+msgid "Subtitle files"
+msgstr "Fajls tas-sottotitli"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Is-sottotitli ma jistgħux ikunu l-istess bħar-referenza"
+
+msgid "Subtitles not set"
+msgstr "Ma ġewx issettjati sottotitli"
+
+msgid "Subtitles synchronized"
+msgstr "Is-sottotitli ġew sinkronizzati"
+
+msgid "Subtitles:"
+msgstr "Sottotitli:"
+
+msgid "Swedish"
+msgstr "Żvediż"
+
+msgid "Synchronization"
+msgstr "Sinkronizzazzjoni"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Is-sinkronizzazzjoni bejn il-lingwi {} għadha mhix appoġġjata."
+
+msgid "Synchronization job:"
+msgstr "Kompitu tas-sinkronizzazzjoni:"
+
+msgid "Synchronization options:"
+msgstr "Għażliet tas-sinkronizzazzjoni:"
+
+msgid "Synchronization terminated"
+msgstr "Is-sinkronizzazzjoni twaqqfet"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Is-sinkronizzazzjoni ma’ awdjo {} għadha mhix appoġġjata."
+
+msgid "Synchronization: 0 points"
+msgstr "Sinkronizzazzjoni: 0 punti"
+
+msgid "Synchronization: {} points"
+msgstr "Sinkronizzazzjoni: {} punti"
+
+msgid "Synchronizing..."
+msgstr "Qed jissinkronizza..."
+
+msgid "Task:"
+msgstr "Kompitu:"
+
+msgid "Terminating, please wait..."
+msgstr "Qed jintemm, jekk jogħġbok stenna..."
+
+msgid "Terminating..."
+msgstr "Qed jintemm..."
+
+msgid "There are no usable streams"
+msgstr "M’hemmx flussi li jistgħu jintużaw"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "M’hemmx dizzjunarju għat-traduzzjoni minn {} għal {}"
+
+msgid "There is no matching stream in {}"
+msgstr "M’hemmx fluss li jaqbel f’{}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "M’hemmx mudell ta’ għarfien tat-taħdit għal-lingwa {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Din hija għodda għas-sinkronizzazzjoni awtomatika tas-sottotitli tal-films.\nIs-sinkronizzazzjoni ssir billi tisma’ t-track tal-awdjo u tittraduċih jekk ikun meħtieġ.\nTista’ tuża wkoll sottotitli oħra bħala referenza.\n\nAwtur: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Falliment sħiħ"
+
+msgid "Total progress:"
+msgstr "Progress ġenerali:"
+
+msgid "Turkish"
+msgstr "Tork"
+
+msgid "Ukrainian"
+msgstr "Ukren"
+
+msgid "Unexpected error occurred"
+msgstr "Seħħ żball mhux mistenni"
+
+msgid "Unknown file extension"
+msgstr "Estensjoni tal-fajl mhux magħrufa"
+
+msgid "Update assets"
+msgstr "Aġġorna r-riżorsi"
+
+msgid "Update instalation failed miserably"
+msgstr "L-installazzjoni tal-aġġornament falliet kompletament"
+
+msgid "Update not available"
+msgstr "M’hemmx aġġornament disponibbli"
+
+msgid "Update now?"
+msgstr "Trid taġġorna issa?"
+
+msgid "Updates:"
+msgstr "Aġġornamenti:"
+
+msgid "Upgrade"
+msgstr "Aġġorna"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Użu: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Fajls tal-vidjo"
+
+msgid "Website"
+msgstr "Sit web"
+
+msgid "Your version is up to date"
+msgstr "Il-verżjoni tiegħek hija aġġornata"
+
+msgid "[details]"
+msgstr "[dettalji]"
+
+msgid "[errors]"
+msgstr "[żbalji]"
+
+msgid "[hide]"
+msgstr "[aħbi]"
+
+msgid "[show more]"
+msgstr "[uri aktar]"
+
+msgid "all"
+msgstr "kollha"
+
+msgid "all channels"
+msgstr "il-kanali kollha"
+
+msgid "and {} more"
+msgstr "u {} oħra"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "żid kodiċi tal-lingwa b’żewġ ittri (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "żid kodiċi tal-lingwa bi tliet ittri (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "żid in-numru tal-fluss"
+
+msgid "ask for update on exit"
+msgstr "staqsi dwar l-aġġornament meta toħroġ"
+
+msgid "audio"
+msgstr "awdjo"
+
+msgid "auto"
+msgstr "awtomatiku"
+
+msgid "auto select"
+msgstr "għażla awtomatika"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "ikkonferma s-sostituzzjoni tal-fajls (fil-modalità tal-lott)"
+
+msgid "correlation:"
+msgstr "korrelazzjoni:"
+
+msgid "couldn't synchronize"
+msgstr "ma setgħetx issir is-sinkronizzazzjoni"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "binja personalizzata"
+
+msgid "custom names:"
+msgstr "ismijiet personalizzati:"
+
+msgid "custom selection"
+msgstr "għażla personalizzata"
+
+msgid "custom value:"
+msgstr "valur personalizzat:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "prestabbilit"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "iddefinixxi kompitu ta’ sinkronizzazzjoni, jista’ jiġi ripetut diversi drabi"
+
+msgid "description"
+msgstr "deskrizzjoni"
+
+msgid "dictionary {} / {}"
+msgstr "dizzjunarju {} / {}"
+
+msgid "directory path"
+msgstr "mogħdija tad-direttorju"
+
+msgid "display this help text and exit"
+msgstr "uri dan it-test ta’ għajnuna u oħroġ"
+
+msgid "display version information and exit"
+msgstr "uri l-informazzjoni tal-verżjoni u oħroġ"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "tikkuntattjax is-server remot biex tikseb riżorsi neqsin"
+
+msgid "don't show this message again"
+msgstr "turix dan il-messaġġ mill-ġdid"
+
+msgid "done"
+msgstr "lest"
+
+msgid "download updates automatically"
+msgstr "niżżel l-aġġornamenti awtomatikament"
+
+msgid "downloading"
+msgstr "qed jitniżżel"
+
+msgid "drop here"
+msgstr "waqqa’ hawn"
+
+msgid "dump logs to specified file"
+msgstr "esporta r-reġistri lejn il-fajl speċifikat"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "esporta l-kliem lejn fajl, jew lejn l-output standard jekk ma jkunx hemm PATH; SRC huwa wieħed minn:  "
+
+msgid "elapsed time:"
+msgstr "ħin li għadda:"
+
+msgid "enable advanced debug options"
+msgstr "attiva għażliet avvanzati tad-dijanjostika"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "isem il-fajl (mingħajr mogħdija u estensjoni)"
+
+msgid "files with matching streams"
+msgstr "fajls bi flussi li jaqblu"
+
+msgid "files without matching streams"
+msgstr "fajls mingħajr flussi li jaqblu"
+
+msgid "formula:"
+msgstr "formula:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "livell ta’ sforz (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "jekk <field> mhux issettjat, żid <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "jekk <field> issettjat, żid <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importa lista ta’ kompiti minn fajl YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "lingwa"
+
+msgid "language not selected"
+msgstr "lingwa mhux magħżula"
+
+msgid "less than minute"
+msgstr "inqas minn minuta"
+
+msgid "log to file"
+msgstr "ikteb ir-reġistru f’fajl"
+
+msgid "max change:"
+msgstr "bidla massima:"
+
+msgid "missing assets:"
+msgstr "riżorsi neqsin:"
+
+msgid "name"
+msgstr "isem"
+
+msgid "open batch processing window"
+msgstr "iftaħ it-tieqa tal-ipproċessar f’lott"
+
+msgid "operation failed"
+msgstr "l-operazzjoni falliet"
+
+msgid "operation finished successfully"
+msgstr "l-operazzjoni tlestiet b’suċċess"
+
+msgid "output character encoding"
+msgstr "kodifika tal-karattri tal-output"
+
+msgid "output file path or pattern"
+msgstr "mogħdija jew mudell tal-fajl tal-output"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "rata tal-frejms tal-output (għal sottotitli bbażati fuq FPS)"
+
+msgid "outputs"
+msgstr "fajls tal-output"
+
+msgid "overwrite existing files"
+msgstr "issostitwixxi l-fajls eżistenti"
+
+msgid "path to reference file"
+msgstr "mogħdija tal-fajl ta’ referenza"
+
+msgid "path to subtitle file"
+msgstr "mogħdija tal-fajl tas-sottotitli"
+
+msgid "pattern:"
+msgstr "mudell:"
+
+msgid "predefined names:"
+msgstr "ismijiet definiti minn qabel:"
+
+msgid "processing..."
+msgstr "qed jipproċessa..."
+
+msgid "queued..."
+msgstr "fil-kju..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "immappjar tal-kanali tal-awdjo tar-referenza (għal referenzi tal-awdjo)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "kodifika tal-karattri tar-referenza (għal referenzi tas-sottotitli)"
+
+msgid "reference framerate"
+msgstr "rata tal-frejms tar-referenza"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "lingwa tar-referenza (kodiċi ISO b’żewġ ittri jew tlieta)"
+
+msgid "reference stream no"
+msgstr "numru tal-fluss tar-referenza"
+
+msgid "references"
+msgstr "referenzi"
+
+msgid "references: "
+msgstr "referenzi: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "ħaddem mingħajr interfaċċa grafika"
+
+msgid "same as input subtitles"
+msgstr "l-istess bħas-sottotitli tal-input"
+
+msgid "same as reference file"
+msgstr "l-istess bħall-fajl ta’ referenza"
+
+msgid "select custom folder"
+msgstr "agħżel folder personalizzat"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "agħżel il-fluss tar-referenza skont il-lingwa (kodiċi ISO bi tliet ittri)"
+
+msgid "select reference stream by type"
+msgstr "agħżel il-fluss tar-referenza skont it-tip"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "agħżel il-fluss tas-sottotitli skont il-lingwa (kodiċi ISO bi tliet ittri)"
+
+msgid "set logging level"
+msgstr "issettja l-livell tar-reġistrazzjoni"
+
+msgid "stream"
+msgstr "fluss"
+
+msgid "subtitle character encoding"
+msgstr "kodifika tal-karattri tas-sottotitli"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "rata tal-frejms tas-sottotitli (għal sottotitli bbażati fuq FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "lingwa tas-sottotitli (kodiċi ISO b’żewġ ittri jew tlieta)"
+
+msgid "subtitle stream no"
+msgstr "numru tal-fluss tas-sottotitli"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "kodiċi tal-lingwa b’żewġ ittri tas-sottotitli/referenza"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "kodiċi tal-lingwa bi tliet ittri tas-sottotitli/referenza"
+
+msgid "subtitle/reference file full path"
+msgstr "mogħdija sħiħa tal-fajl tas-sottotitli/referenza"
+
+msgid "subtitle/reference stream number"
+msgstr "numru tal-fluss tas-sottotitli/referenza"
+
+msgid "subtitle/text"
+msgstr "sottotitli/test"
+
+msgid "subtitles"
+msgstr "sottotitli"
+
+msgid "subtitles: "
+msgstr "sottotitli: "
+
+msgid "synchronizing"
+msgstr "qed jissinkronizza"
+
+msgid "terminated"
+msgstr "intemm"
+
+msgid "type"
+msgstr "tip"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "lingwa tal-interfaċċa (kodiċi ISO b’żewġ ittri)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "livell ta’ dettall (0 - 3)"
+
+msgid "version "
+msgstr "verżjoni "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} sigħat"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minuti"
+
+msgid "{} speech recognition model"
+msgstr "mudell ta’ għarfien tat-taħdit {}"

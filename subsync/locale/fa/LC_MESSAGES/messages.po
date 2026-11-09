@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: فارسی\nLanguage: fa\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&درباره"
+
+msgid "&Add files (auto sort)"
+msgstr "&افزودن فایل‌ها (مرتب‌سازی خودکار)"
+
+msgid "&Close"
+msgstr "&بستن"
+
+msgid "&Edit"
+msgstr "&ویرایش"
+
+msgid "&Export list"
+msgstr "&صدور فهرست"
+
+msgid "&File"
+msgstr "&فایل"
+
+msgid "&Help"
+msgstr "&راهنما"
+
+msgid "&Import list"
+msgstr "&ورود فهرست"
+
+msgid "&Language"
+msgstr "&زبان"
+
+msgid "&New"
+msgstr "&جدید"
+
+msgid "&Properties"
+msgstr "&ویژگی‌ها"
+
+msgid "&Propeties"
+msgstr "&ویژگی‌ها"
+
+msgid "&Remove"
+msgstr "&حذف"
+
+msgid ", {} points"
+msgstr "، {} نقطه"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "برای انتخاب خودکار، 0 وارد کنید."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 دقیقه"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<خودکار>"
+
+msgid "<empty>"
+msgstr "<خالی>"
+
+msgid "<other>"
+msgstr "<سایر>"
+
+msgid "<undefined>"
+msgstr "<تعریف‌نشده>"
+
+msgid "About"
+msgstr "درباره"
+
+msgid "Add"
+msgstr "افزودن"
+
+msgid "Add &folder"
+msgstr "افزودن &پوشه"
+
+msgid "Add &references"
+msgstr "افزودن &مرجع‌ها"
+
+msgid "Add &subtitles"
+msgstr "افزودن &زیرنویس‌ها"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "آلبانیایی"
+
+msgid "All files"
+msgstr "همهٔ فایل‌ها"
+
+msgid "All supported files"
+msgstr "همهٔ فایل‌های پشتیبانی‌شده"
+
+msgid "Another update in progress"
+msgstr "به‌روزرسانی دیگری در حال انجام است"
+
+msgid "Application upgrade"
+msgstr "ارتقای برنامه"
+
+msgid "Arabic"
+msgstr "عربی"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "آیا مطمئنید که می‌خواهید فایل‌های خروجی موجود بازنویسی شوند؟"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "آیا مطمئنید که می‌خواهید تنظیمات به حالت پیش‌فرض برگردند؟"
+
+msgid "Asset installation failed"
+msgstr "نصب منابع ناموفق بود"
+
+msgid "Au&to sort"
+msgstr "مرتب‌سازی &خودکار"
+
+msgid "Audio &channels"
+msgstr "&کانال‌های صوتی"
+
+msgid "Audio channels"
+msgstr "کانال‌های صوتی"
+
+msgid "Audio channels:"
+msgstr "کانال‌های صوتی:"
+
+msgid "Auto detect"
+msgstr "تشخیص خودکار"
+
+msgid "Auto sort"
+msgstr "مرتب‌سازی خودکار"
+
+msgid "Batch Processing"
+msgstr "پردازش دسته‌ای"
+
+msgid "Batch processing"
+msgstr "پردازش دسته‌ای"
+
+msgid "Belarusian"
+msgstr "بلاروسی"
+
+msgid "Bulgarian"
+msgstr "بلغاری"
+
+msgid "Can't save subtitle file"
+msgstr "ذخیرهٔ فایل زیرنویس ممکن نیست"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Cannot load settings file, {}"
+msgstr "بارگیری فایل تنظیمات ممکن نیست، {}"
+
+msgid "Catalan"
+msgstr "کاتالان"
+
+msgid "Character &encoding"
+msgstr "&کدگذاری نویسه‌ها"
+
+msgid "Character encoding"
+msgstr "کدگذاری نویسه‌ها"
+
+msgid "Character encoding:"
+msgstr "کدگذاری نویسه‌ها:"
+
+msgid "Check for updates"
+msgstr "بررسی به‌روزرسانی‌ها"
+
+msgid "Checking for update..."
+msgstr "در حال بررسی به‌روزرسانی..."
+
+msgid "Chinese"
+msgstr "چینی"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "ذخیرهٔ زیرنویس‌های همگام‌شده ممکن نشد"
+
+msgid "Couldn't synchronize"
+msgstr "همگام‌سازی ممکن نشد"
+
+msgid "Credits"
+msgstr "سپاسگزاری"
+
+msgid "Croatian"
+msgstr "کرواتی"
+
+msgid "Current file:"
+msgstr "فایل کنونی:"
+
+msgid "Czech"
+msgstr "چکی"
+
+msgid "Danish"
+msgstr "دانمارکی"
+
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+msgid "Debug options:"
+msgstr "گزینه‌های اشکال‌زدایی:"
+
+msgid "Do you want to clear all items?"
+msgstr "آیا می‌خواهید همهٔ موارد پاک شوند؟"
+
+msgid "Download"
+msgstr "دریافت"
+
+msgid "Download assets"
+msgstr "دریافت منابع"
+
+msgid "Download now?"
+msgstr "اکنون دریافت شود؟"
+
+msgid "Downloading"
+msgstr "در حال دریافت"
+
+msgid "Downloading assets list..."
+msgstr "در حال دریافت فهرست منابع..."
+
+msgid "Drop files here to add sorted"
+msgstr "فایل‌ها را اینجا رها کنید تا مرتب و اضافه شوند"
+
+msgid "Dump all synchronization points"
+msgstr "صدور همهٔ نقاط همگام‌سازی"
+
+msgid "Dump reference words"
+msgstr "صدور واژه‌های مرجع"
+
+msgid "Dump subtitle words"
+msgstr "صدور واژه‌های زیرنویس"
+
+msgid "Dump used synchronization points"
+msgstr "صدور نقاط همگام‌سازی استفاده‌شده"
+
+msgid "Dutch"
+msgstr "هلندی"
+
+msgid "ETA:"
+msgstr "زمان تخمینی باقی‌مانده:"
+
+msgid "Edit all tasks"
+msgstr "ویرایش همهٔ کارها"
+
+msgid "Edit failed tasks"
+msgstr "ویرایش کارهای ناموفق"
+
+msgid "Effort:"
+msgstr "میزان تلاش:"
+
+msgid "Elapsed:"
+msgstr "زمان سپری‌شده:"
+
+msgid "Enable save button"
+msgstr "فعال کردن دکمهٔ ذخیره"
+
+msgid "English"
+msgstr "انگلیسی"
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Error during reference read"
+msgstr "خطا هنگام خواندن مرجع"
+
+msgid "Error during subtitles read"
+msgstr "خطا هنگام خواندن زیرنویس‌ها"
+
+msgid "Estonian"
+msgstr "استونیایی"
+
+msgid "Everything synchronized successfully"
+msgstr "همهٔ موارد با موفقیت همگام شدند"
+
+msgid "Everything synchronized, but got errors"
+msgstr "همهٔ موارد همگام شدند، اما خطاهایی رخ داد"
+
+msgid "Extractor jobs no:"
+msgstr "تعداد کارهای استخراج:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "فارویی"
+
+msgid "File name:"
+msgstr "نام فایل:"
+
+msgid "File type:"
+msgstr "نوع فایل:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "گزارش‌های این ماژول‌ها حذف شوند (هر ماژول در یک خط):"
+
+msgid "Finnish"
+msgstr "فنلاندی"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "زمان‌بندی زیرنویس خروجی را به‌اندازهٔ جابه‌جایی تعیین‌شده، بر حسب ثانیه، اصلاح می‌کند."
+
+msgid "Following assets could be updated:"
+msgstr "منابع زیر قابل به‌روزرسانی هستند:"
+
+msgid "Following assets must be download to continue:"
+msgstr "برای ادامه باید منابع زیر دریافت شوند:"
+
+msgid "Following files could not be added:"
+msgstr "فایل‌های زیر اضافه نشدند:"
+
+msgid "French"
+msgstr "فرانسوی"
+
+msgid "GUI options:"
+msgstr "گزینه‌های رابط گرافیکی:"
+
+msgid "Gaelic"
+msgstr "گیلیک اسکاتلندی"
+
+msgid "Galician"
+msgstr "گالیسی"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "General options:"
+msgstr "گزینه‌های عمومی:"
+
+msgid "German"
+msgstr "آلمانی"
+
+msgid "Got errors, synchronization failed"
+msgstr "خطا رخ داد و همگام‌سازی ناموفق بود"
+
+msgid "Greek"
+msgstr "یونانی"
+
+msgid "Headless options:"
+msgstr "گزینه‌های حالت بدون رابط گرافیکی:"
+
+msgid "Hebrew"
+msgstr "عبری"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "میزان تلاش برای همگام‌سازی زیرنویس‌ها. مقدار بالاتر نتیجهٔ بهتری می‌دهد، اما زمان بیشتری می‌برد."
+
+msgid "Hungarian"
+msgstr "مجاری"
+
+msgid "Icelandic"
+msgstr "ایسلندی"
+
+msgid "In seconds."
+msgstr "بر حسب ثانیه."
+
+msgid "Indonesian"
+msgstr "اندونزیایی"
+
+msgid "Info"
+msgstr "اطلاعات"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "همگام‌سازی اولیه انجام شد.\nاکنون می‌توانید زیرنویس‌ها را ذخیره کنید.\nاگر هنوز هماهنگ نیستند، برای نتیجه‌ای بهتر منتظر بمانید."
+
+msgid "Initializing..."
+msgstr "در حال آماده‌سازی..."
+
+msgid "Input file:"
+msgstr "فایل ورودی:"
+
+msgid "Invalid output pattern"
+msgstr "الگوی خروجی نامعتبر است"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "الگوی خروجی نامعتبر است، کلیدواژهٔ نامعتبر: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "الگوی خروجی نامعتبر است، {}"
+
+msgid "Invalid speech audio format"
+msgstr "قالب صوت برای بازشناسی گفتار نامعتبر است"
+
+msgid "Italian"
+msgstr "ایتالیایی"
+
+msgid "Japanese"
+msgstr "ژاپنی"
+
+msgid "Korean"
+msgstr "کره‌ای"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "انتخاب زبان اجباری نیست، اما می‌تواند دقت همگام‌سازی را بسیار بهبود دهد.\nآیا مطمئنید؟"
+
+msgid "Language changes will take effect after application restart"
+msgstr "تغییر زبان پس از راه‌اندازی دوبارهٔ برنامه اعمال می‌شود"
+
+msgid "Language:"
+msgstr "زبان:"
+
+msgid "Languages"
+msgstr "زبان‌ها"
+
+msgid "Latin"
+msgstr "لاتین"
+
+msgid "Latvian"
+msgstr "لتونیایی"
+
+msgid "License"
+msgstr "مجوز"
+
+msgid "Lithuanian"
+msgstr "لیتوانیایی"
+
+msgid "Loading, please wait..."
+msgstr "در حال بارگیری، لطفاً منتظر بمانید..."
+
+msgid "Logging level:"
+msgstr "سطح ثبت گزارش:"
+
+msgid "Malagasy"
+msgstr "مالاگاسی"
+
+msgid "Malay"
+msgstr "مالایی"
+
+msgid "Maltese"
+msgstr "مالتی"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "بیشترین جابه‌جایی مجاز. زمان زیرنویس بیش از این مقدار تغییر نمی‌کند. مقدار بالاتر زمان همگام‌سازی را افزایش می‌دهد، اما مقدار بیش‌ازحد کم باعث شکست همگام‌سازی می‌شود."
+
+msgid "Max adjustment:"
+msgstr "بیشترین جابه‌جایی:"
+
+msgid "Max points distance:"
+msgstr "بیشترین انحراف نقاط:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "بیشترین خطای قابل قبول همگام‌سازی، بر حسب ثانیه. نقاطی که خطایشان بیش از این مقدار باشد کنار گذاشته می‌شوند."
+
+msgid "Menu"
+msgstr "منو"
+
+msgid "Min correlation factor:"
+msgstr "کمترین ضریب همبستگی:"
+
+msgid "Min points no:"
+msgstr "کمترین تعداد نقاط:"
+
+msgid "Min speech recognition score:"
+msgstr "کمترین امتیاز بازشناسی گفتار:"
+
+msgid "Min word length (letters):"
+msgstr "کمترین طول واژه (تعداد حروف):"
+
+msgid "Min words similarity:"
+msgstr "کمترین شباهت واژه‌ها:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "کمترین ضریب همبستگی، بین 0.0 و 1.0، برای ارزیابی نتیجهٔ همگام‌سازی استفاده می‌شود. اگر ضریب از این مقدار کمتر باشد، همگام‌سازی شکست می‌خورد."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "کمترین امتیاز بازشناسی گفتار، بین 0.0 و 1.0. واژه‌هایی که با امتیاز کمتر بازشناسی شوند کنار گذاشته می‌شوند."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "کمترین طول واژه بر حسب تعداد حروف. واژه‌های کوتاه‌تر به‌عنوان نقطهٔ همگام‌سازی استفاده نمی‌شوند. فقط برای زبان‌های الفبایی کاربرد دارد."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "کمترین شباهت واژه‌ها برای نقاط همگام‌سازی. بین 0.0 و 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "کمترین تعداد نقاط همگام‌سازی. مقدار بیش‌ازحد بالا ممکن است تطبیق‌های نادرست زیادی ایجاد کند."
+
+msgid "New synchronization"
+msgstr "همگام‌سازی جدید"
+
+msgid "New version is available. Update now?"
+msgstr "نسخهٔ جدیدی موجود است. اکنون به‌روزرسانی شود؟"
+
+msgid "No language selected"
+msgstr "زبانی انتخاب نشده است"
+
+msgid "No language selected for:"
+msgstr "برای موارد زیر زبانی انتخاب نشده است:"
+
+msgid "No need to synchronize"
+msgstr "نیازی به همگام‌سازی نیست"
+
+msgid "Norwegian"
+msgstr "نروژی"
+
+msgid "Not supported stream type"
+msgstr "نوع جریان پشتیبانی نمی‌شود"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "تعداد رشته‌های همگام‌سازی هم‌زمان."
+
+msgid "OK"
+msgstr "تأیید"
+
+msgid "Output directory:"
+msgstr "پوشهٔ خروجی:"
+
+msgid "Output encoding:"
+msgstr "کدگذاری خروجی:"
+
+msgid "Output file names"
+msgstr "نام فایل‌های خروجی"
+
+msgid "Output file not set"
+msgstr "فایل خروجی تعیین نشده است"
+
+msgid "Output filename:"
+msgstr "نام فایل خروجی:"
+
+msgid "Output timing offset:"
+msgstr "جابه‌جایی زمان خروجی:"
+
+msgid "Overwrite existing files"
+msgstr "بازنویسی فایل‌های موجود"
+
+msgid "Overwrite files?"
+msgstr "فایل‌ها بازنویسی شوند؟"
+
+msgid "Persian"
+msgstr "فارسی"
+
+msgid "Polish"
+msgstr "لهستانی"
+
+msgid "Portuguese"
+msgstr "پرتغالی"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "جلوگیری از خواب سیستم هنگام همگام‌سازی"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "هنگام همگام‌سازی از رفتن سیستم به حالت خواب جلوگیری می‌کند.\nممکن است روی همهٔ سکوها کار نکند."
+
+msgid "Reference file not set"
+msgstr "فایل مرجع تعیین نشده است"
+
+msgid "References (video or other subtitles):"
+msgstr "مرجع‌ها (ویدیو یا زیرنویس‌های دیگر):"
+
+msgid "Remove"
+msgstr "حذف"
+
+msgid "Remove items"
+msgstr "حذف موارد"
+
+msgid "Restore defaults"
+msgstr "بازیابی پیش‌فرض‌ها"
+
+msgid "Romanian"
+msgstr "رومانیایی"
+
+msgid "Russian"
+msgstr "روسی"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Select"
+msgstr "انتخاب"
+
+msgid "Select &all"
+msgstr "انتخاب &همه"
+
+msgid "Select &stream"
+msgstr "انتخاب &جریان"
+
+msgid "Select all &references"
+msgstr "انتخاب همهٔ &مرجع‌ها"
+
+msgid "Select all &subtitles"
+msgstr "انتخاب همهٔ &زیرنویس‌ها"
+
+msgid "Select all o&utputs"
+msgstr "انتخاب همهٔ &خروجی‌ها"
+
+msgid "Select audio channels to listen to:"
+msgstr "کانال‌های صوتی مورد استفاده را انتخاب کنید:"
+
+msgid "Select character encoding"
+msgstr "انتخاب کدگذاری نویسه‌ها"
+
+msgid "Select directory"
+msgstr "انتخاب پوشه"
+
+msgid "Select file"
+msgstr "انتخاب فایل"
+
+msgid "Select language"
+msgstr "انتخاب زبان"
+
+msgid "Select output"
+msgstr "انتخاب خروجی"
+
+msgid "Select output directory"
+msgstr "انتخاب پوشهٔ خروجی"
+
+msgid "Select output subtitles framerate:"
+msgstr "نرخ فریم زیرنویس خروجی را انتخاب کنید:"
+
+msgid "Select reference language first"
+msgstr "ابتدا زبان مرجع را انتخاب کنید"
+
+msgid "Select stream"
+msgstr "انتخاب جریان"
+
+msgid "Select stream by language:"
+msgstr "انتخاب جریان بر اساس زبان:"
+
+msgid "Select stream by title:"
+msgstr "انتخاب جریان بر اساس عنوان:"
+
+msgid "Select stream by type:"
+msgstr "انتخاب جریان بر اساس نوع:"
+
+msgid "Select stream:"
+msgstr "انتخاب جریان:"
+
+msgid "Select streams"
+msgstr "انتخاب جریان‌ها"
+
+msgid "Serbian"
+msgstr "صربی"
+
+msgid "Set &input stream"
+msgstr "تعیین جریان &ورودی"
+
+msgid "Set &output location"
+msgstr "تعیین محل &خروجی"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Show popups:"
+msgstr "نمایش پیام‌های بازشو:"
+
+msgid "Signature verification failed"
+msgstr "بررسی امضا ناموفق بود"
+
+msgid "Slovak"
+msgstr "اسلواکی"
+
+msgid "Slovenian"
+msgstr "اسلوونیایی"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "برخی زیرنویس‌های مرجع قابل رمزگشایی نیستند (کدگذاری نامعتبر است؟)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "برخی زیرنویس‌ها قابل رمزگشایی نیستند (کدگذاری نامعتبر است؟)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "برخی کارها همگام نشدند"
+
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+msgid "Start"
+msgstr "شروع"
+
+msgid "Status:"
+msgstr "وضعیت:"
+
+msgid "Stop"
+msgstr "توقف"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "همگام‌ساز\nزیرنویس\nو گفتار"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "همگام‌ساز زیرنویس و گفتار"
+
+msgid "Subtitle files"
+msgstr "فایل‌های زیرنویس"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "زیرنویس و مرجع نباید یک فایل باشند"
+
+msgid "Subtitles not set"
+msgstr "زیرنویس‌ها تعیین نشده‌اند"
+
+msgid "Subtitles synchronized"
+msgstr "زیرنویس‌ها همگام شدند"
+
+msgid "Subtitles:"
+msgstr "زیرنویس‌ها:"
+
+msgid "Swedish"
+msgstr "سوئدی"
+
+msgid "Synchronization"
+msgstr "همگام‌سازی"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "همگام‌سازی بین زبان‌های {} در حال حاضر پشتیبانی نمی‌شود."
+
+msgid "Synchronization job:"
+msgstr "کار همگام‌سازی:"
+
+msgid "Synchronization options:"
+msgstr "گزینه‌های همگام‌سازی:"
+
+msgid "Synchronization terminated"
+msgstr "همگام‌سازی پایان یافت"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "همگام‌سازی با صدای {} در حال حاضر پشتیبانی نمی‌شود."
+
+msgid "Synchronization: 0 points"
+msgstr "همگام‌سازی: 0 نقطه"
+
+msgid "Synchronization: {} points"
+msgstr "همگام‌سازی: {} نقطه"
+
+msgid "Synchronizing..."
+msgstr "در حال همگام‌سازی..."
+
+msgid "Task:"
+msgstr "کار:"
+
+msgid "Terminating, please wait..."
+msgstr "در حال پایان دادن، لطفاً منتظر بمانید..."
+
+msgid "Terminating..."
+msgstr "در حال پایان دادن..."
+
+msgid "There are no usable streams"
+msgstr "جریان قابل استفاده‌ای وجود ندارد"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "واژه‌نامه‌ای برای ترجمه از {} به {} وجود ندارد"
+
+msgid "There is no matching stream in {}"
+msgstr "جریان منطبقی در {} وجود ندارد"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "مدل بازشناسی گفتار برای زبان {} وجود ندارد"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "این ابزاری برای همگام‌سازی خودکار زیرنویس فیلم است.\nهمگام‌سازی با شنیدن مسیر صوتی و ترجمهٔ آن در صورت نیاز انجام می‌شود.\nهمچنین می‌توان از زیرنویس دیگری به‌عنوان مرجع استفاده کرد.\n\nنویسنده: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "شکست کامل"
+
+msgid "Total progress:"
+msgstr "پیشرفت کلی:"
+
+msgid "Turkish"
+msgstr "ترکی"
+
+msgid "Ukrainian"
+msgstr "اوکراینی"
+
+msgid "Unexpected error occurred"
+msgstr "خطای غیرمنتظره‌ای رخ داد"
+
+msgid "Unknown file extension"
+msgstr "پسوند فایل ناشناخته است"
+
+msgid "Update assets"
+msgstr "به‌روزرسانی منابع"
+
+msgid "Update instalation failed miserably"
+msgstr "نصب به‌روزرسانی کاملاً ناموفق بود"
+
+msgid "Update not available"
+msgstr "به‌روزرسانی موجود نیست"
+
+msgid "Update now?"
+msgstr "اکنون به‌روزرسانی شود؟"
+
+msgid "Updates:"
+msgstr "به‌روزرسانی‌ها:"
+
+msgid "Upgrade"
+msgstr "ارتقا"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "کاربرد: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "فایل‌های ویدیویی"
+
+msgid "Website"
+msgstr "وب‌سایت"
+
+msgid "Your version is up to date"
+msgstr "نسخهٔ شما به‌روز است"
+
+msgid "[details]"
+msgstr "[جزئیات]"
+
+msgid "[errors]"
+msgstr "[خطاها]"
+
+msgid "[hide]"
+msgstr "[پنهان کردن]"
+
+msgid "[show more]"
+msgstr "[نمایش بیشتر]"
+
+msgid "all"
+msgstr "همه"
+
+msgid "all channels"
+msgstr "همهٔ کانال‌ها"
+
+msgid "and {} more"
+msgstr "و {} مورد دیگر"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "افزودن کد زبان دوحرفی (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "افزودن کد زبان سه‌حرفی (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "افزودن شمارهٔ جریان"
+
+msgid "ask for update on exit"
+msgstr "پرسش دربارهٔ به‌روزرسانی هنگام خروج"
+
+msgid "audio"
+msgstr "صوت"
+
+msgid "auto"
+msgstr "خودکار"
+
+msgid "auto select"
+msgstr "انتخاب خودکار"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "تأیید بازنویسی فایل (در حالت دسته‌ای)"
+
+msgid "correlation:"
+msgstr "همبستگی:"
+
+msgid "couldn't synchronize"
+msgstr "همگام‌سازی ممکن نشد"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "ساخت سفارشی"
+
+msgid "custom names:"
+msgstr "نام‌های سفارشی:"
+
+msgid "custom selection"
+msgstr "انتخاب سفارشی"
+
+msgid "custom value:"
+msgstr "مقدار سفارشی:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "پیش‌فرض"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "تعیین کار همگام‌سازی؛ قابل تکرار به دفعات"
+
+msgid "description"
+msgstr "توضیحات"
+
+msgid "dictionary {} / {}"
+msgstr "واژه‌نامهٔ {} / {}"
+
+msgid "directory path"
+msgstr "مسیر پوشه"
+
+msgid "display this help text and exit"
+msgstr "نمایش این راهنما و خروج"
+
+msgid "display version information and exit"
+msgstr "نمایش اطلاعات نسخه و خروج"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "برای دریافت منابع ناموجود به سرور راه دور متصل نشو"
+
+msgid "don't show this message again"
+msgstr "این پیام دوباره نمایش داده نشود"
+
+msgid "done"
+msgstr "انجام شد"
+
+msgid "download updates automatically"
+msgstr "دریافت خودکار به‌روزرسانی‌ها"
+
+msgid "downloading"
+msgstr "در حال دریافت"
+
+msgid "drop here"
+msgstr "اینجا رها کنید"
+
+msgid "dump logs to specified file"
+msgstr "صدور گزارش‌ها به فایل مشخص‌شده"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "صدور واژه‌ها به فایل، یا خروجی استاندارد اگر PATH تعیین نشده باشد؛ SRC یکی از موارد زیر است:  "
+
+msgid "elapsed time:"
+msgstr "زمان سپری‌شده:"
+
+msgid "enable advanced debug options"
+msgstr "فعال کردن گزینه‌های پیشرفتهٔ اشکال‌زدایی"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "نام فایل (بدون مسیر و پسوند)"
+
+msgid "files with matching streams"
+msgstr "فایل‌های دارای جریان منطبق"
+
+msgid "files without matching streams"
+msgstr "فایل‌های بدون جریان منطبق"
+
+msgid "formula:"
+msgstr "فرمول:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "میزان تلاش (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "اگر <field> تعیین نشده، <value> را اضافه کن"
+
+msgid "if <field> is set, append <value>"
+msgstr "اگر <field> تعیین شده، <value> را اضافه کن"
+
+msgid "import list of tasks from YAML file"
+msgstr "ورود فهرست کارها از فایل YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "زبان"
+
+msgid "language not selected"
+msgstr "زبان انتخاب نشده"
+
+msgid "less than minute"
+msgstr "کمتر از یک دقیقه"
+
+msgid "log to file"
+msgstr "ثبت گزارش در فایل"
+
+msgid "max change:"
+msgstr "بیشترین تغییر:"
+
+msgid "missing assets:"
+msgstr "منابع ناموجود:"
+
+msgid "name"
+msgstr "نام"
+
+msgid "open batch processing window"
+msgstr "باز کردن پنجرهٔ پردازش دسته‌ای"
+
+msgid "operation failed"
+msgstr "عملیات ناموفق بود"
+
+msgid "operation finished successfully"
+msgstr "عملیات با موفقیت پایان یافت"
+
+msgid "output character encoding"
+msgstr "کدگذاری نویسه‌های خروجی"
+
+msgid "output file path or pattern"
+msgstr "مسیر یا الگوی فایل خروجی"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "نرخ فریم خروجی (برای زیرنویس‌های مبتنی بر فریم)"
+
+msgid "outputs"
+msgstr "خروجی‌ها"
+
+msgid "overwrite existing files"
+msgstr "بازنویسی فایل‌های موجود"
+
+msgid "path to reference file"
+msgstr "مسیر فایل مرجع"
+
+msgid "path to subtitle file"
+msgstr "مسیر فایل زیرنویس"
+
+msgid "pattern:"
+msgstr "الگو:"
+
+msgid "predefined names:"
+msgstr "نام‌های ازپیش‌تعیین‌شده:"
+
+msgid "processing..."
+msgstr "در حال پردازش..."
+
+msgid "queued..."
+msgstr "در صف..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "نگاشت کانال‌های صوتی مرجع (برای مرجع‌های صوتی)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "کدگذاری نویسه‌های مرجع (برای مرجع‌های زیرنویس)"
+
+msgid "reference framerate"
+msgstr "نرخ فریم مرجع"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "زبان مرجع (کد ISO دو یا سه‌حرفی)"
+
+msgid "reference stream no"
+msgstr "شمارهٔ جریان مرجع"
+
+msgid "references"
+msgstr "مرجع‌ها"
+
+msgid "references: "
+msgstr "مرجع‌ها: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "اجرا در حالت بدون رابط گرافیکی"
+
+msgid "same as input subtitles"
+msgstr "همانند زیرنویس ورودی"
+
+msgid "same as reference file"
+msgstr "همانند فایل مرجع"
+
+msgid "select custom folder"
+msgstr "انتخاب پوشهٔ سفارشی"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "انتخاب جریان مرجع بر اساس زبان (کد ISO سه‌حرفی)"
+
+msgid "select reference stream by type"
+msgstr "انتخاب جریان مرجع بر اساس نوع"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "انتخاب جریان زیرنویس بر اساس زبان (کد ISO سه‌حرفی)"
+
+msgid "set logging level"
+msgstr "تعیین سطح ثبت گزارش"
+
+msgid "stream"
+msgstr "جریان"
+
+msgid "subtitle character encoding"
+msgstr "کدگذاری نویسه‌های زیرنویس"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "نرخ فریم زیرنویس (برای زیرنویس‌های مبتنی بر فریم)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "زبان زیرنویس (کد ISO دو یا سه‌حرفی)"
+
+msgid "subtitle stream no"
+msgstr "شمارهٔ جریان زیرنویس"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "کد زبان دوحرفی زیرنویس/مرجع"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "کد زبان سه‌حرفی زیرنویس/مرجع"
+
+msgid "subtitle/reference file full path"
+msgstr "مسیر کامل فایل زیرنویس/مرجع"
+
+msgid "subtitle/reference stream number"
+msgstr "شمارهٔ جریان زیرنویس/مرجع"
+
+msgid "subtitle/text"
+msgstr "زیرنویس/متن"
+
+msgid "subtitles"
+msgstr "زیرنویس‌ها"
+
+msgid "subtitles: "
+msgstr "زیرنویس‌ها: "
+
+msgid "synchronizing"
+msgstr "در حال همگام‌سازی"
+
+msgid "terminated"
+msgstr "پایان‌یافته"
+
+msgid "type"
+msgstr "نوع"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "زبان رابط کاربری (کد ISO دوحرفی)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "سطح جزئیات (0 - 3)"
+
+msgid "version "
+msgstr "نسخهٔ "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ساعت"
+
+msgid "{} min"
+msgstr "{} دقیقه"
+
+msgid "{} minutes"
+msgstr "{} دقیقه"
+
+msgid "{} speech recognition model"
+msgstr "مدل بازشناسی گفتار {}"

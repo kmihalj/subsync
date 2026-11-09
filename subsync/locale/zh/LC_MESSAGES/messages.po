@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: 简体中文\nLanguage: zh\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&关于"
+
+msgid "&Add files (auto sort)"
+msgstr "&添加文件（自动排序）"
+
+msgid "&Close"
+msgstr "&关闭"
+
+msgid "&Edit"
+msgstr "&编辑"
+
+msgid "&Export list"
+msgstr "&导出列表"
+
+msgid "&File"
+msgstr "&文件"
+
+msgid "&Help"
+msgstr "&帮助"
+
+msgid "&Import list"
+msgstr "&导入列表"
+
+msgid "&Language"
+msgstr "&语言"
+
+msgid "&New"
+msgstr "&新建"
+
+msgid "&Properties"
+msgstr "&属性"
+
+msgid "&Propeties"
+msgstr "&属性"
+
+msgid "&Remove"
+msgstr "&移除"
+
+msgid ", {} points"
+msgstr "，{} 个点"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "设为 0 可自动选择。"
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 分钟"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<自动>"
+
+msgid "<empty>"
+msgstr "<空>"
+
+msgid "<other>"
+msgstr "<其他>"
+
+msgid "<undefined>"
+msgstr "<未定义>"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add &folder"
+msgstr "添加&文件夹"
+
+msgid "Add &references"
+msgstr "添加&参考文件"
+
+msgid "Add &subtitles"
+msgstr "添加&字幕"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "阿尔巴尼亚语"
+
+msgid "All files"
+msgstr "所有文件"
+
+msgid "All supported files"
+msgstr "所有支持的文件"
+
+msgid "Another update in progress"
+msgstr "另一项更新正在进行"
+
+msgid "Application upgrade"
+msgstr "应用程序升级"
+
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "确定要覆盖已存在的输出文件吗？"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "确定要将设置恢复为默认值吗？"
+
+msgid "Asset installation failed"
+msgstr "资源安装失败"
+
+msgid "Au&to sort"
+msgstr "自动&排序"
+
+msgid "Audio &channels"
+msgstr "音频&声道"
+
+msgid "Audio channels"
+msgstr "音频声道"
+
+msgid "Audio channels:"
+msgstr "音频声道："
+
+msgid "Auto detect"
+msgstr "自动检测"
+
+msgid "Auto sort"
+msgstr "自动排序"
+
+msgid "Batch Processing"
+msgstr "批量处理"
+
+msgid "Batch processing"
+msgstr "批量处理"
+
+msgid "Belarusian"
+msgstr "白俄罗斯语"
+
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+msgid "Can't save subtitle file"
+msgstr "无法保存字幕文件"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cannot load settings file, {}"
+msgstr "无法加载设置文件，{}"
+
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+msgid "Character &encoding"
+msgstr "字符&编码"
+
+msgid "Character encoding"
+msgstr "字符编码"
+
+msgid "Character encoding:"
+msgstr "字符编码："
+
+msgid "Check for updates"
+msgstr "检查更新"
+
+msgid "Checking for update..."
+msgstr "正在检查更新..."
+
+msgid "Chinese"
+msgstr "中文"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "无法保存已同步的字幕"
+
+msgid "Couldn't synchronize"
+msgstr "无法同步"
+
+msgid "Credits"
+msgstr "鸣谢"
+
+msgid "Croatian"
+msgstr "克罗地亚语"
+
+msgid "Current file:"
+msgstr "当前文件："
+
+msgid "Czech"
+msgstr "捷克语"
+
+msgid "Danish"
+msgstr "丹麦语"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "Debug options:"
+msgstr "调试选项："
+
+msgid "Do you want to clear all items?"
+msgstr "要清空所有项目吗？"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Download assets"
+msgstr "下载资源"
+
+msgid "Download now?"
+msgstr "立即下载吗？"
+
+msgid "Downloading"
+msgstr "正在下载"
+
+msgid "Downloading assets list..."
+msgstr "正在下载资源列表..."
+
+msgid "Drop files here to add sorted"
+msgstr "将文件拖放到此处以排序添加"
+
+msgid "Dump all synchronization points"
+msgstr "导出所有同步点"
+
+msgid "Dump reference words"
+msgstr "导出参考文件中的词语"
+
+msgid "Dump subtitle words"
+msgstr "导出字幕中的词语"
+
+msgid "Dump used synchronization points"
+msgstr "导出已使用的同步点"
+
+msgid "Dutch"
+msgstr "荷兰语"
+
+msgid "ETA:"
+msgstr "预计剩余时间："
+
+msgid "Edit all tasks"
+msgstr "编辑所有任务"
+
+msgid "Edit failed tasks"
+msgstr "编辑失败的任务"
+
+msgid "Effort:"
+msgstr "处理强度："
+
+msgid "Elapsed:"
+msgstr "已用时间："
+
+msgid "Enable save button"
+msgstr "启用保存按钮"
+
+msgid "English"
+msgstr "英语"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Error during reference read"
+msgstr "读取参考文件时出错"
+
+msgid "Error during subtitles read"
+msgstr "读取字幕时出错"
+
+msgid "Estonian"
+msgstr "爱沙尼亚语"
+
+msgid "Everything synchronized successfully"
+msgstr "全部同步成功"
+
+msgid "Everything synchronized, but got errors"
+msgstr "全部同步完成，但出现了错误"
+
+msgid "Extractor jobs no:"
+msgstr "提取任务数："
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "法罗语"
+
+msgid "File name:"
+msgstr "文件名："
+
+msgid "File type:"
+msgstr "文件类型："
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "过滤以下模块的日志（每行一个）："
+
+msgid "Finnish"
+msgstr "芬兰语"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "按指定的秒数偏移量调整输出字幕的时间戳。"
+
+msgid "Following assets could be updated:"
+msgstr "以下资源有可用更新："
+
+msgid "Following assets must be download to continue:"
+msgstr "必须下载以下资源才能继续："
+
+msgid "Following files could not be added:"
+msgstr "无法添加以下文件："
+
+msgid "French"
+msgstr "法语"
+
+msgid "GUI options:"
+msgstr "图形界面选项："
+
+msgid "Gaelic"
+msgstr "苏格兰盖尔语"
+
+msgid "Galician"
+msgstr "加利西亚语"
+
+msgid "General"
+msgstr "常规"
+
+msgid "General options:"
+msgstr "常规选项："
+
+msgid "German"
+msgstr "德语"
+
+msgid "Got errors, synchronization failed"
+msgstr "出现错误，同步失败"
+
+msgid "Greek"
+msgstr "希腊语"
+
+msgid "Headless options:"
+msgstr "无界面模式选项："
+
+msgid "Hebrew"
+msgstr "希伯来语"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "字幕同步的处理强度。值越高，同步效果越好，但所需时间也越长。"
+
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+msgid "Icelandic"
+msgstr "冰岛语"
+
+msgid "In seconds."
+msgstr "单位为秒。"
+
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "初步同步已完成。\n现在即可保存字幕。\n如果仍未对齐，请等待更好的结果。"
+
+msgid "Initializing..."
+msgstr "正在初始化..."
+
+msgid "Input file:"
+msgstr "输入文件："
+
+msgid "Invalid output pattern"
+msgstr "输出命名模式无效"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "输出命名模式无效，关键字无效：{}"
+
+msgid "Invalid output pattern, {}"
+msgstr "输出命名模式无效，{}"
+
+msgid "Invalid speech audio format"
+msgstr "语音音频格式无效"
+
+msgid "Italian"
+msgstr "意大利语"
+
+msgid "Japanese"
+msgstr "日语"
+
+msgid "Korean"
+msgstr "韩语"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "语言选择并非必需，但能显著提高同步准确度。\n确定要继续吗？"
+
+msgid "Language changes will take effect after application restart"
+msgstr "语言更改将在重新启动应用程序后生效"
+
+msgid "Language:"
+msgstr "语言："
+
+msgid "Languages"
+msgstr "语言"
+
+msgid "Latin"
+msgstr "拉丁语"
+
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+msgid "Loading, please wait..."
+msgstr "正在加载，请稍候..."
+
+msgid "Logging level:"
+msgstr "日志级别："
+
+msgid "Malagasy"
+msgstr "马达加斯加语"
+
+msgid "Malay"
+msgstr "马来语"
+
+msgid "Maltese"
+msgstr "马耳他语"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "最大调整幅度。字幕时间的改动不会超过此值。值越高，同步所需时间越长；设置过低则会导致同步失败。"
+
+msgid "Max adjustment:"
+msgstr "最大调整幅度："
+
+msgid "Max points distance:"
+msgstr "同步点最大偏差："
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "可接受的最大同步误差，单位为秒。误差超过此值的同步点将被丢弃。"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "Min correlation factor:"
+msgstr "最小相关系数："
+
+msgid "Min points no:"
+msgstr "最少同步点数："
+
+msgid "Min speech recognition score:"
+msgstr "最低语音识别评分："
+
+msgid "Min word length (letters):"
+msgstr "最短词长（字母数）："
+
+msgid "Min words similarity:"
+msgstr "最低词语相似度："
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "最小相关系数，范围为 0.0 到 1.0，用于判断同步结果。相关系数低于此值时，同步将失败。"
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "最低语音识别评分，范围为 0.0 到 1.0。低于此评分的识别词语将被舍弃。"
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "最短词长，以字母数计。较短的词不会用作同步点。仅适用于使用字母的语言。"
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "同步点所需的最低词语相似度，范围为 0.0 到 1.0。"
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "最少同步点数。不宜设置过高，否则可能产生大量误匹配。"
+
+msgid "New synchronization"
+msgstr "新建同步任务"
+
+msgid "New version is available. Update now?"
+msgstr "有新版本可用。立即更新吗？"
+
+msgid "No language selected"
+msgstr "未选择语言"
+
+msgid "No language selected for:"
+msgstr "未为以下项目选择语言："
+
+msgid "No need to synchronize"
+msgstr "无需同步"
+
+msgid "Norwegian"
+msgstr "挪威语"
+
+msgid "Not supported stream type"
+msgstr "不支持的流类型"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "同时运行的同步线程数。"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Output directory:"
+msgstr "输出目录："
+
+msgid "Output encoding:"
+msgstr "输出编码："
+
+msgid "Output file names"
+msgstr "输出文件名"
+
+msgid "Output file not set"
+msgstr "未设置输出文件"
+
+msgid "Output filename:"
+msgstr "输出文件名："
+
+msgid "Output timing offset:"
+msgstr "输出时间偏移："
+
+msgid "Overwrite existing files"
+msgstr "覆盖现有文件"
+
+msgid "Overwrite files?"
+msgstr "覆盖文件吗？"
+
+msgid "Persian"
+msgstr "波斯语"
+
+msgid "Polish"
+msgstr "波兰语"
+
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "同步期间防止系统进入睡眠"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "在同步期间防止系统进入睡眠。\n此功能可能不适用于所有平台。"
+
+msgid "Reference file not set"
+msgstr "未设置参考文件"
+
+msgid "References (video or other subtitles):"
+msgstr "参考文件（视频或其他字幕）："
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove items"
+msgstr "移除项目"
+
+msgid "Restore defaults"
+msgstr "恢复默认值"
+
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+msgid "Russian"
+msgstr "俄语"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Select &all"
+msgstr "选择&全部"
+
+msgid "Select &stream"
+msgstr "选择&流"
+
+msgid "Select all &references"
+msgstr "选择全部&参考文件"
+
+msgid "Select all &subtitles"
+msgstr "选择全部&字幕"
+
+msgid "Select all o&utputs"
+msgstr "选择全部&输出文件"
+
+msgid "Select audio channels to listen to:"
+msgstr "选择要使用的音频声道："
+
+msgid "Select character encoding"
+msgstr "选择字符编码"
+
+msgid "Select directory"
+msgstr "选择目录"
+
+msgid "Select file"
+msgstr "选择文件"
+
+msgid "Select language"
+msgstr "选择语言"
+
+msgid "Select output"
+msgstr "选择输出"
+
+msgid "Select output directory"
+msgstr "选择输出目录"
+
+msgid "Select output subtitles framerate:"
+msgstr "选择输出字幕的帧率："
+
+msgid "Select reference language first"
+msgstr "请先选择参考文件的语言"
+
+msgid "Select stream"
+msgstr "选择流"
+
+msgid "Select stream by language:"
+msgstr "按语言选择流："
+
+msgid "Select stream by title:"
+msgstr "按标题选择流："
+
+msgid "Select stream by type:"
+msgstr "按类型选择流："
+
+msgid "Select stream:"
+msgstr "选择流："
+
+msgid "Select streams"
+msgstr "选择多个流"
+
+msgid "Serbian"
+msgstr "塞尔维亚语"
+
+msgid "Set &input stream"
+msgstr "设置&输入流"
+
+msgid "Set &output location"
+msgstr "设置&输出位置"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Show popups:"
+msgstr "显示弹出提示："
+
+msgid "Signature verification failed"
+msgstr "签名验证失败"
+
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "部分参考字幕无法解码（编码无效？）"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "部分字幕无法解码（编码无效？）"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "部分任务无法同步"
+
+msgid "Spanish"
+msgstr "西班牙语"
+
+msgid "Start"
+msgstr "开始"
+
+msgid "Status:"
+msgstr "状态："
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "字幕\n语音\n同步器"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "字幕语音同步器"
+
+msgid "Subtitle files"
+msgstr "字幕文件"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "字幕文件不能与参考文件相同"
+
+msgid "Subtitles not set"
+msgstr "未设置字幕"
+
+msgid "Subtitles synchronized"
+msgstr "字幕已同步"
+
+msgid "Subtitles:"
+msgstr "字幕："
+
+msgid "Swedish"
+msgstr "瑞典语"
+
+msgid "Synchronization"
+msgstr "同步"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "目前不支持在 {} 语言之间进行同步。"
+
+msgid "Synchronization job:"
+msgstr "同步任务："
+
+msgid "Synchronization options:"
+msgstr "同步选项："
+
+msgid "Synchronization terminated"
+msgstr "同步已终止"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "目前不支持使用 {} 音频进行同步。"
+
+msgid "Synchronization: 0 points"
+msgstr "同步：0 个点"
+
+msgid "Synchronization: {} points"
+msgstr "同步：{} 个点"
+
+msgid "Synchronizing..."
+msgstr "正在同步..."
+
+msgid "Task:"
+msgstr "任务："
+
+msgid "Terminating, please wait..."
+msgstr "正在终止，请稍候..."
+
+msgid "Terminating..."
+msgstr "正在终止..."
+
+msgid "There are no usable streams"
+msgstr "没有可用的流"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "没有从 {} 翻译为 {} 的词典"
+
+msgid "There is no matching stream in {}"
+msgstr "{} 中没有匹配的流"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "没有 {} 语言的语音识别模型"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "这是一个自动同步电影字幕的工具。\n它通过识别音轨中的语音进行同步，并在必要时进行翻译。\n也可以使用另一份字幕作为参考。\n\n作者：Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "完全失败"
+
+msgid "Total progress:"
+msgstr "总进度："
+
+msgid "Turkish"
+msgstr "土耳其语"
+
+msgid "Ukrainian"
+msgstr "乌克兰语"
+
+msgid "Unexpected error occurred"
+msgstr "发生意外错误"
+
+msgid "Unknown file extension"
+msgstr "未知的文件扩展名"
+
+msgid "Update assets"
+msgstr "更新资源"
+
+msgid "Update instalation failed miserably"
+msgstr "更新安装彻底失败"
+
+msgid "Update not available"
+msgstr "没有可用更新"
+
+msgid "Update now?"
+msgstr "立即更新吗？"
+
+msgid "Updates:"
+msgstr "更新："
+
+msgid "Upgrade"
+msgstr "升级"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "用法：{} [OPTIONS]"
+
+msgid "Video files"
+msgstr "视频文件"
+
+msgid "Website"
+msgstr "网站"
+
+msgid "Your version is up to date"
+msgstr "您使用的已是最新版本"
+
+msgid "[details]"
+msgstr "[详细信息]"
+
+msgid "[errors]"
+msgstr "[错误]"
+
+msgid "[hide]"
+msgstr "[隐藏]"
+
+msgid "[show more]"
+msgstr "[显示更多]"
+
+msgid "all"
+msgstr "全部"
+
+msgid "all channels"
+msgstr "所有声道"
+
+msgid "and {} more"
+msgstr "以及其他 {} 项"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "附加双字母语言代码（ISO 639-1）"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "附加三字母语言代码（ISO 639-2/B）"
+
+msgid "append stream number"
+msgstr "附加流编号"
+
+msgid "ask for update on exit"
+msgstr "退出时询问是否更新"
+
+msgid "audio"
+msgstr "音频"
+
+msgid "auto"
+msgstr "自动"
+
+msgid "auto select"
+msgstr "自动选择"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "确认覆盖文件（批量模式）"
+
+msgid "correlation:"
+msgstr "相关系数："
+
+msgid "couldn't synchronize"
+msgstr "无法同步"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "自定义构建"
+
+msgid "custom names:"
+msgstr "自定义文件名："
+
+msgid "custom selection"
+msgstr "自定义选择"
+
+msgid "custom value:"
+msgstr "自定义值："
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "默认"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "定义同步任务，可重复指定"
+
+msgid "description"
+msgstr "描述"
+
+msgid "dictionary {} / {}"
+msgstr "词典 {} / {}"
+
+msgid "directory path"
+msgstr "目录路径"
+
+msgid "display this help text and exit"
+msgstr "显示此帮助文本并退出"
+
+msgid "display version information and exit"
+msgstr "显示版本信息并退出"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "不连接远程服务器以获取缺失的资源"
+
+msgid "don't show this message again"
+msgstr "不再显示此消息"
+
+msgid "done"
+msgstr "完成"
+
+msgid "download updates automatically"
+msgstr "自动下载更新"
+
+msgid "downloading"
+msgstr "正在下载"
+
+msgid "drop here"
+msgstr "拖放到此处"
+
+msgid "dump logs to specified file"
+msgstr "将日志导出到指定文件"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "将词语导出到文件；未指定 PATH 时输出到标准输出。SRC 为以下之一：  "
+
+msgid "elapsed time:"
+msgstr "已用时间："
+
+msgid "enable advanced debug options"
+msgstr "启用高级调试选项"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "文件名（不含路径和扩展名）"
+
+msgid "files with matching streams"
+msgstr "包含匹配流的文件"
+
+msgid "files without matching streams"
+msgstr "不含匹配流的文件"
+
+msgid "formula:"
+msgstr "公式："
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "处理强度（0.0 - 1.0）"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "若未设置 <field>，则附加 <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "若已设置 <field>，则附加 <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "从 YAML 文件导入任务列表"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "语言"
+
+msgid "language not selected"
+msgstr "未选择语言"
+
+msgid "less than minute"
+msgstr "不到一分钟"
+
+msgid "log to file"
+msgstr "将日志写入文件"
+
+msgid "max change:"
+msgstr "最大改动："
+
+msgid "missing assets:"
+msgstr "缺失的资源："
+
+msgid "name"
+msgstr "名称"
+
+msgid "open batch processing window"
+msgstr "打开批量处理窗口"
+
+msgid "operation failed"
+msgstr "操作失败"
+
+msgid "operation finished successfully"
+msgstr "操作成功完成"
+
+msgid "output character encoding"
+msgstr "输出字符编码"
+
+msgid "output file path or pattern"
+msgstr "输出文件路径或命名模式"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "输出帧率（适用于基于帧率的字幕）"
+
+msgid "outputs"
+msgstr "输出文件"
+
+msgid "overwrite existing files"
+msgstr "覆盖现有文件"
+
+msgid "path to reference file"
+msgstr "参考文件路径"
+
+msgid "path to subtitle file"
+msgstr "字幕文件路径"
+
+msgid "pattern:"
+msgstr "命名模式："
+
+msgid "predefined names:"
+msgstr "预定义文件名："
+
+msgid "processing..."
+msgstr "正在处理..."
+
+msgid "queued..."
+msgstr "正在排队..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "参考音频声道映射（适用于音频参考文件）"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "参考字符编码（适用于字幕参考文件）"
+
+msgid "reference framerate"
+msgstr "参考帧率"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "参考语言（双字母或三字母 ISO 代码）"
+
+msgid "reference stream no"
+msgstr "参考流编号"
+
+msgid "references"
+msgstr "参考文件"
+
+msgid "references: "
+msgstr "参考文件： "
+
+msgid "run in headless mode (without GUI)"
+msgstr "以无界面模式运行（不显示图形界面）"
+
+msgid "same as input subtitles"
+msgstr "与输入字幕相同"
+
+msgid "same as reference file"
+msgstr "与参考文件相同"
+
+msgid "select custom folder"
+msgstr "选择自定义文件夹"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "按语言选择参考流（三字母 ISO 代码）"
+
+msgid "select reference stream by type"
+msgstr "按类型选择参考流"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "按语言选择字幕流（三字母 ISO 代码）"
+
+msgid "set logging level"
+msgstr "设置日志级别"
+
+msgid "stream"
+msgstr "流"
+
+msgid "subtitle character encoding"
+msgstr "字幕字符编码"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "字幕帧率（适用于基于帧率的字幕）"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "字幕语言（双字母或三字母 ISO 代码）"
+
+msgid "subtitle stream no"
+msgstr "字幕流编号"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "字幕／参考文件的双字母语言代码"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "字幕／参考文件的三字母语言代码"
+
+msgid "subtitle/reference file full path"
+msgstr "字幕／参考文件的完整路径"
+
+msgid "subtitle/reference stream number"
+msgstr "字幕／参考文件的流编号"
+
+msgid "subtitle/text"
+msgstr "字幕／文本"
+
+msgid "subtitles"
+msgstr "字幕"
+
+msgid "subtitles: "
+msgstr "字幕： "
+
+msgid "synchronizing"
+msgstr "正在同步"
+
+msgid "terminated"
+msgstr "已终止"
+
+msgid "type"
+msgstr "类型"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "用户界面语言（双字母 ISO 代码）"
+
+msgid "verbosity level (0 - 3)"
+msgstr "详细程度（0 - 3）"
+
+msgid "version "
+msgstr "版本 "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} 小时"
+
+msgid "{} min"
+msgstr "{} 分钟"
+
+msgid "{} minutes"
+msgstr "{} 分钟"
+
+msgid "{} speech recognition model"
+msgstr "{} 语音识别模型"

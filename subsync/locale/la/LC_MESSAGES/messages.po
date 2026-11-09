@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Latina\nLanguage: la\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&De programmate"
+
+msgid "&Add files (auto sort)"
+msgstr "&Adde fasciculos (ordina automatice)"
+
+msgid "&Close"
+msgstr "&Claude"
+
+msgid "&Edit"
+msgstr "&Muta"
+
+msgid "&Export list"
+msgstr "&Exporta indicem"
+
+msgid "&File"
+msgstr "&Fasciculus"
+
+msgid "&Help"
+msgstr "&Auxilium"
+
+msgid "&Import list"
+msgstr "&Importa indicem"
+
+msgid "&Language"
+msgstr "&Lingua"
+
+msgid "&New"
+msgstr "&Novum"
+
+msgid "&Properties"
+msgstr "&Proprietates"
+
+msgid "&Propeties"
+msgstr "&Proprietates"
+
+msgid "&Remove"
+msgstr "&Remove"
+
+msgid ", {} points"
+msgstr ", {} puncta"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 ad electionem automaticam."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minutum"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automaticum>"
+
+msgid "<empty>"
+msgstr "<vacuum>"
+
+msgid "<other>"
+msgstr "<aliud>"
+
+msgid "<undefined>"
+msgstr "<indefinitum>"
+
+msgid "About"
+msgstr "De programmate"
+
+msgid "Add"
+msgstr "Adde"
+
+msgid "Add &folder"
+msgstr "Adde &scrinium"
+
+msgid "Add &references"
+msgstr "Adde &exemplaria"
+
+msgid "Add &subtitles"
+msgstr "Adde &subtitulos"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albanica"
+
+msgid "All files"
+msgstr "Omnes fasciculi"
+
+msgid "All supported files"
+msgstr "Omnes fasciculi accepti"
+
+msgid "Another update in progress"
+msgstr "Alia renovatio iam agitur"
+
+msgid "Application upgrade"
+msgstr "Renovatio programmatis"
+
+msgid "Arabic"
+msgstr "Arabica"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Visne fasciculos exitus iam exstantes certe superscribere?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Visne configurationem ad valores praefinitos certe restituere?"
+
+msgid "Asset installation failed"
+msgstr "Auxilia institui non potuerunt"
+
+msgid "Au&to sort"
+msgstr "Ordina &automatice"
+
+msgid "Audio &channels"
+msgstr "&Canales sonori"
+
+msgid "Audio channels"
+msgstr "Canales sonori"
+
+msgid "Audio channels:"
+msgstr "Canales sonori:"
+
+msgid "Auto detect"
+msgstr "Agnosce automatice"
+
+msgid "Auto sort"
+msgstr "Ordina automatice"
+
+msgid "Batch Processing"
+msgstr "Tractatio gregatim"
+
+msgid "Batch processing"
+msgstr "Tractatio gregatim"
+
+msgid "Belarusian"
+msgstr "Albaruthenica"
+
+msgid "Bulgarian"
+msgstr "Bulgarica"
+
+msgid "Can't save subtitle file"
+msgstr "Fasciculus subtitulorum servari non potest"
+
+msgid "Cancel"
+msgstr "Abroga"
+
+msgid "Cannot load settings file, {}"
+msgstr "Fasciculus configurationis legi non potest, {}"
+
+msgid "Catalan"
+msgstr "Catalana"
+
+msgid "Character &encoding"
+msgstr "&Codificatio characterum"
+
+msgid "Character encoding"
+msgstr "Codificatio characterum"
+
+msgid "Character encoding:"
+msgstr "Codificatio characterum:"
+
+msgid "Check for updates"
+msgstr "Quaere renovationes"
+
+msgid "Checking for update..."
+msgstr "Renovationes quaeruntur..."
+
+msgid "Chinese"
+msgstr "Sinica"
+
+msgid "Close"
+msgstr "Claude"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Subtituli synchronizati servari non potuerunt"
+
+msgid "Couldn't synchronize"
+msgstr "Synchronizatio fieri non potuit"
+
+msgid "Credits"
+msgstr "Gratiae"
+
+msgid "Croatian"
+msgstr "Croatica"
+
+msgid "Current file:"
+msgstr "Fasciculus praesens:"
+
+msgid "Czech"
+msgstr "Bohemica"
+
+msgid "Danish"
+msgstr "Danica"
+
+msgid "Debug"
+msgstr "Investigatio errorum"
+
+msgid "Debug options:"
+msgstr "Optiones investigationis errorum:"
+
+msgid "Do you want to clear all items?"
+msgstr "Visne omnia elementa delere?"
+
+msgid "Download"
+msgstr "Deprome"
+
+msgid "Download assets"
+msgstr "Deprome auxilia"
+
+msgid "Download now?"
+msgstr "Depromere nunc?"
+
+msgid "Downloading"
+msgstr "Depromitur"
+
+msgid "Downloading assets list..."
+msgstr "Index auxiliorum depromitur..."
+
+msgid "Drop files here to add sorted"
+msgstr "Depone fasciculos hic ut ordinati addantur"
+
+msgid "Dump all synchronization points"
+msgstr "Exporta omnia puncta synchronizationis"
+
+msgid "Dump reference words"
+msgstr "Exporta vocabula exemplaris"
+
+msgid "Dump subtitle words"
+msgstr "Exporta vocabula subtitulorum"
+
+msgid "Dump used synchronization points"
+msgstr "Exporta puncta synchronizationis adhibita"
+
+msgid "Dutch"
+msgstr "Nederlandica"
+
+msgid "ETA:"
+msgstr "Tempus reliquum aestimatum:"
+
+msgid "Edit all tasks"
+msgstr "Muta omnia opera"
+
+msgid "Edit failed tasks"
+msgstr "Muta opera quae defecerunt"
+
+msgid "Effort:"
+msgstr "Studium:"
+
+msgid "Elapsed:"
+msgstr "Tempus transactum:"
+
+msgid "Enable save button"
+msgstr "Activa globulum servandi"
+
+msgid "English"
+msgstr "Anglica"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Error during reference read"
+msgstr "Error dum exemplar legitur"
+
+msgid "Error during subtitles read"
+msgstr "Error dum subtituli leguntur"
+
+msgid "Estonian"
+msgstr "Estonica"
+
+msgid "Everything synchronized successfully"
+msgstr "Omnia feliciter synchronizata sunt"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Omnia synchronizata sunt, sed errores acciderunt"
+
+msgid "Extractor jobs no:"
+msgstr "Numerus operum extractionis:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Faeroica"
+
+msgid "File name:"
+msgstr "Nomen fasciculi:"
+
+msgid "File type:"
+msgstr "Genus fasciculi:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Exclude acta horum modulorum (unum per lineam):"
+
+msgid "Finnish"
+msgstr "Fennica"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Corrige tempora subtitulorum exitus secundum differentiam datam, in secundis."
+
+msgid "Following assets could be updated:"
+msgstr "Haec auxilia renovari possunt:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Haec auxilia depromenda sunt ut pergatur:"
+
+msgid "Following files could not be added:"
+msgstr "Hi fasciculi addi non potuerunt:"
+
+msgid "French"
+msgstr "Francogallica"
+
+msgid "GUI options:"
+msgstr "Optiones interfaciei graphicae:"
+
+msgid "Gaelic"
+msgstr "Gaelica Scotica"
+
+msgid "Galician"
+msgstr "Gallaeciana"
+
+msgid "General"
+msgstr "Generalia"
+
+msgid "General options:"
+msgstr "Optiones generales:"
+
+msgid "German"
+msgstr "Germanica"
+
+msgid "Got errors, synchronization failed"
+msgstr "Errores acciderunt; synchronizatio defecit"
+
+msgid "Greek"
+msgstr "Graeca"
+
+msgid "Headless options:"
+msgstr "Optiones sine interfacie graphica:"
+
+msgid "Hebrew"
+msgstr "Hebraica"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Studium ad subtitulos synchronizandos adhibendum. Valor maior synchronizationem meliorem reddit, sed plus temporis requirit."
+
+msgid "Hungarian"
+msgstr "Hungarica"
+
+msgid "Icelandic"
+msgstr "Islandica"
+
+msgid "In seconds."
+msgstr "In secundis."
+
+msgid "Indonesian"
+msgstr "Indonesiana"
+
+msgid "Info"
+msgstr "Notitiae"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Prima synchronizatio perfecta est.\nSubtitulos iam servare potes.\nSi nondum congruunt, meliorem exitum exspecta."
+
+msgid "Initializing..."
+msgstr "Praeparatur..."
+
+msgid "Input file:"
+msgstr "Fasciculus ingressus:"
+
+msgid "Invalid output pattern"
+msgstr "Forma exitus invalida"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Forma exitus invalida; vocabulum invalidum: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Forma exitus invalida, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Forma soni ad vocem agnoscendam invalida"
+
+msgid "Italian"
+msgstr "Italica"
+
+msgid "Japanese"
+msgstr "Iaponica"
+
+msgid "Korean"
+msgstr "Coreana"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Lingua eligi non debet necessario, sed electio synchronizationem multo accuratiorem facere potest.\nVisne certe pergere?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Lingua mutabitur postquam programma denuo inceptum erit"
+
+msgid "Language:"
+msgstr "Lingua:"
+
+msgid "Languages"
+msgstr "Linguae"
+
+msgid "Latin"
+msgstr "Latina"
+
+msgid "Latvian"
+msgstr "Lettica"
+
+msgid "License"
+msgstr "Licentia"
+
+msgid "Lithuanian"
+msgstr "Lituanica"
+
+msgid "Loading, please wait..."
+msgstr "Legitur, quaeso exspecta..."
+
+msgid "Logging level:"
+msgstr "Gradus actorum:"
+
+msgid "Malagasy"
+msgstr "Malagasica"
+
+msgid "Malay"
+msgstr "Malaica"
+
+msgid "Maltese"
+msgstr "Melitensis"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maxima correctio. Tempus subtitulorum non mutabitur ultra hunc valorem. Valor maior plus temporis requirit; nimis parvus synchronizationem impedit."
+
+msgid "Max adjustment:"
+msgstr "Maxima correctio:"
+
+msgid "Max points distance:"
+msgstr "Maxima deviatio punctorum:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Maximus error synchronizationis acceptus, in secundis. Puncta quorum error maior est reicientur."
+
+msgid "Menu"
+msgstr "Index"
+
+msgid "Min correlation factor:"
+msgstr "Minimus coefficiens correlationis:"
+
+msgid "Min points no:"
+msgstr "Minimus numerus punctorum:"
+
+msgid "Min speech recognition score:"
+msgstr "Minima aestimatio agnitionis vocis:"
+
+msgid "Min word length (letters):"
+msgstr "Minima longitudo vocabuli (litterae):"
+
+msgid "Min words similarity:"
+msgstr "Minima similitudo vocabulorum:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Minimus coefficiens correlationis, inter 0.0 et 1.0, ad exitum synchronizationis iudicandum adhibetur. Si coefficiens minor est, synchronizatio deficit."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minima aestimatio agnitionis vocis, inter 0.0 et 1.0. Vocabula minore aestimatione agnita reicientur."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Minima longitudo vocabuli, in litteris. Vocabula breviora ut puncta synchronizationis non adhibentur. Ad linguas alphabeticas tantum pertinet."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Minima similitudo vocabulorum ad puncta synchronizationis. Inter 0.0 et 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Minimus numerus punctorum synchronizationis. Valor nimis magnus multas congruentias falsas efficere potest."
+
+msgid "New synchronization"
+msgstr "Nova synchronizatio"
+
+msgid "New version is available. Update now?"
+msgstr "Nova versio praesto est. Renovare nunc?"
+
+msgid "No language selected"
+msgstr "Nulla lingua electa"
+
+msgid "No language selected for:"
+msgstr "Lingua non electa pro:"
+
+msgid "No need to synchronize"
+msgstr "Synchronizatione non opus est"
+
+msgid "Norwegian"
+msgstr "Norvegica"
+
+msgid "Not supported stream type"
+msgstr "Genus fluxus non sustinetur"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Numerus filorum synchronizationis simul agentium."
+
+msgid "OK"
+msgstr "Ita"
+
+msgid "Output directory:"
+msgstr "Scrinium exitus:"
+
+msgid "Output encoding:"
+msgstr "Codificatio exitus:"
+
+msgid "Output file names"
+msgstr "Nomina fasciculorum exitus"
+
+msgid "Output file not set"
+msgstr "Fasciculus exitus non definitus"
+
+msgid "Output filename:"
+msgstr "Nomen fasciculi exitus:"
+
+msgid "Output timing offset:"
+msgstr "Differentia temporis exitus:"
+
+msgid "Overwrite existing files"
+msgstr "Superscribe fasciculos exstantes"
+
+msgid "Overwrite files?"
+msgstr "Superscribere fasciculos?"
+
+msgid "Persian"
+msgstr "Persica"
+
+msgid "Polish"
+msgstr "Polonica"
+
+msgid "Portuguese"
+msgstr "Lusitana"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Somnum systematis inter synchronizationem prohibe"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Prohibet systema quominus inter synchronizationem dormiat.\nNon in omnibus systematibus operari potest."
+
+msgid "Reference file not set"
+msgstr "Fasciculus exemplaris non definitus"
+
+msgid "References (video or other subtitles):"
+msgstr "Exemplaria (pelliculae vel alii subtituli):"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Remove items"
+msgstr "Remove elementa"
+
+msgid "Restore defaults"
+msgstr "Restitue valores praefinitos"
+
+msgid "Romanian"
+msgstr "Dacoromanica"
+
+msgid "Russian"
+msgstr "Russica"
+
+msgid "Save"
+msgstr "Serva"
+
+msgid "Select"
+msgstr "Elige"
+
+msgid "Select &all"
+msgstr "Elige &omnia"
+
+msgid "Select &stream"
+msgstr "Elige &fluxum"
+
+msgid "Select all &references"
+msgstr "Elige omnia &exemplaria"
+
+msgid "Select all &subtitles"
+msgstr "Elige omnes &subtitulos"
+
+msgid "Select all o&utputs"
+msgstr "Elige omnes &exitus"
+
+msgid "Select audio channels to listen to:"
+msgstr "Elige canales sonoros auscultandos:"
+
+msgid "Select character encoding"
+msgstr "Elige codificationem characterum"
+
+msgid "Select directory"
+msgstr "Elige scrinium"
+
+msgid "Select file"
+msgstr "Elige fasciculum"
+
+msgid "Select language"
+msgstr "Elige linguam"
+
+msgid "Select output"
+msgstr "Elige exitum"
+
+msgid "Select output directory"
+msgstr "Elige scrinium exitus"
+
+msgid "Select output subtitles framerate:"
+msgstr "Elige frequentiam imaginum subtitulorum exitus:"
+
+msgid "Select reference language first"
+msgstr "Primum elige linguam exemplaris"
+
+msgid "Select stream"
+msgstr "Elige fluxum"
+
+msgid "Select stream by language:"
+msgstr "Elige fluxum secundum linguam:"
+
+msgid "Select stream by title:"
+msgstr "Elige fluxum secundum titulum:"
+
+msgid "Select stream by type:"
+msgstr "Elige fluxum secundum genus:"
+
+msgid "Select stream:"
+msgstr "Elige fluxum:"
+
+msgid "Select streams"
+msgstr "Elige fluxus"
+
+msgid "Serbian"
+msgstr "Serbica"
+
+msgid "Set &input stream"
+msgstr "Defini &fluxum ingressus"
+
+msgid "Set &output location"
+msgstr "Defini &locum exitus"
+
+msgid "Settings"
+msgstr "Configuratio"
+
+msgid "Show popups:"
+msgstr "Ostende nuntios emergentes:"
+
+msgid "Signature verification failed"
+msgstr "Comprobatio subscriptionis defecit"
+
+msgid "Slovak"
+msgstr "Slovaca"
+
+msgid "Slovenian"
+msgstr "Slovenica"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Nonnulli subtituli exemplaris decodificari non possunt (codificatio invalida?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Nonnulli subtituli decodificari non possunt (codificatio invalida?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Nonnulla opera synchronizari non potuerunt"
+
+msgid "Spanish"
+msgstr "Hispanica"
+
+msgid "Start"
+msgstr "Incipe"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Stop"
+msgstr "Siste"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Synchronizator\nSubtitulorum\net Vocis"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Synchronizator Subtitulorum et Vocis"
+
+msgid "Subtitle files"
+msgstr "Fasciculi subtitulorum"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Subtituli idem esse atque exemplar non possunt"
+
+msgid "Subtitles not set"
+msgstr "Subtituli non definiti"
+
+msgid "Subtitles synchronized"
+msgstr "Subtituli synchronizati sunt"
+
+msgid "Subtitles:"
+msgstr "Subtituli:"
+
+msgid "Swedish"
+msgstr "Suecica"
+
+msgid "Synchronization"
+msgstr "Synchronizatio"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Synchronizatio inter linguas {} nondum sustinetur."
+
+msgid "Synchronization job:"
+msgstr "Opus synchronizationis:"
+
+msgid "Synchronization options:"
+msgstr "Optiones synchronizationis:"
+
+msgid "Synchronization terminated"
+msgstr "Synchronizatio terminata"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Synchronizatio cum sono (lingua: {}) nondum sustinetur."
+
+msgid "Synchronization: 0 points"
+msgstr "Synchronizatio: 0 puncta"
+
+msgid "Synchronization: {} points"
+msgstr "Synchronizatio: {} puncta"
+
+msgid "Synchronizing..."
+msgstr "Synchronizatur..."
+
+msgid "Task:"
+msgstr "Opus:"
+
+msgid "Terminating, please wait..."
+msgstr "Terminatur, quaeso exspecta..."
+
+msgid "Terminating..."
+msgstr "Terminatur..."
+
+msgid "There are no usable streams"
+msgstr "Nulli fluxus utiles adsunt"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Dictionarium ad transferendum ex {} in {} non adest"
+
+msgid "There is no matching stream in {}"
+msgstr "Fluxus congruens in {} non adest"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Exemplar agnitionis vocis pro lingua {} non adest"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Hoc instrumentum subtitulos pellicularum automatice synchronizat.\nSynchronizatio fit tractu sonoro auscultato et, si opus est, translato.\nAlii quoque subtituli pro exemplari adhiberi possunt.\n\nAuctor: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Omnia defecerunt"
+
+msgid "Total progress:"
+msgstr "Progressus universus:"
+
+msgid "Turkish"
+msgstr "Turcica"
+
+msgid "Ukrainian"
+msgstr "Ucrainica"
+
+msgid "Unexpected error occurred"
+msgstr "Error inopinatus accidit"
+
+msgid "Unknown file extension"
+msgstr "Extensio fasciculi ignota"
+
+msgid "Update assets"
+msgstr "Renova auxilia"
+
+msgid "Update instalation failed miserably"
+msgstr "Institutio renovationis omnino defecit"
+
+msgid "Update not available"
+msgstr "Renovatio non praesto est"
+
+msgid "Update now?"
+msgstr "Renovare nunc?"
+
+msgid "Updates:"
+msgstr "Renovationes:"
+
+msgid "Upgrade"
+msgstr "Renova"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Usus: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Fasciculi pellicularum"
+
+msgid "Website"
+msgstr "Situs interretialis"
+
+msgid "Your version is up to date"
+msgstr "Versio tua iam novissima est"
+
+msgid "[details]"
+msgstr "[singula]"
+
+msgid "[errors]"
+msgstr "[errores]"
+
+msgid "[hide]"
+msgstr "[cela]"
+
+msgid "[show more]"
+msgstr "[ostende plura]"
+
+msgid "all"
+msgstr "omnia"
+
+msgid "all channels"
+msgstr "omnes canales"
+
+msgid "and {} more"
+msgstr "et {} alia"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "adde codicem linguae duarum litterarum (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "adde codicem linguae trium litterarum (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "adde numerum fluxus"
+
+msgid "ask for update on exit"
+msgstr "quaere de renovatione ante exitum"
+
+msgid "audio"
+msgstr "sonus"
+
+msgid "auto"
+msgstr "automaticum"
+
+msgid "auto select"
+msgstr "elige automatice"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "confirma superscriptionem fasciculorum (in modo gregatim)"
+
+msgid "correlation:"
+msgstr "correlatio:"
+
+msgid "couldn't synchronize"
+msgstr "synchronizatio fieri non potuit"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "versio singularis"
+
+msgid "custom names:"
+msgstr "nomina propria:"
+
+msgid "custom selection"
+msgstr "electio propria"
+
+msgid "custom value:"
+msgstr "valor proprius:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "praefinitum"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "defini opus synchronizationis; pluries repeti potest"
+
+msgid "description"
+msgstr "descriptio"
+
+msgid "dictionary {} / {}"
+msgstr "dictionarium {} / {}"
+
+msgid "directory path"
+msgstr "semita scrinii"
+
+msgid "display this help text and exit"
+msgstr "ostende hoc auxilium et exi"
+
+msgid "display version information and exit"
+msgstr "ostende notitias versionis et exi"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "noli ministrum remotum adire ad auxilia absentia accipienda"
+
+msgid "don't show this message again"
+msgstr "hunc nuntium ne iterum ostendas"
+
+msgid "done"
+msgstr "perfectum"
+
+msgid "download updates automatically"
+msgstr "deprome renovationes automatice"
+
+msgid "downloading"
+msgstr "depromitur"
+
+msgid "drop here"
+msgstr "depone hic"
+
+msgid "dump logs to specified file"
+msgstr "exporta acta in fasciculum definitum"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "exporta vocabula in fasciculum, aut in exitum ordinarium si PATH abest; SRC unum ex his est:  "
+
+msgid "elapsed time:"
+msgstr "tempus transactum:"
+
+msgid "enable advanced debug options"
+msgstr "activa optiones provectas investigationis errorum"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "nomen fasciculi (sine semita et extensione)"
+
+msgid "files with matching streams"
+msgstr "fasciculi cum fluxibus congruentibus"
+
+msgid "files without matching streams"
+msgstr "fasciculi sine fluxibus congruentibus"
+
+msgid "formula:"
+msgstr "formula:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "studium adhibendum (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "si <field> non definitur, adde <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "si <field> definitur, adde <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importa indicem operum ex fasciculo YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "lingua"
+
+msgid "language not selected"
+msgstr "lingua non electa"
+
+msgid "less than minute"
+msgstr "minus quam minutum"
+
+msgid "log to file"
+msgstr "scribe acta in fasciculum"
+
+msgid "max change:"
+msgstr "maxima mutatio:"
+
+msgid "missing assets:"
+msgstr "auxilia absentia:"
+
+msgid "name"
+msgstr "nomen"
+
+msgid "open batch processing window"
+msgstr "aperi fenestram tractationis gregatim"
+
+msgid "operation failed"
+msgstr "opus defecit"
+
+msgid "operation finished successfully"
+msgstr "opus feliciter perfectum"
+
+msgid "output character encoding"
+msgstr "codificatio characterum exitus"
+
+msgid "output file path or pattern"
+msgstr "semita vel forma fasciculi exitus"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "frequentia imaginum exitus (subtitulis ad FPS relatis)"
+
+msgid "outputs"
+msgstr "exitus"
+
+msgid "overwrite existing files"
+msgstr "superscribe fasciculos exstantes"
+
+msgid "path to reference file"
+msgstr "semita fasciculi exemplaris"
+
+msgid "path to subtitle file"
+msgstr "semita fasciculi subtitulorum"
+
+msgid "pattern:"
+msgstr "forma:"
+
+msgid "predefined names:"
+msgstr "nomina praefinita:"
+
+msgid "processing..."
+msgstr "tractatur..."
+
+msgid "queued..."
+msgstr "in ordine exspectat..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "distributio canalium sonorum exemplaris (pro exemplaribus sonoris)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "codificatio characterum exemplaris (pro exemplaribus subtitulorum)"
+
+msgid "reference framerate"
+msgstr "frequentia imaginum exemplaris"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "lingua exemplaris (codex ISO duarum vel trium litterarum)"
+
+msgid "reference stream no"
+msgstr "numerus fluxus exemplaris"
+
+msgid "references"
+msgstr "exemplaria"
+
+msgid "references: "
+msgstr "exemplaria: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "age sine interfacie graphica"
+
+msgid "same as input subtitles"
+msgstr "idem ac subtituli ingressus"
+
+msgid "same as reference file"
+msgstr "idem ac fasciculus exemplaris"
+
+msgid "select custom folder"
+msgstr "elige scrinium proprium"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "elige fluxum exemplaris secundum linguam (codex ISO trium litterarum)"
+
+msgid "select reference stream by type"
+msgstr "elige fluxum exemplaris secundum genus"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "elige fluxum subtitulorum secundum linguam (codex ISO trium litterarum)"
+
+msgid "set logging level"
+msgstr "defini gradum actorum"
+
+msgid "stream"
+msgstr "fluxus"
+
+msgid "subtitle character encoding"
+msgstr "codificatio characterum subtitulorum"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "frequentia imaginum subtitulorum (subtitulis ad FPS relatis)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "lingua subtitulorum (codex ISO duarum vel trium litterarum)"
+
+msgid "subtitle stream no"
+msgstr "numerus fluxus subtitulorum"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "codex linguae subtitulorum/exemplaris duarum litterarum"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "codex linguae subtitulorum/exemplaris trium litterarum"
+
+msgid "subtitle/reference file full path"
+msgstr "semita integra fasciculi subtitulorum/exemplaris"
+
+msgid "subtitle/reference stream number"
+msgstr "numerus fluxus subtitulorum/exemplaris"
+
+msgid "subtitle/text"
+msgstr "subtituli/textus"
+
+msgid "subtitles"
+msgstr "subtituli"
+
+msgid "subtitles: "
+msgstr "subtituli: "
+
+msgid "synchronizing"
+msgstr "synchronizatur"
+
+msgid "terminated"
+msgstr "terminatum"
+
+msgid "type"
+msgstr "genus"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "lingua interfaciei (codex ISO duarum litterarum)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "gradus copiae nuntiorum (0 - 3)"
+
+msgid "version "
+msgstr "versio "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} horae"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minuta"
+
+msgid "{} speech recognition model"
+msgstr "exemplar agnitionis vocis {}"

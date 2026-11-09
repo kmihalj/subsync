@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Malagasy\nLanguage: mg\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Momba"
+
+msgid "&Add files (auto sort)"
+msgstr "&Ampio rakitra (alaharo ho azy)"
+
+msgid "&Close"
+msgstr "&Akatona"
+
+msgid "&Edit"
+msgstr "&Ovay"
+
+msgid "&Export list"
+msgstr "&Aondrana ny lisitra"
+
+msgid "&File"
+msgstr "&Rakitra"
+
+msgid "&Help"
+msgstr "&Fanampiana"
+
+msgid "&Import list"
+msgstr "&Ampidiro ny lisitra"
+
+msgid "&Language"
+msgstr "&Fiteny"
+
+msgid "&New"
+msgstr "&Vaovao"
+
+msgid "&Properties"
+msgstr "&Toetra"
+
+msgid "&Propeties"
+msgstr "&Toetra"
+
+msgid "&Remove"
+msgstr "&Esory"
+
+msgid ", {} points"
+msgstr ", teboka {}"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 raha safidy mandeha ho azy."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minitra"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<mandeha ho azy>"
+
+msgid "<empty>"
+msgstr "<foana>"
+
+msgid "<other>"
+msgstr "<hafa>"
+
+msgid "<undefined>"
+msgstr "<tsy voafaritra>"
+
+msgid "About"
+msgstr "Momba"
+
+msgid "Add"
+msgstr "Ampio"
+
+msgid "Add &folder"
+msgstr "Ampio &lahatahiry"
+
+msgid "Add &references"
+msgstr "Ampio &rakitra ifotorana"
+
+msgid "Add &subtitles"
+msgstr "Ampio &zana-dohateny"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albaney"
+
+msgid "All files"
+msgstr "Ny rakitra rehetra"
+
+msgid "All supported files"
+msgstr "Ny rakitra tohanana rehetra"
+
+msgid "Another update in progress"
+msgstr "Misy fanavaozana hafa mandeha"
+
+msgid "Application upgrade"
+msgstr "Fanavaozana ny rindranasa"
+
+msgid "Arabic"
+msgstr "Arabo"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Azonao antoka ve fa hosoloina ny rakitra avoaka raha efa misy?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Azonao antoka ve fa haverina amin’ny sanda tany am-boalohany ny fikirana?"
+
+msgid "Asset installation failed"
+msgstr "Tsy nahomby ny fametrahana loharano"
+
+msgid "Au&to sort"
+msgstr "Alaharo &ho azy"
+
+msgid "Audio &channels"
+msgstr "&Fantsona feo"
+
+msgid "Audio channels"
+msgstr "Fantsona feo"
+
+msgid "Audio channels:"
+msgstr "Fantsona feo:"
+
+msgid "Auto detect"
+msgstr "Fantaro ho azy"
+
+msgid "Auto sort"
+msgstr "Alaharo ho azy"
+
+msgid "Batch Processing"
+msgstr "Fikarakarana mitambatra"
+
+msgid "Batch processing"
+msgstr "Fikarakarana mitambatra"
+
+msgid "Belarusian"
+msgstr "Belarosiana"
+
+msgid "Bulgarian"
+msgstr "Bolgariana"
+
+msgid "Can't save subtitle file"
+msgstr "Tsy azo tehirizina ny rakitra zana-dohateny"
+
+msgid "Cancel"
+msgstr "Foano"
+
+msgid "Cannot load settings file, {}"
+msgstr "Tsy azo vakina ny rakitra fikirana, {}"
+
+msgid "Catalan"
+msgstr "Katalana"
+
+msgid "Character &encoding"
+msgstr "&Kaodin-tsoratra"
+
+msgid "Character encoding"
+msgstr "Kaodin-tsoratra"
+
+msgid "Character encoding:"
+msgstr "Kaodin-tsoratra:"
+
+msgid "Check for updates"
+msgstr "Hamarino ny fanavaozana"
+
+msgid "Checking for update..."
+msgstr "Manamarina fanavaozana..."
+
+msgid "Chinese"
+msgstr "Sinoa"
+
+msgid "Close"
+msgstr "Akatona"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Tsy azo notehirizina ny zana-dohateny nampifanarahana"
+
+msgid "Couldn't synchronize"
+msgstr "Tsy azo nampifanarahana"
+
+msgid "Credits"
+msgstr "Fisaorana"
+
+msgid "Croatian"
+msgstr "Kroaty"
+
+msgid "Current file:"
+msgstr "Rakitra ankehitriny:"
+
+msgid "Czech"
+msgstr "Tseky"
+
+msgid "Danish"
+msgstr "Daney"
+
+msgid "Debug"
+msgstr "Fikarohana lesoka"
+
+msgid "Debug options:"
+msgstr "Safidy fikarohana lesoka:"
+
+msgid "Do you want to clear all items?"
+msgstr "Hofafana ve ny singa rehetra?"
+
+msgid "Download"
+msgstr "Alaivo"
+
+msgid "Download assets"
+msgstr "Alaivo ny loharano"
+
+msgid "Download now?"
+msgstr "Alaivo izao ve?"
+
+msgid "Downloading"
+msgstr "Misintona"
+
+msgid "Downloading assets list..."
+msgstr "Misintona ny lisitry ny loharano..."
+
+msgid "Drop files here to add sorted"
+msgstr "Apetraho eto ny rakitra mba hampiana araka ny filaharany"
+
+msgid "Dump all synchronization points"
+msgstr "Aondrana ny teboka fampifanarahana rehetra"
+
+msgid "Dump reference words"
+msgstr "Aondrana ny tenin’ny rakitra ifotorana"
+
+msgid "Dump subtitle words"
+msgstr "Aondrana ny tenin’ny zana-dohateny"
+
+msgid "Dump used synchronization points"
+msgstr "Aondrana ny teboka fampifanarahana nampiasaina"
+
+msgid "Dutch"
+msgstr "Holandey"
+
+msgid "ETA:"
+msgstr "Fotoana tombanana sisa:"
+
+msgid "Edit all tasks"
+msgstr "Ovay ny asa rehetra"
+
+msgid "Edit failed tasks"
+msgstr "Ovay ny asa tsy nahomby"
+
+msgid "Effort:"
+msgstr "Ezaka:"
+
+msgid "Elapsed:"
+msgstr "Fotoana lany:"
+
+msgid "Enable save button"
+msgstr "Alefaso ny bokotra fitehirizana"
+
+msgid "English"
+msgstr "Anglisy"
+
+msgid "Error"
+msgstr "Hadisoana"
+
+msgid "Error during reference read"
+msgstr "Hadisoana tamin’ny famakiana ny rakitra ifotorana"
+
+msgid "Error during subtitles read"
+msgstr "Hadisoana tamin’ny famakiana ny zana-dohateny"
+
+msgid "Estonian"
+msgstr "Estoniana"
+
+msgid "Everything synchronized successfully"
+msgstr "Tafanaraka soa aman-tsara avokoa"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Tafanaraka avokoa, saingy nisy hadisoana"
+
+msgid "Extractor jobs no:"
+msgstr "Isan’ny asa fitrandrahana:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Feroey"
+
+msgid "File name:"
+msgstr "Anaran’ny rakitra:"
+
+msgid "File type:"
+msgstr "Karazana rakitra:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Aza raketina ireto singa rindranasa ireto (iray isaky ny andalana):"
+
+msgid "Finnish"
+msgstr "Finlandey"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Ahitsio amin’ny fihemorana na fandrosoana nomena, amin’ny segondra, ny fotoanan’ny zana-dohateny avoaka."
+
+msgid "Following assets could be updated:"
+msgstr "Azo havaozina ireto loharano ireto:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Tsy maintsy alaina ireto loharano ireto mba hanohizana:"
+
+msgid "Following files could not be added:"
+msgstr "Tsy azo nampiana ireto rakitra ireto:"
+
+msgid "French"
+msgstr "Frantsay"
+
+msgid "GUI options:"
+msgstr "Safidy seha-pifandraisana an-tsary:"
+
+msgid "Gaelic"
+msgstr "Gaelika Ekosey"
+
+msgid "Galician"
+msgstr "Galisiana"
+
+msgid "General"
+msgstr "Ankapobeny"
+
+msgid "General options:"
+msgstr "Safidy ankapobeny:"
+
+msgid "German"
+msgstr "Alemà"
+
+msgid "Got errors, synchronization failed"
+msgstr "Nisy hadisoana ka tsy nahomby ny fampifanarahana"
+
+msgid "Greek"
+msgstr "Grika"
+
+msgid "Headless options:"
+msgstr "Safidy fomba tsy misy seha-pifandraisana:"
+
+msgid "Hebrew"
+msgstr "Hebreo"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Ny ezaka atao hampifanarahana ny zana-dohateny. Ny sanda ambony kokoa dia manome vokatra tsara kokoa, saingy maharitra kokoa."
+
+msgid "Hungarian"
+msgstr "Hongroà"
+
+msgid "Icelandic"
+msgstr "Islandey"
+
+msgid "In seconds."
+msgstr "Amin’ny segondra."
+
+msgid "Indonesian"
+msgstr "Indoneziana"
+
+msgid "Info"
+msgstr "Fampahalalana"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Vita ny fampifanarahana voalohany.\nEfa azonao tehirizina ny zana-dohateny.\nRaha mbola tsy mifanaraka izy ireo, andraso ny vokatra tsara kokoa."
+
+msgid "Initializing..."
+msgstr "Manomana..."
+
+msgid "Input file:"
+msgstr "Rakitra ampidirina:"
+
+msgid "Invalid output pattern"
+msgstr "Tsy mety ny lamina famoahana"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Tsy mety ny lamina famoahana, teny fototra tsy mety: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Tsy mety ny lamina famoahana, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Tsy mety ny endrika feo ho an’ny famantarana fitenenana"
+
+msgid "Italian"
+msgstr "Italiana"
+
+msgid "Japanese"
+msgstr "Japoney"
+
+msgid "Korean"
+msgstr "Koreana"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Tsy voatery hifidy fiteny ianao, saingy afaka manatsara betsaka ny fahamarinan’ny fampifanarahana izany.\nAzonao antoka ve?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Hihatra ny fanovana fiteny rehefa averina alefa ny rindranasa"
+
+msgid "Language:"
+msgstr "Fiteny:"
+
+msgid "Languages"
+msgstr "Fiteny"
+
+msgid "Latin"
+msgstr "Latina"
+
+msgid "Latvian"
+msgstr "Letoniana"
+
+msgid "License"
+msgstr "Fahazoan-dalana"
+
+msgid "Lithuanian"
+msgstr "Litoaniana"
+
+msgid "Loading, please wait..."
+msgstr "Mamaky, andraso azafady..."
+
+msgid "Logging level:"
+msgstr "Haavon’ny firaketana:"
+
+msgid "Malagasy"
+msgstr "Malagasy"
+
+msgid "Malay"
+msgstr "Malay"
+
+msgid "Maltese"
+msgstr "Maltey"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Fanitsiana ambony indrindra. Tsy hiova mihoatra io sanda io ny fotoanan’ny zana-dohateny. Ny sanda ambony dia mampitombo ny fotoana ilaina, fa raha ambany loatra dia tsy hahomby ny fampifanarahana."
+
+msgid "Max adjustment:"
+msgstr "Fanitsiana ambony indrindra:"
+
+msgid "Max points distance:"
+msgstr "Elanelan’ny teboka ambony indrindra:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Hadisoana ambony indrindra ekena amin’ny fampifanarahana, amin’ny segondra. Esorina ireo teboka misy hadisoana mihoatra izany."
+
+msgid "Menu"
+msgstr "Safidy"
+
+msgid "Min correlation factor:"
+msgstr "Tahan’ny fifandraisana farany ambany:"
+
+msgid "Min points no:"
+msgstr "Isan’ny teboka farany ambany:"
+
+msgid "Min speech recognition score:"
+msgstr "Isa farany ambany ho an’ny famantarana fitenenana:"
+
+msgid "Min word length (letters):"
+msgstr "Halavan’ny teny farany ambany (litera):"
+
+msgid "Min words similarity:"
+msgstr "Fitovian’ny teny farany ambany:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Tahan’ny fifandraisana farany ambany, eo anelanelan’ny 0.0 sy 1.0. Ampiasaina hanombanana ny vokatra. Raha ambany noho izany ny taha dia tsy hahomby ny fampifanarahana."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Isa farany ambany ho an’ny famantarana fitenenana, eo anelanelan’ny 0.0 sy 1.0. Lavina ny teny voamarika manana isa ambany kokoa."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Halavan’ny teny farany ambany, amin’ny litera. Tsy ampiasaina ho teboka fampifanarahana ny teny fohy kokoa. Ho an’ny fiteny mampiasa abidy ihany."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Fitovian’ny teny farany ambany ho an’ny teboka fampifanarahana. Eo anelanelan’ny 0.0 sy 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Isan’ny teboka fampifanarahana farany ambany. Ny sanda avo loatra dia mety hiteraka fampitoviana diso maro."
+
+msgid "New synchronization"
+msgstr "Fampifanarahana vaovao"
+
+msgid "New version is available. Update now?"
+msgstr "Misy kinova vaovao. Havaozina izao ve?"
+
+msgid "No language selected"
+msgstr "Tsy nisy fiteny voafidy"
+
+msgid "No language selected for:"
+msgstr "Tsy nisy fiteny voafidy ho an’ireto:"
+
+msgid "No need to synchronize"
+msgstr "Tsy ilaina ny mampifanaraka"
+
+msgid "Norwegian"
+msgstr "Norveziana"
+
+msgid "Not supported stream type"
+msgstr "Tsy tohanana io karazana fikorianan’angona io"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Isan’ny asa fampifanarahana mandeha miaraka."
+
+msgid "OK"
+msgstr "Eny"
+
+msgid "Output directory:"
+msgstr "Lahatahiry famoahana:"
+
+msgid "Output encoding:"
+msgstr "Kaody famoahana:"
+
+msgid "Output file names"
+msgstr "Anaran’ny rakitra avoaka"
+
+msgid "Output file not set"
+msgstr "Tsy voafaritra ny rakitra avoaka"
+
+msgid "Output filename:"
+msgstr "Anaran’ny rakitra avoaka:"
+
+msgid "Output timing offset:"
+msgstr "Fiovan’ny fotoana avoaka:"
+
+msgid "Overwrite existing files"
+msgstr "Soloy ny rakitra efa misy"
+
+msgid "Overwrite files?"
+msgstr "Hosoloina ve ny rakitra?"
+
+msgid "Persian"
+msgstr "Persiana"
+
+msgid "Polish"
+msgstr "Poloney"
+
+msgid "Portuguese"
+msgstr "Portogey"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Aza avela hatory ny rafitra mandritra ny fampifanarahana"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Misakana ny rafitra tsy hatory mandritra ny fampifanarahana.\nMety tsy hiasa amin’ny rafitra rehetra izany."
+
+msgid "Reference file not set"
+msgstr "Tsy voafaritra ny rakitra ifotorana"
+
+msgid "References (video or other subtitles):"
+msgstr "Rakitra ifotorana (horonan-tsary na zana-dohateny hafa):"
+
+msgid "Remove"
+msgstr "Esory"
+
+msgid "Remove items"
+msgstr "Esory ireo singa"
+
+msgid "Restore defaults"
+msgstr "Avereno ny sanda tany am-boalohany"
+
+msgid "Romanian"
+msgstr "Romaniana"
+
+msgid "Russian"
+msgstr "Rosiana"
+
+msgid "Save"
+msgstr "Tehirizo"
+
+msgid "Select"
+msgstr "Fidio"
+
+msgid "Select &all"
+msgstr "Fidio &daholo"
+
+msgid "Select &stream"
+msgstr "Fidio ny &fikorianan’angona"
+
+msgid "Select all &references"
+msgstr "Fidio ny &rakitra ifotorana rehetra"
+
+msgid "Select all &subtitles"
+msgstr "Fidio ny &zana-dohateny rehetra"
+
+msgid "Select all o&utputs"
+msgstr "Fidio ny &avoaka rehetra"
+
+msgid "Select audio channels to listen to:"
+msgstr "Fidio ny fantsona feo henoina:"
+
+msgid "Select character encoding"
+msgstr "Fidio ny kaodin-tsoratra"
+
+msgid "Select directory"
+msgstr "Fidio ny lahatahiry"
+
+msgid "Select file"
+msgstr "Fidio ny rakitra"
+
+msgid "Select language"
+msgstr "Fidio ny fiteny"
+
+msgid "Select output"
+msgstr "Fidio ny avoaka"
+
+msgid "Select output directory"
+msgstr "Fidio ny lahatahiry famoahana"
+
+msgid "Select output subtitles framerate:"
+msgstr "Fidio ny tahan-tsary ho an’ny zana-dohateny avoaka:"
+
+msgid "Select reference language first"
+msgstr "Fidio aloha ny fitenin’ny rakitra ifotorana"
+
+msgid "Select stream"
+msgstr "Fidio ny fikorianan’angona"
+
+msgid "Select stream by language:"
+msgstr "Fidio araka ny fiteny ny fikorianan’angona:"
+
+msgid "Select stream by title:"
+msgstr "Fidio araka ny lohateny ny fikorianan’angona:"
+
+msgid "Select stream by type:"
+msgstr "Fidio araka ny karazany ny fikorianan’angona:"
+
+msgid "Select stream:"
+msgstr "Fidio ny fikorianan’angona:"
+
+msgid "Select streams"
+msgstr "Fidio ireo fikorianan’angona"
+
+msgid "Serbian"
+msgstr "Serba"
+
+msgid "Set &input stream"
+msgstr "Farito ny fikorianan’angona &ampidirina"
+
+msgid "Set &output location"
+msgstr "Farito ny toerana &hamoahana"
+
+msgid "Settings"
+msgstr "Fikirana"
+
+msgid "Show popups:"
+msgstr "Asehoy ny hafatra mipoitra:"
+
+msgid "Signature verification failed"
+msgstr "Tsy nahomby ny fanamarinana sonia"
+
+msgid "Slovak"
+msgstr "Slovaky"
+
+msgid "Slovenian"
+msgstr "Sloveniana"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Tsy azo vakina ny zana-dohateny ifotorana sasany (kaodin-tsoratra tsy mety?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Tsy azo vakina ny zana-dohateny sasany (kaodin-tsoratra tsy mety?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Tsy azo nampifanarahana ny asa sasany"
+
+msgid "Spanish"
+msgstr "Espaniola"
+
+msgid "Start"
+msgstr "Atombohy"
+
+msgid "Status:"
+msgstr "Toe-javatra:"
+
+msgid "Stop"
+msgstr "Ajanony"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Mpampifanaraka\nny Zana-dohateny\nsy ny Feo"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Mpampifanaraka ny Zana-dohateny sy ny Feo"
+
+msgid "Subtitle files"
+msgstr "Rakitra zana-dohateny"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Tsy tokony hitovy amin’ny rakitra ifotorana ny zana-dohateny"
+
+msgid "Subtitles not set"
+msgstr "Tsy voafaritra ny zana-dohateny"
+
+msgid "Subtitles synchronized"
+msgstr "Nampifanarahana ny zana-dohateny"
+
+msgid "Subtitles:"
+msgstr "Zana-dohateny:"
+
+msgid "Swedish"
+msgstr "Soedoà"
+
+msgid "Synchronization"
+msgstr "Fampifanarahana"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Tsy mbola tohanana ny fampifanarahana ny fiteny {}."
+
+msgid "Synchronization job:"
+msgstr "Asa fampifanarahana:"
+
+msgid "Synchronization options:"
+msgstr "Safidy fampifanarahana:"
+
+msgid "Synchronization terminated"
+msgstr "Natsahatra ny fampifanarahana"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Tsy mbola tohanana ny fampifanarahana amin’ny feo {}."
+
+msgid "Synchronization: 0 points"
+msgstr "Fampifanarahana: teboka 0"
+
+msgid "Synchronization: {} points"
+msgstr "Fampifanarahana: teboka {}"
+
+msgid "Synchronizing..."
+msgstr "Mampifanaraka..."
+
+msgid "Task:"
+msgstr "Asa:"
+
+msgid "Terminating, please wait..."
+msgstr "Mamarana, andraso azafady..."
+
+msgid "Terminating..."
+msgstr "Mamarana..."
+
+msgid "There are no usable streams"
+msgstr "Tsy misy fikorianan’angona azo ampiasaina"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Tsy misy rakibolana handikana avy amin’ny {} ho amin’ny {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Tsy misy fikorianan’angona mifanaraka ao amin’ny {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Tsy misy maodely famantarana fitenenana ho an’ny fiteny {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Fitaovana mampifanaraka ho azy ny zana-dohatenin’ny horonan-tsary ity.\nNy feo no henoina mba hampifanarahana, ary adika raha ilaina.\nAzo ampiasaina ho fototra koa ny zana-dohateny hafa.\n\nMpamorona: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Tsy nahomby avokoa"
+
+msgid "Total progress:"
+msgstr "Fandrosoana manontolo:"
+
+msgid "Turkish"
+msgstr "Tiorka"
+
+msgid "Ukrainian"
+msgstr "Okrainiana"
+
+msgid "Unexpected error occurred"
+msgstr "Nisy hadisoana tsy nampoizina"
+
+msgid "Unknown file extension"
+msgstr "Tsy fantatra ny tovan’ny rakitra"
+
+msgid "Update assets"
+msgstr "Havaozy ny loharano"
+
+msgid "Update instalation failed miserably"
+msgstr "Tsy nahomby mihitsy ny fametrahana fanavaozana"
+
+msgid "Update not available"
+msgstr "Tsy misy fanavaozana"
+
+msgid "Update now?"
+msgstr "Havaozina izao ve?"
+
+msgid "Updates:"
+msgstr "Fanavaozana:"
+
+msgid "Upgrade"
+msgstr "Havaozy"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Fampiasana: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Rakitra horonan-tsary"
+
+msgid "Website"
+msgstr "Tranonkala"
+
+msgid "Your version is up to date"
+msgstr "Efa kinova farany ny anao"
+
+msgid "[details]"
+msgstr "[antsipiriany]"
+
+msgid "[errors]"
+msgstr "[hadisoana]"
+
+msgid "[hide]"
+msgstr "[afeno]"
+
+msgid "[show more]"
+msgstr "[asehoy bebe kokoa]"
+
+msgid "all"
+msgstr "rehetra"
+
+msgid "all channels"
+msgstr "ny fantsona rehetra"
+
+msgid "and {} more"
+msgstr "sy {} hafa"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "ampio kaody fiteny misy litera roa (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "ampio kaody fiteny misy litera telo (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "ampio ny laharan’ny fikorianan’angona"
+
+msgid "ask for update on exit"
+msgstr "anontanio momba ny fanavaozana rehefa mivoaka"
+
+msgid "audio"
+msgstr "feo"
+
+msgid "auto"
+msgstr "mandeha ho azy"
+
+msgid "auto select"
+msgstr "fidio ho azy"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "hamarino ny fanoloana rakitra (amin’ny fomba mitambatra)"
+
+msgid "correlation:"
+msgstr "fifandraisana:"
+
+msgid "couldn't synchronize"
+msgstr "tsy azo nampifanarahana"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "kinova namboarina manokana"
+
+msgid "custom names:"
+msgstr "anarana manokana:"
+
+msgid "custom selection"
+msgstr "safidy manokana"
+
+msgid "custom value:"
+msgstr "sanda manokana:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "tany am-boalohany"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "farito ny asa fampifanarahana; azo averina imbetsaka"
+
+msgid "description"
+msgstr "famaritana"
+
+msgid "dictionary {} / {}"
+msgstr "rakibolana {} / {}"
+
+msgid "directory path"
+msgstr "lalan’ny lahatahiry"
+
+msgid "display this help text and exit"
+msgstr "asehoy ity fanampiana ity dia mivoaha"
+
+msgid "display version information and exit"
+msgstr "asehoy ny kinova dia mivoaha"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "aza mifandray amin’ny mpizara lavitra haka ireo loharano tsy ampy"
+
+msgid "don't show this message again"
+msgstr "aza aseho intsony ity hafatra ity"
+
+msgid "done"
+msgstr "vita"
+
+msgid "download updates automatically"
+msgstr "alaivo ho azy ny fanavaozana"
+
+msgid "downloading"
+msgstr "misintona"
+
+msgid "drop here"
+msgstr "apetraho eto"
+
+msgid "dump logs to specified file"
+msgstr "avoahy amin’ny rakitra voafaritra ny diarin’asa"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "avoahy amin’ny rakitra ny teny, na amin’ny famoahana mahazatra raha tsy misy PATH; ny SRC dia iray amin’ireto:  "
+
+msgid "elapsed time:"
+msgstr "fotoana lany:"
+
+msgid "enable advanced debug options"
+msgstr "alefaso ny safidy fikarohana lesoka mandroso"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "anaran’ny rakitra (tsy misy lalana na tovana)"
+
+msgid "files with matching streams"
+msgstr "rakitra misy fikorianan’angona mifanaraka"
+
+msgid "files without matching streams"
+msgstr "rakitra tsy misy fikorianan’angona mifanaraka"
+
+msgid "formula:"
+msgstr "raikipohy:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "habetsahan’ny ezaka (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "raha tsy voafaritra ny <field>, ampio <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "raha voafaritra ny <field>, ampio <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "ampidiro avy amin’ny rakitra YAML ny lisitry ny asa"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "fiteny"
+
+msgid "language not selected"
+msgstr "tsy voafidy ny fiteny"
+
+msgid "less than minute"
+msgstr "latsaky ny iray minitra"
+
+msgid "log to file"
+msgstr "raketo ao anaty rakitra ny diarin’asa"
+
+msgid "max change:"
+msgstr "fiovana ambony indrindra:"
+
+msgid "missing assets:"
+msgstr "loharano tsy ampy:"
+
+msgid "name"
+msgstr "anarana"
+
+msgid "open batch processing window"
+msgstr "sokafy ny varavarankely fikarakarana mitambatra"
+
+msgid "operation failed"
+msgstr "tsy nahomby ny asa"
+
+msgid "operation finished successfully"
+msgstr "vita soa aman-tsara ny asa"
+
+msgid "output character encoding"
+msgstr "kaodin-tsoratra avoaka"
+
+msgid "output file path or pattern"
+msgstr "lalana na lamina ho an’ny rakitra avoaka"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "tahan-tsary avoaka (ho an’ny zana-dohateny mifototra amin’ny FPS)"
+
+msgid "outputs"
+msgstr "avoaka"
+
+msgid "overwrite existing files"
+msgstr "soloy ny rakitra efa misy"
+
+msgid "path to reference file"
+msgstr "lalan’ny rakitra ifotorana"
+
+msgid "path to subtitle file"
+msgstr "lalan’ny rakitra zana-dohateny"
+
+msgid "pattern:"
+msgstr "lamina:"
+
+msgid "predefined names:"
+msgstr "anarana voafaritra mialoha:"
+
+msgid "processing..."
+msgstr "mikarakara..."
+
+msgid "queued..."
+msgstr "miandry ny anjarany..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "fampifandraisana fantsona feo ifotorana (ho an’ny feo ifotorana)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "kaodin-tsoratra ifotorana (ho an’ny zana-dohateny ifotorana)"
+
+msgid "reference framerate"
+msgstr "tahan-tsary ifotorana"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "fiteny ifotorana (kaody ISO misy litera roa na telo)"
+
+msgid "reference stream no"
+msgstr "laharan’ny fikorianan’angona ifotorana"
+
+msgid "references"
+msgstr "rakitra ifotorana"
+
+msgid "references: "
+msgstr "rakitra ifotorana: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "alefaso tsy misy seha-pifandraisana an-tsary"
+
+msgid "same as input subtitles"
+msgstr "mitovy amin’ny zana-dohateny ampidirina"
+
+msgid "same as reference file"
+msgstr "mitovy amin’ny rakitra ifotorana"
+
+msgid "select custom folder"
+msgstr "fidio ny lahatahiry manokana"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "fidio araka ny fiteny ny fikorianan’angona ifotorana (kaody ISO misy litera telo)"
+
+msgid "select reference stream by type"
+msgstr "fidio araka ny karazany ny fikorianan’angona ifotorana"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "fidio araka ny fiteny ny fikorianan’angona zana-dohateny (kaody ISO misy litera telo)"
+
+msgid "set logging level"
+msgstr "farito ny haavon’ny firaketana"
+
+msgid "stream"
+msgstr "fikorianan’angona"
+
+msgid "subtitle character encoding"
+msgstr "kaodin-tsoratra zana-dohateny"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "tahan-tsarin’ny zana-dohateny (ho an’ny zana-dohateny mifototra amin’ny FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "fitenin’ny zana-dohateny (kaody ISO misy litera roa na telo)"
+
+msgid "subtitle stream no"
+msgstr "laharan’ny fikorianan’angona zana-dohateny"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "kaody fiteny misy litera roa ho an’ny zana-dohateny/fototra"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "kaody fiteny misy litera telo ho an’ny zana-dohateny/fototra"
+
+msgid "subtitle/reference file full path"
+msgstr "lalana feno ho an’ny rakitra zana-dohateny/fototra"
+
+msgid "subtitle/reference stream number"
+msgstr "laharan’ny fikorianan’angona zana-dohateny/fototra"
+
+msgid "subtitle/text"
+msgstr "zana-dohateny/lahatsoratra"
+
+msgid "subtitles"
+msgstr "zana-dohateny"
+
+msgid "subtitles: "
+msgstr "zana-dohateny: "
+
+msgid "synchronizing"
+msgstr "mampifanaraka"
+
+msgid "terminated"
+msgstr "natsahatra"
+
+msgid "type"
+msgstr "karazany"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "fitenin’ny seha-pifandraisana (kaody ISO misy litera roa)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "haavon’ny antsipiriany (0 - 3)"
+
+msgid "version "
+msgstr "kinova "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ora"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minitra"
+
+msgid "{} speech recognition model"
+msgstr "maodely famantarana fitenenana {}"

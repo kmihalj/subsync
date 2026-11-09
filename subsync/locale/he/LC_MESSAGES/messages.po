@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: עברית\nLanguage: he\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&אודות"
+
+msgid "&Add files (auto sort)"
+msgstr "&הוספת קבצים (מיון אוטומטי)"
+
+msgid "&Close"
+msgstr "&סגירה"
+
+msgid "&Edit"
+msgstr "&עריכה"
+
+msgid "&Export list"
+msgstr "&ייצוא רשימה"
+
+msgid "&File"
+msgstr "&קובץ"
+
+msgid "&Help"
+msgstr "&עזרה"
+
+msgid "&Import list"
+msgstr "&ייבוא רשימה"
+
+msgid "&Language"
+msgstr "&שפה"
+
+msgid "&New"
+msgstr "&חדש"
+
+msgid "&Properties"
+msgstr "&מאפיינים"
+
+msgid "&Propeties"
+msgstr "&מאפיינים"
+
+msgid "&Remove"
+msgstr "&הסרה"
+
+msgid ", {} points"
+msgstr ", {} נקודות"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 לבחירה אוטומטית."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "דקה אחת"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<אוטומטי>"
+
+msgid "<empty>"
+msgstr "<ריק>"
+
+msgid "<other>"
+msgstr "<אחר>"
+
+msgid "<undefined>"
+msgstr "<לא מוגדר>"
+
+msgid "About"
+msgstr "אודות"
+
+msgid "Add"
+msgstr "הוספה"
+
+msgid "Add &folder"
+msgstr "הוספת &תיקייה"
+
+msgid "Add &references"
+msgstr "הוספת &קובצי ייחוס"
+
+msgid "Add &subtitles"
+msgstr "הוספת &כתוביות"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "אלבנית"
+
+msgid "All files"
+msgstr "כל הקבצים"
+
+msgid "All supported files"
+msgstr "כל הקבצים הנתמכים"
+
+msgid "Another update in progress"
+msgstr "עדכון אחר כבר מתבצע"
+
+msgid "Application upgrade"
+msgstr "שדרוג היישום"
+
+msgid "Arabic"
+msgstr "ערבית"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "האם לדרוס את קובצי הפלט אם הם כבר קיימים?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "האם לאפס את ההגדרות לברירות המחדל?"
+
+msgid "Asset installation failed"
+msgstr "התקנת המשאבים נכשלה"
+
+msgid "Au&to sort"
+msgstr "מיון &אוטומטי"
+
+msgid "Audio &channels"
+msgstr "&ערוצי שמע"
+
+msgid "Audio channels"
+msgstr "ערוצי שמע"
+
+msgid "Audio channels:"
+msgstr "ערוצי שמע:"
+
+msgid "Auto detect"
+msgstr "זיהוי אוטומטי"
+
+msgid "Auto sort"
+msgstr "מיון אוטומטי"
+
+msgid "Batch Processing"
+msgstr "עיבוד באצווה"
+
+msgid "Batch processing"
+msgstr "עיבוד באצווה"
+
+msgid "Belarusian"
+msgstr "בלארוסית"
+
+msgid "Bulgarian"
+msgstr "בולגרית"
+
+msgid "Can't save subtitle file"
+msgstr "לא ניתן לשמור את קובץ הכתוביות"
+
+msgid "Cancel"
+msgstr "ביטול"
+
+msgid "Cannot load settings file, {}"
+msgstr "לא ניתן לטעון את קובץ ההגדרות, {}"
+
+msgid "Catalan"
+msgstr "קטלאנית"
+
+msgid "Character &encoding"
+msgstr "&קידוד תווים"
+
+msgid "Character encoding"
+msgstr "קידוד תווים"
+
+msgid "Character encoding:"
+msgstr "קידוד תווים:"
+
+msgid "Check for updates"
+msgstr "בדיקת עדכונים"
+
+msgid "Checking for update..."
+msgstr "מתבצעת בדיקת עדכונים..."
+
+msgid "Chinese"
+msgstr "סינית"
+
+msgid "Close"
+msgstr "סגירה"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "לא ניתן לשמור את הכתוביות המסונכרנות"
+
+msgid "Couldn't synchronize"
+msgstr "לא ניתן לסנכרן"
+
+msgid "Credits"
+msgstr "תודות"
+
+msgid "Croatian"
+msgstr "קרואטית"
+
+msgid "Current file:"
+msgstr "הקובץ הנוכחי:"
+
+msgid "Czech"
+msgstr "צ'כית"
+
+msgid "Danish"
+msgstr "דנית"
+
+msgid "Debug"
+msgstr "ניפוי שגיאות"
+
+msgid "Debug options:"
+msgstr "אפשרויות ניפוי שגיאות:"
+
+msgid "Do you want to clear all items?"
+msgstr "האם לנקות את כל הפריטים?"
+
+msgid "Download"
+msgstr "הורדה"
+
+msgid "Download assets"
+msgstr "הורדת משאבים"
+
+msgid "Download now?"
+msgstr "להוריד עכשיו?"
+
+msgid "Downloading"
+msgstr "בהורדה"
+
+msgid "Downloading assets list..."
+msgstr "רשימת המשאבים בהורדה..."
+
+msgid "Drop files here to add sorted"
+msgstr "יש לשחרר כאן קבצים כדי להוסיף אותם לפי סדר"
+
+msgid "Dump all synchronization points"
+msgstr "ייצוא כל נקודות הסנכרון"
+
+msgid "Dump reference words"
+msgstr "ייצוא מילים מקובץ הייחוס"
+
+msgid "Dump subtitle words"
+msgstr "ייצוא מילים מהכתוביות"
+
+msgid "Dump used synchronization points"
+msgstr "ייצוא נקודות הסנכרון שנעשה בהן שימוש"
+
+msgid "Dutch"
+msgstr "הולנדית"
+
+msgid "ETA:"
+msgstr "זמן משוער לסיום:"
+
+msgid "Edit all tasks"
+msgstr "עריכת כל המשימות"
+
+msgid "Edit failed tasks"
+msgstr "עריכת משימות שנכשלו"
+
+msgid "Effort:"
+msgstr "מידת המאמץ:"
+
+msgid "Elapsed:"
+msgstr "זמן שחלף:"
+
+msgid "Enable save button"
+msgstr "הפעלת כפתור השמירה"
+
+msgid "English"
+msgstr "אנגלית"
+
+msgid "Error"
+msgstr "שגיאה"
+
+msgid "Error during reference read"
+msgstr "שגיאה בקריאת קובץ הייחוס"
+
+msgid "Error during subtitles read"
+msgstr "שגיאה בקריאת הכתוביות"
+
+msgid "Estonian"
+msgstr "אסטונית"
+
+msgid "Everything synchronized successfully"
+msgstr "הכול סונכרן בהצלחה"
+
+msgid "Everything synchronized, but got errors"
+msgstr "הכול סונכרן, אך אירעו שגיאות"
+
+msgid "Extractor jobs no:"
+msgstr "מספר משימות החילוץ:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "פארואזית"
+
+msgid "File name:"
+msgstr "שם הקובץ:"
+
+msgid "File type:"
+msgstr "סוג הקובץ:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "סינון רישומים מהמודולים הבאים (אחד בכל שורה):"
+
+msgid "Finnish"
+msgstr "פינית"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "תיקון חותמות הזמן של כתוביות הפלט בהיסט הנתון, בשניות."
+
+msgid "Following assets could be updated:"
+msgstr "ניתן לעדכן את המשאבים הבאים:"
+
+msgid "Following assets must be download to continue:"
+msgstr "כדי להמשיך יש להוריד את המשאבים הבאים:"
+
+msgid "Following files could not be added:"
+msgstr "לא ניתן להוסיף את הקבצים הבאים:"
+
+msgid "French"
+msgstr "צרפתית"
+
+msgid "GUI options:"
+msgstr "אפשרויות ממשק גרפי:"
+
+msgid "Gaelic"
+msgstr "גאלית סקוטית"
+
+msgid "Galician"
+msgstr "גליסית"
+
+msgid "General"
+msgstr "כללי"
+
+msgid "General options:"
+msgstr "אפשרויות כלליות:"
+
+msgid "German"
+msgstr "גרמנית"
+
+msgid "Got errors, synchronization failed"
+msgstr "אירעו שגיאות והסנכרון נכשל"
+
+msgid "Greek"
+msgstr "יוונית"
+
+msgid "Headless options:"
+msgstr "אפשרויות מצב ללא ממשק גרפי:"
+
+msgid "Hebrew"
+msgstr "עברית"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "מידת המאמץ להשקיע בסנכרון הכתוביות. ערך גבוה יותר משפר את הסנכרון, אך דורש זמן רב יותר."
+
+msgid "Hungarian"
+msgstr "הונגרית"
+
+msgid "Icelandic"
+msgstr "איסלנדית"
+
+msgid "In seconds."
+msgstr "בשניות."
+
+msgid "Indonesian"
+msgstr "אינדונזית"
+
+msgid "Info"
+msgstr "מידע"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "הסנכרון הראשוני הושלם.\nאפשר כבר לשמור את הכתוביות.\nאם הן עדיין אינן תואמות, יש להמתין לתוצאה טובה יותר."
+
+msgid "Initializing..."
+msgstr "מתבצע אתחול..."
+
+msgid "Input file:"
+msgstr "קובץ קלט:"
+
+msgid "Invalid output pattern"
+msgstr "תבנית פלט לא תקינה"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "תבנית פלט לא תקינה, מילת מפתח לא תקינה: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "תבנית פלט לא תקינה, {}"
+
+msgid "Invalid speech audio format"
+msgstr "תבנית שמע לא תקינה לזיהוי דיבור"
+
+msgid "Italian"
+msgstr "איטלקית"
+
+msgid "Japanese"
+msgstr "יפנית"
+
+msgid "Korean"
+msgstr "קוריאנית"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "בחירת שפה אינה חובה, אך היא עשויה לשפר מאוד את דיוק הסנכרון.\nלהמשיך בכל זאת?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "שינוי השפה ייכנס לתוקף לאחר הפעלה מחדש של היישום"
+
+msgid "Language:"
+msgstr "שפה:"
+
+msgid "Languages"
+msgstr "שפות"
+
+msgid "Latin"
+msgstr "לטינית"
+
+msgid "Latvian"
+msgstr "לטבית"
+
+msgid "License"
+msgstr "רישיון"
+
+msgid "Lithuanian"
+msgstr "ליטאית"
+
+msgid "Loading, please wait..."
+msgstr "בטעינה, נא להמתין..."
+
+msgid "Logging level:"
+msgstr "רמת פירוט הרישום:"
+
+msgid "Malagasy"
+msgstr "מלגשית"
+
+msgid "Malay"
+msgstr "מלאית"
+
+msgid "Maltese"
+msgstr "מלטית"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "התיקון המרבי. תזמון הכתוביות לא ישתנה ביותר מערך זה. ערך גבוה מאריך את הסנכרון, אך ערך נמוך מדי יגרום לכישלונו."
+
+msgid "Max adjustment:"
+msgstr "תיקון מרבי:"
+
+msgid "Max points distance:"
+msgstr "סטייה מרבית של נקודות:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "שגיאת הסנכרון המרבית המותרת, בשניות. נקודות סנכרון עם שגיאה גדולה מערך זה יוסרו."
+
+msgid "Menu"
+msgstr "תפריט"
+
+msgid "Min correlation factor:"
+msgstr "מקדם מתאם מזערי:"
+
+msgid "Min points no:"
+msgstr "מספר נקודות מזערי:"
+
+msgid "Min speech recognition score:"
+msgstr "ציון מזערי לזיהוי דיבור:"
+
+msgid "Min word length (letters):"
+msgstr "אורך מילה מזערי (אותיות):"
+
+msgid "Min words similarity:"
+msgstr "דמיון מזערי בין מילים:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "מקדם המתאם המזערי, בין 0.0 ל־1.0. משמש להערכת תוצאת הסנכרון. אם המקדם נמוך מערך זה, הסנכרון ייכשל."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "הציון המזערי לזיהוי דיבור, בין 0.0 ל־1.0. מילים שיזוהו בציון נמוך יותר יידחו."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "אורך מילה מזערי באותיות. מילים קצרות יותר לא ישמשו כנקודות סנכרון. חל רק על שפות המבוססות על אלפבית."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "הדמיון המזערי בין מילים לצורך נקודות סנכרון. בין 0.0 ל־1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "המספר המזערי של נקודות סנכרון. ערך גבוה מדי עלול ליצור התאמות שגויות רבות."
+
+msgid "New synchronization"
+msgstr "סנכרון חדש"
+
+msgid "New version is available. Update now?"
+msgstr "גרסה חדשה זמינה. לעדכן עכשיו?"
+
+msgid "No language selected"
+msgstr "לא נבחרה שפה"
+
+msgid "No language selected for:"
+msgstr "לא נבחרה שפה עבור:"
+
+msgid "No need to synchronize"
+msgstr "אין צורך לסנכרן"
+
+msgid "Norwegian"
+msgstr "נורווגית"
+
+msgid "Not supported stream type"
+msgstr "סוג הזרם אינו נתמך"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "מספר תהליכוני הסנכרון הפועלים במקביל."
+
+msgid "OK"
+msgstr "אישור"
+
+msgid "Output directory:"
+msgstr "תיקיית פלט:"
+
+msgid "Output encoding:"
+msgstr "קידוד פלט:"
+
+msgid "Output file names"
+msgstr "שמות קובצי פלט"
+
+msgid "Output file not set"
+msgstr "לא הוגדר קובץ פלט"
+
+msgid "Output filename:"
+msgstr "שם קובץ הפלט:"
+
+msgid "Output timing offset:"
+msgstr "היסט תזמון הפלט:"
+
+msgid "Overwrite existing files"
+msgstr "דריסת קבצים קיימים"
+
+msgid "Overwrite files?"
+msgstr "לדרוס קבצים?"
+
+msgid "Persian"
+msgstr "פרסית"
+
+msgid "Polish"
+msgstr "פולנית"
+
+msgid "Portuguese"
+msgstr "פורטוגזית"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "מניעת מעבר לשינה במהלך הסנכרון"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "מונע מהמערכת לעבור למצב שינה במהלך הסנכרון.\nייתכן שלא יפעל בכל הפלטפורמות."
+
+msgid "Reference file not set"
+msgstr "לא הוגדר קובץ ייחוס"
+
+msgid "References (video or other subtitles):"
+msgstr "קובצי ייחוס (וידאו או כתוביות אחרות):"
+
+msgid "Remove"
+msgstr "הסרה"
+
+msgid "Remove items"
+msgstr "הסרת פריטים"
+
+msgid "Restore defaults"
+msgstr "שחזור ברירות המחדל"
+
+msgid "Romanian"
+msgstr "רומנית"
+
+msgid "Russian"
+msgstr "רוסית"
+
+msgid "Save"
+msgstr "שמירה"
+
+msgid "Select"
+msgstr "בחירה"
+
+msgid "Select &all"
+msgstr "בחירת &הכול"
+
+msgid "Select &stream"
+msgstr "בחירת &זרם"
+
+msgid "Select all &references"
+msgstr "בחירת כל &קובצי הייחוס"
+
+msgid "Select all &subtitles"
+msgstr "בחירת כל &הכתוביות"
+
+msgid "Select all o&utputs"
+msgstr "בחירת כל &הפלטים"
+
+msgid "Select audio channels to listen to:"
+msgstr "יש לבחור את ערוצי השמע להאזנה:"
+
+msgid "Select character encoding"
+msgstr "בחירת קידוד תווים"
+
+msgid "Select directory"
+msgstr "בחירת תיקייה"
+
+msgid "Select file"
+msgstr "בחירת קובץ"
+
+msgid "Select language"
+msgstr "בחירת שפה"
+
+msgid "Select output"
+msgstr "בחירת פלט"
+
+msgid "Select output directory"
+msgstr "בחירת תיקיית פלט"
+
+msgid "Select output subtitles framerate:"
+msgstr "בחירת קצב הפריימים של כתוביות הפלט:"
+
+msgid "Select reference language first"
+msgstr "יש לבחור תחילה את שפת קובץ הייחוס"
+
+msgid "Select stream"
+msgstr "בחירת זרם"
+
+msgid "Select stream by language:"
+msgstr "בחירת זרם לפי שפה:"
+
+msgid "Select stream by title:"
+msgstr "בחירת זרם לפי כותרת:"
+
+msgid "Select stream by type:"
+msgstr "בחירת זרם לפי סוג:"
+
+msgid "Select stream:"
+msgstr "בחירת זרם:"
+
+msgid "Select streams"
+msgstr "בחירת זרמים"
+
+msgid "Serbian"
+msgstr "סרבית"
+
+msgid "Set &input stream"
+msgstr "הגדרת זרם &קלט"
+
+msgid "Set &output location"
+msgstr "הגדרת מיקום &פלט"
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Show popups:"
+msgstr "הצגת חלוניות קופצות:"
+
+msgid "Signature verification failed"
+msgstr "אימות החתימה נכשל"
+
+msgid "Slovak"
+msgstr "סלובקית"
+
+msgid "Slovenian"
+msgstr "סלובנית"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "לא ניתן לפענח חלק מכתוביות הייחוס (קידוד לא תקין?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "לא ניתן לפענח חלק מהכתוביות (קידוד לא תקין?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "לא ניתן לסנכרן חלק מהמשימות"
+
+msgid "Spanish"
+msgstr "ספרדית"
+
+msgid "Start"
+msgstr "התחלה"
+
+msgid "Status:"
+msgstr "מצב:"
+
+msgid "Stop"
+msgstr "עצירה"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "מסנכרן\nכתוביות\nודיבור"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "מסנכרן כתוביות ודיבור"
+
+msgid "Subtitle files"
+msgstr "קובצי כתוביות"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "הכתוביות אינן יכולות להיות זהות לקובץ הייחוס"
+
+msgid "Subtitles not set"
+msgstr "לא הוגדרו כתוביות"
+
+msgid "Subtitles synchronized"
+msgstr "הכתוביות סונכרנו"
+
+msgid "Subtitles:"
+msgstr "כתוביות:"
+
+msgid "Swedish"
+msgstr "שוודית"
+
+msgid "Synchronization"
+msgstr "סנכרון"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "סנכרון בין השפות {} אינו נתמך כעת."
+
+msgid "Synchronization job:"
+msgstr "משימת סנכרון:"
+
+msgid "Synchronization options:"
+msgstr "אפשרויות סנכרון:"
+
+msgid "Synchronization terminated"
+msgstr "הסנכרון הופסק"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "סנכרון עם שמע בשפה {} אינו נתמך כעת."
+
+msgid "Synchronization: 0 points"
+msgstr "סנכרון: 0 נקודות"
+
+msgid "Synchronization: {} points"
+msgstr "סנכרון: {} נקודות"
+
+msgid "Synchronizing..."
+msgstr "מתבצע סנכרון..."
+
+msgid "Task:"
+msgstr "משימה:"
+
+msgid "Terminating, please wait..."
+msgstr "התהליך מסתיים, נא להמתין..."
+
+msgid "Terminating..."
+msgstr "התהליך מסתיים..."
+
+msgid "There are no usable streams"
+msgstr "אין זרמים שאפשר להשתמש בהם"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "אין מילון לתרגום מ־{} ל־{}"
+
+msgid "There is no matching stream in {}"
+msgstr "אין זרם תואם בתוך {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "אין מודל זיהוי דיבור לשפה {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "זהו כלי לסנכרון אוטומטי של כתוביות לסרטים.\nהסנכרון נעשה באמצעות האזנה לפס הקול ותרגומו במידת הצורך.\nאפשר גם להשתמש בכתוביות אחרות כקובץ ייחוס.\n\nמפתח: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "כישלון מוחלט"
+
+msgid "Total progress:"
+msgstr "התקדמות כוללת:"
+
+msgid "Turkish"
+msgstr "טורקית"
+
+msgid "Ukrainian"
+msgstr "אוקראינית"
+
+msgid "Unexpected error occurred"
+msgstr "אירעה שגיאה בלתי צפויה"
+
+msgid "Unknown file extension"
+msgstr "סיומת קובץ לא מוכרת"
+
+msgid "Update assets"
+msgstr "עדכון משאבים"
+
+msgid "Update instalation failed miserably"
+msgstr "התקנת העדכון נכשלה לחלוטין"
+
+msgid "Update not available"
+msgstr "אין עדכון זמין"
+
+msgid "Update now?"
+msgstr "לעדכן עכשיו?"
+
+msgid "Updates:"
+msgstr "עדכונים:"
+
+msgid "Upgrade"
+msgstr "שדרוג"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "שימוש: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "קובצי וידאו"
+
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+msgid "Your version is up to date"
+msgstr "ברשותך הגרסה העדכנית ביותר"
+
+msgid "[details]"
+msgstr "[פרטים]"
+
+msgid "[errors]"
+msgstr "[שגיאות]"
+
+msgid "[hide]"
+msgstr "[הסתרה]"
+
+msgid "[show more]"
+msgstr "[הצגת עוד]"
+
+msgid "all"
+msgstr "הכול"
+
+msgid "all channels"
+msgstr "כל הערוצים"
+
+msgid "and {} more"
+msgstr "ועוד {}"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "הוספת קוד שפה בן שתי אותיות (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "הוספת קוד שפה בן שלוש אותיות (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "הוספת מספר הזרם"
+
+msgid "ask for update on exit"
+msgstr "שאלה על עדכון בעת יציאה"
+
+msgid "audio"
+msgstr "שמע"
+
+msgid "auto"
+msgstr "אוטומטי"
+
+msgid "auto select"
+msgstr "בחירה אוטומטית"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "אישור דריסת קבצים (במצב אצווה)"
+
+msgid "correlation:"
+msgstr "מתאם:"
+
+msgid "couldn't synchronize"
+msgstr "לא ניתן לסנכרן"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "גרסה מותאמת"
+
+msgid "custom names:"
+msgstr "שמות מותאמים:"
+
+msgid "custom selection"
+msgstr "בחירה מותאמת"
+
+msgid "custom value:"
+msgstr "ערך מותאם:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "ברירת מחדל"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "הגדרת משימת סנכרון; אפשר לחזור על האפשרות כמה פעמים"
+
+msgid "description"
+msgstr "תיאור"
+
+msgid "dictionary {} / {}"
+msgstr "מילון {} / {}"
+
+msgid "directory path"
+msgstr "נתיב תיקייה"
+
+msgid "display this help text and exit"
+msgstr "הצגת העזרה הזאת ויציאה"
+
+msgid "display version information and exit"
+msgstr "הצגת פרטי הגרסה ויציאה"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "ללא פנייה לשרת מרוחק לקבלת משאבים חסרים"
+
+msgid "don't show this message again"
+msgstr "לא להציג הודעה זו שוב"
+
+msgid "done"
+msgstr "בוצע"
+
+msgid "download updates automatically"
+msgstr "הורדת עדכונים אוטומטית"
+
+msgid "downloading"
+msgstr "בהורדה"
+
+msgid "drop here"
+msgstr "יש לשחרר כאן"
+
+msgid "dump logs to specified file"
+msgstr "ייצוא יומנים לקובץ שצוין"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "ייצוא מילים לקובץ, או לפלט התקני אם לא צוין PATH. הערך של SRC הוא אחד מאלה:  "
+
+msgid "elapsed time:"
+msgstr "זמן שחלף:"
+
+msgid "enable advanced debug options"
+msgstr "הפעלת אפשרויות ניפוי שגיאות מתקדמות"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "שם הקובץ (ללא נתיב וסיומת)"
+
+msgid "files with matching streams"
+msgstr "קבצים עם זרמים תואמים"
+
+msgid "files without matching streams"
+msgstr "קבצים ללא זרמים תואמים"
+
+msgid "formula:"
+msgstr "נוסחה:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "מידת המאמץ (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "אם <field> לא הוגדר, יש להוסיף <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "אם <field> הוגדר, יש להוסיף <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "ייבוא רשימת משימות מקובץ YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "שפה"
+
+msgid "language not selected"
+msgstr "לא נבחרה שפה"
+
+msgid "less than minute"
+msgstr "פחות מדקה"
+
+msgid "log to file"
+msgstr "רישום יומן בקובץ"
+
+msgid "max change:"
+msgstr "שינוי מרבי:"
+
+msgid "missing assets:"
+msgstr "משאבים חסרים:"
+
+msgid "name"
+msgstr "שם"
+
+msgid "open batch processing window"
+msgstr "פתיחת חלון עיבוד באצווה"
+
+msgid "operation failed"
+msgstr "הפעולה נכשלה"
+
+msgid "operation finished successfully"
+msgstr "הפעולה הושלמה בהצלחה"
+
+msgid "output character encoding"
+msgstr "קידוד תווים לפלט"
+
+msgid "output file path or pattern"
+msgstr "נתיב או תבנית לקובץ הפלט"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "קצב פריימים לפלט (לכתוביות המבוססות על פריימים)"
+
+msgid "outputs"
+msgstr "פלטים"
+
+msgid "overwrite existing files"
+msgstr "דריסת קבצים קיימים"
+
+msgid "path to reference file"
+msgstr "נתיב לקובץ הייחוס"
+
+msgid "path to subtitle file"
+msgstr "נתיב לקובץ הכתוביות"
+
+msgid "pattern:"
+msgstr "תבנית:"
+
+msgid "predefined names:"
+msgstr "שמות מוגדרים מראש:"
+
+msgid "processing..."
+msgstr "מתבצע עיבוד..."
+
+msgid "queued..."
+msgstr "בתור..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "מיפוי ערוצי השמע של הייחוס (למקורות שמע)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "קידוד תווים של הייחוס (למקורות כתוביות)"
+
+msgid "reference framerate"
+msgstr "קצב הפריימים של הייחוס"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "שפת הייחוס (קוד ISO בן שתי אותיות או שלוש)"
+
+msgid "reference stream no"
+msgstr "מספר זרם הייחוס"
+
+msgid "references"
+msgstr "קובצי ייחוס"
+
+msgid "references: "
+msgstr "קובצי ייחוס: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "הפעלה ללא ממשק גרפי"
+
+msgid "same as input subtitles"
+msgstr "כמו בכתוביות הקלט"
+
+msgid "same as reference file"
+msgstr "כמו בקובץ הייחוס"
+
+msgid "select custom folder"
+msgstr "בחירת תיקייה מותאמת"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "בחירת זרם ייחוס לפי שפה (קוד ISO בן שלוש אותיות)"
+
+msgid "select reference stream by type"
+msgstr "בחירת זרם ייחוס לפי סוג"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "בחירת זרם כתוביות לפי שפה (קוד ISO בן שלוש אותיות)"
+
+msgid "set logging level"
+msgstr "קביעת רמת הרישום"
+
+msgid "stream"
+msgstr "זרם"
+
+msgid "subtitle character encoding"
+msgstr "קידוד תווים של הכתוביות"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "קצב הפריימים של הכתוביות (לכתוביות המבוססות על פריימים)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "שפת הכתוביות (קוד ISO בן שתי אותיות או שלוש)"
+
+msgid "subtitle stream no"
+msgstr "מספר זרם הכתוביות"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "קוד שפה בן שתי אותיות של הכתוביות או הייחוס"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "קוד שפה בן שלוש אותיות של הכתוביות או הייחוס"
+
+msgid "subtitle/reference file full path"
+msgstr "הנתיב המלא לקובץ הכתוביות או הייחוס"
+
+msgid "subtitle/reference stream number"
+msgstr "מספר זרם הכתוביות או הייחוס"
+
+msgid "subtitle/text"
+msgstr "כתוביות/טקסט"
+
+msgid "subtitles"
+msgstr "כתוביות"
+
+msgid "subtitles: "
+msgstr "כתוביות: "
+
+msgid "synchronizing"
+msgstr "מתבצע סנכרון"
+
+msgid "terminated"
+msgstr "הופסק"
+
+msgid "type"
+msgstr "סוג"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "שפת ממשק המשתמש (קוד ISO בן שתי אותיות)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "רמת פירוט (0 - 3)"
+
+msgid "version "
+msgstr "גרסה "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} שעות"
+
+msgid "{} min"
+msgstr "{} דק׳"
+
+msgid "{} minutes"
+msgstr "{} דקות"
+
+msgid "{} speech recognition model"
+msgstr "מודל זיהוי דיבור לשפה {}"

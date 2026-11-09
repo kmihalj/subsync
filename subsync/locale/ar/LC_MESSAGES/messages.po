@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: العربية\nLanguage: ar\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&حول"
+
+msgid "&Add files (auto sort)"
+msgstr "&إضافة ملفات (ترتيب تلقائي)"
+
+msgid "&Close"
+msgstr "&إغلاق"
+
+msgid "&Edit"
+msgstr "&تحرير"
+
+msgid "&Export list"
+msgstr "&تصدير القائمة"
+
+msgid "&File"
+msgstr "&ملف"
+
+msgid "&Help"
+msgstr "&مساعدة"
+
+msgid "&Import list"
+msgstr "&استيراد القائمة"
+
+msgid "&Language"
+msgstr "&اللغة"
+
+msgid "&New"
+msgstr "&جديد"
+
+msgid "&Properties"
+msgstr "&الخصائص"
+
+msgid "&Propeties"
+msgstr "&الخصائص"
+
+msgid "&Remove"
+msgstr "&إزالة"
+
+msgid ", {} points"
+msgstr "، {} نقطة"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "استخدم 0 للاختيار التلقائي."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "دقيقة واحدة"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<تلقائي>"
+
+msgid "<empty>"
+msgstr "<فارغ>"
+
+msgid "<other>"
+msgstr "<أخرى>"
+
+msgid "<undefined>"
+msgstr "<غير معرّف>"
+
+msgid "About"
+msgstr "حول"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Add &folder"
+msgstr "إضافة &مجلد"
+
+msgid "Add &references"
+msgstr "إضافة &مراجع"
+
+msgid "Add &subtitles"
+msgstr "إضافة &ترجمات نصية"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "الألبانية"
+
+msgid "All files"
+msgstr "جميع الملفات"
+
+msgid "All supported files"
+msgstr "جميع الملفات المدعومة"
+
+msgid "Another update in progress"
+msgstr "هناك تحديث آخر قيد التنفيذ"
+
+msgid "Application upgrade"
+msgstr "ترقية التطبيق"
+
+msgid "Arabic"
+msgstr "العربية"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "هل تريد بالتأكيد استبدال ملفات الإخراج إن كانت موجودة؟"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "هل تريد بالتأكيد استعادة الإعدادات الافتراضية؟"
+
+msgid "Asset installation failed"
+msgstr "تعذّر تثبيت الموارد"
+
+msgid "Au&to sort"
+msgstr "ترتيب &تلقائي"
+
+msgid "Audio &channels"
+msgstr "&قنوات الصوت"
+
+msgid "Audio channels"
+msgstr "قنوات الصوت"
+
+msgid "Audio channels:"
+msgstr "قنوات الصوت:"
+
+msgid "Auto detect"
+msgstr "كشف تلقائي"
+
+msgid "Auto sort"
+msgstr "ترتيب تلقائي"
+
+msgid "Batch Processing"
+msgstr "معالجة دفعية"
+
+msgid "Batch processing"
+msgstr "معالجة دفعية"
+
+msgid "Belarusian"
+msgstr "البيلاروسية"
+
+msgid "Bulgarian"
+msgstr "البلغارية"
+
+msgid "Can't save subtitle file"
+msgstr "تعذّر حفظ ملف الترجمة النصية"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Cannot load settings file, {}"
+msgstr "تعذّر تحميل ملف الإعدادات، {}"
+
+msgid "Catalan"
+msgstr "الكتالونية"
+
+msgid "Character &encoding"
+msgstr "&ترميز المحارف"
+
+msgid "Character encoding"
+msgstr "ترميز المحارف"
+
+msgid "Character encoding:"
+msgstr "ترميز المحارف:"
+
+msgid "Check for updates"
+msgstr "التحقق من وجود تحديثات"
+
+msgid "Checking for update..."
+msgstr "جارٍ التحقق من وجود تحديث..."
+
+msgid "Chinese"
+msgstr "الصينية"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "تعذّر حفظ الترجمات النصية المتزامنة"
+
+msgid "Couldn't synchronize"
+msgstr "تعذّرت المزامنة"
+
+msgid "Credits"
+msgstr "شكر وتقدير"
+
+msgid "Croatian"
+msgstr "الكرواتية"
+
+msgid "Current file:"
+msgstr "الملف الحالي:"
+
+msgid "Czech"
+msgstr "التشيكية"
+
+msgid "Danish"
+msgstr "الدنماركية"
+
+msgid "Debug"
+msgstr "تنقيح الأخطاء"
+
+msgid "Debug options:"
+msgstr "خيارات تنقيح الأخطاء:"
+
+msgid "Do you want to clear all items?"
+msgstr "هل تريد مسح جميع العناصر؟"
+
+msgid "Download"
+msgstr "تنزيل"
+
+msgid "Download assets"
+msgstr "تنزيل الموارد"
+
+msgid "Download now?"
+msgstr "هل تريد التنزيل الآن؟"
+
+msgid "Downloading"
+msgstr "جارٍ التنزيل"
+
+msgid "Downloading assets list..."
+msgstr "جارٍ تنزيل قائمة الموارد..."
+
+msgid "Drop files here to add sorted"
+msgstr "أفلت الملفات هنا لإضافتها مرتّبة"
+
+msgid "Dump all synchronization points"
+msgstr "تصدير جميع نقاط المزامنة"
+
+msgid "Dump reference words"
+msgstr "تصدير كلمات المرجع"
+
+msgid "Dump subtitle words"
+msgstr "تصدير كلمات الترجمة النصية"
+
+msgid "Dump used synchronization points"
+msgstr "تصدير نقاط المزامنة المستخدمة"
+
+msgid "Dutch"
+msgstr "الهولندية"
+
+msgid "ETA:"
+msgstr "الوقت المتبقي المقدّر:"
+
+msgid "Edit all tasks"
+msgstr "تحرير جميع المهام"
+
+msgid "Edit failed tasks"
+msgstr "تحرير المهام التي فشلت"
+
+msgid "Effort:"
+msgstr "مستوى الجهد:"
+
+msgid "Elapsed:"
+msgstr "الوقت المنقضي:"
+
+msgid "Enable save button"
+msgstr "تفعيل زر الحفظ"
+
+msgid "English"
+msgstr "الإنجليزية"
+
+msgid "Error"
+msgstr "خطأ"
+
+msgid "Error during reference read"
+msgstr "خطأ أثناء قراءة المرجع"
+
+msgid "Error during subtitles read"
+msgstr "خطأ أثناء قراءة الترجمات النصية"
+
+msgid "Estonian"
+msgstr "الإستونية"
+
+msgid "Everything synchronized successfully"
+msgstr "تمت مزامنة كل العناصر بنجاح"
+
+msgid "Everything synchronized, but got errors"
+msgstr "تمت مزامنة كل العناصر، لكن حدثت أخطاء"
+
+msgid "Extractor jobs no:"
+msgstr "عدد مهام الاستخراج:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "الفاروية"
+
+msgid "File name:"
+msgstr "اسم الملف:"
+
+msgid "File type:"
+msgstr "نوع الملف:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "استبعاد سجلات الوحدات التالية (وحدة في كل سطر):"
+
+msgid "Finnish"
+msgstr "الفنلندية"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "تصحيح توقيت الترجمة النصية الناتجة بالإزاحة المحددة، بالثواني."
+
+msgid "Following assets could be updated:"
+msgstr "يمكن تحديث الموارد التالية:"
+
+msgid "Following assets must be download to continue:"
+msgstr "يجب تنزيل الموارد التالية للمتابعة:"
+
+msgid "Following files could not be added:"
+msgstr "تعذّرت إضافة الملفات التالية:"
+
+msgid "French"
+msgstr "الفرنسية"
+
+msgid "GUI options:"
+msgstr "خيارات الواجهة الرسومية:"
+
+msgid "Gaelic"
+msgstr "الغيلية الإسكتلندية"
+
+msgid "Galician"
+msgstr "الجليقية"
+
+msgid "General"
+msgstr "عام"
+
+msgid "General options:"
+msgstr "خيارات عامة:"
+
+msgid "German"
+msgstr "الألمانية"
+
+msgid "Got errors, synchronization failed"
+msgstr "حدثت أخطاء وفشلت المزامنة"
+
+msgid "Greek"
+msgstr "اليونانية"
+
+msgid "Headless options:"
+msgstr "خيارات التشغيل دون واجهة:"
+
+msgid "Hebrew"
+msgstr "العبرية"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "مقدار الجهد المبذول لمزامنة الترجمات النصية. تؤدي القيمة الأعلى إلى مزامنة أفضل، لكنها تستغرق وقتًا أطول."
+
+msgid "Hungarian"
+msgstr "المجرية"
+
+msgid "Icelandic"
+msgstr "الأيسلندية"
+
+msgid "In seconds."
+msgstr "بالثواني."
+
+msgid "Indonesian"
+msgstr "الإندونيسية"
+
+msgid "Info"
+msgstr "معلومات"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "اكتملت المزامنة الأولية.\nيمكنك حفظ الترجمات النصية الآن.\nإن لم تتطابق، فانتظر نتيجة أفضل."
+
+msgid "Initializing..."
+msgstr "جارٍ التهيئة..."
+
+msgid "Input file:"
+msgstr "ملف الإدخال:"
+
+msgid "Invalid output pattern"
+msgstr "نمط الإخراج غير صالح"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "نمط الإخراج غير صالح، الكلمة المفتاحية غير صالحة: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "نمط الإخراج غير صالح، {}"
+
+msgid "Invalid speech audio format"
+msgstr "صيغة الصوت للتعرّف على الكلام غير صالحة"
+
+msgid "Italian"
+msgstr "الإيطالية"
+
+msgid "Japanese"
+msgstr "اليابانية"
+
+msgid "Korean"
+msgstr "الكورية"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "اختيار اللغة ليس إلزاميًا، لكنه قد يحسّن دقة المزامنة بدرجة كبيرة.\nهل تريد المتابعة بالتأكيد؟"
+
+msgid "Language changes will take effect after application restart"
+msgstr "يسري تغيير اللغة بعد إعادة تشغيل التطبيق"
+
+msgid "Language:"
+msgstr "اللغة:"
+
+msgid "Languages"
+msgstr "اللغات"
+
+msgid "Latin"
+msgstr "اللاتينية"
+
+msgid "Latvian"
+msgstr "اللاتفية"
+
+msgid "License"
+msgstr "الترخيص"
+
+msgid "Lithuanian"
+msgstr "الليتوانية"
+
+msgid "Loading, please wait..."
+msgstr "جارٍ التحميل، يُرجى الانتظار..."
+
+msgid "Logging level:"
+msgstr "مستوى التسجيل:"
+
+msgid "Malagasy"
+msgstr "الملغاشية"
+
+msgid "Malay"
+msgstr "الملايوية"
+
+msgid "Maltese"
+msgstr "المالطية"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "أقصى تعديل مسموح به. لن يتغير توقيت الترجمة النصية بأكثر من هذه القيمة. تزيد القيمة الأعلى مدة المزامنة، لكن ضبطها على قيمة منخفضة جدًا يؤدي إلى فشل المزامنة."
+
+msgid "Max adjustment:"
+msgstr "أقصى تعديل:"
+
+msgid "Max points distance:"
+msgstr "أقصى انحراف لنقاط المزامنة:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "أقصى خطأ مقبول في المزامنة، بالثواني. تُستبعد نقاط المزامنة التي يتجاوز خطؤها هذه القيمة."
+
+msgid "Menu"
+msgstr "القائمة"
+
+msgid "Min correlation factor:"
+msgstr "أدنى معامل ارتباط:"
+
+msgid "Min points no:"
+msgstr "أدنى عدد للنقاط:"
+
+msgid "Min speech recognition score:"
+msgstr "أدنى درجة للتعرّف على الكلام:"
+
+msgid "Min word length (letters):"
+msgstr "أدنى طول للكلمة (بالحروف):"
+
+msgid "Min words similarity:"
+msgstr "أدنى تشابه للكلمات:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "أدنى معامل ارتباط، بين 0.0 و1.0. يُستخدم لتقييم نتيجة المزامنة. تفشل المزامنة إذا كان معامل الارتباط أقل من هذه القيمة."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "أدنى درجة للتعرّف على الكلام، بين 0.0 و1.0. تُستبعد الكلمات التي يُتعرّف عليها بدرجة أقل من هذه القيمة."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "أدنى طول للكلمة، بالحروف. لا تُستخدم الكلمات الأقصر كنقاط مزامنة. ينطبق ذلك على اللغات الأبجدية فقط."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "أدنى تشابه بين الكلمات لتكوين نقاط المزامنة. بين 0.0 و1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "أدنى عدد لنقاط المزامنة. لا تضبطه على قيمة مرتفعة جدًا، فقد ينتج عن ذلك عدد كبير من التطابقات الخاطئة."
+
+msgid "New synchronization"
+msgstr "مزامنة جديدة"
+
+msgid "New version is available. Update now?"
+msgstr "يتوفر إصدار جديد. هل تريد التحديث الآن؟"
+
+msgid "No language selected"
+msgstr "لم تُحدّد لغة"
+
+msgid "No language selected for:"
+msgstr "لم تُحدّد لغة لما يلي:"
+
+msgid "No need to synchronize"
+msgstr "لا حاجة إلى المزامنة"
+
+msgid "Norwegian"
+msgstr "النرويجية"
+
+msgid "Not supported stream type"
+msgstr "نوع المسار غير مدعوم"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "عدد خيوط المزامنة التي تعمل بالتوازي."
+
+msgid "OK"
+msgstr "موافق"
+
+msgid "Output directory:"
+msgstr "مجلد الإخراج:"
+
+msgid "Output encoding:"
+msgstr "ترميز الإخراج:"
+
+msgid "Output file names"
+msgstr "أسماء ملفات الإخراج"
+
+msgid "Output file not set"
+msgstr "لم يُحدّد ملف الإخراج"
+
+msgid "Output filename:"
+msgstr "اسم ملف الإخراج:"
+
+msgid "Output timing offset:"
+msgstr "إزاحة توقيت الإخراج:"
+
+msgid "Overwrite existing files"
+msgstr "استبدال الملفات الموجودة"
+
+msgid "Overwrite files?"
+msgstr "هل تريد استبدال الملفات؟"
+
+msgid "Persian"
+msgstr "الفارسية"
+
+msgid "Polish"
+msgstr "البولندية"
+
+msgid "Portuguese"
+msgstr "البرتغالية"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "منع السكون أثناء المزامنة"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "يمنع النظام من الدخول في وضع السكون أثناء المزامنة.\nقد لا يعمل على جميع الأنظمة."
+
+msgid "Reference file not set"
+msgstr "لم يُحدّد الملف المرجعي"
+
+msgid "References (video or other subtitles):"
+msgstr "المراجع (فيديو أو ترجمات نصية أخرى):"
+
+msgid "Remove"
+msgstr "إزالة"
+
+msgid "Remove items"
+msgstr "إزالة العناصر"
+
+msgid "Restore defaults"
+msgstr "استعادة الإعدادات الافتراضية"
+
+msgid "Romanian"
+msgstr "الرومانية"
+
+msgid "Russian"
+msgstr "الروسية"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Select"
+msgstr "اختيار"
+
+msgid "Select &all"
+msgstr "اختيار &الكل"
+
+msgid "Select &stream"
+msgstr "اختيار &مسار"
+
+msgid "Select all &references"
+msgstr "اختيار جميع &المراجع"
+
+msgid "Select all &subtitles"
+msgstr "اختيار جميع &الترجمات النصية"
+
+msgid "Select all o&utputs"
+msgstr "اختيار جميع &المخرجات"
+
+msgid "Select audio channels to listen to:"
+msgstr "اختر قنوات الصوت المطلوب الاستماع إليها:"
+
+msgid "Select character encoding"
+msgstr "اختيار ترميز المحارف"
+
+msgid "Select directory"
+msgstr "اختيار مجلد"
+
+msgid "Select file"
+msgstr "اختيار ملف"
+
+msgid "Select language"
+msgstr "اختيار لغة"
+
+msgid "Select output"
+msgstr "اختيار الإخراج"
+
+msgid "Select output directory"
+msgstr "اختيار مجلد الإخراج"
+
+msgid "Select output subtitles framerate:"
+msgstr "اختر معدل الإطارات للترجمة النصية الناتجة:"
+
+msgid "Select reference language first"
+msgstr "اختر لغة المرجع أولًا"
+
+msgid "Select stream"
+msgstr "اختيار مسار"
+
+msgid "Select stream by language:"
+msgstr "اختيار المسار حسب اللغة:"
+
+msgid "Select stream by title:"
+msgstr "اختيار المسار حسب العنوان:"
+
+msgid "Select stream by type:"
+msgstr "اختيار المسار حسب النوع:"
+
+msgid "Select stream:"
+msgstr "اختيار مسار:"
+
+msgid "Select streams"
+msgstr "اختيار مسارات"
+
+msgid "Serbian"
+msgstr "الصربية"
+
+msgid "Set &input stream"
+msgstr "تحديد مسار &الإدخال"
+
+msgid "Set &output location"
+msgstr "تحديد موقع &الإخراج"
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Show popups:"
+msgstr "عرض التنبيهات المنبثقة:"
+
+msgid "Signature verification failed"
+msgstr "فشل التحقق من التوقيع"
+
+msgid "Slovak"
+msgstr "السلوفاكية"
+
+msgid "Slovenian"
+msgstr "السلوفينية"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "تعذّر فك ترميز بعض الترجمات النصية المرجعية (ترميز غير صالح؟)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "تعذّر فك ترميز بعض الترجمات النصية (ترميز غير صالح؟)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "تعذّرت مزامنة بعض المهام"
+
+msgid "Spanish"
+msgstr "الإسبانية"
+
+msgid "Start"
+msgstr "بدء"
+
+msgid "Status:"
+msgstr "الحالة:"
+
+msgid "Stop"
+msgstr "إيقاف"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "مزامن\nالترجمة النصية\nوالكلام"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "مزامن الترجمة النصية والكلام"
+
+msgid "Subtitle files"
+msgstr "ملفات الترجمة النصية"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "لا يمكن أن تكون الترجمة النصية هي نفسها المرجع"
+
+msgid "Subtitles not set"
+msgstr "لم تُحدّد الترجمات النصية"
+
+msgid "Subtitles synchronized"
+msgstr "تمت مزامنة الترجمات النصية"
+
+msgid "Subtitles:"
+msgstr "الترجمات النصية:"
+
+msgid "Swedish"
+msgstr "السويدية"
+
+msgid "Synchronization"
+msgstr "المزامنة"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "المزامنة بين اللغات {} غير مدعومة حاليًا."
+
+msgid "Synchronization job:"
+msgstr "مهمة المزامنة:"
+
+msgid "Synchronization options:"
+msgstr "خيارات المزامنة:"
+
+msgid "Synchronization terminated"
+msgstr "أُنهِيت المزامنة"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "المزامنة مع صوت باللغة {} غير مدعومة حاليًا."
+
+msgid "Synchronization: 0 points"
+msgstr "المزامنة: 0 نقطة"
+
+msgid "Synchronization: {} points"
+msgstr "المزامنة: {} نقطة"
+
+msgid "Synchronizing..."
+msgstr "جارٍ المزامنة..."
+
+msgid "Task:"
+msgstr "المهمة:"
+
+msgid "Terminating, please wait..."
+msgstr "جارٍ الإنهاء، يُرجى الانتظار..."
+
+msgid "Terminating..."
+msgstr "جارٍ الإنهاء..."
+
+msgid "There are no usable streams"
+msgstr "لا توجد مسارات صالحة للاستخدام"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "لا يوجد قاموس للترجمة من {} إلى {}"
+
+msgid "There is no matching stream in {}"
+msgstr "لا يوجد مسار مطابق في {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "لا يوجد نموذج للتعرّف على الكلام للغة {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "هذه أداة للمزامنة التلقائية للترجمات النصية للأفلام.\nتتم المزامنة بالاستماع إلى المسار الصوتي وترجمته عند الحاجة.\nيمكن أيضًا استخدام ترجمة نصية أخرى كمرجع.\n\nالمؤلف: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "فشل كامل"
+
+msgid "Total progress:"
+msgstr "التقدم الكلي:"
+
+msgid "Turkish"
+msgstr "التركية"
+
+msgid "Ukrainian"
+msgstr "الأوكرانية"
+
+msgid "Unexpected error occurred"
+msgstr "حدث خطأ غير متوقع"
+
+msgid "Unknown file extension"
+msgstr "امتداد الملف غير معروف"
+
+msgid "Update assets"
+msgstr "تحديث الموارد"
+
+msgid "Update instalation failed miserably"
+msgstr "فشل تثبيت التحديث بالكامل"
+
+msgid "Update not available"
+msgstr "لا يتوفر تحديث"
+
+msgid "Update now?"
+msgstr "هل تريد التحديث الآن؟"
+
+msgid "Updates:"
+msgstr "التحديثات:"
+
+msgid "Upgrade"
+msgstr "ترقية"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "الاستخدام: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "ملفات الفيديو"
+
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+msgid "Your version is up to date"
+msgstr "إصدارك مُحدّث"
+
+msgid "[details]"
+msgstr "[التفاصيل]"
+
+msgid "[errors]"
+msgstr "[الأخطاء]"
+
+msgid "[hide]"
+msgstr "[إخفاء]"
+
+msgid "[show more]"
+msgstr "[عرض المزيد]"
+
+msgid "all"
+msgstr "الكل"
+
+msgid "all channels"
+msgstr "جميع القنوات"
+
+msgid "and {} more"
+msgstr "و{} أخرى"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "إلحاق رمز لغة من حرفين (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "إلحاق رمز لغة من ثلاثة أحرف (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "إلحاق رقم المسار"
+
+msgid "ask for update on exit"
+msgstr "السؤال عن التحديث عند الخروج"
+
+msgid "audio"
+msgstr "صوت"
+
+msgid "auto"
+msgstr "تلقائي"
+
+msgid "auto select"
+msgstr "اختيار تلقائي"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "تأكيد استبدال الملف (في الوضع الدفعي)"
+
+msgid "correlation:"
+msgstr "الارتباط:"
+
+msgid "couldn't synchronize"
+msgstr "تعذّرت المزامنة"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "بناء مخصص"
+
+msgid "custom names:"
+msgstr "أسماء مخصصة:"
+
+msgid "custom selection"
+msgstr "اختيار مخصص"
+
+msgid "custom value:"
+msgstr "قيمة مخصصة:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "الافتراضي"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "تحديد مهمة مزامنة، ويمكن تكرارها عدة مرات"
+
+msgid "description"
+msgstr "الوصف"
+
+msgid "dictionary {} / {}"
+msgstr "قاموس {} / {}"
+
+msgid "directory path"
+msgstr "مسار المجلد"
+
+msgid "display this help text and exit"
+msgstr "عرض نص المساعدة هذا والخروج"
+
+msgid "display version information and exit"
+msgstr "عرض معلومات الإصدار والخروج"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "عدم الاتصال بالخادم البعيد للحصول على الموارد المفقودة"
+
+msgid "don't show this message again"
+msgstr "عدم عرض هذه الرسالة مجددًا"
+
+msgid "done"
+msgstr "تم"
+
+msgid "download updates automatically"
+msgstr "تنزيل التحديثات تلقائيًا"
+
+msgid "downloading"
+msgstr "جارٍ التنزيل"
+
+msgid "drop here"
+msgstr "أفلت هنا"
+
+msgid "dump logs to specified file"
+msgstr "تصدير السجلات إلى الملف المحدد"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "تصدير الكلمات إلى ملف، أو إلى الخرج القياسي إن لم يُحدّد PATH. يجب أن يكون SRC أحد ما يلي:  "
+
+msgid "elapsed time:"
+msgstr "الوقت المنقضي:"
+
+msgid "enable advanced debug options"
+msgstr "تفعيل خيارات تنقيح الأخطاء المتقدمة"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "اسم الملف (دون المسار والامتداد)"
+
+msgid "files with matching streams"
+msgstr "ملفات تحتوي على مسارات مطابقة"
+
+msgid "files without matching streams"
+msgstr "ملفات لا تحتوي على مسارات مطابقة"
+
+msgid "formula:"
+msgstr "الصيغة:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "مستوى الجهد (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "إذا لم يُحدّد <field>، فألحق <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "إذا حُدّد <field>، فألحق <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "استيراد قائمة مهام من ملف YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "اللغة"
+
+msgid "language not selected"
+msgstr "لم تُحدّد اللغة"
+
+msgid "less than minute"
+msgstr "أقل من دقيقة"
+
+msgid "log to file"
+msgstr "تسجيل السجلات في ملف"
+
+msgid "max change:"
+msgstr "أقصى تغيير:"
+
+msgid "missing assets:"
+msgstr "الموارد المفقودة:"
+
+msgid "name"
+msgstr "الاسم"
+
+msgid "open batch processing window"
+msgstr "فتح نافذة المعالجة الدفعية"
+
+msgid "operation failed"
+msgstr "فشلت العملية"
+
+msgid "operation finished successfully"
+msgstr "اكتملت العملية بنجاح"
+
+msgid "output character encoding"
+msgstr "ترميز محارف الإخراج"
+
+msgid "output file path or pattern"
+msgstr "مسار ملف الإخراج أو نمطه"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "معدل إطارات الإخراج (للترجمات النصية المستندة إلى الإطارات)"
+
+msgid "outputs"
+msgstr "المخرجات"
+
+msgid "overwrite existing files"
+msgstr "استبدال الملفات الموجودة"
+
+msgid "path to reference file"
+msgstr "مسار الملف المرجعي"
+
+msgid "path to subtitle file"
+msgstr "مسار ملف الترجمة النصية"
+
+msgid "pattern:"
+msgstr "النمط:"
+
+msgid "predefined names:"
+msgstr "أسماء محددة مسبقًا:"
+
+msgid "processing..."
+msgstr "جارٍ المعالجة..."
+
+msgid "queued..."
+msgstr "في قائمة الانتظار..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "تعيين قنوات صوت المرجع (للمراجع الصوتية)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "ترميز محارف المرجع (للمراجع النصية)"
+
+msgid "reference framerate"
+msgstr "معدل إطارات المرجع"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "لغة المرجع (رمز ISO من حرفين أو ثلاثة)"
+
+msgid "reference stream no"
+msgstr "رقم مسار المرجع"
+
+msgid "references"
+msgstr "المراجع"
+
+msgid "references: "
+msgstr "المراجع: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "التشغيل دون واجهة رسومية"
+
+msgid "same as input subtitles"
+msgstr "مثل الترجمة النصية المدخلة"
+
+msgid "same as reference file"
+msgstr "مثل الملف المرجعي"
+
+msgid "select custom folder"
+msgstr "اختيار مجلد مخصص"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "اختيار مسار المرجع حسب اللغة (رمز ISO من ثلاثة أحرف)"
+
+msgid "select reference stream by type"
+msgstr "اختيار مسار المرجع حسب النوع"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "اختيار مسار الترجمة النصية حسب اللغة (رمز ISO من ثلاثة أحرف)"
+
+msgid "set logging level"
+msgstr "تحديد مستوى التسجيل"
+
+msgid "stream"
+msgstr "المسار"
+
+msgid "subtitle character encoding"
+msgstr "ترميز محارف الترجمة النصية"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "معدل إطارات الترجمة النصية (للترجمات المستندة إلى الإطارات)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "لغة الترجمة النصية (رمز ISO من حرفين أو ثلاثة)"
+
+msgid "subtitle stream no"
+msgstr "رقم مسار الترجمة النصية"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "رمز لغة الترجمة النصية أو المرجع من حرفين"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "رمز لغة الترجمة النصية أو المرجع من ثلاثة أحرف"
+
+msgid "subtitle/reference file full path"
+msgstr "المسار الكامل لملف الترجمة النصية أو المرجع"
+
+msgid "subtitle/reference stream number"
+msgstr "رقم مسار الترجمة النصية أو المرجع"
+
+msgid "subtitle/text"
+msgstr "ترجمة نصية/نص"
+
+msgid "subtitles"
+msgstr "الترجمات النصية"
+
+msgid "subtitles: "
+msgstr "الترجمات النصية: "
+
+msgid "synchronizing"
+msgstr "جارٍ المزامنة"
+
+msgid "terminated"
+msgstr "أُنهِيَت"
+
+msgid "type"
+msgstr "النوع"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "لغة واجهة المستخدم (رمز ISO من حرفين)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "مستوى التفصيل (0 - 3)"
+
+msgid "version "
+msgstr "الإصدار "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ساعة"
+
+msgid "{} min"
+msgstr "{} دقيقة"
+
+msgid "{} minutes"
+msgstr "{} دقيقة"
+
+msgid "{} speech recognition model"
+msgstr "نموذج التعرّف على الكلام للغة {}"

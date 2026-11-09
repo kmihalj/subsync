@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: 日本語\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&バージョン情報"
+
+msgid "&Add files (auto sort)"
+msgstr "&ファイルを追加（自動並べ替え）"
+
+msgid "&Close"
+msgstr "&閉じる"
+
+msgid "&Edit"
+msgstr "&編集"
+
+msgid "&Export list"
+msgstr "&一覧をエクスポート"
+
+msgid "&File"
+msgstr "&ファイル"
+
+msgid "&Help"
+msgstr "&ヘルプ"
+
+msgid "&Import list"
+msgstr "&一覧をインポート"
+
+msgid "&Language"
+msgstr "&言語"
+
+msgid "&New"
+msgstr "&新規"
+
+msgid "&Properties"
+msgstr "&プロパティ"
+
+msgid "&Propeties"
+msgstr "&プロパティ"
+
+msgid "&Remove"
+msgstr "&削除"
+
+msgid ", {} points"
+msgstr "、{} ポイント"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 で自動選択。"
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 分"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<自動>"
+
+msgid "<empty>"
+msgstr "<空>"
+
+msgid "<other>"
+msgstr "<その他>"
+
+msgid "<undefined>"
+msgstr "<未定義>"
+
+msgid "About"
+msgstr "バージョン情報"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add &folder"
+msgstr "&フォルダーを追加"
+
+msgid "Add &references"
+msgstr "&参照ファイルを追加"
+
+msgid "Add &subtitles"
+msgstr "&字幕を追加"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "アルバニア語"
+
+msgid "All files"
+msgstr "すべてのファイル"
+
+msgid "All supported files"
+msgstr "対応するすべてのファイル"
+
+msgid "Another update in progress"
+msgstr "別の更新を実行中です"
+
+msgid "Application upgrade"
+msgstr "アプリケーションの更新"
+
+msgid "Arabic"
+msgstr "アラビア語"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "出力ファイルがすでに存在する場合、上書きしてもよろしいですか？"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "設定を初期値に戻してもよろしいですか？"
+
+msgid "Asset installation failed"
+msgstr "リソースのインストールに失敗しました"
+
+msgid "Au&to sort"
+msgstr "自動&並べ替え"
+
+msgid "Audio &channels"
+msgstr "音声&チャンネル"
+
+msgid "Audio channels"
+msgstr "音声チャンネル"
+
+msgid "Audio channels:"
+msgstr "音声チャンネル："
+
+msgid "Auto detect"
+msgstr "自動検出"
+
+msgid "Auto sort"
+msgstr "自動並べ替え"
+
+msgid "Batch Processing"
+msgstr "一括処理"
+
+msgid "Batch processing"
+msgstr "一括処理"
+
+msgid "Belarusian"
+msgstr "ベラルーシ語"
+
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+msgid "Can't save subtitle file"
+msgstr "字幕ファイルを保存できません"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Cannot load settings file, {}"
+msgstr "設定ファイルを読み込めません。{}"
+
+msgid "Catalan"
+msgstr "カタルーニャ語"
+
+msgid "Character &encoding"
+msgstr "文字&エンコーディング"
+
+msgid "Character encoding"
+msgstr "文字エンコーディング"
+
+msgid "Character encoding:"
+msgstr "文字エンコーディング："
+
+msgid "Check for updates"
+msgstr "更新を確認"
+
+msgid "Checking for update..."
+msgstr "更新を確認中..."
+
+msgid "Chinese"
+msgstr "中国語"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "同期した字幕を保存できませんでした"
+
+msgid "Couldn't synchronize"
+msgstr "同期できませんでした"
+
+msgid "Credits"
+msgstr "謝辞"
+
+msgid "Croatian"
+msgstr "クロアチア語"
+
+msgid "Current file:"
+msgstr "現在のファイル："
+
+msgid "Czech"
+msgstr "チェコ語"
+
+msgid "Danish"
+msgstr "デンマーク語"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Debug options:"
+msgstr "デバッグオプション："
+
+msgid "Do you want to clear all items?"
+msgstr "すべての項目を消去しますか？"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Download assets"
+msgstr "リソースをダウンロード"
+
+msgid "Download now?"
+msgstr "今すぐダウンロードしますか？"
+
+msgid "Downloading"
+msgstr "ダウンロード中"
+
+msgid "Downloading assets list..."
+msgstr "リソース一覧をダウンロード中..."
+
+msgid "Drop files here to add sorted"
+msgstr "ここにファイルをドロップすると並べ替えて追加します"
+
+msgid "Dump all synchronization points"
+msgstr "すべての同期ポイントを書き出す"
+
+msgid "Dump reference words"
+msgstr "参照ファイルの単語を書き出す"
+
+msgid "Dump subtitle words"
+msgstr "字幕の単語を書き出す"
+
+msgid "Dump used synchronization points"
+msgstr "使用した同期ポイントを書き出す"
+
+msgid "Dutch"
+msgstr "オランダ語"
+
+msgid "ETA:"
+msgstr "推定残り時間："
+
+msgid "Edit all tasks"
+msgstr "すべてのタスクを編集"
+
+msgid "Edit failed tasks"
+msgstr "失敗したタスクを編集"
+
+msgid "Effort:"
+msgstr "処理の強度："
+
+msgid "Elapsed:"
+msgstr "経過時間："
+
+msgid "Enable save button"
+msgstr "保存ボタンを有効にする"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error during reference read"
+msgstr "参照ファイルの読み取り中にエラーが発生しました"
+
+msgid "Error during subtitles read"
+msgstr "字幕の読み取り中にエラーが発生しました"
+
+msgid "Estonian"
+msgstr "エストニア語"
+
+msgid "Everything synchronized successfully"
+msgstr "すべて正常に同期しました"
+
+msgid "Everything synchronized, but got errors"
+msgstr "すべて同期しましたが、エラーがありました"
+
+msgid "Extractor jobs no:"
+msgstr "抽出タスク数："
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "フェロー語"
+
+msgid "File name:"
+msgstr "ファイル名："
+
+msgid "File type:"
+msgstr "ファイルの種類："
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "ログから除外するモジュール（1 行に 1 つ）："
+
+msgid "Finnish"
+msgstr "フィンランド語"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "指定したオフセット（秒）だけ出力字幕のタイムスタンプを補正します。"
+
+msgid "Following assets could be updated:"
+msgstr "以下のリソースを更新できます："
+
+msgid "Following assets must be download to continue:"
+msgstr "続行するには以下のリソースをダウンロードしてください："
+
+msgid "Following files could not be added:"
+msgstr "以下のファイルを追加できませんでした："
+
+msgid "French"
+msgstr "フランス語"
+
+msgid "GUI options:"
+msgstr "GUI オプション："
+
+msgid "Gaelic"
+msgstr "スコットランド・ゲール語"
+
+msgid "Galician"
+msgstr "ガリシア語"
+
+msgid "General"
+msgstr "全般"
+
+msgid "General options:"
+msgstr "全般オプション："
+
+msgid "German"
+msgstr "ドイツ語"
+
+msgid "Got errors, synchronization failed"
+msgstr "エラーが発生し、同期に失敗しました"
+
+msgid "Greek"
+msgstr "ギリシャ語"
+
+msgid "Headless options:"
+msgstr "GUI なしモードのオプション："
+
+msgid "Hebrew"
+msgstr "ヘブライ語"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "字幕同期にかける処理の強度です。値を大きくすると精度が向上しますが、処理時間も長くなります。"
+
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+msgid "Icelandic"
+msgstr "アイスランド語"
+
+msgid "In seconds."
+msgstr "単位は秒です。"
+
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+msgid "Info"
+msgstr "情報"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "初期同期が完了しました。\nこの時点で字幕を保存できます。\nまだずれている場合は、より良い結果が得られるまでお待ちください。"
+
+msgid "Initializing..."
+msgstr "初期化中..."
+
+msgid "Input file:"
+msgstr "入力ファイル："
+
+msgid "Invalid output pattern"
+msgstr "出力パターンが無効です"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "出力パターンが無効です。無効なキーワード：{}"
+
+msgid "Invalid output pattern, {}"
+msgstr "出力パターンが無効です。{}"
+
+msgid "Invalid speech audio format"
+msgstr "音声認識用の音声形式が無効です"
+
+msgid "Italian"
+msgstr "イタリア語"
+
+msgid "Japanese"
+msgstr "日本語"
+
+msgid "Korean"
+msgstr "韓国語"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "言語の選択は必須ではありませんが、同期精度を大幅に改善できます。\nこのまま続行しますか？"
+
+msgid "Language changes will take effect after application restart"
+msgstr "言語の変更はアプリケーションの再起動後に反映されます"
+
+msgid "Language:"
+msgstr "言語："
+
+msgid "Languages"
+msgstr "言語"
+
+msgid "Latin"
+msgstr "ラテン語"
+
+msgid "Latvian"
+msgstr "ラトビア語"
+
+msgid "License"
+msgstr "ライセンス"
+
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+msgid "Loading, please wait..."
+msgstr "読み込み中です。お待ちください..."
+
+msgid "Logging level:"
+msgstr "ログレベル："
+
+msgid "Malagasy"
+msgstr "マダガスカル語"
+
+msgid "Malay"
+msgstr "マレー語"
+
+msgid "Maltese"
+msgstr "マルタ語"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "最大補正量です。字幕の時刻はこの値を超えて変更されません。値を大きくすると処理時間が長くなりますが、小さすぎると同期に失敗します。"
+
+msgid "Max adjustment:"
+msgstr "最大補正量："
+
+msgid "Max points distance:"
+msgstr "同期ポイントの最大誤差："
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "許容する同期誤差の最大値（秒）です。これを超える誤差のある同期ポイントは除外されます。"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "Min correlation factor:"
+msgstr "最小相関係数："
+
+msgid "Min points no:"
+msgstr "最小ポイント数："
+
+msgid "Min speech recognition score:"
+msgstr "音声認識スコアの下限："
+
+msgid "Min word length (letters):"
+msgstr "最小単語長（文字数）："
+
+msgid "Min words similarity:"
+msgstr "単語類似度の下限："
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "最小相関係数（0.0～1.0）です。同期結果の判定に使用します。相関係数がこの値より小さいと同期は失敗します。"
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "音声認識スコアの下限（0.0～1.0）です。これより低いスコアで認識された単語は除外されます。"
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "最小単語長（文字数）です。これより短い単語は同期ポイントとして使用しません。アルファベットを使う言語にのみ適用されます。"
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "同期ポイントに必要な単語類似度の下限です。範囲は 0.0～1.0 です。"
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "同期ポイントの最小数です。大きすぎると誤検出が多数発生する可能性があります。"
+
+msgid "New synchronization"
+msgstr "新しい同期"
+
+msgid "New version is available. Update now?"
+msgstr "新しいバージョンがあります。今すぐ更新しますか？"
+
+msgid "No language selected"
+msgstr "言語が選択されていません"
+
+msgid "No language selected for:"
+msgstr "以下の言語が選択されていません："
+
+msgid "No need to synchronize"
+msgstr "同期は不要です"
+
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+msgid "Not supported stream type"
+msgstr "対応していないストリーム形式です"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "同時に実行する同期スレッド数。"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "出力先ディレクトリ："
+
+msgid "Output encoding:"
+msgstr "出力エンコーディング："
+
+msgid "Output file names"
+msgstr "出力ファイル名"
+
+msgid "Output file not set"
+msgstr "出力ファイルが設定されていません"
+
+msgid "Output filename:"
+msgstr "出力ファイル名："
+
+msgid "Output timing offset:"
+msgstr "出力時刻のオフセット："
+
+msgid "Overwrite existing files"
+msgstr "既存のファイルを上書き"
+
+msgid "Overwrite files?"
+msgstr "ファイルを上書きしますか？"
+
+msgid "Persian"
+msgstr "ペルシア語"
+
+msgid "Polish"
+msgstr "ポーランド語"
+
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "同期中にスリープしない"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "同期中にシステムがスリープしないようにします。\n一部のプラットフォームでは動作しない場合があります。"
+
+msgid "Reference file not set"
+msgstr "参照ファイルが設定されていません"
+
+msgid "References (video or other subtitles):"
+msgstr "参照ファイル（動画または別の字幕）："
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Remove items"
+msgstr "項目を削除"
+
+msgid "Restore defaults"
+msgstr "初期値に戻す"
+
+msgid "Romanian"
+msgstr "ルーマニア語"
+
+msgid "Russian"
+msgstr "ロシア語"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Select &all"
+msgstr "&すべて選択"
+
+msgid "Select &stream"
+msgstr "&ストリームを選択"
+
+msgid "Select all &references"
+msgstr "すべての&参照ファイルを選択"
+
+msgid "Select all &subtitles"
+msgstr "すべての&字幕を選択"
+
+msgid "Select all o&utputs"
+msgstr "すべての&出力先を選択"
+
+msgid "Select audio channels to listen to:"
+msgstr "使用する音声チャンネルを選択："
+
+msgid "Select character encoding"
+msgstr "文字エンコーディングを選択"
+
+msgid "Select directory"
+msgstr "ディレクトリを選択"
+
+msgid "Select file"
+msgstr "ファイルを選択"
+
+msgid "Select language"
+msgstr "言語を選択"
+
+msgid "Select output"
+msgstr "出力先を選択"
+
+msgid "Select output directory"
+msgstr "出力先ディレクトリを選択"
+
+msgid "Select output subtitles framerate:"
+msgstr "出力字幕のフレームレートを選択："
+
+msgid "Select reference language first"
+msgstr "先に参照ファイルの言語を選択してください"
+
+msgid "Select stream"
+msgstr "ストリームを選択"
+
+msgid "Select stream by language:"
+msgstr "言語でストリームを選択："
+
+msgid "Select stream by title:"
+msgstr "タイトルでストリームを選択："
+
+msgid "Select stream by type:"
+msgstr "種類でストリームを選択："
+
+msgid "Select stream:"
+msgstr "ストリームを選択："
+
+msgid "Select streams"
+msgstr "複数のストリームを選択"
+
+msgid "Serbian"
+msgstr "セルビア語"
+
+msgid "Set &input stream"
+msgstr "&入力ストリームを設定"
+
+msgid "Set &output location"
+msgstr "&出力先を設定"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Show popups:"
+msgstr "ポップアップを表示："
+
+msgid "Signature verification failed"
+msgstr "署名の検証に失敗しました"
+
+msgid "Slovak"
+msgstr "スロバキア語"
+
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "一部の参照字幕をデコードできません（文字エンコーディングが無効？）"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "一部の字幕をデコードできません（文字エンコーディングが無効？）"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "一部のタスクを同期できませんでした"
+
+msgid "Spanish"
+msgstr "スペイン語"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Status:"
+msgstr "状態："
+
+msgid "Stop"
+msgstr "停止"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "字幕\n音声\n同期ツール"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "字幕音声同期ツール"
+
+msgid "Subtitle files"
+msgstr "字幕ファイル"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "字幕と参照ファイルは別のファイルを指定してください"
+
+msgid "Subtitles not set"
+msgstr "字幕が設定されていません"
+
+msgid "Subtitles synchronized"
+msgstr "字幕を同期しました"
+
+msgid "Subtitles:"
+msgstr "字幕："
+
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+msgid "Synchronization"
+msgstr "同期"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "現在、言語 {} 間の同期には対応していません。"
+
+msgid "Synchronization job:"
+msgstr "同期タスク："
+
+msgid "Synchronization options:"
+msgstr "同期オプション："
+
+msgid "Synchronization terminated"
+msgstr "同期を終了しました"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "現在、{} の音声を使用する同期には対応していません。"
+
+msgid "Synchronization: 0 points"
+msgstr "同期：0 ポイント"
+
+msgid "Synchronization: {} points"
+msgstr "同期：{} ポイント"
+
+msgid "Synchronizing..."
+msgstr "同期中..."
+
+msgid "Task:"
+msgstr "タスク："
+
+msgid "Terminating, please wait..."
+msgstr "終了しています。お待ちください..."
+
+msgid "Terminating..."
+msgstr "終了中..."
+
+msgid "There are no usable streams"
+msgstr "利用できるストリームがありません"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "{} から {} に翻訳する辞書がありません"
+
+msgid "There is no matching stream in {}"
+msgstr "{} に一致するストリームがありません"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "言語 {} の音声認識モデルがありません"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "映画字幕を自動的に同期するツールです。\n音声トラックを認識し、必要に応じて翻訳して同期します。\n別の字幕を参照として使用することもできます。\n\n作者：Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "すべて失敗しました"
+
+msgid "Total progress:"
+msgstr "全体の進捗："
+
+msgid "Turkish"
+msgstr "トルコ語"
+
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+msgid "Unexpected error occurred"
+msgstr "予期しないエラーが発生しました"
+
+msgid "Unknown file extension"
+msgstr "不明なファイル拡張子です"
+
+msgid "Update assets"
+msgstr "リソースを更新"
+
+msgid "Update instalation failed miserably"
+msgstr "更新のインストールに完全に失敗しました"
+
+msgid "Update not available"
+msgstr "更新はありません"
+
+msgid "Update now?"
+msgstr "今すぐ更新しますか？"
+
+msgid "Updates:"
+msgstr "更新："
+
+msgid "Upgrade"
+msgstr "更新"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "使い方：{} [OPTIONS]"
+
+msgid "Video files"
+msgstr "動画ファイル"
+
+msgid "Website"
+msgstr "ウェブサイト"
+
+msgid "Your version is up to date"
+msgstr "お使いのバージョンは最新です"
+
+msgid "[details]"
+msgstr "[詳細]"
+
+msgid "[errors]"
+msgstr "[エラー]"
+
+msgid "[hide]"
+msgstr "[非表示]"
+
+msgid "[show more]"
+msgstr "[さらに表示]"
+
+msgid "all"
+msgstr "すべて"
+
+msgid "all channels"
+msgstr "すべてのチャンネル"
+
+msgid "and {} more"
+msgstr "ほか {} 件"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "2 文字の言語コードを付加（ISO 639-1）"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "3 文字の言語コードを付加（ISO 639-2/B）"
+
+msgid "append stream number"
+msgstr "ストリーム番号を付加"
+
+msgid "ask for update on exit"
+msgstr "終了時に更新を確認"
+
+msgid "audio"
+msgstr "音声"
+
+msgid "auto"
+msgstr "自動"
+
+msgid "auto select"
+msgstr "自動選択"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "ファイルの上書きを確認（一括処理モード）"
+
+msgid "correlation:"
+msgstr "相関："
+
+msgid "couldn't synchronize"
+msgstr "同期できませんでした"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "カスタムビルド"
+
+msgid "custom names:"
+msgstr "カスタム名："
+
+msgid "custom selection"
+msgstr "カスタム選択"
+
+msgid "custom value:"
+msgstr "カスタム値："
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "既定"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "同期タスクを定義します。複数回指定できます"
+
+msgid "description"
+msgstr "説明"
+
+msgid "dictionary {} / {}"
+msgstr "辞書 {} / {}"
+
+msgid "directory path"
+msgstr "ディレクトリのパス"
+
+msgid "display this help text and exit"
+msgstr "このヘルプを表示して終了"
+
+msgid "display version information and exit"
+msgstr "バージョン情報を表示して終了"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "不足しているリソースを取得するためにリモートサーバーへ接続しない"
+
+msgid "don't show this message again"
+msgstr "このメッセージを今後表示しない"
+
+msgid "done"
+msgstr "完了"
+
+msgid "download updates automatically"
+msgstr "更新を自動的にダウンロード"
+
+msgid "downloading"
+msgstr "ダウンロード中"
+
+msgid "drop here"
+msgstr "ここにドロップ"
+
+msgid "dump logs to specified file"
+msgstr "指定したファイルにログを書き出す"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "単語をファイルに書き出します。PATH がなければ標準出力を使用します。SRC は次のいずれかです：  "
+
+msgid "elapsed time:"
+msgstr "経過時間："
+
+msgid "enable advanced debug options"
+msgstr "高度なデバッグオプションを有効にする"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "ファイル名（パスと拡張子を除く）"
+
+msgid "files with matching streams"
+msgstr "一致するストリームを含むファイル"
+
+msgid "files without matching streams"
+msgstr "一致するストリームを含まないファイル"
+
+msgid "formula:"
+msgstr "式："
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "処理の強度（0.0 - 1.0）"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "<field> が未設定なら <value> を付加"
+
+msgid "if <field> is set, append <value>"
+msgstr "<field> が設定済みなら <value> を付加"
+
+msgid "import list of tasks from YAML file"
+msgstr "YAML ファイルからタスク一覧をインポート"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "言語"
+
+msgid "language not selected"
+msgstr "言語未選択"
+
+msgid "less than minute"
+msgstr "1 分未満"
+
+msgid "log to file"
+msgstr "ログをファイルに出力"
+
+msgid "max change:"
+msgstr "最大変更量："
+
+msgid "missing assets:"
+msgstr "不足しているリソース："
+
+msgid "name"
+msgstr "名前"
+
+msgid "open batch processing window"
+msgstr "一括処理ウィンドウを開く"
+
+msgid "operation failed"
+msgstr "操作に失敗しました"
+
+msgid "operation finished successfully"
+msgstr "操作が正常に完了しました"
+
+msgid "output character encoding"
+msgstr "出力文字エンコーディング"
+
+msgid "output file path or pattern"
+msgstr "出力ファイルのパスまたはパターン"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "出力フレームレート（フレーム単位の字幕用）"
+
+msgid "outputs"
+msgstr "出力先"
+
+msgid "overwrite existing files"
+msgstr "既存のファイルを上書き"
+
+msgid "path to reference file"
+msgstr "参照ファイルのパス"
+
+msgid "path to subtitle file"
+msgstr "字幕ファイルのパス"
+
+msgid "pattern:"
+msgstr "パターン："
+
+msgid "predefined names:"
+msgstr "定義済みの名前："
+
+msgid "processing..."
+msgstr "処理中..."
+
+msgid "queued..."
+msgstr "待機中..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "参照音声のチャンネル割り当て（音声を参照する場合）"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "参照文字エンコーディング（字幕を参照する場合）"
+
+msgid "reference framerate"
+msgstr "参照フレームレート"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "参照言語（2 または 3 文字の ISO コード）"
+
+msgid "reference stream no"
+msgstr "参照ストリーム番号"
+
+msgid "references"
+msgstr "参照ファイル"
+
+msgid "references: "
+msgstr "参照ファイル： "
+
+msgid "run in headless mode (without GUI)"
+msgstr "GUI なしのモードで実行"
+
+msgid "same as input subtitles"
+msgstr "入力字幕と同じ"
+
+msgid "same as reference file"
+msgstr "参照ファイルと同じ"
+
+msgid "select custom folder"
+msgstr "カスタムフォルダーを選択"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "言語で参照ストリームを選択（3 文字の ISO コード）"
+
+msgid "select reference stream by type"
+msgstr "種類で参照ストリームを選択"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "言語で字幕ストリームを選択（3 文字の ISO コード）"
+
+msgid "set logging level"
+msgstr "ログレベルを設定"
+
+msgid "stream"
+msgstr "ストリーム"
+
+msgid "subtitle character encoding"
+msgstr "字幕の文字エンコーディング"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "字幕のフレームレート（フレーム単位の字幕用）"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "字幕言語（2 または 3 文字の ISO コード）"
+
+msgid "subtitle stream no"
+msgstr "字幕ストリーム番号"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "字幕／参照の 2 文字言語コード"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "字幕／参照の 3 文字言語コード"
+
+msgid "subtitle/reference file full path"
+msgstr "字幕／参照ファイルの完全なパス"
+
+msgid "subtitle/reference stream number"
+msgstr "字幕／参照のストリーム番号"
+
+msgid "subtitle/text"
+msgstr "字幕／テキスト"
+
+msgid "subtitles"
+msgstr "字幕"
+
+msgid "subtitles: "
+msgstr "字幕： "
+
+msgid "synchronizing"
+msgstr "同期中"
+
+msgid "terminated"
+msgstr "終了しました"
+
+msgid "type"
+msgstr "種類"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "ユーザーインターフェースの言語（2 文字の ISO コード）"
+
+msgid "verbosity level (0 - 3)"
+msgstr "詳細度（0 - 3）"
+
+msgid "version "
+msgstr "バージョン "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} 時間"
+
+msgid "{} min"
+msgstr "{} 分"
+
+msgid "{} minutes"
+msgstr "{} 分"
+
+msgid "{} speech recognition model"
+msgstr "{} の音声認識モデル"

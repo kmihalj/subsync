@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Bahasa Melayu\nLanguage: ms\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Perihal"
+
+msgid "&Add files (auto sort)"
+msgstr "&Tambah fail (isih automatik)"
+
+msgid "&Close"
+msgstr "&Tutup"
+
+msgid "&Edit"
+msgstr "&Sunting"
+
+msgid "&Export list"
+msgstr "&Eksport senarai"
+
+msgid "&File"
+msgstr "&Fail"
+
+msgid "&Help"
+msgstr "&Bantuan"
+
+msgid "&Import list"
+msgstr "&Import senarai"
+
+msgid "&Language"
+msgstr "&Bahasa"
+
+msgid "&New"
+msgstr "&Baharu"
+
+msgid "&Properties"
+msgstr "&Sifat"
+
+msgid "&Propeties"
+msgstr "&Sifat"
+
+msgid "&Remove"
+msgstr "&Buang"
+
+msgid ", {} points"
+msgstr ", {} titik"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 untuk automatik."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minit"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automatik>"
+
+msgid "<empty>"
+msgstr "<kosong>"
+
+msgid "<other>"
+msgstr "<lain-lain>"
+
+msgid "<undefined>"
+msgstr "<tidak ditakrifkan>"
+
+msgid "About"
+msgstr "Perihal"
+
+msgid "Add"
+msgstr "Tambah"
+
+msgid "Add &folder"
+msgstr "Tambah &folder"
+
+msgid "Add &references"
+msgstr "Tambah &rujukan"
+
+msgid "Add &subtitles"
+msgstr "Tambah &sari kata"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albania"
+
+msgid "All files"
+msgstr "Semua fail"
+
+msgid "All supported files"
+msgstr "Semua fail yang disokong"
+
+msgid "Another update in progress"
+msgstr "Kemas kini lain sedang berjalan"
+
+msgid "Application upgrade"
+msgstr "Naik taraf aplikasi"
+
+msgid "Arabic"
+msgstr "Arab"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Adakah anda pasti mahu menulis ganti fail output yang sudah wujud?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Adakah anda pasti mahu memulihkan tetapan lalai?"
+
+msgid "Asset installation failed"
+msgstr "Pemasangan aset gagal"
+
+msgid "Au&to sort"
+msgstr "Isih &automatik"
+
+msgid "Audio &channels"
+msgstr "&Saluran audio"
+
+msgid "Audio channels"
+msgstr "Saluran audio"
+
+msgid "Audio channels:"
+msgstr "Saluran audio:"
+
+msgid "Auto detect"
+msgstr "Kesan secara automatik"
+
+msgid "Auto sort"
+msgstr "Isih automatik"
+
+msgid "Batch Processing"
+msgstr "Pemprosesan kelompok"
+
+msgid "Batch processing"
+msgstr "Pemprosesan kelompok"
+
+msgid "Belarusian"
+msgstr "Belarus"
+
+msgid "Bulgarian"
+msgstr "Bulgaria"
+
+msgid "Can't save subtitle file"
+msgstr "Tidak dapat menyimpan fail sari kata"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Cannot load settings file, {}"
+msgstr "Tidak dapat memuatkan fail tetapan, {}"
+
+msgid "Catalan"
+msgstr "Catalan"
+
+msgid "Character &encoding"
+msgstr "&Pengekodan aksara"
+
+msgid "Character encoding"
+msgstr "Pengekodan aksara"
+
+msgid "Character encoding:"
+msgstr "Pengekodan aksara:"
+
+msgid "Check for updates"
+msgstr "Semak kemas kini"
+
+msgid "Checking for update..."
+msgstr "Menyemak kemas kini..."
+
+msgid "Chinese"
+msgstr "Cina"
+
+msgid "Close"
+msgstr "Tutup"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Tidak dapat menyimpan sari kata yang disegerakkan"
+
+msgid "Couldn't synchronize"
+msgstr "Tidak dapat menyegerakkan"
+
+msgid "Credits"
+msgstr "Penghargaan"
+
+msgid "Croatian"
+msgstr "Croatia"
+
+msgid "Current file:"
+msgstr "Fail semasa:"
+
+msgid "Czech"
+msgstr "Czech"
+
+msgid "Danish"
+msgstr "Denmark"
+
+msgid "Debug"
+msgstr "Nyahpepijat"
+
+msgid "Debug options:"
+msgstr "Pilihan nyahpepijat:"
+
+msgid "Do you want to clear all items?"
+msgstr "Adakah anda mahu mengosongkan semua item?"
+
+msgid "Download"
+msgstr "Muat turun"
+
+msgid "Download assets"
+msgstr "Muat turun aset"
+
+msgid "Download now?"
+msgstr "Muat turun sekarang?"
+
+msgid "Downloading"
+msgstr "Sedang memuat turun"
+
+msgid "Downloading assets list..."
+msgstr "Memuat turun senarai aset..."
+
+msgid "Drop files here to add sorted"
+msgstr "Lepaskan fail di sini untuk ditambah mengikut susunan"
+
+msgid "Dump all synchronization points"
+msgstr "Eksport semua titik penyegerakan"
+
+msgid "Dump reference words"
+msgstr "Eksport perkataan rujukan"
+
+msgid "Dump subtitle words"
+msgstr "Eksport perkataan sari kata"
+
+msgid "Dump used synchronization points"
+msgstr "Eksport titik penyegerakan yang digunakan"
+
+msgid "Dutch"
+msgstr "Belanda"
+
+msgid "ETA:"
+msgstr "Anggaran masa berbaki:"
+
+msgid "Edit all tasks"
+msgstr "Sunting semua tugas"
+
+msgid "Edit failed tasks"
+msgstr "Sunting tugas yang gagal"
+
+msgid "Effort:"
+msgstr "Tahap usaha:"
+
+msgid "Elapsed:"
+msgstr "Masa berlalu:"
+
+msgid "Enable save button"
+msgstr "Dayakan butang simpan"
+
+msgid "English"
+msgstr "Inggeris"
+
+msgid "Error"
+msgstr "Ralat"
+
+msgid "Error during reference read"
+msgstr "Ralat semasa membaca rujukan"
+
+msgid "Error during subtitles read"
+msgstr "Ralat semasa membaca sari kata"
+
+msgid "Estonian"
+msgstr "Estonia"
+
+msgid "Everything synchronized successfully"
+msgstr "Semuanya berjaya disegerakkan"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Semuanya disegerakkan, tetapi terdapat ralat"
+
+msgid "Extractor jobs no:"
+msgstr "Bilangan tugas pengekstrakan:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Faroe"
+
+msgid "File name:"
+msgstr "Nama fail:"
+
+msgid "File type:"
+msgstr "Jenis fail:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Tapis log daripada modul berikut (satu setiap baris):"
+
+msgid "Finnish"
+msgstr "Finland"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Betulkan cap masa sari kata output dengan ofset yang diberikan, dalam saat."
+
+msgid "Following assets could be updated:"
+msgstr "Aset berikut boleh dikemas kini:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Aset berikut mesti dimuat turun untuk meneruskan:"
+
+msgid "Following files could not be added:"
+msgstr "Fail berikut tidak dapat ditambah:"
+
+msgid "French"
+msgstr "Perancis"
+
+msgid "GUI options:"
+msgstr "Pilihan antara muka grafik:"
+
+msgid "Gaelic"
+msgstr "Gaelik Scotland"
+
+msgid "Galician"
+msgstr "Galicia"
+
+msgid "General"
+msgstr "Umum"
+
+msgid "General options:"
+msgstr "Pilihan umum:"
+
+msgid "German"
+msgstr "Jerman"
+
+msgid "Got errors, synchronization failed"
+msgstr "Terdapat ralat, penyegerakan gagal"
+
+msgid "Greek"
+msgstr "Yunani"
+
+msgid "Headless options:"
+msgstr "Pilihan mod tanpa antara muka:"
+
+msgid "Hebrew"
+msgstr "Ibrani"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Tahap usaha untuk menyegerakkan sari kata. Nilai yang lebih tinggi memberikan hasil lebih baik, tetapi mengambil masa lebih lama."
+
+msgid "Hungarian"
+msgstr "Hungary"
+
+msgid "Icelandic"
+msgstr "Iceland"
+
+msgid "In seconds."
+msgstr "Dalam saat."
+
+msgid "Indonesian"
+msgstr "Indonesia"
+
+msgid "Info"
+msgstr "Maklumat"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Penyegerakan awal selesai.\nAnda sudah boleh menyimpan sari kata.\nJika masih tidak sepadan, tunggu hasil yang lebih baik."
+
+msgid "Initializing..."
+msgstr "Memulakan..."
+
+msgid "Input file:"
+msgstr "Fail input:"
+
+msgid "Invalid output pattern"
+msgstr "Pola output tidak sah"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Pola output tidak sah, kata kunci tidak sah: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Pola output tidak sah, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Format audio pertuturan tidak sah"
+
+msgid "Italian"
+msgstr "Itali"
+
+msgid "Japanese"
+msgstr "Jepun"
+
+msgid "Korean"
+msgstr "Korea"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Pemilihan bahasa tidak wajib, tetapi boleh meningkatkan ketepatan penyegerakan dengan ketara.\nAdakah anda pasti?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Perubahan bahasa berkuat kuasa selepas aplikasi dimulakan semula"
+
+msgid "Language:"
+msgstr "Bahasa:"
+
+msgid "Languages"
+msgstr "Bahasa"
+
+msgid "Latin"
+msgstr "Latin"
+
+msgid "Latvian"
+msgstr "Latvia"
+
+msgid "License"
+msgstr "Lesen"
+
+msgid "Lithuanian"
+msgstr "Lithuania"
+
+msgid "Loading, please wait..."
+msgstr "Memuatkan, sila tunggu..."
+
+msgid "Logging level:"
+msgstr "Aras pengelogan:"
+
+msgid "Malagasy"
+msgstr "Malagasi"
+
+msgid "Malay"
+msgstr "Melayu"
+
+msgid "Maltese"
+msgstr "Malta"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Pelarasan maksimum. Masa sari kata tidak akan berubah melebihi nilai ini. Nilai yang lebih tinggi memanjangkan masa penyegerakan, tetapi nilai terlalu rendah akan menyebabkan kegagalan."
+
+msgid "Max adjustment:"
+msgstr "Pelarasan maksimum:"
+
+msgid "Max points distance:"
+msgstr "Sisihan titik maksimum:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Ralat penyegerakan maksimum yang boleh diterima, dalam saat. Titik penyegerakan dengan ralat lebih besar akan dibuang."
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Min correlation factor:"
+msgstr "Faktor korelasi minimum:"
+
+msgid "Min points no:"
+msgstr "Bilangan titik minimum:"
+
+msgid "Min speech recognition score:"
+msgstr "Skor pengecaman pertuturan minimum:"
+
+msgid "Min word length (letters):"
+msgstr "Panjang perkataan minimum (huruf):"
+
+msgid "Min words similarity:"
+msgstr "Keserupaan perkataan minimum:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Faktor korelasi minimum, antara 0.0 dengan 1.0. Digunakan untuk menilai hasil penyegerakan. Jika faktornya lebih kecil, penyegerakan akan gagal."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Skor pengecaman pertuturan minimum, antara 0.0 dengan 1.0. Perkataan yang dicam dengan skor lebih rendah akan ditolak."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Panjang perkataan minimum dalam huruf. Perkataan yang lebih pendek tidak digunakan sebagai titik penyegerakan. Hanya untuk bahasa berasaskan abjad."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Keserupaan perkataan minimum untuk titik penyegerakan. Antara 0.0 dengan 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Bilangan titik penyegerakan minimum. Nilai terlalu tinggi boleh menghasilkan banyak padanan palsu."
+
+msgid "New synchronization"
+msgstr "Penyegerakan baharu"
+
+msgid "New version is available. Update now?"
+msgstr "Versi baharu tersedia. Kemas kini sekarang?"
+
+msgid "No language selected"
+msgstr "Tiada bahasa dipilih"
+
+msgid "No language selected for:"
+msgstr "Tiada bahasa dipilih untuk:"
+
+msgid "No need to synchronize"
+msgstr "Tidak perlu disegerakkan"
+
+msgid "Norwegian"
+msgstr "Norway"
+
+msgid "Not supported stream type"
+msgstr "Jenis strim tidak disokong"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Bilangan bebenang penyegerakan yang berjalan serentak."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Direktori output:"
+
+msgid "Output encoding:"
+msgstr "Pengekodan output:"
+
+msgid "Output file names"
+msgstr "Nama fail output"
+
+msgid "Output file not set"
+msgstr "Fail output belum ditetapkan"
+
+msgid "Output filename:"
+msgstr "Nama fail output:"
+
+msgid "Output timing offset:"
+msgstr "Ofset masa output:"
+
+msgid "Overwrite existing files"
+msgstr "Tulis ganti fail sedia ada"
+
+msgid "Overwrite files?"
+msgstr "Tulis ganti fail?"
+
+msgid "Persian"
+msgstr "Parsi"
+
+msgid "Polish"
+msgstr "Poland"
+
+msgid "Portuguese"
+msgstr "Portugis"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Halang mod tidur semasa penyegerakan"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Menghalang sistem daripada masuk ke mod tidur semasa penyegerakan.\nMungkin tidak berfungsi pada semua platform."
+
+msgid "Reference file not set"
+msgstr "Fail rujukan belum ditetapkan"
+
+msgid "References (video or other subtitles):"
+msgstr "Rujukan (video atau sari kata lain):"
+
+msgid "Remove"
+msgstr "Buang"
+
+msgid "Remove items"
+msgstr "Buang item"
+
+msgid "Restore defaults"
+msgstr "Pulihkan tetapan lalai"
+
+msgid "Romanian"
+msgstr "Romania"
+
+msgid "Russian"
+msgstr "Rusia"
+
+msgid "Save"
+msgstr "Simpan"
+
+msgid "Select"
+msgstr "Pilih"
+
+msgid "Select &all"
+msgstr "Pilih &semua"
+
+msgid "Select &stream"
+msgstr "Pilih &strim"
+
+msgid "Select all &references"
+msgstr "Pilih semua &rujukan"
+
+msgid "Select all &subtitles"
+msgstr "Pilih semua &sari kata"
+
+msgid "Select all o&utputs"
+msgstr "Pilih semua &output"
+
+msgid "Select audio channels to listen to:"
+msgstr "Pilih saluran audio untuk didengari:"
+
+msgid "Select character encoding"
+msgstr "Pilih pengekodan aksara"
+
+msgid "Select directory"
+msgstr "Pilih direktori"
+
+msgid "Select file"
+msgstr "Pilih fail"
+
+msgid "Select language"
+msgstr "Pilih bahasa"
+
+msgid "Select output"
+msgstr "Pilih output"
+
+msgid "Select output directory"
+msgstr "Pilih direktori output"
+
+msgid "Select output subtitles framerate:"
+msgstr "Pilih kadar bingkai sari kata output:"
+
+msgid "Select reference language first"
+msgstr "Pilih bahasa rujukan dahulu"
+
+msgid "Select stream"
+msgstr "Pilih strim"
+
+msgid "Select stream by language:"
+msgstr "Pilih strim mengikut bahasa:"
+
+msgid "Select stream by title:"
+msgstr "Pilih strim mengikut tajuk:"
+
+msgid "Select stream by type:"
+msgstr "Pilih strim mengikut jenis:"
+
+msgid "Select stream:"
+msgstr "Pilih strim:"
+
+msgid "Select streams"
+msgstr "Pilih beberapa strim"
+
+msgid "Serbian"
+msgstr "Serbia"
+
+msgid "Set &input stream"
+msgstr "Tetapkan strim &input"
+
+msgid "Set &output location"
+msgstr "Tetapkan lokasi &output"
+
+msgid "Settings"
+msgstr "Tetapan"
+
+msgid "Show popups:"
+msgstr "Tunjukkan tetingkap timbul:"
+
+msgid "Signature verification failed"
+msgstr "Pengesahan tandatangan gagal"
+
+msgid "Slovak"
+msgstr "Slovak"
+
+msgid "Slovenian"
+msgstr "Slovenia"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Sesetengah sari kata rujukan tidak dapat dinyahkod (pengekodan tidak sah?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Sesetengah sari kata tidak dapat dinyahkod (pengekodan tidak sah?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Sesetengah tugas tidak dapat disegerakkan"
+
+msgid "Spanish"
+msgstr "Sepanyol"
+
+msgid "Start"
+msgstr "Mula"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Stop"
+msgstr "Henti"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Penyegerak\nSari Kata dan\nPertuturan"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Penyegerak Sari Kata dan Pertuturan"
+
+msgid "Subtitle files"
+msgstr "Fail sari kata"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Sari kata tidak boleh sama dengan rujukan"
+
+msgid "Subtitles not set"
+msgstr "Sari kata belum ditetapkan"
+
+msgid "Subtitles synchronized"
+msgstr "Sari kata disegerakkan"
+
+msgid "Subtitles:"
+msgstr "Sari kata:"
+
+msgid "Swedish"
+msgstr "Sweden"
+
+msgid "Synchronization"
+msgstr "Penyegerakan"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Penyegerakan antara bahasa {} belum disokong."
+
+msgid "Synchronization job:"
+msgstr "Tugas penyegerakan:"
+
+msgid "Synchronization options:"
+msgstr "Pilihan penyegerakan:"
+
+msgid "Synchronization terminated"
+msgstr "Penyegerakan ditamatkan"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Penyegerakan dengan audio {} belum disokong."
+
+msgid "Synchronization: 0 points"
+msgstr "Penyegerakan: 0 titik"
+
+msgid "Synchronization: {} points"
+msgstr "Penyegerakan: {} titik"
+
+msgid "Synchronizing..."
+msgstr "Menyegerakkan..."
+
+msgid "Task:"
+msgstr "Tugas:"
+
+msgid "Terminating, please wait..."
+msgstr "Menamatkan, sila tunggu..."
+
+msgid "Terminating..."
+msgstr "Menamatkan..."
+
+msgid "There are no usable streams"
+msgstr "Tiada strim yang boleh digunakan"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Tiada kamus untuk terjemahan daripada {} kepada {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Tiada strim yang sepadan dalam {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Tiada model pengecaman pertuturan untuk bahasa {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Ini ialah alat penyegerakan sari kata filem secara automatik.\nPenyegerakan dilakukan dengan mendengar trek audio dan menterjemahkannya jika perlu.\nSari kata lain juga boleh digunakan sebagai rujukan.\n\nPengarang: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Gagal sepenuhnya"
+
+msgid "Total progress:"
+msgstr "Kemajuan keseluruhan:"
+
+msgid "Turkish"
+msgstr "Turki"
+
+msgid "Ukrainian"
+msgstr "Ukraine"
+
+msgid "Unexpected error occurred"
+msgstr "Ralat yang tidak dijangka berlaku"
+
+msgid "Unknown file extension"
+msgstr "Sambungan fail tidak diketahui"
+
+msgid "Update assets"
+msgstr "Kemas kini aset"
+
+msgid "Update instalation failed miserably"
+msgstr "Pemasangan kemas kini gagal sepenuhnya"
+
+msgid "Update not available"
+msgstr "Tiada kemas kini tersedia"
+
+msgid "Update now?"
+msgstr "Kemas kini sekarang?"
+
+msgid "Updates:"
+msgstr "Kemas kini:"
+
+msgid "Upgrade"
+msgstr "Naik taraf"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Penggunaan: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Fail video"
+
+msgid "Website"
+msgstr "Laman web"
+
+msgid "Your version is up to date"
+msgstr "Versi anda sudah terkini"
+
+msgid "[details]"
+msgstr "[butiran]"
+
+msgid "[errors]"
+msgstr "[ralat]"
+
+msgid "[hide]"
+msgstr "[sembunyikan]"
+
+msgid "[show more]"
+msgstr "[tunjukkan lagi]"
+
+msgid "all"
+msgstr "semua"
+
+msgid "all channels"
+msgstr "semua saluran"
+
+msgid "and {} more"
+msgstr "dan {} lagi"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "tambah kod bahasa dua huruf (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "tambah kod bahasa tiga huruf (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "tambah nombor strim"
+
+msgid "ask for update on exit"
+msgstr "tanya tentang kemas kini semasa keluar"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "auto"
+msgstr "automatik"
+
+msgid "auto select"
+msgstr "pilih secara automatik"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "sahkan penulisan ganti fail (dalam mod kelompok)"
+
+msgid "correlation:"
+msgstr "korelasi:"
+
+msgid "couldn't synchronize"
+msgstr "tidak dapat menyegerakkan"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "binaan tersuai"
+
+msgid "custom names:"
+msgstr "nama tersuai:"
+
+msgid "custom selection"
+msgstr "pilihan tersuai"
+
+msgid "custom value:"
+msgstr "nilai tersuai:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "lalai"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "takrifkan tugas penyegerakan, boleh diulang beberapa kali"
+
+msgid "description"
+msgstr "keterangan"
+
+msgid "dictionary {} / {}"
+msgstr "kamus {} / {}"
+
+msgid "directory path"
+msgstr "laluan direktori"
+
+msgid "display this help text and exit"
+msgstr "paparkan bantuan ini dan keluar"
+
+msgid "display version information and exit"
+msgstr "paparkan maklumat versi dan keluar"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "jangan hubungi pelayan jauh untuk mendapatkan aset yang tiada"
+
+msgid "don't show this message again"
+msgstr "jangan tunjukkan mesej ini lagi"
+
+msgid "done"
+msgstr "selesai"
+
+msgid "download updates automatically"
+msgstr "muat turun kemas kini secara automatik"
+
+msgid "downloading"
+msgstr "sedang memuat turun"
+
+msgid "drop here"
+msgstr "lepaskan di sini"
+
+msgid "dump logs to specified file"
+msgstr "eksport log ke fail yang ditentukan"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "eksport perkataan ke fail, atau ke output piawai jika tiada PATH; SRC ialah salah satu daripada:  "
+
+msgid "elapsed time:"
+msgstr "masa berlalu:"
+
+msgid "enable advanced debug options"
+msgstr "dayakan pilihan nyahpepijat lanjutan"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "nama fail (tanpa laluan dan sambungan)"
+
+msgid "files with matching streams"
+msgstr "fail dengan strim yang sepadan"
+
+msgid "files without matching streams"
+msgstr "fail tanpa strim yang sepadan"
+
+msgid "formula:"
+msgstr "rumus:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "tahap usaha (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "jika <field> belum ditetapkan, tambah <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "jika <field> telah ditetapkan, tambah <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "import senarai tugas daripada fail YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "bahasa"
+
+msgid "language not selected"
+msgstr "bahasa belum dipilih"
+
+msgid "less than minute"
+msgstr "kurang daripada seminit"
+
+msgid "log to file"
+msgstr "catat log ke fail"
+
+msgid "max change:"
+msgstr "perubahan maksimum:"
+
+msgid "missing assets:"
+msgstr "aset yang tiada:"
+
+msgid "name"
+msgstr "nama"
+
+msgid "open batch processing window"
+msgstr "buka tetingkap pemprosesan kelompok"
+
+msgid "operation failed"
+msgstr "operasi gagal"
+
+msgid "operation finished successfully"
+msgstr "operasi berjaya diselesaikan"
+
+msgid "output character encoding"
+msgstr "pengekodan aksara output"
+
+msgid "output file path or pattern"
+msgstr "laluan atau pola fail output"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "kadar bingkai output (untuk sari kata berasaskan FPS)"
+
+msgid "outputs"
+msgstr "output"
+
+msgid "overwrite existing files"
+msgstr "tulis ganti fail sedia ada"
+
+msgid "path to reference file"
+msgstr "laluan fail rujukan"
+
+msgid "path to subtitle file"
+msgstr "laluan fail sari kata"
+
+msgid "pattern:"
+msgstr "pola:"
+
+msgid "predefined names:"
+msgstr "nama pratetap:"
+
+msgid "processing..."
+msgstr "sedang memproses..."
+
+msgid "queued..."
+msgstr "dalam baris gilir..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "pemetaan saluran audio rujukan (untuk rujukan audio)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "pengekodan aksara rujukan (untuk rujukan sari kata)"
+
+msgid "reference framerate"
+msgstr "kadar bingkai rujukan"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "bahasa rujukan (kod ISO dua atau tiga huruf)"
+
+msgid "reference stream no"
+msgstr "nombor strim rujukan"
+
+msgid "references"
+msgstr "rujukan"
+
+msgid "references: "
+msgstr "rujukan: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "jalankan tanpa antara muka grafik"
+
+msgid "same as input subtitles"
+msgstr "sama seperti sari kata input"
+
+msgid "same as reference file"
+msgstr "sama seperti fail rujukan"
+
+msgid "select custom folder"
+msgstr "pilih folder tersuai"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "pilih strim rujukan mengikut bahasa (kod ISO tiga huruf)"
+
+msgid "select reference stream by type"
+msgstr "pilih strim rujukan mengikut jenis"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "pilih strim sari kata mengikut bahasa (kod ISO tiga huruf)"
+
+msgid "set logging level"
+msgstr "tetapkan aras pengelogan"
+
+msgid "stream"
+msgstr "strim"
+
+msgid "subtitle character encoding"
+msgstr "pengekodan aksara sari kata"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "kadar bingkai sari kata (untuk sari kata berasaskan FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "bahasa sari kata (kod ISO dua atau tiga huruf)"
+
+msgid "subtitle stream no"
+msgstr "nombor strim sari kata"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "kod bahasa dua huruf sari kata/rujukan"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "kod bahasa tiga huruf sari kata/rujukan"
+
+msgid "subtitle/reference file full path"
+msgstr "laluan penuh fail sari kata/rujukan"
+
+msgid "subtitle/reference stream number"
+msgstr "nombor strim sari kata/rujukan"
+
+msgid "subtitle/text"
+msgstr "sari kata/teks"
+
+msgid "subtitles"
+msgstr "sari kata"
+
+msgid "subtitles: "
+msgstr "sari kata: "
+
+msgid "synchronizing"
+msgstr "menyegerakkan"
+
+msgid "terminated"
+msgstr "ditamatkan"
+
+msgid "type"
+msgstr "jenis"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "bahasa antara muka pengguna (kod ISO dua huruf)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "tahap perincian (0 - 3)"
+
+msgid "version "
+msgstr "versi "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} jam"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minit"
+
+msgid "{} speech recognition model"
+msgstr "model pengecaman pertuturan {}"

@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: 한국어\nLanguage: ko\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&정보"
+
+msgid "&Add files (auto sort)"
+msgstr "&파일 추가(자동 정렬)"
+
+msgid "&Close"
+msgstr "&닫기"
+
+msgid "&Edit"
+msgstr "&편집"
+
+msgid "&Export list"
+msgstr "&목록 내보내기"
+
+msgid "&File"
+msgstr "&파일"
+
+msgid "&Help"
+msgstr "&도움말"
+
+msgid "&Import list"
+msgstr "&목록 가져오기"
+
+msgid "&Language"
+msgstr "&언어"
+
+msgid "&New"
+msgstr "&새로 만들기"
+
+msgid "&Properties"
+msgstr "&속성"
+
+msgid "&Propeties"
+msgstr "&속성"
+
+msgid "&Remove"
+msgstr "&제거"
+
+msgid ", {} points"
+msgstr ", {}개 지점"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "자동으로 설정하려면 0을 입력하세요."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1분"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<자동>"
+
+msgid "<empty>"
+msgstr "<비어 있음>"
+
+msgid "<other>"
+msgstr "<기타>"
+
+msgid "<undefined>"
+msgstr "<정의되지 않음>"
+
+msgid "About"
+msgstr "정보"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Add &folder"
+msgstr "&폴더 추가"
+
+msgid "Add &references"
+msgstr "&참조 파일 추가"
+
+msgid "Add &subtitles"
+msgstr "&자막 추가"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "알바니아어"
+
+msgid "All files"
+msgstr "모든 파일"
+
+msgid "All supported files"
+msgstr "지원하는 모든 파일"
+
+msgid "Another update in progress"
+msgstr "다른 업데이트가 진행 중입니다"
+
+msgid "Application upgrade"
+msgstr "애플리케이션 업그레이드"
+
+msgid "Arabic"
+msgstr "아랍어"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "출력 파일이 이미 있으면 덮어쓰시겠습니까?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "설정을 기본값으로 되돌리시겠습니까?"
+
+msgid "Asset installation failed"
+msgstr "리소스 설치에 실패했습니다"
+
+msgid "Au&to sort"
+msgstr "자동 &정렬"
+
+msgid "Audio &channels"
+msgstr "오디오 &채널"
+
+msgid "Audio channels"
+msgstr "오디오 채널"
+
+msgid "Audio channels:"
+msgstr "오디오 채널:"
+
+msgid "Auto detect"
+msgstr "자동 감지"
+
+msgid "Auto sort"
+msgstr "자동 정렬"
+
+msgid "Batch Processing"
+msgstr "일괄 처리"
+
+msgid "Batch processing"
+msgstr "일괄 처리"
+
+msgid "Belarusian"
+msgstr "벨라루스어"
+
+msgid "Bulgarian"
+msgstr "불가리아어"
+
+msgid "Can't save subtitle file"
+msgstr "자막 파일을 저장할 수 없습니다"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Cannot load settings file, {}"
+msgstr "설정 파일을 불러올 수 없습니다. {}"
+
+msgid "Catalan"
+msgstr "카탈루냐어"
+
+msgid "Character &encoding"
+msgstr "문자 &인코딩"
+
+msgid "Character encoding"
+msgstr "문자 인코딩"
+
+msgid "Character encoding:"
+msgstr "문자 인코딩:"
+
+msgid "Check for updates"
+msgstr "업데이트 확인"
+
+msgid "Checking for update..."
+msgstr "업데이트 확인 중..."
+
+msgid "Chinese"
+msgstr "중국어"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "동기화된 자막을 저장하지 못했습니다"
+
+msgid "Couldn't synchronize"
+msgstr "동기화하지 못했습니다"
+
+msgid "Credits"
+msgstr "제작 기여자"
+
+msgid "Croatian"
+msgstr "크로아티아어"
+
+msgid "Current file:"
+msgstr "현재 파일:"
+
+msgid "Czech"
+msgstr "체코어"
+
+msgid "Danish"
+msgstr "덴마크어"
+
+msgid "Debug"
+msgstr "디버그"
+
+msgid "Debug options:"
+msgstr "디버그 옵션:"
+
+msgid "Do you want to clear all items?"
+msgstr "모든 항목을 지우시겠습니까?"
+
+msgid "Download"
+msgstr "다운로드"
+
+msgid "Download assets"
+msgstr "리소스 다운로드"
+
+msgid "Download now?"
+msgstr "지금 다운로드하시겠습니까?"
+
+msgid "Downloading"
+msgstr "다운로드 중"
+
+msgid "Downloading assets list..."
+msgstr "리소스 목록 다운로드 중..."
+
+msgid "Drop files here to add sorted"
+msgstr "파일을 여기에 놓으면 정렬하여 추가합니다"
+
+msgid "Dump all synchronization points"
+msgstr "모든 동기화 지점 내보내기"
+
+msgid "Dump reference words"
+msgstr "참조 파일의 단어 내보내기"
+
+msgid "Dump subtitle words"
+msgstr "자막의 단어 내보내기"
+
+msgid "Dump used synchronization points"
+msgstr "사용된 동기화 지점 내보내기"
+
+msgid "Dutch"
+msgstr "네덜란드어"
+
+msgid "ETA:"
+msgstr "예상 남은 시간:"
+
+msgid "Edit all tasks"
+msgstr "모든 작업 편집"
+
+msgid "Edit failed tasks"
+msgstr "실패한 작업 편집"
+
+msgid "Effort:"
+msgstr "처리 강도:"
+
+msgid "Elapsed:"
+msgstr "경과 시간:"
+
+msgid "Enable save button"
+msgstr "저장 버튼 활성화"
+
+msgid "English"
+msgstr "영어"
+
+msgid "Error"
+msgstr "오류"
+
+msgid "Error during reference read"
+msgstr "참조 파일을 읽는 중 오류가 발생했습니다"
+
+msgid "Error during subtitles read"
+msgstr "자막을 읽는 중 오류가 발생했습니다"
+
+msgid "Estonian"
+msgstr "에스토니아어"
+
+msgid "Everything synchronized successfully"
+msgstr "모두 동기화했습니다"
+
+msgid "Everything synchronized, but got errors"
+msgstr "모두 동기화했지만 오류가 발생했습니다"
+
+msgid "Extractor jobs no:"
+msgstr "추출 작업 수:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "페로어"
+
+msgid "File name:"
+msgstr "파일 이름:"
+
+msgid "File type:"
+msgstr "파일 형식:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "로그에서 제외할 모듈(한 줄에 하나씩):"
+
+msgid "Finnish"
+msgstr "핀란드어"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "출력 자막의 타임스탬프를 지정한 초 단위 오프셋으로 보정합니다."
+
+msgid "Following assets could be updated:"
+msgstr "다음 리소스를 업데이트할 수 있습니다:"
+
+msgid "Following assets must be download to continue:"
+msgstr "계속하려면 다음 리소스를 다운로드해야 합니다:"
+
+msgid "Following files could not be added:"
+msgstr "다음 파일을 추가하지 못했습니다:"
+
+msgid "French"
+msgstr "프랑스어"
+
+msgid "GUI options:"
+msgstr "GUI 옵션:"
+
+msgid "Gaelic"
+msgstr "스코틀랜드 게일어"
+
+msgid "Galician"
+msgstr "갈리시아어"
+
+msgid "General"
+msgstr "일반"
+
+msgid "General options:"
+msgstr "일반 옵션:"
+
+msgid "German"
+msgstr "독일어"
+
+msgid "Got errors, synchronization failed"
+msgstr "오류가 발생하여 동기화에 실패했습니다"
+
+msgid "Greek"
+msgstr "그리스어"
+
+msgid "Headless options:"
+msgstr "GUI 없는 모드 옵션:"
+
+msgid "Hebrew"
+msgstr "히브리어"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "자막 동기화에 사용할 처리 강도입니다. 값이 높으면 동기화가 더 정확해지지만 시간이 더 오래 걸립니다."
+
+msgid "Hungarian"
+msgstr "헝가리어"
+
+msgid "Icelandic"
+msgstr "아이슬란드어"
+
+msgid "In seconds."
+msgstr "단위는 초입니다."
+
+msgid "Indonesian"
+msgstr "인도네시아어"
+
+msgid "Info"
+msgstr "정보"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "초기 동기화가 완료되었습니다.\n지금 자막을 저장할 수 있습니다.\n아직 맞지 않으면 더 나은 결과가 나올 때까지 기다리세요."
+
+msgid "Initializing..."
+msgstr "초기화 중..."
+
+msgid "Input file:"
+msgstr "입력 파일:"
+
+msgid "Invalid output pattern"
+msgstr "출력 패턴이 올바르지 않습니다"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "출력 패턴에 올바르지 않은 키워드가 있습니다: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "출력 패턴이 올바르지 않습니다. {}"
+
+msgid "Invalid speech audio format"
+msgstr "음성 인식용 오디오 형식이 올바르지 않습니다"
+
+msgid "Italian"
+msgstr "이탈리아어"
+
+msgid "Japanese"
+msgstr "일본어"
+
+msgid "Korean"
+msgstr "한국어"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "언어 선택은 필수가 아니지만 동기화 정확도를 크게 높일 수 있습니다.\n계속하시겠습니까?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "언어 변경은 애플리케이션을 다시 시작한 후 적용됩니다"
+
+msgid "Language:"
+msgstr "언어:"
+
+msgid "Languages"
+msgstr "언어"
+
+msgid "Latin"
+msgstr "라틴어"
+
+msgid "Latvian"
+msgstr "라트비아어"
+
+msgid "License"
+msgstr "라이선스"
+
+msgid "Lithuanian"
+msgstr "리투아니아어"
+
+msgid "Loading, please wait..."
+msgstr "불러오는 중입니다. 잠시 기다리세요..."
+
+msgid "Logging level:"
+msgstr "로그 수준:"
+
+msgid "Malagasy"
+msgstr "마다가스카르어"
+
+msgid "Malay"
+msgstr "말레이어"
+
+msgid "Maltese"
+msgstr "몰타어"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "최대 조정 범위입니다. 자막 시간은 이 값보다 많이 변경되지 않습니다. 값이 높으면 처리 시간이 길어지지만 너무 낮으면 동기화에 실패합니다."
+
+msgid "Max adjustment:"
+msgstr "최대 조정 범위:"
+
+msgid "Max points distance:"
+msgstr "동기화 지점의 최대 오차:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "허용되는 최대 동기화 오차(초)입니다. 이보다 오차가 큰 동기화 지점은 제외됩니다."
+
+msgid "Menu"
+msgstr "메뉴"
+
+msgid "Min correlation factor:"
+msgstr "최소 상관 계수:"
+
+msgid "Min points no:"
+msgstr "최소 지점 수:"
+
+msgid "Min speech recognition score:"
+msgstr "최소 음성 인식 점수:"
+
+msgid "Min word length (letters):"
+msgstr "최소 단어 길이(글자 수):"
+
+msgid "Min words similarity:"
+msgstr "최소 단어 유사도:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "최소 상관 계수로, 범위는 0.0~1.0입니다. 동기화 결과를 판단하는 데 사용하며 상관 계수가 이보다 낮으면 동기화에 실패합니다."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "최소 음성 인식 점수로, 범위는 0.0~1.0입니다. 이보다 낮은 점수로 인식된 단어는 제외됩니다."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "최소 단어 길이(글자 수)입니다. 이보다 짧은 단어는 동기화 지점으로 사용하지 않습니다. 알파벳을 사용하는 언어에만 적용됩니다."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "동기화 지점에 필요한 최소 단어 유사도입니다. 범위는 0.0~1.0입니다."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "동기화 지점의 최소 개수입니다. 너무 높으면 잘못된 일치가 많이 생길 수 있습니다."
+
+msgid "New synchronization"
+msgstr "새 동기화"
+
+msgid "New version is available. Update now?"
+msgstr "새 버전을 사용할 수 있습니다. 지금 업데이트하시겠습니까?"
+
+msgid "No language selected"
+msgstr "언어를 선택하지 않았습니다"
+
+msgid "No language selected for:"
+msgstr "다음 항목의 언어를 선택하지 않았습니다:"
+
+msgid "No need to synchronize"
+msgstr "동기화할 필요가 없습니다"
+
+msgid "Norwegian"
+msgstr "노르웨이어"
+
+msgid "Not supported stream type"
+msgstr "지원하지 않는 스트림 형식입니다"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "동시에 실행할 동기화 스레드 수입니다."
+
+msgid "OK"
+msgstr "확인"
+
+msgid "Output directory:"
+msgstr "출력 디렉터리:"
+
+msgid "Output encoding:"
+msgstr "출력 인코딩:"
+
+msgid "Output file names"
+msgstr "출력 파일 이름"
+
+msgid "Output file not set"
+msgstr "출력 파일이 설정되지 않았습니다"
+
+msgid "Output filename:"
+msgstr "출력 파일 이름:"
+
+msgid "Output timing offset:"
+msgstr "출력 시간 오프셋:"
+
+msgid "Overwrite existing files"
+msgstr "기존 파일 덮어쓰기"
+
+msgid "Overwrite files?"
+msgstr "파일을 덮어쓰시겠습니까?"
+
+msgid "Persian"
+msgstr "페르시아어"
+
+msgid "Polish"
+msgstr "폴란드어"
+
+msgid "Portuguese"
+msgstr "포르투갈어"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "동기화 중 잠자기 방지"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "동기화 중 시스템이 잠자기 모드로 전환되지 않도록 합니다.\n일부 플랫폼에서는 작동하지 않을 수 있습니다."
+
+msgid "Reference file not set"
+msgstr "참조 파일이 설정되지 않았습니다"
+
+msgid "References (video or other subtitles):"
+msgstr "참조 파일(동영상 또는 다른 자막):"
+
+msgid "Remove"
+msgstr "제거"
+
+msgid "Remove items"
+msgstr "항목 제거"
+
+msgid "Restore defaults"
+msgstr "기본값 복원"
+
+msgid "Romanian"
+msgstr "루마니아어"
+
+msgid "Russian"
+msgstr "러시아어"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Select"
+msgstr "선택"
+
+msgid "Select &all"
+msgstr "&모두 선택"
+
+msgid "Select &stream"
+msgstr "&스트림 선택"
+
+msgid "Select all &references"
+msgstr "모든 &참조 파일 선택"
+
+msgid "Select all &subtitles"
+msgstr "모든 &자막 선택"
+
+msgid "Select all o&utputs"
+msgstr "모든 &출력 선택"
+
+msgid "Select audio channels to listen to:"
+msgstr "사용할 오디오 채널을 선택하세요:"
+
+msgid "Select character encoding"
+msgstr "문자 인코딩 선택"
+
+msgid "Select directory"
+msgstr "디렉터리 선택"
+
+msgid "Select file"
+msgstr "파일 선택"
+
+msgid "Select language"
+msgstr "언어 선택"
+
+msgid "Select output"
+msgstr "출력 선택"
+
+msgid "Select output directory"
+msgstr "출력 디렉터리 선택"
+
+msgid "Select output subtitles framerate:"
+msgstr "출력 자막의 프레임 레이트를 선택하세요:"
+
+msgid "Select reference language first"
+msgstr "먼저 참조 파일의 언어를 선택하세요"
+
+msgid "Select stream"
+msgstr "스트림 선택"
+
+msgid "Select stream by language:"
+msgstr "언어로 스트림 선택:"
+
+msgid "Select stream by title:"
+msgstr "제목으로 스트림 선택:"
+
+msgid "Select stream by type:"
+msgstr "형식으로 스트림 선택:"
+
+msgid "Select stream:"
+msgstr "스트림 선택:"
+
+msgid "Select streams"
+msgstr "여러 스트림 선택"
+
+msgid "Serbian"
+msgstr "세르비아어"
+
+msgid "Set &input stream"
+msgstr "&입력 스트림 설정"
+
+msgid "Set &output location"
+msgstr "&출력 위치 설정"
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "Show popups:"
+msgstr "팝업 표시:"
+
+msgid "Signature verification failed"
+msgstr "서명 검증에 실패했습니다"
+
+msgid "Slovak"
+msgstr "슬로바키아어"
+
+msgid "Slovenian"
+msgstr "슬로베니아어"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "일부 참조 자막을 디코딩할 수 없습니다(인코딩이 잘못되었나요?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "일부 자막을 디코딩할 수 없습니다(인코딩이 잘못되었나요?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "일부 작업을 동기화하지 못했습니다"
+
+msgid "Spanish"
+msgstr "스페인어"
+
+msgid "Start"
+msgstr "시작"
+
+msgid "Status:"
+msgstr "상태:"
+
+msgid "Stop"
+msgstr "중지"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "자막\n음성\n동기화 도구"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "자막 음성 동기화 도구"
+
+msgid "Subtitle files"
+msgstr "자막 파일"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "자막과 참조 파일은 같을 수 없습니다"
+
+msgid "Subtitles not set"
+msgstr "자막이 설정되지 않았습니다"
+
+msgid "Subtitles synchronized"
+msgstr "자막이 동기화되었습니다"
+
+msgid "Subtitles:"
+msgstr "자막:"
+
+msgid "Swedish"
+msgstr "스웨덴어"
+
+msgid "Synchronization"
+msgstr "동기화"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "현재 {} 언어 간 동기화는 지원하지 않습니다."
+
+msgid "Synchronization job:"
+msgstr "동기화 작업:"
+
+msgid "Synchronization options:"
+msgstr "동기화 옵션:"
+
+msgid "Synchronization terminated"
+msgstr "동기화가 종료되었습니다"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "현재 {} 오디오를 사용한 동기화는 지원하지 않습니다."
+
+msgid "Synchronization: 0 points"
+msgstr "동기화: 0개 지점"
+
+msgid "Synchronization: {} points"
+msgstr "동기화: {}개 지점"
+
+msgid "Synchronizing..."
+msgstr "동기화 중..."
+
+msgid "Task:"
+msgstr "작업:"
+
+msgid "Terminating, please wait..."
+msgstr "종료 중입니다. 잠시 기다리세요..."
+
+msgid "Terminating..."
+msgstr "종료 중..."
+
+msgid "There are no usable streams"
+msgstr "사용할 수 있는 스트림이 없습니다"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "{}에서 {}로 번역할 사전이 없습니다"
+
+msgid "There is no matching stream in {}"
+msgstr "{}에 일치하는 스트림이 없습니다"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "{} 언어의 음성 인식 모델이 없습니다"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "영화 자막을 자동으로 동기화하는 도구입니다.\n오디오 트랙의 음성을 인식하고 필요하면 번역하여 동기화합니다.\n다른 자막을 참조 자료로 사용할 수도 있습니다.\n\n제작자: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "전체 실패"
+
+msgid "Total progress:"
+msgstr "전체 진행률:"
+
+msgid "Turkish"
+msgstr "튀르키예어"
+
+msgid "Ukrainian"
+msgstr "우크라이나어"
+
+msgid "Unexpected error occurred"
+msgstr "예기치 않은 오류가 발생했습니다"
+
+msgid "Unknown file extension"
+msgstr "알 수 없는 파일 확장자입니다"
+
+msgid "Update assets"
+msgstr "리소스 업데이트"
+
+msgid "Update instalation failed miserably"
+msgstr "업데이트 설치가 완전히 실패했습니다"
+
+msgid "Update not available"
+msgstr "사용 가능한 업데이트가 없습니다"
+
+msgid "Update now?"
+msgstr "지금 업데이트하시겠습니까?"
+
+msgid "Updates:"
+msgstr "업데이트:"
+
+msgid "Upgrade"
+msgstr "업그레이드"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "사용법: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "동영상 파일"
+
+msgid "Website"
+msgstr "웹사이트"
+
+msgid "Your version is up to date"
+msgstr "최신 버전입니다"
+
+msgid "[details]"
+msgstr "[세부 정보]"
+
+msgid "[errors]"
+msgstr "[오류]"
+
+msgid "[hide]"
+msgstr "[숨기기]"
+
+msgid "[show more]"
+msgstr "[더 보기]"
+
+msgid "all"
+msgstr "모두"
+
+msgid "all channels"
+msgstr "모든 채널"
+
+msgid "and {} more"
+msgstr "외 {}개"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "두 글자 언어 코드 추가(ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "세 글자 언어 코드 추가(ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "스트림 번호 추가"
+
+msgid "ask for update on exit"
+msgstr "종료 시 업데이트 여부 묻기"
+
+msgid "audio"
+msgstr "오디오"
+
+msgid "auto"
+msgstr "자동"
+
+msgid "auto select"
+msgstr "자동 선택"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "파일 덮어쓰기 확인(일괄 모드)"
+
+msgid "correlation:"
+msgstr "상관 계수:"
+
+msgid "couldn't synchronize"
+msgstr "동기화하지 못했습니다"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "사용자 지정 빌드"
+
+msgid "custom names:"
+msgstr "사용자 지정 이름:"
+
+msgid "custom selection"
+msgstr "사용자 지정 선택"
+
+msgid "custom value:"
+msgstr "사용자 지정 값:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "기본값"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "동기화 작업 정의, 여러 번 지정 가능"
+
+msgid "description"
+msgstr "설명"
+
+msgid "dictionary {} / {}"
+msgstr "사전 {} / {}"
+
+msgid "directory path"
+msgstr "디렉터리 경로"
+
+msgid "display this help text and exit"
+msgstr "이 도움말을 표시하고 종료"
+
+msgid "display version information and exit"
+msgstr "버전 정보를 표시하고 종료"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "누락된 리소스를 받기 위해 원격 서버에 연결하지 않음"
+
+msgid "don't show this message again"
+msgstr "이 메시지를 다시 표시하지 않음"
+
+msgid "done"
+msgstr "완료"
+
+msgid "download updates automatically"
+msgstr "업데이트 자동 다운로드"
+
+msgid "downloading"
+msgstr "다운로드 중"
+
+msgid "drop here"
+msgstr "여기에 놓기"
+
+msgid "dump logs to specified file"
+msgstr "지정한 파일에 로그 내보내기"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "단어를 파일에 내보냅니다. PATH가 없으면 표준 출력을 사용합니다. SRC는 다음 중 하나입니다:  "
+
+msgid "elapsed time:"
+msgstr "경과 시간:"
+
+msgid "enable advanced debug options"
+msgstr "고급 디버그 옵션 활성화"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "파일 이름(경로 및 확장자 제외)"
+
+msgid "files with matching streams"
+msgstr "일치하는 스트림이 있는 파일"
+
+msgid "files without matching streams"
+msgstr "일치하는 스트림이 없는 파일"
+
+msgid "formula:"
+msgstr "수식:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "처리 강도(0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "<field>가 설정되지 않았으면 <value> 추가"
+
+msgid "if <field> is set, append <value>"
+msgstr "<field>가 설정되었으면 <value> 추가"
+
+msgid "import list of tasks from YAML file"
+msgstr "YAML 파일에서 작업 목록 가져오기"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "언어"
+
+msgid "language not selected"
+msgstr "언어를 선택하지 않음"
+
+msgid "less than minute"
+msgstr "1분 미만"
+
+msgid "log to file"
+msgstr "파일에 로그 기록"
+
+msgid "max change:"
+msgstr "최대 변경:"
+
+msgid "missing assets:"
+msgstr "누락된 리소스:"
+
+msgid "name"
+msgstr "이름"
+
+msgid "open batch processing window"
+msgstr "일괄 처리 창 열기"
+
+msgid "operation failed"
+msgstr "작업 실패"
+
+msgid "operation finished successfully"
+msgstr "작업을 완료했습니다"
+
+msgid "output character encoding"
+msgstr "출력 문자 인코딩"
+
+msgid "output file path or pattern"
+msgstr "출력 파일 경로 또는 패턴"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "출력 프레임 레이트(FPS 기반 자막용)"
+
+msgid "outputs"
+msgstr "출력"
+
+msgid "overwrite existing files"
+msgstr "기존 파일 덮어쓰기"
+
+msgid "path to reference file"
+msgstr "참조 파일 경로"
+
+msgid "path to subtitle file"
+msgstr "자막 파일 경로"
+
+msgid "pattern:"
+msgstr "패턴:"
+
+msgid "predefined names:"
+msgstr "미리 정의된 이름:"
+
+msgid "processing..."
+msgstr "처리 중..."
+
+msgid "queued..."
+msgstr "대기 중..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "참조 오디오 채널 매핑(오디오 참조용)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "참조 문자 인코딩(자막 참조용)"
+
+msgid "reference framerate"
+msgstr "참조 프레임 레이트"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "참조 언어(두 글자 또는 세 글자 ISO 코드)"
+
+msgid "reference stream no"
+msgstr "참조 스트림 번호"
+
+msgid "references"
+msgstr "참조 파일"
+
+msgid "references: "
+msgstr "참조 파일: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "GUI 없이 실행"
+
+msgid "same as input subtitles"
+msgstr "입력 자막과 같음"
+
+msgid "same as reference file"
+msgstr "참조 파일과 같음"
+
+msgid "select custom folder"
+msgstr "사용자 지정 폴더 선택"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "언어로 참조 스트림 선택(세 글자 ISO 코드)"
+
+msgid "select reference stream by type"
+msgstr "형식으로 참조 스트림 선택"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "언어로 자막 스트림 선택(세 글자 ISO 코드)"
+
+msgid "set logging level"
+msgstr "로그 수준 설정"
+
+msgid "stream"
+msgstr "스트림"
+
+msgid "subtitle character encoding"
+msgstr "자막 문자 인코딩"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "자막 프레임 레이트(FPS 기반 자막용)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "자막 언어(두 글자 또는 세 글자 ISO 코드)"
+
+msgid "subtitle stream no"
+msgstr "자막 스트림 번호"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "자막/참조 파일의 두 글자 언어 코드"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "자막/참조 파일의 세 글자 언어 코드"
+
+msgid "subtitle/reference file full path"
+msgstr "자막/참조 파일의 전체 경로"
+
+msgid "subtitle/reference stream number"
+msgstr "자막/참조 파일의 스트림 번호"
+
+msgid "subtitle/text"
+msgstr "자막/텍스트"
+
+msgid "subtitles"
+msgstr "자막"
+
+msgid "subtitles: "
+msgstr "자막: "
+
+msgid "synchronizing"
+msgstr "동기화 중"
+
+msgid "terminated"
+msgstr "종료됨"
+
+msgid "type"
+msgstr "형식"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "사용자 인터페이스 언어(두 글자 ISO 코드)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "자세히 표시 수준(0 - 3)"
+
+msgid "version "
+msgstr "버전 "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{}시간"
+
+msgid "{} min"
+msgstr "{}분"
+
+msgid "{} minutes"
+msgstr "{}분"
+
+msgid "{} speech recognition model"
+msgstr "{} 음성 인식 모델"
