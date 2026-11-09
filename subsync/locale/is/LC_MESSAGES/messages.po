@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Íslenska\nLanguage: is\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Um forritið"
+
+msgid "&Add files (auto sort)"
+msgstr "&Bæta við skrám (sjálfvirk flokkun)"
+
+msgid "&Close"
+msgstr "&Loka"
+
+msgid "&Edit"
+msgstr "&Breyta"
+
+msgid "&Export list"
+msgstr "&Flytja út lista"
+
+msgid "&File"
+msgstr "&Skrá"
+
+msgid "&Help"
+msgstr "&Hjálp"
+
+msgid "&Import list"
+msgstr "&Flytja inn lista"
+
+msgid "&Language"
+msgstr "&Tungumál"
+
+msgid "&New"
+msgstr "&Nýtt"
+
+msgid "&Properties"
+msgstr "&Eiginleikar"
+
+msgid "&Propeties"
+msgstr "&Eiginleikar"
+
+msgid "&Remove"
+msgstr "&Fjarlægja"
+
+msgid ", {} points"
+msgstr ", {} stig"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 fyrir sjálfvirkt."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 mínúta"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<sjálfvirkt>"
+
+msgid "<empty>"
+msgstr "<tómt>"
+
+msgid "<other>"
+msgstr "<annað>"
+
+msgid "<undefined>"
+msgstr "<óskilgreint>"
+
+msgid "About"
+msgstr "Um forritið"
+
+msgid "Add"
+msgstr "Bæta við"
+
+msgid "Add &folder"
+msgstr "&Bæta við möppu"
+
+msgid "Add &references"
+msgstr "&Bættu við tilvísunum"
+
+msgid "Add &subtitles"
+msgstr "&Bæta við texta"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albanska"
+
+msgid "All files"
+msgstr "Allar skrár"
+
+msgid "All supported files"
+msgstr "Allar studdar skrár"
+
+msgid "Another update in progress"
+msgstr "Önnur uppfærsla í gangi"
+
+msgid "Application upgrade"
+msgstr "Uppfærsla á forriti"
+
+msgid "Arabic"
+msgstr "arabíska"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Ertu viss um að þú viljir skrifa yfir úttaksskrár ef þær eru til?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Ertu viss um að þú viljir endurstilla stillingar á sjálfgefnar stillingar?"
+
+msgid "Asset installation failed"
+msgstr "Aðfangauppsetning mistókst"
+
+msgid "Au&to sort"
+msgstr "&Sjálfvirk flokkun"
+
+msgid "Audio &channels"
+msgstr "&Hljóðrásir"
+
+msgid "Audio channels"
+msgstr "Hljóðrásir"
+
+msgid "Audio channels:"
+msgstr "Hljóðrásir:"
+
+msgid "Auto detect"
+msgstr "Sjálfvirk skynjun"
+
+msgid "Auto sort"
+msgstr "Sjálfvirk flokkun"
+
+msgid "Batch Processing"
+msgstr "Lotuvinnsla"
+
+msgid "Batch processing"
+msgstr "Lotuvinnsla"
+
+msgid "Belarusian"
+msgstr "hvítrússneska"
+
+msgid "Bulgarian"
+msgstr "búlgarska"
+
+msgid "Can't save subtitle file"
+msgstr "Get ekki vistað textaskrá"
+
+msgid "Cancel"
+msgstr "Hætta við"
+
+msgid "Cannot load settings file, {}"
+msgstr "Get ekki hlaðið stillingaskrá, {}"
+
+msgid "Catalan"
+msgstr "katalónska"
+
+msgid "Character &encoding"
+msgstr "&Kóðun stafa"
+
+msgid "Character encoding"
+msgstr "Kóðun stafa"
+
+msgid "Character encoding:"
+msgstr "Stafnakóðun:"
+
+msgid "Check for updates"
+msgstr "Athuga fyrir uppfærslur"
+
+msgid "Checking for update..."
+msgstr "Leitar eftir uppfærslu..."
+
+msgid "Chinese"
+msgstr "kínverska"
+
+msgid "Close"
+msgstr "Loka"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Gat ekki vistað samstilltan texta"
+
+msgid "Couldn't synchronize"
+msgstr "Gat ekki samstillt"
+
+msgid "Credits"
+msgstr "Inneign"
+
+msgid "Croatian"
+msgstr "króatíska"
+
+msgid "Current file:"
+msgstr "Núverandi skrá:"
+
+msgid "Czech"
+msgstr "tékkneska"
+
+msgid "Danish"
+msgstr "danska"
+
+msgid "Debug"
+msgstr "Villuleit"
+
+msgid "Debug options:"
+msgstr "Kembiforrit:"
+
+msgid "Do you want to clear all items?"
+msgstr "Viltu hreinsa alla hluti?"
+
+msgid "Download"
+msgstr "Sækja"
+
+msgid "Download assets"
+msgstr "Hlaða niður tilföngum"
+
+msgid "Download now?"
+msgstr "Hlaða niður núna?"
+
+msgid "Downloading"
+msgstr "Hlaðar niður"
+
+msgid "Downloading assets list..."
+msgstr "Hleður niður auðlindalistanum..."
+
+msgid "Drop files here to add sorted"
+msgstr "Slepptu skrám hér til að bæta við flokkuðum"
+
+msgid "Dump all synchronization points"
+msgstr "Flyttu út alla samstillingarpunkta"
+
+msgid "Dump reference words"
+msgstr "Flyttu út viðurkennd tilvísunarorð"
+
+msgid "Dump subtitle words"
+msgstr "Flytja út textaorð"
+
+msgid "Dump used synchronization points"
+msgstr "Flyttu út samstillingarpunktana sem notaðir eru"
+
+msgid "Dutch"
+msgstr "hollenska"
+
+msgid "ETA:"
+msgstr "Eftir:"
+
+msgid "Edit all tasks"
+msgstr "Breyta öllum verkefnum"
+
+msgid "Edit failed tasks"
+msgstr "Breyta mistökum"
+
+msgid "Effort:"
+msgstr "Vandvirkni:"
+
+msgid "Elapsed:"
+msgstr "Liðinn tími:"
+
+msgid "Enable save button"
+msgstr "Virkja vistunarhnappinn"
+
+msgid "English"
+msgstr "Enska"
+
+msgid "Error"
+msgstr "Villa"
+
+msgid "Error during reference read"
+msgstr "Villa við lestur tilvísunar"
+
+msgid "Error during subtitles read"
+msgstr "Villa við lestur texta"
+
+msgid "Estonian"
+msgstr "Eistneska"
+
+msgid "Everything synchronized successfully"
+msgstr "Allt samstillt með góðum árangri"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Allt var samstillt en villur komu upp"
+
+msgid "Extractor jobs no:"
+msgstr "Fjöldi útdráttarverka:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "færeyska"
+
+msgid "File name:"
+msgstr "Nafn skráar:"
+
+msgid "File type:"
+msgstr "Skráartegund:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Sía út annála úr einingum (ein í hverja línu):"
+
+msgid "Finnish"
+msgstr "finnska"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Lagaðu tímastimpla texta fyrir úttakið með tilteknu móti, á sekúndum."
+
+msgid "Following assets could be updated:"
+msgstr "Hægt er að uppfæra eftirfarandi úrræði:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Hlaða verður niður eftirfarandi tilföngum til að halda áfram:"
+
+msgid "Following files could not be added:"
+msgstr "Ekki var hægt að bæta eftirfarandi skrám við:"
+
+msgid "French"
+msgstr "franska"
+
+msgid "GUI options:"
+msgstr "GUI valkostir:"
+
+msgid "Gaelic"
+msgstr "skosk gelíska"
+
+msgid "Galician"
+msgstr "galisíska"
+
+msgid "General"
+msgstr "Almennt"
+
+msgid "General options:"
+msgstr "Almennir valkostir:"
+
+msgid "German"
+msgstr "Þýska"
+
+msgid "Got errors, synchronization failed"
+msgstr "Samstilling mistókst vegna villna"
+
+msgid "Greek"
+msgstr "gríska"
+
+msgid "Headless options:"
+msgstr "Valkostir stjórnunarlínu (án grafísks viðmóts):"
+
+msgid "Hebrew"
+msgstr "Hebreska"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Hvernig á að samstilla texta vandlega. Hærra gildi bætir samstillingu en tekur lengri tíma."
+
+msgid "Hungarian"
+msgstr "ungverska"
+
+msgid "Icelandic"
+msgstr "íslenska"
+
+msgid "In seconds."
+msgstr "Á sekúndum."
+
+msgid "Indonesian"
+msgstr "indónesíska"
+
+msgid "Info"
+msgstr "Upplýsingar"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Fyrstu samstillingu er lokið.\nÞú gætir þegar vistað texta.\nEf þeir passa ekki skaltu bíða eftir betri niðurstöðu."
+
+msgid "Initializing..."
+msgstr "Frumstillir..."
+
+msgid "Input file:"
+msgstr "Inntaksskrá:"
+
+msgid "Invalid output pattern"
+msgstr "Ógilt úttaksmynstur"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Ógilt úttaksmynstur, ógilt leitarorð: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Ógilt úttaksmynstur, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Ógilt talhljóðsnið"
+
+msgid "Italian"
+msgstr "Ítalska"
+
+msgid "Japanese"
+msgstr "japanska"
+
+msgid "Korean"
+msgstr "kóreska"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Að velja tungumál er valfrjálst, en getur bætt samstillingarnákvæmni til muna.\nErtu viss?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Tungumálabreytingar taka gildi eftir endurræsingu forritsins"
+
+msgid "Language:"
+msgstr "Tungumál:"
+
+msgid "Languages"
+msgstr "Tungumál"
+
+msgid "Latin"
+msgstr "Latneskt"
+
+msgid "Latvian"
+msgstr "lettneska"
+
+msgid "License"
+msgstr "Leyfi"
+
+msgid "Lithuanian"
+msgstr "litháíska"
+
+msgid "Loading, please wait..."
+msgstr "Hleður, vinsamlegast bíðið..."
+
+msgid "Logging level:"
+msgstr "Stig annálsskráningar:"
+
+msgid "Malagasy"
+msgstr "Malagasíska"
+
+msgid "Malay"
+msgstr "Malaíska"
+
+msgid "Maltese"
+msgstr "maltneska"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Hámarksstilling. Tímar texta breytast ekki meira en þetta gildi. Hærra gildi tekur lengri tíma að samstilla. Ef þetta gildi er of lágt mun samstilling mistakast."
+
+msgid "Max adjustment:"
+msgstr "Mesta tímaleiðrétting:"
+
+msgid "Max points distance:"
+msgstr "Mesta frávik punkta:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Hámarks ásættanleg samstillingarvilla, í sekúndum. Samstillingarpunktum með meiri villu en þetta verður hent."
+
+msgid "Menu"
+msgstr "Valmynd"
+
+msgid "Min correlation factor:"
+msgstr "Lágm. fylgnistuðull:"
+
+msgid "Min points no:"
+msgstr "Lágmarksfjöldi punkta:"
+
+msgid "Min speech recognition score:"
+msgstr "Lágm. skor talgreiningar:"
+
+msgid "Min word length (letters):"
+msgstr "Lágm. orðslengd (stafir):"
+
+msgid "Min words similarity:"
+msgstr "Lágmarksorðalíking:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Lágmarks fylgnistuðull, á milli 0,0 og 1,0. Notað til að ákvarða niðurstöðu samstillingar. Ef fylgnistuðull er minni en þetta mun samstilling mistakast."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Lágmarks talgreiningarstig, á milli 0,0 og 1,0. Orðum sem eru afrituð með lægri einkunn verður hafnað."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Lágmarks orðlengd, í stöfum. Styttri orð verða ekki notuð sem samstillingarpunktar. Á aðeins við um tungumál sem byggjast á stafrófinu."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Lágmarks orðalíking fyrir samstillingarpunkta. Milli 0,0 og 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Lágmarksfjöldi samstillingarpunkta. Ekki stilla þetta of hátt, þar sem það gæti valdið mörgum fölskum jákvæðum."
+
+msgid "New synchronization"
+msgstr "Ný samstilling"
+
+msgid "New version is available. Update now?"
+msgstr "Ný útgáfa er fáanleg. Uppfæra núna?"
+
+msgid "No language selected"
+msgstr "Ekkert tungumál valið"
+
+msgid "No language selected for:"
+msgstr "Ekkert tungumál valið fyrir:"
+
+msgid "No need to synchronize"
+msgstr "Engin þörf á að samstilla"
+
+msgid "Norwegian"
+msgstr "norsk"
+
+msgid "Not supported stream type"
+msgstr "Ekki studd lagategund"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Fjöldi samhliða samstillingarþráða."
+
+msgid "OK"
+msgstr "Í lagi"
+
+msgid "Output directory:"
+msgstr "Úttaksskrá:"
+
+msgid "Output encoding:"
+msgstr "Úttakskóðun:"
+
+msgid "Output file names"
+msgstr "Nöfn úttaksskráa"
+
+msgid "Output file not set"
+msgstr "Úttaksskrá ekki stillt"
+
+msgid "Output filename:"
+msgstr "Nafn úttaksskrár:"
+
+msgid "Output timing offset:"
+msgstr "Tímahliðrun úttaks:"
+
+msgid "Overwrite existing files"
+msgstr "Skrifa yfir núverandi skrár"
+
+msgid "Overwrite files?"
+msgstr "Skrifa yfir skrár?"
+
+msgid "Persian"
+msgstr "persneska"
+
+msgid "Polish"
+msgstr "pólska"
+
+msgid "Portuguese"
+msgstr "Portúgalska"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Komdu í veg fyrir að þú farir að sofa meðan á samstillingu stendur"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Kemur í veg fyrir að kerfið fari að sofa meðan á samstillingu stendur.\nÞað gat ekki virkað á öllum kerfum."
+
+msgid "Reference file not set"
+msgstr "Tilvísunarskrá ekki stillt"
+
+msgid "References (video or other subtitles):"
+msgstr "Tilvísanir (myndband eða annar texti):"
+
+msgid "Remove"
+msgstr "Fjarlægja"
+
+msgid "Remove items"
+msgstr "Fjarlægja hluti"
+
+msgid "Restore defaults"
+msgstr "Endurheimta sjálfgefna stillingar"
+
+msgid "Romanian"
+msgstr "rúmenska"
+
+msgid "Russian"
+msgstr "rússneska"
+
+msgid "Save"
+msgstr "Vista"
+
+msgid "Select"
+msgstr "Velja"
+
+msgid "Select &all"
+msgstr "&Veldu allt"
+
+msgid "Select &stream"
+msgstr "&Velja straum"
+
+msgid "Select all &references"
+msgstr "&Veldu allar tilvísanir"
+
+msgid "Select all &subtitles"
+msgstr "&Veldu alla texta"
+
+msgid "Select all o&utputs"
+msgstr "&Veldu allar úttak"
+
+msgid "Select audio channels to listen to:"
+msgstr "Veldu hljóðrásir til að hlusta á:"
+
+msgid "Select character encoding"
+msgstr "Veldu stafakóðun"
+
+msgid "Select directory"
+msgstr "Veldu möppu"
+
+msgid "Select file"
+msgstr "Veldu skrá"
+
+msgid "Select language"
+msgstr "Veldu tungumál"
+
+msgid "Select output"
+msgstr "Veldu úttak"
+
+msgid "Select output directory"
+msgstr "Veldu úttaksskrá"
+
+msgid "Select output subtitles framerate:"
+msgstr "Veldu rammahraða úttakstexta:"
+
+msgid "Select reference language first"
+msgstr "Veldu fyrst tilvísunartungumál"
+
+msgid "Select stream"
+msgstr "Velja straum"
+
+msgid "Select stream by language:"
+msgstr "Velja straum eftir tungumáli:"
+
+msgid "Select stream by title:"
+msgstr "Velja straum eftir titli:"
+
+msgid "Select stream by type:"
+msgstr "Velja straum eftir gerð:"
+
+msgid "Select stream:"
+msgstr "Velja straum:"
+
+msgid "Select streams"
+msgstr "Velja strauma"
+
+msgid "Serbian"
+msgstr "serbneska"
+
+msgid "Set &input stream"
+msgstr "&Stillið innlag"
+
+msgid "Set &output location"
+msgstr "&Stillið úttaksstaðsetningu"
+
+msgid "Settings"
+msgstr "Stillingar"
+
+msgid "Show popups:"
+msgstr "Sýna sprettiglugga:"
+
+msgid "Signature verification failed"
+msgstr "Staðfesting undirskriftar mistókst"
+
+msgid "Slovak"
+msgstr "slóvakíska"
+
+msgid "Slovenian"
+msgstr "slóvenska"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Ekki er hægt að afkóða suma tilvísunartexta (ógild kóðun?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Ekki er hægt að afkóða suma texta (ógild kóðun?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Ekki var hægt að samstilla sum verkefni"
+
+msgid "Spanish"
+msgstr "spænska"
+
+msgid "Start"
+msgstr "Byrja"
+
+msgid "Status:"
+msgstr "Staða:"
+
+msgid "Stop"
+msgstr "Stöðva"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Textiskrár"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Texti getur ekki verið það sama og tilvísun"
+
+msgid "Subtitles not set"
+msgstr "Texti ekki stilltur"
+
+msgid "Subtitles synchronized"
+msgstr "Texti samstilltur"
+
+msgid "Subtitles:"
+msgstr "Textar:"
+
+msgid "Swedish"
+msgstr "sænska"
+
+msgid "Synchronization"
+msgstr "Samstilling"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Samstilling milli tungumála {} er ekki studd eins og er."
+
+msgid "Synchronization job:"
+msgstr "Samstillingarstarf:"
+
+msgid "Synchronization options:"
+msgstr "Samstillingarmöguleikar:"
+
+msgid "Synchronization terminated"
+msgstr "Samstillingu hætt"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Samstilling við {} hljóð er ekki studd eins og er."
+
+msgid "Synchronization: 0 points"
+msgstr "Samstilling: 0 stig"
+
+msgid "Synchronization: {} points"
+msgstr "Samstilling: {} punktar"
+
+msgid "Synchronizing..."
+msgstr "Samstillir..."
+
+msgid "Task:"
+msgstr "Verkefni:"
+
+msgid "Terminating, please wait..."
+msgstr "Hættir, vinsamlegast bíðið..."
+
+msgid "Terminating..."
+msgstr "Ljúka..."
+
+msgid "There are no usable streams"
+msgstr "Engir nothæfir straumar eru tiltækir"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Það er engin orðabók fyrir þýðingar frá {} til {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Það er ekkert lag sem samsvarar í {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Það er ekkert talgreiningarlíkan fyrir tungumál {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Þetta er sjálfvirkt samstillingartæki fyrir kvikmyndatexta.\nSamstilling fer fram með því að hlusta á hljóðlagið, þýða það ef nauðsyn krefur.\nÞað gæti líka notað annan texta til viðmiðunar.\n\nHöfundur: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Alger bilun"
+
+msgid "Total progress:"
+msgstr "Heildarframfarir:"
+
+msgid "Turkish"
+msgstr "tyrkneska"
+
+msgid "Ukrainian"
+msgstr "úkraínska"
+
+msgid "Unexpected error occurred"
+msgstr "Óvænt villa kom upp"
+
+msgid "Unknown file extension"
+msgstr "Óþekkt skráarlenging"
+
+msgid "Update assets"
+msgstr "Uppfæra tilföng"
+
+msgid "Update instalation failed miserably"
+msgstr "Ekki tókst að setja upp uppfærsluna"
+
+msgid "Update not available"
+msgstr "Uppfærsla ekki tiltæk"
+
+msgid "Update now?"
+msgstr "Uppfæra núna?"
+
+msgid "Updates:"
+msgstr "Uppfærslur:"
+
+msgid "Upgrade"
+msgstr "Uppfæra"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Notkun: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Myndskrár"
+
+msgid "Website"
+msgstr "Vefsíða"
+
+msgid "Your version is up to date"
+msgstr "Útgáfan þín er uppfærð"
+
+msgid "[details]"
+msgstr "[upplýsingar]"
+
+msgid "[errors]"
+msgstr "[villur]"
+
+msgid "[hide]"
+msgstr "[fela]"
+
+msgid "[show more]"
+msgstr "[sýna meira]"
+
+msgid "all"
+msgstr "allt"
+
+msgid "all channels"
+msgstr "allar rásir"
+
+msgid "and {} more"
+msgstr "og {} fleira"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "bæta við tveggja stafa tungumálakóða (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "bæta við þriggja stafa tungumálakóða (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "bæta við laganúmeri"
+
+msgid "ask for update on exit"
+msgstr "biðjið um uppfærslu við brottför"
+
+msgid "audio"
+msgstr "hljóð"
+
+msgid "auto"
+msgstr "sjálfvirk"
+
+msgid "auto select"
+msgstr "sjálfvirkt val"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "staðfestu yfirskrift skráar (í lotuham)"
+
+msgid "correlation:"
+msgstr "fylgni:"
+
+msgid "couldn't synchronize"
+msgstr "tókst ekki að samstilla"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "sérsmíðuð"
+
+msgid "custom names:"
+msgstr "sérnöfn:"
+
+msgid "custom selection"
+msgstr "sérsniðið val"
+
+msgid "custom value:"
+msgstr "sérsniðið gildi:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "sjálfgefið"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "skilgreina samstillingarverkefni, hægt að endurtaka mörgum sinnum"
+
+msgid "description"
+msgstr "lýsing"
+
+msgid "dictionary {} / {}"
+msgstr "orðabók {} / {}"
+
+msgid "directory path"
+msgstr "skráarslóð"
+
+msgid "display this help text and exit"
+msgstr "birta þennan hjálpartexta og hætta"
+
+msgid "display version information and exit"
+msgstr "birta útgáfuupplýsingar og hætta"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "ekki reyna að hafa samband við ytri netþjón til að fá eignir sem vantar"
+
+msgid "don't show this message again"
+msgstr "Ekki sýna þessi skilaboð aftur"
+
+msgid "done"
+msgstr "búið"
+
+msgid "download updates automatically"
+msgstr "halaðu niður uppfærslum sjálfkrafa"
+
+msgid "downloading"
+msgstr "niðurhal"
+
+msgid "drop here"
+msgstr "slepptu hér"
+
+msgid "dump logs to specified file"
+msgstr "skrifaðu annála í tilgreinda skrá"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "flytja út orð í skrá, eða í staðlað úttak ef PATH vantar; SRC er eitt af:  "
+
+msgid "elapsed time:"
+msgstr "liðinn tími:"
+
+msgid "enable advanced debug options"
+msgstr "virkja háþróaða villuleitarvalkosti"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "skráarheiti (án slóðar og framlengingar)"
+
+msgid "files with matching streams"
+msgstr "skrár með samsvarandi lögum"
+
+msgid "files without matching streams"
+msgstr "skrár án samsvarandi laga"
+
+msgid "formula:"
+msgstr "formúla:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "hversu erfitt að reyna (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "ef <field> er ekki stillt skaltu bæta við <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "ef <field> er stillt skaltu bæta við <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "flytja inn lista yfir verkefni úr YAML skrá"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "tungumál"
+
+msgid "language not selected"
+msgstr "tungumál ekki valið"
+
+msgid "less than minute"
+msgstr "minna en mínútu"
+
+msgid "log to file"
+msgstr "skrá í annálsskrá"
+
+msgid "max change:"
+msgstr "max breyting:"
+
+msgid "missing assets:"
+msgstr "vantar auðlindir:"
+
+msgid "name"
+msgstr "nafn"
+
+msgid "open batch processing window"
+msgstr "opna runuvinnslugluggann"
+
+msgid "operation failed"
+msgstr "aðgerð mistókst"
+
+msgid "operation finished successfully"
+msgstr "aðgerð lauk með góðum árangri"
+
+msgid "output character encoding"
+msgstr "úttaksstafakóðun"
+
+msgid "output file path or pattern"
+msgstr "úttaksskráarslóð eða mynstur"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "framleiðsla rammatíðni (fyrir FPS-undirritaða skjátexta)"
+
+msgid "outputs"
+msgstr "úttak"
+
+msgid "overwrite existing files"
+msgstr "skrifa yfir núverandi skrár"
+
+msgid "path to reference file"
+msgstr "slóð að tilvísunarskrá"
+
+msgid "path to subtitle file"
+msgstr "slóð að textaskrá"
+
+msgid "pattern:"
+msgstr "mynstur:"
+
+msgid "predefined names:"
+msgstr "forskilgreind nöfn:"
+
+msgid "processing..."
+msgstr "í vinnslu..."
+
+msgid "queued..."
+msgstr "í biðröð..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "tilvísun hljóðrása kortlagning (fyrir hljóðvísanir)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "tilvísunarstafakóðun (fyrir textatilvísanir)"
+
+msgid "reference framerate"
+msgstr "viðmiðunarrammatíðni"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "viðmiðunartungumál (2 eða 3 stafa ISO kóði)"
+
+msgid "reference stream no"
+msgstr "viðmiðunarlag nr"
+
+msgid "references"
+msgstr "viðmiðunarskrár"
+
+msgid "references: "
+msgstr "viðmiðunarskrár: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "hlaupa í höfuðlausri stillingu (án GUI)"
+
+msgid "same as input subtitles"
+msgstr "sama og innsláttartextar"
+
+msgid "same as reference file"
+msgstr "sama og tilvísunarskrá"
+
+msgid "select custom folder"
+msgstr "veldu sérsniðna möppu"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "velja tilvísunarlag eftir tungumáli (3 stafa ISO-kóði)"
+
+msgid "select reference stream by type"
+msgstr "veldu tilvísunarlag eftir gerð"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "veldu textalag eftir tungumáli (3 stafa ISO kóði)"
+
+msgid "set logging level"
+msgstr "stilla skráningarstig"
+
+msgid "stream"
+msgstr "straumur"
+
+msgid "subtitle character encoding"
+msgstr "textakóðun"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "rammahraði texta (fyrir FPS byggða texta)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "textamál (2 eða 3 stafa ISO kóði)"
+
+msgid "subtitle stream no"
+msgstr "textalag nr"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "texti/tilvísun Tveggja stafa tungumálakóði"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "texti/tilvísun 3 stafa tungumálakóði"
+
+msgid "subtitle/reference file full path"
+msgstr "texti/tilvísunarskrá full slóð"
+
+msgid "subtitle/reference stream number"
+msgstr "númer texta/tilvísunarlags"
+
+msgid "subtitle/text"
+msgstr "texti/texti"
+
+msgid "subtitles"
+msgstr "textar"
+
+msgid "subtitles: "
+msgstr "textar: "
+
+msgid "synchronizing"
+msgstr "samstilling"
+
+msgid "terminated"
+msgstr "hætt"
+
+msgid "type"
+msgstr "gerð"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "tungumál notendaviðmóts (2 stafa ISO kóði)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "möguleikastig (0 - 3)"
+
+msgid "version "
+msgstr "útgáfa "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} klst"
+
+msgid "{} min"
+msgstr "{} mín"
+
+msgid "{} minutes"
+msgstr "{} mínútur"
+
+msgid "{} speech recognition model"
+msgstr "{} talgreiningarlíkan"

@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Lietuvių\nLanguage: lt\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Apie programą"
+
+msgid "&Add files (auto sort)"
+msgstr "&Pridėti failus (automatinis rūšiavimas)"
+
+msgid "&Close"
+msgstr "&Uždaryti"
+
+msgid "&Edit"
+msgstr "&Taisa"
+
+msgid "&Export list"
+msgstr "&Eksportuoti sąrašą"
+
+msgid "&File"
+msgstr "&Failas"
+
+msgid "&Help"
+msgstr "&Žinynas"
+
+msgid "&Import list"
+msgstr "&Importuoti sąrašą"
+
+msgid "&Language"
+msgstr "&Kalba"
+
+msgid "&New"
+msgstr "&Naujas"
+
+msgid "&Properties"
+msgstr "&Savybės"
+
+msgid "&Propeties"
+msgstr "&Savybės"
+
+msgid "&Remove"
+msgstr "&Pašalinti"
+
+msgid ", {} points"
+msgstr ", {} taškų"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 automobiliams."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minutė"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automatinis>"
+
+msgid "<empty>"
+msgstr "<tuščia>"
+
+msgid "<other>"
+msgstr "<kita>"
+
+msgid "<undefined>"
+msgstr "<neapibrėžta>"
+
+msgid "About"
+msgstr "Apie programą"
+
+msgid "Add"
+msgstr "Pridėti"
+
+msgid "Add &folder"
+msgstr "&Pridėti aplanką"
+
+msgid "Add &references"
+msgstr "&Pridėti nuorodas"
+
+msgid "Add &subtitles"
+msgstr "&Pridėti subtitrus"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albanų k"
+
+msgid "All files"
+msgstr "Visi failai"
+
+msgid "All supported files"
+msgstr "Visi palaikomi failai"
+
+msgid "Another update in progress"
+msgstr "Vykdomas dar vienas atnaujinimas"
+
+msgid "Application upgrade"
+msgstr "Programos atnaujinimas"
+
+msgid "Arabic"
+msgstr "arabų k"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Ar tikrai norite perrašyti išvesties failus, jei jie egzistuoja?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Ar tikrai norite iš naujo nustatyti numatytuosius nustatymus?"
+
+msgid "Asset installation failed"
+msgstr "Išteklių įdiegti nepavyko"
+
+msgid "Au&to sort"
+msgstr "&Automatinis rūšiavimas"
+
+msgid "Audio &channels"
+msgstr "&Garso kanalai"
+
+msgid "Audio channels"
+msgstr "Garso kanalai"
+
+msgid "Audio channels:"
+msgstr "Garso kanalai:"
+
+msgid "Auto detect"
+msgstr "Automatinis aptikimas"
+
+msgid "Auto sort"
+msgstr "Automatinis rūšiavimas"
+
+msgid "Batch Processing"
+msgstr "Paketinis apdorojimas"
+
+msgid "Batch processing"
+msgstr "Paketinis apdorojimas"
+
+msgid "Belarusian"
+msgstr "baltarusių"
+
+msgid "Bulgarian"
+msgstr "bulgarų k"
+
+msgid "Can't save subtitle file"
+msgstr "Nepavyko išsaugoti subtitrų failo"
+
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+msgid "Cannot load settings file, {}"
+msgstr "Nepavyko įkelti nustatymų failo, {}"
+
+msgid "Catalan"
+msgstr "katalonų"
+
+msgid "Character &encoding"
+msgstr "&Simbolių kodavimas"
+
+msgid "Character encoding"
+msgstr "Simbolių kodavimas"
+
+msgid "Character encoding:"
+msgstr "Simbolių kodavimas:"
+
+msgid "Check for updates"
+msgstr "Patikrinti, ar nėra naujinimų"
+
+msgid "Checking for update..."
+msgstr "Tikrinama, ar nėra naujinimų..."
+
+msgid "Chinese"
+msgstr "Kinų k"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Nepavyko išsaugoti sinchronizuotų subtitrų"
+
+msgid "Couldn't synchronize"
+msgstr "Nepavyko sinchronizuoti"
+
+msgid "Credits"
+msgstr "Kreditai"
+
+msgid "Croatian"
+msgstr "kroatų k"
+
+msgid "Current file:"
+msgstr "Dabartinis failas:"
+
+msgid "Czech"
+msgstr "čekų k"
+
+msgid "Danish"
+msgstr "danų k"
+
+msgid "Debug"
+msgstr "Derinimas"
+
+msgid "Debug options:"
+msgstr "Derinimo parinktys:"
+
+msgid "Do you want to clear all items?"
+msgstr "Ar norite išvalyti visus elementus?"
+
+msgid "Download"
+msgstr "Atsisiųsti"
+
+msgid "Download assets"
+msgstr "Atsisiųskite išteklius"
+
+msgid "Download now?"
+msgstr "Atsisiųsti dabar?"
+
+msgid "Downloading"
+msgstr "Atsisiunčiama"
+
+msgid "Downloading assets list..."
+msgstr "Atsisiunčiamas išteklių sąrašas..."
+
+msgid "Drop files here to add sorted"
+msgstr "Nuvilkite failus čia, kad pridėtumėte surūšiuotus"
+
+msgid "Dump all synchronization points"
+msgstr "Eksportuokite visus sinchronizavimo taškus"
+
+msgid "Dump reference words"
+msgstr "Eksportuokite atpažintus nuorodos žodžius"
+
+msgid "Dump subtitle words"
+msgstr "Eksportuoti subtitrų žodžius"
+
+msgid "Dump used synchronization points"
+msgstr "Eksportuokite naudojamus sinchronizavimo taškus"
+
+msgid "Dutch"
+msgstr "olandų k"
+
+msgid "ETA:"
+msgstr "Liko:"
+
+msgid "Edit all tasks"
+msgstr "Redaguokite visas užduotis"
+
+msgid "Edit failed tasks"
+msgstr "Redaguoti nepavykusias užduotis"
+
+msgid "Effort:"
+msgstr "Kruopštumas:"
+
+msgid "Elapsed:"
+msgstr "Praėjo:"
+
+msgid "Enable save button"
+msgstr "Įgalinti išsaugojimo mygtuką"
+
+msgid "English"
+msgstr "Anglų k"
+
+msgid "Error"
+msgstr "Klaida"
+
+msgid "Error during reference read"
+msgstr "Klaida nuskaitant nuorodą"
+
+msgid "Error during subtitles read"
+msgstr "Klaida skaitant subtitrus"
+
+msgid "Estonian"
+msgstr "estų k"
+
+msgid "Everything synchronized successfully"
+msgstr "Viskas sėkmingai sinchronizuota"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Viskas buvo sinchronizuota, bet įvyko klaidų"
+
+msgid "Extractor jobs no:"
+msgstr "Ištraukimo darbų skaičius:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Farerų k"
+
+msgid "File name:"
+msgstr "Failo pavadinimas:"
+
+msgid "File type:"
+msgstr "Failo tipas:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Filtruokite žurnalus iš modulių (po vieną eilutėje):"
+
+msgid "Finnish"
+msgstr "suomių k"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Pataisykite išvesties subtitrų laiko žymes pagal nurodytą poslinkį, sekundėmis."
+
+msgid "Following assets could be updated:"
+msgstr "Galima atnaujinti šiuos išteklius:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Norint tęsti, reikia atsisiųsti šiuos išteklius:"
+
+msgid "Following files could not be added:"
+msgstr "Nepavyko pridėti šių failų:"
+
+msgid "French"
+msgstr "prancūzų k"
+
+msgid "GUI options:"
+msgstr "GUI parinktys:"
+
+msgid "Gaelic"
+msgstr "Škotijos gėlų kalba"
+
+msgid "Galician"
+msgstr "Galicija"
+
+msgid "General"
+msgstr "Bendrosios"
+
+msgid "General options:"
+msgstr "Bendrosios parinktys:"
+
+msgid "German"
+msgstr "vokiečių k"
+
+msgid "Got errors, synchronization failed"
+msgstr "Sinchronizuoti nepavyko dėl klaidų"
+
+msgid "Greek"
+msgstr "graikų k"
+
+msgid "Headless options:"
+msgstr "Komandinės eilutės parinktys (be grafinės sąsajos):"
+
+msgid "Hebrew"
+msgstr "hebrajų k"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Kaip kruopščiai sinchronizuoti subtitrus. Didesnė vertė pagerina sinchronizavimą, bet užtrunka ilgiau."
+
+msgid "Hungarian"
+msgstr "vengrų k"
+
+msgid "Icelandic"
+msgstr "Islandų k"
+
+msgid "In seconds."
+msgstr "Per kelias sekundes."
+
+msgid "Indonesian"
+msgstr "indoneziečių k"
+
+msgid "Info"
+msgstr "Informacija"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Pradinė sinchronizacija atlikta.\nGalėtumėte jau išsaugoti subtitrus.\nJei jie nesutampa, palaukite geresnio rezultato."
+
+msgid "Initializing..."
+msgstr "Inicijuojama..."
+
+msgid "Input file:"
+msgstr "Įvesties failas:"
+
+msgid "Invalid output pattern"
+msgstr "Netinkamas išvesties šablonas"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Netinkamas išvesties šablonas, netinkamas raktinis žodis: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Netinkamas išvesties šablonas, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Netinkamas kalbos garso formatas"
+
+msgid "Italian"
+msgstr "italų k"
+
+msgid "Japanese"
+msgstr "japonų k"
+
+msgid "Korean"
+msgstr "korėjiečių"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Kalbos pasirinkimas yra neprivalomas, bet gali labai pagerinti sinchronizavimo tikslumą.\nAr esate tikri?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Kalbos pakeitimai įsigalios iš naujo paleidus programą"
+
+msgid "Language:"
+msgstr "Kalba:"
+
+msgid "Languages"
+msgstr "Kalbos"
+
+msgid "Latin"
+msgstr "Lotynų k"
+
+msgid "Latvian"
+msgstr "latvių k"
+
+msgid "License"
+msgstr "Licencija"
+
+msgid "Lithuanian"
+msgstr "lietuvių k"
+
+msgid "Loading, please wait..."
+msgstr "Įkeliama, palaukite..."
+
+msgid "Logging level:"
+msgstr "Žurnalo lygis:"
+
+msgid "Malagasy"
+msgstr "Malagasų"
+
+msgid "Malay"
+msgstr "Malajiečių k"
+
+msgid "Maltese"
+msgstr "Maltiečių k"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maksimalus reguliavimas. Subtitrų laikas nepasikeis daugiau nei šia verte. Didesnė vertė sinchronizuojama ilgiau. Jei ši reikšmė per maža, sinchronizuoti nepavyks."
+
+msgid "Max adjustment:"
+msgstr "Didžiausias laiko pataisymas:"
+
+msgid "Max points distance:"
+msgstr "Didžiausias taškų nuokrypis:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Didžiausia priimtina sinchronizavimo klaida, sekundėmis. Sinchronizavimo taškai, kurių paklaida didesnė nei ši, bus atmesti."
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "Min correlation factor:"
+msgstr "Min. koreliacijos koeficientas:"
+
+msgid "Min points no:"
+msgstr "Mažiausias taškų skaičius:"
+
+msgid "Min speech recognition score:"
+msgstr "Min. kalbos atpažinimo balas:"
+
+msgid "Min word length (letters):"
+msgstr "Minimalus žodžio ilgis (raidės):"
+
+msgid "Min words similarity:"
+msgstr "Min žodžių panašumas:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Mažiausias koreliacijos koeficientas, tarp 0,0 ir 1,0. Naudojamas sinchronizavimo rezultatui nustatyti. Jei koreliacijos koeficientas yra mažesnis už tai, sinchronizuoti nepavyks."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minimalus kalbos atpažinimo balas, nuo 0,0 iki 1,0. Mažesniu balu perrašyti žodžiai bus atmesti."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Mažiausias žodžio ilgis, raidėmis. Trumpesni žodžiai nebus naudojami kaip sinchronizavimo taškai. Taikoma tik abėcėlės kalboms."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Mažiausias žodžių panašumas sinchronizacijos taškams. Nuo 0,0 iki 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Minimalus sinchronizavimo taškų skaičius. Nenustatykite šios per didelės vertės, nes tai gali sukelti daug klaidingų teigiamų rezultatų."
+
+msgid "New synchronization"
+msgstr "Nauja sinchronizacija"
+
+msgid "New version is available. Update now?"
+msgstr "Galima nauja versija. Atnaujinti dabar?"
+
+msgid "No language selected"
+msgstr "Nepasirinkta jokia kalba"
+
+msgid "No language selected for:"
+msgstr "Nepasirinkta jokia kalba:"
+
+msgid "No need to synchronize"
+msgstr "Nereikia sinchronizuoti"
+
+msgid "Norwegian"
+msgstr "norvegų k"
+
+msgid "Not supported stream type"
+msgstr "Nepalaikomas takelio tipas"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Vienu metu vykstančių sinchronizavimo gijų skaičius."
+
+msgid "OK"
+msgstr "Gerai"
+
+msgid "Output directory:"
+msgstr "Išvesties katalogas:"
+
+msgid "Output encoding:"
+msgstr "Išvesties kodavimas:"
+
+msgid "Output file names"
+msgstr "Išvesties failų pavadinimai"
+
+msgid "Output file not set"
+msgstr "Išvesties failas nenustatytas"
+
+msgid "Output filename:"
+msgstr "Išvesties failo pavadinimas:"
+
+msgid "Output timing offset:"
+msgstr "Išvesties laiko poslinkis:"
+
+msgid "Overwrite existing files"
+msgstr "Perrašyti esamus failus"
+
+msgid "Overwrite files?"
+msgstr "Perrašyti failus?"
+
+msgid "Persian"
+msgstr "persų k"
+
+msgid "Polish"
+msgstr "lenkų k"
+
+msgid "Portuguese"
+msgstr "portugalų k"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Neleiskite užmigti sinchronizavimo metu"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Neleidžia sistemai užmigti sinchronizavimo metu.\nNegali veikti visose platformose."
+
+msgid "Reference file not set"
+msgstr "Nuorodos failas nenustatytas"
+
+msgid "References (video or other subtitles):"
+msgstr "Nuorodos (vaizdo įrašas ar kiti subtitrai):"
+
+msgid "Remove"
+msgstr "Pašalinti"
+
+msgid "Remove items"
+msgstr "Pašalinkite elementus"
+
+msgid "Restore defaults"
+msgstr "Atkurti numatytuosius nustatymus"
+
+msgid "Romanian"
+msgstr "rumunų k"
+
+msgid "Russian"
+msgstr "rusų k"
+
+msgid "Save"
+msgstr "Įrašyti"
+
+msgid "Select"
+msgstr "Pasirinkti"
+
+msgid "Select &all"
+msgstr "&Pasirinkti viską"
+
+msgid "Select &stream"
+msgstr "&Pasirinkti takelį"
+
+msgid "Select all &references"
+msgstr "&Pasirinkite visas nuorodas"
+
+msgid "Select all &subtitles"
+msgstr "&Pasirinkite visus subtitrus"
+
+msgid "Select all o&utputs"
+msgstr "&Pasirinkite visus išėjimus"
+
+msgid "Select audio channels to listen to:"
+msgstr "Pasirinkite garso kanalus, kurių norite klausytis:"
+
+msgid "Select character encoding"
+msgstr "Pasirinkite simbolių kodavimą"
+
+msgid "Select directory"
+msgstr "Pasirinkite katalogą"
+
+msgid "Select file"
+msgstr "Pasirinkite failą"
+
+msgid "Select language"
+msgstr "Pasirinkite kalbą"
+
+msgid "Select output"
+msgstr "Pasirinkite išvestį"
+
+msgid "Select output directory"
+msgstr "Pasirinkite išvesties katalogą"
+
+msgid "Select output subtitles framerate:"
+msgstr "Pasirinkite išvesties subtitrų kadrų dažnį:"
+
+msgid "Select reference language first"
+msgstr "Pirmiausia pasirinkite nuorodos kalbą"
+
+msgid "Select stream"
+msgstr "Pasirinkti takelį"
+
+msgid "Select stream by language:"
+msgstr "Pasirinkti takelį pagal kalbą:"
+
+msgid "Select stream by title:"
+msgstr "Pasirinkti takelį pagal pavadinimą:"
+
+msgid "Select stream by type:"
+msgstr "Pasirinkti takelį pagal tipą:"
+
+msgid "Select stream:"
+msgstr "Pasirinkti takelį:"
+
+msgid "Select streams"
+msgstr "Pasirinkti takelius"
+
+msgid "Serbian"
+msgstr "serbų k"
+
+msgid "Set &input stream"
+msgstr "&Nustatykite įvesties takelį"
+
+msgid "Set &output location"
+msgstr "&Nustatykite išvesties vietą"
+
+msgid "Settings"
+msgstr "Nuostatos"
+
+msgid "Show popups:"
+msgstr "Rodyti iššokančiuosius langus:"
+
+msgid "Signature verification failed"
+msgstr "Parašo patvirtinimas nepavyko"
+
+msgid "Slovak"
+msgstr "slovakų k"
+
+msgid "Slovenian"
+msgstr "slovėnų k"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Kai kurių nuorodų subtitrų negalima iššifruoti (netinkama koduotė?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Kai kurių subtitrų negalima iššifruoti (netinkama koduotė?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Kai kurių užduočių nepavyko sinchronizuoti"
+
+msgid "Spanish"
+msgstr "Ispanų k"
+
+msgid "Start"
+msgstr "Pradėti"
+
+msgid "Status:"
+msgstr "Būsena:"
+
+msgid "Stop"
+msgstr "Stabdyti"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Subtitrų failai"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Subtitrai negali būti tokie patys kaip nuoroda"
+
+msgid "Subtitles not set"
+msgstr "Subtitrai nenustatyti"
+
+msgid "Subtitles synchronized"
+msgstr "Subtitrai sinchronizuoti"
+
+msgid "Subtitles:"
+msgstr "Subtitrai:"
+
+msgid "Swedish"
+msgstr "Švedų k"
+
+msgid "Synchronization"
+msgstr "Sinchronizavimas"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Kalbų {} sinchronizavimas šiuo metu nepalaikomas."
+
+msgid "Synchronization job:"
+msgstr "Sinchronizavimo užduotis:"
+
+msgid "Synchronization options:"
+msgstr "Sinchronizavimo parinktys:"
+
+msgid "Synchronization terminated"
+msgstr "Sinchronizavimas nutrauktas"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Sinchronizavimas su {} garsu šiuo metu nepalaikomas."
+
+msgid "Synchronization: 0 points"
+msgstr "Sinchronizavimas: 0 balų"
+
+msgid "Synchronization: {} points"
+msgstr "Sinchronizavimas: {} taškų"
+
+msgid "Synchronizing..."
+msgstr "Sinchronizuojama..."
+
+msgid "Task:"
+msgstr "Užduotis:"
+
+msgid "Terminating, please wait..."
+msgstr "Nutraukiama, palaukite..."
+
+msgid "Terminating..."
+msgstr "Nutraukiama..."
+
+msgid "There are no usable streams"
+msgstr "Nėra tinkamų takelių"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Nėra žodyno vertimui iš {} į {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Nėra atitinkančio takelio {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Kalbai {} nėra kalbos atpažinimo modelio"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Tai automatinis filmo subtitrų sinchronizavimo įrankis.\nSinchronizavimas atliekamas klausantis garso takelio, jei reikia, jį išverčiant.\nTaip pat gali būti naudojami kiti subtitrai kaip nuoroda.\n\nAutorius: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Visiška nesėkmė"
+
+msgid "Total progress:"
+msgstr "Visa pažanga:"
+
+msgid "Turkish"
+msgstr "turkų k"
+
+msgid "Ukrainian"
+msgstr "ukrainietis"
+
+msgid "Unexpected error occurred"
+msgstr "Įvyko netikėta klaida"
+
+msgid "Unknown file extension"
+msgstr "Nežinomas failo plėtinys"
+
+msgid "Update assets"
+msgstr "Atnaujinkite išteklius"
+
+msgid "Update instalation failed miserably"
+msgstr "Nepavyko įdiegti naujinimo"
+
+msgid "Update not available"
+msgstr "Naujinimas nepasiekiamas"
+
+msgid "Update now?"
+msgstr "Atnaujinti dabar?"
+
+msgid "Updates:"
+msgstr "Atnaujinimai:"
+
+msgid "Upgrade"
+msgstr "Atnaujinti"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Naudojimas: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Vaizdo failai"
+
+msgid "Website"
+msgstr "Svetainė"
+
+msgid "Your version is up to date"
+msgstr "Jūsų versija yra atnaujinta"
+
+msgid "[details]"
+msgstr "[detaliau]"
+
+msgid "[errors]"
+msgstr "[klaidos]"
+
+msgid "[hide]"
+msgstr "[slėpti]"
+
+msgid "[show more]"
+msgstr "[rodyti daugiau]"
+
+msgid "all"
+msgstr "viskas"
+
+msgid "all channels"
+msgstr "visi kanalai"
+
+msgid "and {} more"
+msgstr "ir {} daugiau"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "pridėkite 2 raidžių kalbos kodą (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "pridėkite 3 raidžių kalbos kodą (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "pridėkite takelio numerį"
+
+msgid "ask for update on exit"
+msgstr "Prašyti atnaujinimo išeinant"
+
+msgid "audio"
+msgstr "garsas"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "auto select"
+msgstr "automatinis pasirinkimas"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "patvirtinti failo perrašymą (paketiniu režimu)"
+
+msgid "correlation:"
+msgstr "koreliacija:"
+
+msgid "couldn't synchronize"
+msgstr "nepavyko sinchronizuoti"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "pagal užsakymą"
+
+msgid "custom names:"
+msgstr "priskirti pavadinimai:"
+
+msgid "custom selection"
+msgstr "pritaikytas pasirinkimas"
+
+msgid "custom value:"
+msgstr "priskirta vertė:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "numatytoji"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "apibrėžti sinchronizavimo užduotį, gali būti kartojama kelis kartus"
+
+msgid "description"
+msgstr "aprašymas"
+
+msgid "dictionary {} / {}"
+msgstr "žodynas {} / {}"
+
+msgid "directory path"
+msgstr "katalogo kelias"
+
+msgid "display this help text and exit"
+msgstr "parodykite šį pagalbos tekstą ir išeikite"
+
+msgid "display version information and exit"
+msgstr "Rodyti versijos informaciją ir išeiti"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "Nebandykite susisiekti su nuotoliniu serveriu, kad gautumėte trūkstamą turtą"
+
+msgid "don't show this message again"
+msgstr "daugiau nerodyti šio pranešimo"
+
+msgid "done"
+msgstr "padaryta"
+
+msgid "download updates automatically"
+msgstr "atsisiųskite naujinimus automatiškai"
+
+msgid "downloading"
+msgstr "atsiuntimas"
+
+msgid "drop here"
+msgstr "numeskite čia"
+
+msgid "dump logs to specified file"
+msgstr "įrašykite žurnalus į nurodytą failą"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "eksportuoti žodžius į failą arba į standartinę išvestį, jei trūksta PATH; SRC yra vienas iš:  "
+
+msgid "elapsed time:"
+msgstr "praėjęs laikas:"
+
+msgid "enable advanced debug options"
+msgstr "įgalinkite išplėstines derinimo parinktis"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "failo pavadinimas (be kelio ir plėtinio)"
+
+msgid "files with matching streams"
+msgstr "failų su atitinkamais takeliais"
+
+msgid "files without matching streams"
+msgstr "failai be atitinkamų takelių"
+
+msgid "formula:"
+msgstr "formulė:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "kaip sunku išbandyti (0,0–1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "jei <field> nenustatytas, pridėkite <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "jei nustatytas <field>, pridėkite <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importuoti užduočių sąrašą iš YAML failo"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "kalba"
+
+msgid "language not selected"
+msgstr "kalba nepasirinkta"
+
+msgid "less than minute"
+msgstr "mažiau nei minutę"
+
+msgid "log to file"
+msgstr "rašyti žurnalą į failą"
+
+msgid "max change:"
+msgstr "maksimalus pokytis:"
+
+msgid "missing assets:"
+msgstr "trūksta išteklių:"
+
+msgid "name"
+msgstr "vardas"
+
+msgid "open batch processing window"
+msgstr "atidarykite paketinio apdorojimo langą"
+
+msgid "operation failed"
+msgstr "operacija nepavyko"
+
+msgid "operation finished successfully"
+msgstr "operacija sėkmingai baigta"
+
+msgid "output character encoding"
+msgstr "išvesties simbolių kodavimas"
+
+msgid "output file path or pattern"
+msgstr "išvesties failo kelias arba šablonas"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "išvesties kadrų dažnis (FPS subtitrams)"
+
+msgid "outputs"
+msgstr "išėjimai"
+
+msgid "overwrite existing files"
+msgstr "perrašyti esamus failus"
+
+msgid "path to reference file"
+msgstr "nuorodos failo kelias"
+
+msgid "path to subtitle file"
+msgstr "kelias į subtitrų failą"
+
+msgid "pattern:"
+msgstr "modelis:"
+
+msgid "predefined names:"
+msgstr "iš anksto nustatyti pavadinimai:"
+
+msgid "processing..."
+msgstr "apdorojimas..."
+
+msgid "queued..."
+msgstr "eilėje..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "referencinių garso kanalų atvaizdavimas (garso nuorodoms)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "nuorodos simbolių kodavimas (subtitrų nuorodoms)"
+
+msgid "reference framerate"
+msgstr "atskaitos kadrų dažnis"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "atskaitos kalba (2 arba 3 raidžių ISO kodas)"
+
+msgid "reference stream no"
+msgstr "atskaitos takelis Nr"
+
+msgid "references"
+msgstr "etaloniniai failai"
+
+msgid "references: "
+msgstr "etaloniniai failai: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "paleisti be galvos režimu (be GUI)"
+
+msgid "same as input subtitles"
+msgstr "tas pats kaip įvesties subtitrai"
+
+msgid "same as reference file"
+msgstr "tas pats kaip nuorodos failas"
+
+msgid "select custom folder"
+msgstr "pasirinkite pasirinktinį aplanką"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "pasirinkti atskaitos takelį pagal kalbą (3 raidžių ISO kodas)"
+
+msgid "select reference stream by type"
+msgstr "pasirinkti atskaitos takelį pagal tipą"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "pasirinkti subtitrų takelį pagal kalbą (3 raidžių ISO kodas)"
+
+msgid "set logging level"
+msgstr "nustatykite registravimo lygį"
+
+msgid "stream"
+msgstr "takelis"
+
+msgid "subtitle character encoding"
+msgstr "subtitrų simbolių kodavimas"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "subtitrų kadrų dažnis (FPS pagrįstiems subtitrams)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "subtitrų kalba (2 arba 3 raidžių ISO kodas)"
+
+msgid "subtitle stream no"
+msgstr "subtitrų takelis Nr"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "subtitrų/nuorodų 2 raidžių kalbos kodas"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "subtitrų/nuorodų 3 raidžių kalbos kodas"
+
+msgid "subtitle/reference file full path"
+msgstr "subtitrų / nuorodos failo visas kelias"
+
+msgid "subtitle/reference stream number"
+msgstr "subtitrų / nuorodos takelio numeris"
+
+msgid "subtitle/text"
+msgstr "paantraštė/tekstas"
+
+msgid "subtitles"
+msgstr "subtitrai"
+
+msgid "subtitles: "
+msgstr "subtitrai: "
+
+msgid "synchronizing"
+msgstr "sinchronizavimas"
+
+msgid "terminated"
+msgstr "nutrauktas"
+
+msgid "type"
+msgstr "tipas"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "vartotojo sąsajos kalba (2 raidžių ISO kodas)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "žodingumo lygis (0–3)"
+
+msgid "version "
+msgstr "versija "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} valandos"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minutės"
+
+msgid "{} speech recognition model"
+msgstr "{} kalbos atpažinimo modelis"

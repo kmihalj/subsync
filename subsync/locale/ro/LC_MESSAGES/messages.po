@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Română\nLanguage: ro\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Despre"
+
+msgid "&Add files (auto sort)"
+msgstr "&Adăugați fișiere (sortare automată)"
+
+msgid "&Close"
+msgstr "&Închide"
+
+msgid "&Edit"
+msgstr "&Editare"
+
+msgid "&Export list"
+msgstr "&Exportă lista"
+
+msgid "&File"
+msgstr "&Fișier"
+
+msgid "&Help"
+msgstr "&Ajutor"
+
+msgid "&Import list"
+msgstr "&Importă lista"
+
+msgid "&Language"
+msgstr "&Limbă"
+
+msgid "&New"
+msgstr "&Nou"
+
+msgid "&Properties"
+msgstr "&Proprietăți"
+
+msgid "&Propeties"
+msgstr "&Proprietăți"
+
+msgid "&Remove"
+msgstr "&Elimină"
+
+msgid ", {} points"
+msgstr ", {} puncte"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 pentru auto."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minut"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automat>"
+
+msgid "<empty>"
+msgstr "<gol>"
+
+msgid "<other>"
+msgstr "<altul>"
+
+msgid "<undefined>"
+msgstr "<nedefinit>"
+
+msgid "About"
+msgstr "Despre"
+
+msgid "Add"
+msgstr "Adaugă"
+
+msgid "Add &folder"
+msgstr "&Adăugați dosar"
+
+msgid "Add &references"
+msgstr "&Adăugați referințe"
+
+msgid "Add &subtitles"
+msgstr "&Adăugați subtitrări"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "albaneză"
+
+msgid "All files"
+msgstr "Toate fișierele"
+
+msgid "All supported files"
+msgstr "Toate fișierele acceptate"
+
+msgid "Another update in progress"
+msgstr "O altă actualizare în curs"
+
+msgid "Application upgrade"
+msgstr "Actualizare aplicație"
+
+msgid "Arabic"
+msgstr "Araba"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Sunteți sigur că doriți să suprascrieți fișierele de ieșire dacă acestea există?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Sunteți sigur că doriți să resetați setările la valorile implicite?"
+
+msgid "Asset installation failed"
+msgstr "Instalarea resurselor a eșuat"
+
+msgid "Au&to sort"
+msgstr "&Sortare automată"
+
+msgid "Audio &channels"
+msgstr "&Canale audio"
+
+msgid "Audio channels"
+msgstr "Canale audio"
+
+msgid "Audio channels:"
+msgstr "Canale audio:"
+
+msgid "Auto detect"
+msgstr "Detectare automată"
+
+msgid "Auto sort"
+msgstr "Sortare automată"
+
+msgid "Batch Processing"
+msgstr "Procesare în lot"
+
+msgid "Batch processing"
+msgstr "Procesare în lot"
+
+msgid "Belarusian"
+msgstr "Belorus"
+
+msgid "Bulgarian"
+msgstr "bulgară"
+
+msgid "Can't save subtitle file"
+msgstr "Nu se poate salva fișierul de subtitrare"
+
+msgid "Cancel"
+msgstr "Anulează"
+
+msgid "Cannot load settings file, {}"
+msgstr "Nu se poate încărca fișierul de setări, {}"
+
+msgid "Catalan"
+msgstr "catalană"
+
+msgid "Character &encoding"
+msgstr "&Codificarea caracterelor"
+
+msgid "Character encoding"
+msgstr "Codificarea caracterelor"
+
+msgid "Character encoding:"
+msgstr "Codificarea caracterelor:"
+
+msgid "Check for updates"
+msgstr "Verificați actualizările"
+
+msgid "Checking for update..."
+msgstr "Se verifică actualizarea..."
+
+msgid "Chinese"
+msgstr "Chinezesc"
+
+msgid "Close"
+msgstr "Închide"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Nu s-au putut salva subtitrările sincronizate"
+
+msgid "Couldn't synchronize"
+msgstr "Nu s-a putut sincroniza"
+
+msgid "Credits"
+msgstr "Credite"
+
+msgid "Croatian"
+msgstr "croată"
+
+msgid "Current file:"
+msgstr "Fișier curent:"
+
+msgid "Czech"
+msgstr "cehă"
+
+msgid "Danish"
+msgstr "daneză"
+
+msgid "Debug"
+msgstr "Depanare"
+
+msgid "Debug options:"
+msgstr "Opțiuni de depanare:"
+
+msgid "Do you want to clear all items?"
+msgstr "Doriți să ștergeți toate elementele?"
+
+msgid "Download"
+msgstr "Descarcă"
+
+msgid "Download assets"
+msgstr "Descărcați resurse"
+
+msgid "Download now?"
+msgstr "Descărcați acum?"
+
+msgid "Downloading"
+msgstr "Descărcare"
+
+msgid "Downloading assets list..."
+msgstr "Se descarcă lista de resurse..."
+
+msgid "Drop files here to add sorted"
+msgstr "Plasați fișiere aici pentru a le adăuga sortate"
+
+msgid "Dump all synchronization points"
+msgstr "Exportați toate punctele de sincronizare"
+
+msgid "Dump reference words"
+msgstr "Exportați cuvinte de referință recunoscute"
+
+msgid "Dump subtitle words"
+msgstr "Exportați cuvinte subtitrare"
+
+msgid "Dump used synchronization points"
+msgstr "Exportați punctele de sincronizare utilizate"
+
+msgid "Dutch"
+msgstr "olandeză"
+
+msgid "ETA:"
+msgstr "Rămas:"
+
+msgid "Edit all tasks"
+msgstr "Editați toate sarcinile"
+
+msgid "Edit failed tasks"
+msgstr "Editați sarcinile eșuate"
+
+msgid "Effort:"
+msgstr "Efort:"
+
+msgid "Elapsed:"
+msgstr "Scurs:"
+
+msgid "Enable save button"
+msgstr "Activați butonul de salvare"
+
+msgid "English"
+msgstr "Engleză"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Error during reference read"
+msgstr "Eroare în timpul citirii referințelor"
+
+msgid "Error during subtitles read"
+msgstr "Eroare la citirea subtitrarilor"
+
+msgid "Estonian"
+msgstr "Estonă"
+
+msgid "Everything synchronized successfully"
+msgstr "Totul a fost sincronizat cu succes"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Totul a fost sincronizat, dar au apărut erori"
+
+msgid "Extractor jobs no:"
+msgstr "Numărul de lucrări de extracție:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Feroeză"
+
+msgid "File name:"
+msgstr "Nume fișier:"
+
+msgid "File type:"
+msgstr "Tip de fișier:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Filtrați jurnalele din module (unul pe linie):"
+
+msgid "Finnish"
+msgstr "finlandeză"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Remediați marcajele de timp ale subtitrarilor de ieșire în funcție de decalajul dat, în secunde."
+
+msgid "Following assets could be updated:"
+msgstr "Următoarele resurse pot fi actualizate:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Următoarele resurse trebuie descărcate pentru a continua:"
+
+msgid "Following files could not be added:"
+msgstr "Următoarele fișiere nu au putut fi adăugate:"
+
+msgid "French"
+msgstr "franceză"
+
+msgid "GUI options:"
+msgstr "GUI opțiuni:"
+
+msgid "Gaelic"
+msgstr "Gaelic scoțian"
+
+msgid "Galician"
+msgstr "Galiciană"
+
+msgid "General"
+msgstr "Generale"
+
+msgid "General options:"
+msgstr "Opțiuni generale:"
+
+msgid "German"
+msgstr "germană"
+
+msgid "Got errors, synchronization failed"
+msgstr "Sincronizarea a eșuat din cauza unor erori"
+
+msgid "Greek"
+msgstr "greacă"
+
+msgid "Headless options:"
+msgstr "Opțiuni de linie de comandă (fără interfață grafică):"
+
+msgid "Hebrew"
+msgstr "ebraică"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Cât de bine să sincronizezi subtitrările. O valoare mai mare îmbunătățește sincronizarea, dar durează mai mult."
+
+msgid "Hungarian"
+msgstr "maghiară"
+
+msgid "Icelandic"
+msgstr "islandeză"
+
+msgid "In seconds."
+msgstr "În secunde."
+
+msgid "Indonesian"
+msgstr "Indoneziană"
+
+msgid "Info"
+msgstr "Informații"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Sincronizarea inițială este realizată.\nPuteți salva deja subtitrări.\nDacă nu se potrivesc, așteptați un rezultat mai bun."
+
+msgid "Initializing..."
+msgstr "Se inițializează..."
+
+msgid "Input file:"
+msgstr "Fișier de intrare:"
+
+msgid "Invalid output pattern"
+msgstr "Model de ieșire nevalid"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Model de ieșire nevalid, cuvânt cheie nevalid: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Model de ieșire nevalid, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Format audio pentru vorbire nevalid"
+
+msgid "Italian"
+msgstr "italiană"
+
+msgid "Japanese"
+msgstr "Japoneză"
+
+msgid "Korean"
+msgstr "coreeană"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Selectarea unei limbi este opțională, dar poate îmbunătăți considerabil acuratețea sincronizării.\nSunteți sigur?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Modificările de limbă vor avea efect după repornirea aplicației"
+
+msgid "Language:"
+msgstr "Limba:"
+
+msgid "Languages"
+msgstr "Limbi"
+
+msgid "Latin"
+msgstr "latina"
+
+msgid "Latvian"
+msgstr "letonă"
+
+msgid "License"
+msgstr "Licență"
+
+msgid "Lithuanian"
+msgstr "lituaniană"
+
+msgid "Loading, please wait..."
+msgstr "Se încarcă, așteptați..."
+
+msgid "Logging level:"
+msgstr "Nivel de jurnalizare:"
+
+msgid "Malagasy"
+msgstr "malgaş"
+
+msgid "Malay"
+msgstr "maleză"
+
+msgid "Maltese"
+msgstr "malteză"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Reglare maximă. Timpul de subtitrare nu se va modifica cu mai mult de această valoare. O valoare mai mare durează mai mult pentru sincronizare. Dacă această valoare este prea mică, sincronizarea va eșua."
+
+msgid "Max adjustment:"
+msgstr "Corecție maximă:"
+
+msgid "Max points distance:"
+msgstr "Abatere maximă a punctelor:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Eroare de sincronizare maximă acceptabilă, în secunde. Punctele de sincronizare cu o eroare mai mare decât aceasta vor fi eliminate."
+
+msgid "Menu"
+msgstr "Meniu"
+
+msgid "Min correlation factor:"
+msgstr "Factor de corelație minim:"
+
+msgid "Min points no:"
+msgstr "Număr minim de puncte:"
+
+msgid "Min speech recognition score:"
+msgstr "Scor minim de recunoaștere a vorbirii:"
+
+msgid "Min word length (letters):"
+msgstr "Lungime minimă a cuvântului (litere):"
+
+msgid "Min words similarity:"
+msgstr "Similaritate minimă a cuvintelor:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Factor de corelație minim, între 0,0 și 1,0. Folosit pentru a determina rezultatul sincronizării. Dacă factorul de corelare este mai mic decât acesta, sincronizarea va eșua."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Scor minim de recunoaștere a vorbirii, între 0,0 și 1,0. Cuvintele transcrise cu scor mai mic vor fi respinse."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Lungimea minimă a cuvântului, în litere. Cuvintele mai scurte nu vor fi folosite ca puncte de sincronizare. Se aplică numai limbilor bazate pe alfabet."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Asemănarea minimă a cuvintelor pentru punctele de sincronizare. Între 0,0 și 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Număr minim de puncte de sincronizare. Nu setați acest lucru prea sus, deoarece ar putea produce multe rezultate false pozitive."
+
+msgid "New synchronization"
+msgstr "Sincronizare nouă"
+
+msgid "New version is available. Update now?"
+msgstr "Este disponibilă o nouă versiune. Actualizați acum?"
+
+msgid "No language selected"
+msgstr "Nu a fost selectată nicio limbă"
+
+msgid "No language selected for:"
+msgstr "Nu a fost selectată nicio limbă pentru:"
+
+msgid "No need to synchronize"
+msgstr "Nu este nevoie de sincronizare"
+
+msgid "Norwegian"
+msgstr "Norvegiană"
+
+msgid "Not supported stream type"
+msgstr "Tip de pistă neacceptat"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Numărul de fire de sincronizare concurente."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Director de ieșire:"
+
+msgid "Output encoding:"
+msgstr "Codare de ieșire:"
+
+msgid "Output file names"
+msgstr "Numele fișierelor de ieșire"
+
+msgid "Output file not set"
+msgstr "Fișierul de ieșire nu este setat"
+
+msgid "Output filename:"
+msgstr "Nume fișier de ieșire:"
+
+msgid "Output timing offset:"
+msgstr "Decalaj de timp de ieșire:"
+
+msgid "Overwrite existing files"
+msgstr "Suprascrieți fișierele existente"
+
+msgid "Overwrite files?"
+msgstr "Suprascrieți fișierele?"
+
+msgid "Persian"
+msgstr "persană"
+
+msgid "Polish"
+msgstr "poloneză"
+
+msgid "Portuguese"
+msgstr "portugheză"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Preveniți trecerea în repaus în timpul sincronizării"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Previne sistemul să intre în starea de repaus în timpul sincronizării.\nNu a putut funcționa pe toate platformele."
+
+msgid "Reference file not set"
+msgstr "Fișierul de referință nu este setat"
+
+msgid "References (video or other subtitles):"
+msgstr "Referințe (video sau alte subtitrări):"
+
+msgid "Remove"
+msgstr "Elimină"
+
+msgid "Remove items"
+msgstr "Eliminați articole"
+
+msgid "Restore defaults"
+msgstr "Restabiliți valorile implicite"
+
+msgid "Romanian"
+msgstr "română"
+
+msgid "Russian"
+msgstr "rusă"
+
+msgid "Save"
+msgstr "Salvează"
+
+msgid "Select"
+msgstr "Selectează"
+
+msgid "Select &all"
+msgstr "&Selectați toate"
+
+msgid "Select &stream"
+msgstr "&Selectează fluxul"
+
+msgid "Select all &references"
+msgstr "&Selectați toate referințele"
+
+msgid "Select all &subtitles"
+msgstr "&Selectați toate subtitrarile"
+
+msgid "Select all o&utputs"
+msgstr "&Selectați toate ieșirile"
+
+msgid "Select audio channels to listen to:"
+msgstr "Selectați canalele audio pe care să le ascultați:"
+
+msgid "Select character encoding"
+msgstr "Selectați codarea caracterelor"
+
+msgid "Select directory"
+msgstr "Selectați directorul"
+
+msgid "Select file"
+msgstr "Selectați fișierul"
+
+msgid "Select language"
+msgstr "Selectați limba"
+
+msgid "Select output"
+msgstr "Selectați ieșirea"
+
+msgid "Select output directory"
+msgstr "Selectați directorul de ieșire"
+
+msgid "Select output subtitles framerate:"
+msgstr "Selectați rata de cadre a subtitrarilor de ieșire:"
+
+msgid "Select reference language first"
+msgstr "Selectați mai întâi limba de referință"
+
+msgid "Select stream"
+msgstr "Selectează fluxul"
+
+msgid "Select stream by language:"
+msgstr "Selectează fluxul după limbă:"
+
+msgid "Select stream by title:"
+msgstr "Selectează fluxul după titlu:"
+
+msgid "Select stream by type:"
+msgstr "Selectează fluxul după tip:"
+
+msgid "Select stream:"
+msgstr "Selectează fluxul:"
+
+msgid "Select streams"
+msgstr "Selectează fluxurile"
+
+msgid "Serbian"
+msgstr "Sârbă"
+
+msgid "Set &input stream"
+msgstr "&Setați pista de intrare"
+
+msgid "Set &output location"
+msgstr "&Setați locația de ieșire"
+
+msgid "Settings"
+msgstr "Setări"
+
+msgid "Show popups:"
+msgstr "Afișați ferestrele pop-up:"
+
+msgid "Signature verification failed"
+msgstr "Verificarea semnăturii a eșuat"
+
+msgid "Slovak"
+msgstr "slovacă"
+
+msgid "Slovenian"
+msgstr "slovenă"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Unele subtitrări de referință nu pot fi decodificate (codificare nevalidă?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Unele subtitrări nu pot fi decodificate (codare nevalidă?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Unele sarcini nu au putut fi sincronizate"
+
+msgid "Spanish"
+msgstr "spaniolă"
+
+msgid "Start"
+msgstr "Pornește"
+
+msgid "Status:"
+msgstr "Stare:"
+
+msgid "Stop"
+msgstr "Oprește"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Fișiere de subtitrare"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Subtitrările nu pot fi identice cu referințele"
+
+msgid "Subtitles not set"
+msgstr "Subtitrările nu sunt setate"
+
+msgid "Subtitles synchronized"
+msgstr "Subtitrări sincronizate"
+
+msgid "Subtitles:"
+msgstr "Subtitrări:"
+
+msgid "Swedish"
+msgstr "suedez"
+
+msgid "Synchronization"
+msgstr "Sincronizare"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Sincronizarea între limbi {} nu este acceptată în prezent."
+
+msgid "Synchronization job:"
+msgstr "Lucrări de sincronizare:"
+
+msgid "Synchronization options:"
+msgstr "Opțiuni de sincronizare:"
+
+msgid "Synchronization terminated"
+msgstr "Sincronizarea sa încheiat"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Sincronizarea cu {} audio nu este acceptată momentan."
+
+msgid "Synchronization: 0 points"
+msgstr "Sincronizare: 0 puncte"
+
+msgid "Synchronization: {} points"
+msgstr "Sincronizare: {} puncte"
+
+msgid "Synchronizing..."
+msgstr "Se sincronizează..."
+
+msgid "Task:"
+msgstr "Sarcină:"
+
+msgid "Terminating, please wait..."
+msgstr "În încheiere, așteptați..."
+
+msgid "Terminating..."
+msgstr "Încheierea..."
+
+msgid "There are no usable streams"
+msgstr "Nu există fluxuri utilizabile"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Nu există dicționar pentru traducerea de la {} la {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Nu există nicio pistă potrivită în {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Nu există un model de recunoaștere a vorbirii pentru limba {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Acesta este un instrument de sincronizare automată a subtitrarilor pentru filme.\nSincronizarea se face prin ascultarea piesei audio, traducând-o dacă este necesar.\nAr putea folosi și un alt subtitrare ca referință.\n\nAutor: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Eșec total"
+
+msgid "Total progress:"
+msgstr "Progres total:"
+
+msgid "Turkish"
+msgstr "turc"
+
+msgid "Ukrainian"
+msgstr "ucrainean"
+
+msgid "Unexpected error occurred"
+msgstr "A apărut o eroare neașteptată"
+
+msgid "Unknown file extension"
+msgstr "Extensie de fișier necunoscută"
+
+msgid "Update assets"
+msgstr "Actualizați resursele"
+
+msgid "Update instalation failed miserably"
+msgstr "Actualizarea nu a putut fi instalată"
+
+msgid "Update not available"
+msgstr "Actualizare nu este disponibilă"
+
+msgid "Update now?"
+msgstr "Actualizați acum?"
+
+msgid "Updates:"
+msgstr "Actualizări:"
+
+msgid "Upgrade"
+msgstr "Actualizează"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Utilizare: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Fișiere video"
+
+msgid "Website"
+msgstr "Site-ul web"
+
+msgid "Your version is up to date"
+msgstr "Versiunea dvs. este actualizată"
+
+msgid "[details]"
+msgstr "[detalii]"
+
+msgid "[errors]"
+msgstr "[erori]"
+
+msgid "[hide]"
+msgstr "[ascunde]"
+
+msgid "[show more]"
+msgstr "[arata mai mult]"
+
+msgid "all"
+msgstr "toate"
+
+msgid "all channels"
+msgstr "toate canalele"
+
+msgid "and {} more"
+msgstr "și {} mai mult"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "adăugați cod de limbă din 2 litere (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "adăugați un cod de limbă din 3 litere (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "adăugați numărul piesei"
+
+msgid "ask for update on exit"
+msgstr "cere actualizare la ieșire"
+
+msgid "audio"
+msgstr "audio"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "auto select"
+msgstr "selectare automată"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "confirmați suprascrierea fișierului (în modul batch)"
+
+msgid "correlation:"
+msgstr "corelaţie:"
+
+msgid "couldn't synchronize"
+msgstr "nu s-a putut sincroniza"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "construcție personalizată"
+
+msgid "custom names:"
+msgstr "nume personalizate:"
+
+msgid "custom selection"
+msgstr "selecție personalizată"
+
+msgid "custom value:"
+msgstr "valoare personalizată:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "implicit"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "definiți sarcina de sincronizare, poate fi repetat de mai multe ori"
+
+msgid "description"
+msgstr "descriere"
+
+msgid "dictionary {} / {}"
+msgstr "dicționar {} / {}"
+
+msgid "directory path"
+msgstr "calea directorului"
+
+msgid "display this help text and exit"
+msgstr "afișați acest text de ajutor și ieșiți"
+
+msgid "display version information and exit"
+msgstr "afișați informații despre versiune și ieșiți"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "nu încercați să contactați serverul de la distanță pentru a obține activele lipsă"
+
+msgid "don't show this message again"
+msgstr "nu mai afișa acest mesaj"
+
+msgid "done"
+msgstr "făcut"
+
+msgid "download updates automatically"
+msgstr "descărcați actualizările automat"
+
+msgid "downloading"
+msgstr "descărcare"
+
+msgid "drop here"
+msgstr "aruncă aici"
+
+msgid "dump logs to specified file"
+msgstr "scrieți jurnalele în fișierul specificat"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "exportați cuvinte într-un fișier sau la ieșire standard dacă lipsește PATH; SRC este unul dintre:  "
+
+msgid "elapsed time:"
+msgstr "timp scurs:"
+
+msgid "enable advanced debug options"
+msgstr "activați opțiunile avansate de depanare"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "numele fișierului (fără cale și extensie)"
+
+msgid "files with matching streams"
+msgstr "fișiere cu piese potrivite"
+
+msgid "files without matching streams"
+msgstr "fișiere fără piese care se potrivesc"
+
+msgid "formula:"
+msgstr "formulă:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "cât de greu să încerci (0,0 - 1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "dacă <field> nu este setat, adăugați <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "dacă este setat <field>, adăugați <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importați lista de sarcini din fișierul YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "limbă"
+
+msgid "language not selected"
+msgstr "limba nu este selectată"
+
+msgid "less than minute"
+msgstr "mai puțin de minut"
+
+msgid "log to file"
+msgstr "scrie jurnalul într-un fișier"
+
+msgid "max change:"
+msgstr "modificare maxima:"
+
+msgid "missing assets:"
+msgstr "resurse lipsă:"
+
+msgid "name"
+msgstr "nume"
+
+msgid "open batch processing window"
+msgstr "deschideți fereastra de procesare lot"
+
+msgid "operation failed"
+msgstr "operațiunea eșuată"
+
+msgid "operation finished successfully"
+msgstr "operațiunea s-a încheiat cu succes"
+
+msgid "output character encoding"
+msgstr "codificarea caracterelor de ieșire"
+
+msgid "output file path or pattern"
+msgstr "calea sau modelul fișierului de ieșire"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "rata de ieșire a cadrelor (pentru subtitrări bazate pe FPS)"
+
+msgid "outputs"
+msgstr "iesiri"
+
+msgid "overwrite existing files"
+msgstr "suprascrie fișierele existente"
+
+msgid "path to reference file"
+msgstr "calea către fișierul de referință"
+
+msgid "path to subtitle file"
+msgstr "calea către fișierul de subtitrare"
+
+msgid "pattern:"
+msgstr "model:"
+
+msgid "predefined names:"
+msgstr "nume predefinite:"
+
+msgid "processing..."
+msgstr "prelucrare..."
+
+msgid "queued..."
+msgstr "la coada..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "maparea canalelor audio de referință (pentru referințe audio)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "codificarea caracterelor de referință (pentru referințe la subtitrări)"
+
+msgid "reference framerate"
+msgstr "rata de cadru de referință"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "limba de referință (cod ISO din 2 sau 3 litere)"
+
+msgid "reference stream no"
+msgstr "pista de referinta nr"
+
+msgid "references"
+msgstr "fișiere de referință"
+
+msgid "references: "
+msgstr "fișiere de referință: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "rulați în modul fără cap (fără GUI)"
+
+msgid "same as input subtitles"
+msgstr "la fel ca și subtitrările introduse"
+
+msgid "same as reference file"
+msgstr "la fel ca fișierul de referință"
+
+msgid "select custom folder"
+msgstr "selectați folderul personalizat"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "selectați piesa de referință după limbă (cod ISO din 3 litere)"
+
+msgid "select reference stream by type"
+msgstr "selectați piesa de referință după tip"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "selectați piesa de subtitrare după limbă (cod ISO din 3 litere)"
+
+msgid "set logging level"
+msgstr "setați nivelul de înregistrare"
+
+msgid "stream"
+msgstr "flux"
+
+msgid "subtitle character encoding"
+msgstr "codificarea caracterelor de subtitrare"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "rata de cadre pentru subtitrare (pentru subtitrări bazate pe FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "Limba subtitrare (cod ISO din 2 sau 3 litere)"
+
+msgid "subtitle stream no"
+msgstr "piesa de subtitrare nr"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "subtitrare/referință cod de limbă din 2 litere"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "subtitrare/referință cod de limbă din 3 litere"
+
+msgid "subtitle/reference file full path"
+msgstr "calea completă a fișierului de subtitrare/referință"
+
+msgid "subtitle/reference stream number"
+msgstr "numărul piesei de subtitrare/referință"
+
+msgid "subtitle/text"
+msgstr "subtitrare/text"
+
+msgid "subtitles"
+msgstr "subtitrări"
+
+msgid "subtitles: "
+msgstr "subtitrări: "
+
+msgid "synchronizing"
+msgstr "sincronizarea"
+
+msgid "terminated"
+msgstr "terminat"
+
+msgid "type"
+msgstr "tip"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "limba interfeței cu utilizatorul (cod ISO din 2 litere)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "nivel de verbozitate (0 - 3)"
+
+msgid "version "
+msgstr "versiune "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ore"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minute"
+
+msgid "{} speech recognition model"
+msgstr "{} model de recunoaștere a vorbirii"

@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Ελληνικά\nLanguage: el\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Σχετικά"
+
+msgid "&Add files (auto sort)"
+msgstr "&Προσθήκη αρχείων (αυτόματη ταξινόμηση)"
+
+msgid "&Close"
+msgstr "&Κλείσιμο"
+
+msgid "&Edit"
+msgstr "&Επεξεργασία"
+
+msgid "&Export list"
+msgstr "&Εξαγωγή λίστας"
+
+msgid "&File"
+msgstr "&Αρχείο"
+
+msgid "&Help"
+msgstr "&Βοήθεια"
+
+msgid "&Import list"
+msgstr "&Εισαγωγή λίστας"
+
+msgid "&Language"
+msgstr "&Γλώσσα"
+
+msgid "&New"
+msgstr "&Νέο"
+
+msgid "&Properties"
+msgstr "&Ιδιότητες"
+
+msgid "&Propeties"
+msgstr "&Ιδιότητες"
+
+msgid "&Remove"
+msgstr "&Αφαίρεση"
+
+msgid ", {} points"
+msgstr ", {} σημεία"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 για αυτόματο."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 λεπτό"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<αυτόματα>"
+
+msgid "<empty>"
+msgstr "<κενό>"
+
+msgid "<other>"
+msgstr "<άλλο>"
+
+msgid "<undefined>"
+msgstr "<απροσδιόριστο>"
+
+msgid "About"
+msgstr "Σχετικά"
+
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgid "Add &folder"
+msgstr "&Προσθήκη φακέλου"
+
+msgid "Add &references"
+msgstr "&Προσθήκη αναφορών"
+
+msgid "Add &subtitles"
+msgstr "&Προσθήκη υπότιτλων"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "αλβανική"
+
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+msgid "All supported files"
+msgstr "Όλα τα υποστηριζόμενα αρχεία"
+
+msgid "Another update in progress"
+msgstr "Μια άλλη ενημέρωση σε εξέλιξη"
+
+msgid "Application upgrade"
+msgstr "Αναβάθμιση εφαρμογής"
+
+msgid "Arabic"
+msgstr "Αραβικά"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Είστε βέβαιοι ότι θέλετε να αντικαταστήσετε τα αρχεία εξόδου εάν υπάρχουν;"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Είστε βέβαιοι ότι θέλετε να επαναφέρετε τις ρυθμίσεις στις προεπιλογές;"
+
+msgid "Asset installation failed"
+msgstr "Η εγκατάσταση πόρων απέτυχε"
+
+msgid "Au&to sort"
+msgstr "&Αυτόματη ταξινόμηση"
+
+msgid "Audio &channels"
+msgstr "&Κανάλια ήχου"
+
+msgid "Audio channels"
+msgstr "Κανάλια ήχου"
+
+msgid "Audio channels:"
+msgstr "Κανάλια ήχου:"
+
+msgid "Auto detect"
+msgstr "Αυτόματος εντοπισμός"
+
+msgid "Auto sort"
+msgstr "Αυτόματη ταξινόμηση"
+
+msgid "Batch Processing"
+msgstr "Μαζική επεξεργασία"
+
+msgid "Batch processing"
+msgstr "Μαζική επεξεργασία"
+
+msgid "Belarusian"
+msgstr "Λευκορωσικό"
+
+msgid "Bulgarian"
+msgstr "βουλγαρικό"
+
+msgid "Can't save subtitle file"
+msgstr "Δεν είναι δυνατή η αποθήκευση του αρχείου υπότιτλων"
+
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Cannot load settings file, {}"
+msgstr "Δεν είναι δυνατή η φόρτωση του αρχείου ρυθμίσεων, {}"
+
+msgid "Catalan"
+msgstr "Καταλανική"
+
+msgid "Character &encoding"
+msgstr "&Κωδικοποίηση χαρακτήρων"
+
+msgid "Character encoding"
+msgstr "Κωδικοποίηση χαρακτήρων"
+
+msgid "Character encoding:"
+msgstr "Κωδικοποίηση χαρακτήρων:"
+
+msgid "Check for updates"
+msgstr "Ελέγξτε για ενημερώσεις"
+
+msgid "Checking for update..."
+msgstr "Έλεγχος για ενημέρωση..."
+
+msgid "Chinese"
+msgstr "Κινέζικα"
+
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Δεν ήταν δυνατή η αποθήκευση συγχρονισμένων υπότιτλων"
+
+msgid "Couldn't synchronize"
+msgstr "Δεν ήταν δυνατός ο συγχρονισμός"
+
+msgid "Credits"
+msgstr "Μονάδες"
+
+msgid "Croatian"
+msgstr "Κροατικό"
+
+msgid "Current file:"
+msgstr "Τρέχον αρχείο:"
+
+msgid "Czech"
+msgstr "Τσεχικά"
+
+msgid "Danish"
+msgstr "Δανικά"
+
+msgid "Debug"
+msgstr "Αποσφαλμάτωση"
+
+msgid "Debug options:"
+msgstr "Επιλογές εντοπισμού σφαλμάτων:"
+
+msgid "Do you want to clear all items?"
+msgstr "Θέλετε να διαγράψετε όλα τα στοιχεία;"
+
+msgid "Download"
+msgstr "Λήψη"
+
+msgid "Download assets"
+msgstr "Λήψη πόρων"
+
+msgid "Download now?"
+msgstr "Λήψη τώρα;"
+
+msgid "Downloading"
+msgstr "Λήψη"
+
+msgid "Downloading assets list..."
+msgstr "Λήψη της λίστας πόρων..."
+
+msgid "Drop files here to add sorted"
+msgstr "Αποθέστε αρχεία εδώ για να προσθέσετε ταξινομημένα"
+
+msgid "Dump all synchronization points"
+msgstr "Εξαγωγή όλων των σημείων συγχρονισμού"
+
+msgid "Dump reference words"
+msgstr "Εξαγωγή αναγνωρισμένων λέξεων αναφοράς"
+
+msgid "Dump subtitle words"
+msgstr "Εξαγωγή λέξεων υπότιτλων"
+
+msgid "Dump used synchronization points"
+msgstr "Εξαγωγή των σημείων συγχρονισμού που χρησιμοποιούνται"
+
+msgid "Dutch"
+msgstr "Ολλανδικά"
+
+msgid "ETA:"
+msgstr "Απομένει:"
+
+msgid "Edit all tasks"
+msgstr "Επεξεργασία όλων των εργασιών"
+
+msgid "Edit failed tasks"
+msgstr "Επεξεργασία αποτυχημένων εργασιών"
+
+msgid "Effort:"
+msgstr "Προσπάθεια:"
+
+msgid "Elapsed:"
+msgstr "Πέρασαν:"
+
+msgid "Enable save button"
+msgstr "Κουμπί ενεργοποίησης αποθήκευσης"
+
+msgid "English"
+msgstr "Αγγλικά"
+
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgid "Error during reference read"
+msgstr "Σφάλμα κατά την ανάγνωση αναφοράς"
+
+msgid "Error during subtitles read"
+msgstr "Σφάλμα κατά την ανάγνωση των υπότιτλων"
+
+msgid "Estonian"
+msgstr "Εσθονικό"
+
+msgid "Everything synchronized successfully"
+msgstr "Όλα συγχρονίστηκαν με επιτυχία"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Όλα συγχρονίστηκαν, αλλά παρουσιάστηκαν σφάλματα"
+
+msgid "Extractor jobs no:"
+msgstr "Αριθμός εργασιών εξόρυξης:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Φερόε"
+
+msgid "File name:"
+msgstr "Όνομα αρχείου:"
+
+msgid "File type:"
+msgstr "Τύπος αρχείου:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Φιλτράρετε αρχεία καταγραφής από μονάδες (ένα ανά γραμμή):"
+
+msgid "Finnish"
+msgstr "Φινλανδικά"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Διόρθωση χρονικών σφραγίδων εξόδου υπότιτλων με δεδομένη μετατόπιση, σε δευτερόλεπτα."
+
+msgid "Following assets could be updated:"
+msgstr "Μπορούν να ενημερωθούν οι ακόλουθοι πόροι:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Πρέπει να πραγματοποιήσετε λήψη των παρακάτω πόρων για να συνεχίσετε:"
+
+msgid "Following files could not be added:"
+msgstr "Δεν ήταν δυνατή η προσθήκη των ακόλουθων αρχείων:"
+
+msgid "French"
+msgstr "Γαλλικά"
+
+msgid "GUI options:"
+msgstr "Επιλογές GUI:"
+
+msgid "Gaelic"
+msgstr "Σκοτσέζικη γαελική"
+
+msgid "Galician"
+msgstr "Γαλικίας"
+
+msgid "General"
+msgstr "Γενικά"
+
+msgid "General options:"
+msgstr "Γενικές επιλογές:"
+
+msgid "German"
+msgstr "Γερμανικά"
+
+msgid "Got errors, synchronization failed"
+msgstr "Ο συγχρονισμός απέτυχε λόγω σφαλμάτων"
+
+msgid "Greek"
+msgstr "Ελληνικά"
+
+msgid "Headless options:"
+msgstr "Επιλογές γραμμής εντολών (χωρίς γραφική διεπαφή):"
+
+msgid "Hebrew"
+msgstr "Εβραϊκά"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Πώς να συγχρονίσετε τους υπότιτλους. Μια υψηλότερη τιμή βελτιώνει το συγχρονισμό, αλλά διαρκεί περισσότερο."
+
+msgid "Hungarian"
+msgstr "Ουγγρική"
+
+msgid "Icelandic"
+msgstr "Ισλανδικά"
+
+msgid "In seconds."
+msgstr "Σε δευτερόλεπτα."
+
+msgid "Indonesian"
+msgstr "Ινδονησιακά"
+
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Ο αρχικός συγχρονισμός ολοκληρώθηκε.\nΘα μπορούσατε να αποθηκεύσετε ήδη υπότιτλους.\nΕάν δεν ταιριάζουν, περιμένετε για ένα καλύτερο αποτέλεσμα."
+
+msgid "Initializing..."
+msgstr "Αρχικοποίηση..."
+
+msgid "Input file:"
+msgstr "Αρχείο εισαγωγής:"
+
+msgid "Invalid output pattern"
+msgstr "Μη έγκυρο μοτίβο εξόδου"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Μη έγκυρο μοτίβο εξόδου, μη έγκυρη λέξη-κλειδί: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Μη έγκυρο μοτίβο εξόδου, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Μη έγκυρη μορφή ήχου ομιλίας"
+
+msgid "Italian"
+msgstr "Ιταλική"
+
+msgid "Japanese"
+msgstr "ιαπωνική"
+
+msgid "Korean"
+msgstr "Κορεάτικο"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Η επιλογή γλώσσας είναι προαιρετική, αλλά μπορεί να βελτιώσει σημαντικά την ακρίβεια του συγχρονισμού.\nΕίστε βέβαιοι;"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Οι αλλαγές γλώσσας θα τεθούν σε ισχύ μετά την επανεκκίνηση της εφαρμογής"
+
+msgid "Language:"
+msgstr "Γλώσσα:"
+
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgid "Latin"
+msgstr "Λατινικά"
+
+msgid "Latvian"
+msgstr "Λετονικό"
+
+msgid "License"
+msgstr "Άδεια"
+
+msgid "Lithuanian"
+msgstr "Λιθουανική"
+
+msgid "Loading, please wait..."
+msgstr "Φόρτωση, περιμένετε..."
+
+msgid "Logging level:"
+msgstr "Επίπεδο καταγραφής:"
+
+msgid "Malagasy"
+msgstr "μαδαγασκάρη"
+
+msgid "Malay"
+msgstr "Μαλαιός"
+
+msgid "Maltese"
+msgstr "Μαλτέζικα"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Μέγιστη ρύθμιση. Οι χρόνοι υποτίτλων δεν θα αλλάξουν περισσότερο από αυτήν την τιμή. Μια υψηλότερη τιμή χρειάζεται περισσότερο χρόνο για να συγχρονιστεί. Εάν αυτή η τιμή είναι πολύ χαμηλή, ο συγχρονισμός θα αποτύχει."
+
+msgid "Max adjustment:"
+msgstr "Μέγιστη χρονική διόρθωση:"
+
+msgid "Max points distance:"
+msgstr "Μέγιστη απόκλιση σημείων:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Μέγιστο αποδεκτό σφάλμα συγχρονισμού, σε δευτερόλεπτα. Τα σημεία συγχρονισμού με σφάλμα μεγαλύτερο από αυτό θα απορριφθούν."
+
+msgid "Menu"
+msgstr "Μενού"
+
+msgid "Min correlation factor:"
+msgstr "Ελάχιστος συντελεστής συσχέτισης:"
+
+msgid "Min points no:"
+msgstr "Ελάχιστος αριθμός σημείων:"
+
+msgid "Min speech recognition score:"
+msgstr "Ελάχιστη βαθμολογία αναγνώρισης ομιλίας:"
+
+msgid "Min word length (letters):"
+msgstr "Ελάχιστο μήκος λέξης (γράμματα):"
+
+msgid "Min words similarity:"
+msgstr "Ελάχιστη ομοιότητα λέξεων:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Ελάχιστος συντελεστής συσχέτισης, μεταξύ 0,0 και 1,0. Χρησιμοποιείται για τον προσδιορισμό του αποτελέσματος συγχρονισμού. Εάν ο συντελεστής συσχέτισης είναι μικρότερος από αυτό, ο συγχρονισμός θα αποτύχει."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Ελάχιστη βαθμολογία αναγνώρισης ομιλίας, μεταξύ 0,0 και 1,0. Λέξεις που μεταγράφονται με μικρότερη βαθμολογία θα απορρίπτονται."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Ελάχιστο μήκος λέξης, σε γράμματα. Οι πιο σύντομες λέξεις δεν θα χρησιμοποιηθούν ως σημεία συγχρονισμού. Ισχύει μόνο για γλώσσες που βασίζονται σε αλφάβητο."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Ελάχιστη ομοιότητα λέξεων για σημεία συγχρονισμού. Μεταξύ 0,0 και 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Ελάχιστος αριθμός σημείων συγχρονισμού. Μην το θέσετε πολύ ψηλά, καθώς θα μπορούσε να παράγει πολλά ψευδώς θετικά."
+
+msgid "New synchronization"
+msgstr "Νέος συγχρονισμός"
+
+msgid "New version is available. Update now?"
+msgstr "Διατίθεται νέα έκδοση. Ενημέρωση τώρα;"
+
+msgid "No language selected"
+msgstr "Δεν έχει επιλεγεί γλώσσα"
+
+msgid "No language selected for:"
+msgstr "Δεν έχει επιλεγεί γλώσσα για:"
+
+msgid "No need to synchronize"
+msgstr "Δεν χρειάζεται συγχρονισμός"
+
+msgid "Norwegian"
+msgstr "Νορβηγικό"
+
+msgid "Not supported stream type"
+msgstr "Δεν υποστηρίζεται τύπος κομματιού"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Αριθμός νημάτων ταυτόχρονου συγχρονισμού."
+
+msgid "OK"
+msgstr "ΟΚ"
+
+msgid "Output directory:"
+msgstr "Κατάλογος εξόδου:"
+
+msgid "Output encoding:"
+msgstr "Κωδικοποίηση εξόδου:"
+
+msgid "Output file names"
+msgstr "Εξαγωγή ονομάτων αρχείων"
+
+msgid "Output file not set"
+msgstr "Το αρχείο εξόδου δεν έχει οριστεί"
+
+msgid "Output filename:"
+msgstr "Όνομα αρχείου εξόδου:"
+
+msgid "Output timing offset:"
+msgstr "Μετατόπιση χρονισμού εξόδου:"
+
+msgid "Overwrite existing files"
+msgstr "Αντικατάσταση υπαρχόντων αρχείων"
+
+msgid "Overwrite files?"
+msgstr "Αντικατάσταση αρχείων;"
+
+msgid "Persian"
+msgstr "Περσικά"
+
+msgid "Polish"
+msgstr "Πολωνικό"
+
+msgid "Portuguese"
+msgstr "Πορτογαλικά"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Αποτρέψτε τον ύπνο κατά τη διάρκεια του συγχρονισμού"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Αποτρέπει την αδράνεια του συστήματος κατά τον συγχρονισμό.\nΔεν μπορούσε να λειτουργήσει σε όλες τις πλατφόρμες."
+
+msgid "Reference file not set"
+msgstr "Το αρχείο αναφοράς δεν έχει οριστεί"
+
+msgid "References (video or other subtitles):"
+msgstr "Αναφορές (βίντεο ή άλλοι υπότιτλοι):"
+
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+msgid "Remove items"
+msgstr "Κατάργηση στοιχείων"
+
+msgid "Restore defaults"
+msgstr "Επαναφορά προεπιλογών"
+
+msgid "Romanian"
+msgstr "Ρουμάνος"
+
+msgid "Russian"
+msgstr "Ρωσικό"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Select"
+msgstr "Επιλογή"
+
+msgid "Select &all"
+msgstr "&Επιλέξτε όλα"
+
+msgid "Select &stream"
+msgstr "&Επιλογή ροής"
+
+msgid "Select all &references"
+msgstr "&Επιλέξτε όλες τις αναφορές"
+
+msgid "Select all &subtitles"
+msgstr "&Επιλέξτε όλους τους υπότιτλους"
+
+msgid "Select all o&utputs"
+msgstr "&Επιλέξτε όλες τις εξόδους"
+
+msgid "Select audio channels to listen to:"
+msgstr "Επιλέξτε κανάλια ήχου για ακρόαση:"
+
+msgid "Select character encoding"
+msgstr "Επιλέξτε την κωδικοποίηση χαρακτήρων"
+
+msgid "Select directory"
+msgstr "Επιλέξτε κατάλογο"
+
+msgid "Select file"
+msgstr "Επιλέξτε αρχείο"
+
+msgid "Select language"
+msgstr "Επιλέξτε γλώσσα"
+
+msgid "Select output"
+msgstr "Επιλέξτε έξοδο"
+
+msgid "Select output directory"
+msgstr "Επιλέξτε τον κατάλογο εξόδου"
+
+msgid "Select output subtitles framerate:"
+msgstr "Επιλέξτε ρυθμό καρέ εξόδου υπότιτλων:"
+
+msgid "Select reference language first"
+msgstr "Επιλέξτε πρώτα τη γλώσσα αναφοράς"
+
+msgid "Select stream"
+msgstr "Επιλογή ροής"
+
+msgid "Select stream by language:"
+msgstr "Επιλογή ροής κατά γλώσσα:"
+
+msgid "Select stream by title:"
+msgstr "Επιλογή ροής κατά τίτλο:"
+
+msgid "Select stream by type:"
+msgstr "Επιλογή ροής κατά τύπο:"
+
+msgid "Select stream:"
+msgstr "Επιλογή ροής:"
+
+msgid "Select streams"
+msgstr "Επιλογή ροών"
+
+msgid "Serbian"
+msgstr "Σερβικά"
+
+msgid "Set &input stream"
+msgstr "&Ρύθμιση διαδρομής εισόδου"
+
+msgid "Set &output location"
+msgstr "&Ρύθμιση θέσης εξόδου"
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Show popups:"
+msgstr "Εμφάνιση αναδυόμενων παραθύρων:"
+
+msgid "Signature verification failed"
+msgstr "Η επαλήθευση υπογραφής απέτυχε"
+
+msgid "Slovak"
+msgstr "Σλοβακικά"
+
+msgid "Slovenian"
+msgstr "Σλοβενικά"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Ορισμένοι υπότιτλοι αναφοράς δεν μπορούν να αποκωδικοποιηθούν (μη έγκυρη κωδικοποίηση;)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Μερικοί υπότιτλοι δεν μπορούν να αποκωδικοποιηθούν (μη έγκυρη κωδικοποίηση;)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Δεν ήταν δυνατός ο συγχρονισμός ορισμένων εργασιών"
+
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+msgid "Start"
+msgstr "Έναρξη"
+
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+msgid "Stop"
+msgstr "Διακοπή"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Αρχεία υπότιτλων"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Οι υπότιτλοι δεν μπορούν να είναι ίδιοι με την αναφορά"
+
+msgid "Subtitles not set"
+msgstr "Οι υπότιτλοι δεν έχουν οριστεί"
+
+msgid "Subtitles synchronized"
+msgstr "Οι υπότιτλοι συγχρονίστηκαν"
+
+msgid "Subtitles:"
+msgstr "Υπότιτλοι:"
+
+msgid "Swedish"
+msgstr "Σουηδικά"
+
+msgid "Synchronization"
+msgstr "Συγχρονισμός"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Ο συγχρονισμός μεταξύ γλωσσών {} δεν υποστηρίζεται αυτήν τη στιγμή."
+
+msgid "Synchronization job:"
+msgstr "Εργασία συγχρονισμού:"
+
+msgid "Synchronization options:"
+msgstr "Επιλογές συγχρονισμού:"
+
+msgid "Synchronization terminated"
+msgstr "Ο συγχρονισμός τερματίστηκε"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Ο συγχρονισμός με τον ήχο {} δεν υποστηρίζεται αυτήν τη στιγμή."
+
+msgid "Synchronization: 0 points"
+msgstr "Συγχρονισμός: 0 βαθμοί"
+
+msgid "Synchronization: {} points"
+msgstr "Συγχρονισμός: {} σημεία"
+
+msgid "Synchronizing..."
+msgstr "Συγχρονισμός..."
+
+msgid "Task:"
+msgstr "Εργασία:"
+
+msgid "Terminating, please wait..."
+msgstr "Τερματισμός, περιμένετε..."
+
+msgid "Terminating..."
+msgstr "Τερματισμός..."
+
+msgid "There are no usable streams"
+msgstr "Δεν υπάρχουν χρησιμοποιήσιμες ροές"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Δεν υπάρχει λεξικό για μετάφραση από το {} στο {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Δεν υπάρχει αντίστοιχο κομμάτι στο {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Δεν υπάρχει μοντέλο αναγνώρισης ομιλίας για τη γλώσσα {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Αυτό είναι ένα εργαλείο αυτόματου συγχρονισμού υποτίτλων ταινίας.\nΟ συγχρονισμός πραγματοποιείται ακούγοντας το κομμάτι ήχου, μεταφράζοντάς το εάν χρειάζεται.\nΘα μπορούσε επίσης να χρησιμοποιήσει έναν άλλο υπότιτλο ως αναφορά.\n\nΣυγγραφέας: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Ολική αποτυχία"
+
+msgid "Total progress:"
+msgstr "Συνολική πρόοδος:"
+
+msgid "Turkish"
+msgstr "τουρκικά"
+
+msgid "Ukrainian"
+msgstr "Ουκρανικό"
+
+msgid "Unexpected error occurred"
+msgstr "Παρουσιάστηκε μη αναμενόμενο σφάλμα"
+
+msgid "Unknown file extension"
+msgstr "Άγνωστη επέκταση αρχείου"
+
+msgid "Update assets"
+msgstr "Ενημέρωση πόρων"
+
+msgid "Update instalation failed miserably"
+msgstr "Δεν ήταν δυνατή η εγκατάσταση της ενημέρωσης"
+
+msgid "Update not available"
+msgstr "Η ενημέρωση δεν είναι διαθέσιμη"
+
+msgid "Update now?"
+msgstr "Ενημέρωση τώρα;"
+
+msgid "Updates:"
+msgstr "Ενημερώσεις:"
+
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Χρήση: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Αρχεία βίντεο"
+
+msgid "Website"
+msgstr "Ιστότοπος"
+
+msgid "Your version is up to date"
+msgstr "Η έκδοσή σας είναι ενημερωμένη"
+
+msgid "[details]"
+msgstr "[Λεπτομέρειες]"
+
+msgid "[errors]"
+msgstr "[λάθη]"
+
+msgid "[hide]"
+msgstr "[απόκρυψη]"
+
+msgid "[show more]"
+msgstr "[εμφάνιση περισσότερων]"
+
+msgid "all"
+msgstr "όλα"
+
+msgid "all channels"
+msgstr "όλα τα κανάλια"
+
+msgid "and {} more"
+msgstr "και {} ακόμη"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "προσθήκη κωδικού γλώσσας 2 γραμμάτων (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "προσθήκη κωδικού γλώσσας 3 γραμμάτων (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "προσθήκη αριθμού κομματιού"
+
+msgid "ask for update on exit"
+msgstr "ζητήστε ενημέρωση κατά την έξοδο"
+
+msgid "audio"
+msgstr "ήχος"
+
+msgid "auto"
+msgstr "αυτόματο"
+
+msgid "auto select"
+msgstr "αυτόματη επιλογή"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "επιβεβαιώστε την αντικατάσταση αρχείου (σε λειτουργία δέσμης)"
+
+msgid "correlation:"
+msgstr "συσχέτιση:"
+
+msgid "couldn't synchronize"
+msgstr "δεν ήταν δυνατός ο συγχρονισμός"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "προσαρμοσμένη κατασκευή"
+
+msgid "custom names:"
+msgstr "προσαρμοσμένα ονόματα:"
+
+msgid "custom selection"
+msgstr "προσαρμοσμένη επιλογή"
+
+msgid "custom value:"
+msgstr "προσαρμοσμένη αξία:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "προεπιλογή"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "καθορίζει την εργασία συγχρονισμού, μπορεί να επαναληφθεί πολλές φορές"
+
+msgid "description"
+msgstr "περιγραφή"
+
+msgid "dictionary {} / {}"
+msgstr "λεξικό {} / {}"
+
+msgid "directory path"
+msgstr "διαδρομή καταλόγου"
+
+msgid "display this help text and exit"
+msgstr "εμφανίστε αυτό το κείμενο βοήθειας και βγείτε"
+
+msgid "display version information and exit"
+msgstr "εμφάνιση πληροφοριών έκδοσης και έξοδος"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "μην επιχειρήσετε να επικοινωνήσετε με τον απομακρυσμένο διακομιστή για να λάβετε στοιχεία που λείπουν"
+
+msgid "don't show this message again"
+msgstr "μην εμφανιστεί ξανά αυτό το μήνυμα"
+
+msgid "done"
+msgstr "ολοκληρώθηκε"
+
+msgid "download updates automatically"
+msgstr "Λήψη ενημερώσεων αυτόματα"
+
+msgid "downloading"
+msgstr "Λήψη"
+
+msgid "drop here"
+msgstr "αφήστε εδώ"
+
+msgid "dump logs to specified file"
+msgstr "εγγράψτε αρχεία καταγραφής στο καθορισμένο αρχείο"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "εξαγωγή λέξεων σε αρχείο ή σε τυπική έξοδο εάν λείπει το PATH. Το SRC είναι ένα από:  "
+
+msgid "elapsed time:"
+msgstr "χρόνος που έχει παρέλθει:"
+
+msgid "enable advanced debug options"
+msgstr "ενεργοποιήστε τις προηγμένες επιλογές εντοπισμού σφαλμάτων"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "όνομα αρχείου (χωρίς διαδρομή και επέκταση)"
+
+msgid "files with matching streams"
+msgstr "αρχεία με αντίστοιχα κομμάτια"
+
+msgid "files without matching streams"
+msgstr "αρχεία χωρίς αντίστοιχα κομμάτια"
+
+msgid "formula:"
+msgstr "τύπος:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "πόσο δύσκολο να προσπαθήσεις (0,0 - 1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "εάν το <field> δεν έχει οριστεί, προσαρτήστε το <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "εάν έχει οριστεί το <field>, προσαρτήστε το <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "εισαγωγή λίστας εργασιών από το αρχείο YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "γλώσσα"
+
+msgid "language not selected"
+msgstr "δεν επιλέχθηκε η γλώσσα"
+
+msgid "less than minute"
+msgstr "λιγότερο από λεπτό"
+
+msgid "log to file"
+msgstr "καταγραφή σε αρχείο"
+
+msgid "max change:"
+msgstr "μέγιστη αλλαγή:"
+
+msgid "missing assets:"
+msgstr "που λείπουν:"
+
+msgid "name"
+msgstr "όνομα"
+
+msgid "open batch processing window"
+msgstr "ανοίξτε το παράθυρο επεξεργασίας παρτίδας"
+
+msgid "operation failed"
+msgstr "η λειτουργία απέτυχε"
+
+msgid "operation finished successfully"
+msgstr "η λειτουργία ολοκληρώθηκε με επιτυχία"
+
+msgid "output character encoding"
+msgstr "κωδικοποίηση χαρακτήρων εξόδου"
+
+msgid "output file path or pattern"
+msgstr "Διαδρομή ή μοτίβο αρχείου εξόδου"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "ρυθμός καρέ εξόδου (για υπότιτλους βάσει FPS)"
+
+msgid "outputs"
+msgstr "έξοδοι"
+
+msgid "overwrite existing files"
+msgstr "αντικαταστήστε υπάρχοντα αρχεία"
+
+msgid "path to reference file"
+msgstr "διαδρομή προς το αρχείο αναφοράς"
+
+msgid "path to subtitle file"
+msgstr "διαδρομή προς το αρχείο υποτίτλων"
+
+msgid "pattern:"
+msgstr "μοτίβο:"
+
+msgid "predefined names:"
+msgstr "προκαθορισμένα ονόματα:"
+
+msgid "processing..."
+msgstr "επεξεργασία..."
+
+msgid "queued..."
+msgstr "ουρά..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "Χαρτογράφηση καναλιών ήχου αναφοράς (για αναφορές ήχου)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "Κωδικοποίηση χαρακτήρων αναφοράς (για αναφορές υπότιτλων)"
+
+msgid "reference framerate"
+msgstr "ρυθμός καρέ αναφοράς"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "γλώσσα αναφοράς (κωδικός ISO 2 ή 3 γραμμάτων)"
+
+msgid "reference stream no"
+msgstr "κομμάτι αναφοράς αρ"
+
+msgid "references"
+msgstr "αρχεία αναφοράς"
+
+msgid "references: "
+msgstr "αρχεία αναφοράς: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "λειτουργία χωρίς κεφαλή (χωρίς GUI)"
+
+msgid "same as input subtitles"
+msgstr "ίδιο με τους υπότιτλους εισόδου"
+
+msgid "same as reference file"
+msgstr "ίδιο με το αρχείο αναφοράς"
+
+msgid "select custom folder"
+msgstr "επιλέξτε προσαρμοσμένο φάκελο"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "επιλέξτε κομμάτι αναφοράς ανά γλώσσα (κωδικός ISO 3 γραμμάτων)"
+
+msgid "select reference stream by type"
+msgstr "επιλέξτε κομμάτι αναφοράς ανά τύπο"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "επιλέξτε κομμάτι υπότιτλων ανά γλώσσα (κωδικός ISO 3 γραμμάτων)"
+
+msgid "set logging level"
+msgstr "ορίστε το επίπεδο καταγραφής"
+
+msgid "stream"
+msgstr "ροή"
+
+msgid "subtitle character encoding"
+msgstr "Κωδικοποίηση χαρακτήρων υπότιτλων"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "ρυθμός καρέ υπότιτλων (για υπότιτλους βάσει FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "γλώσσα υποτίτλων (κωδικός ISO 2 ή 3 γραμμάτων)"
+
+msgid "subtitle stream no"
+msgstr "κομματιού υπότιτλων αρ"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "κωδικός γλώσσας υπότιτλων/αναφοράς 2 γραμμάτων"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "κωδικός γλώσσας υποτίτλων/αναφοράς 3 γραμμάτων"
+
+msgid "subtitle/reference file full path"
+msgstr "πλήρης διαδρομή αρχείου υποτίτλων/αναφοράς"
+
+msgid "subtitle/reference stream number"
+msgstr "υπότιτλος/αριθμός κομματιού αναφοράς"
+
+msgid "subtitle/text"
+msgstr "υπότιτλος/κείμενο"
+
+msgid "subtitles"
+msgstr "υπότιτλοι"
+
+msgid "subtitles: "
+msgstr "υπότιτλοι: "
+
+msgid "synchronizing"
+msgstr "συγχρονισμός"
+
+msgid "terminated"
+msgstr "τερματίστηκε"
+
+msgid "type"
+msgstr "τύπος"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "γλώσσα διεπαφής χρήστη (κωδικός ISO 2 γραμμάτων)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "επίπεδο βερμπαλισμού (0 - 3)"
+
+msgid "version "
+msgstr "έκδοση "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} ώρες"
+
+msgid "{} min"
+msgstr "{} λεπτά"
+
+msgid "{} minutes"
+msgstr "{} λεπτά"
+
+msgid "{} speech recognition model"
+msgstr "{} μοντέλο αναγνώρισης ομιλίας"

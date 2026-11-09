@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Gàidhlig\nLanguage: gd\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Mu dhèidhinn"
+
+msgid "&Add files (auto sort)"
+msgstr "&Cuir faidhlichean ris (seòrsachadh fèin-ghluasadach)"
+
+msgid "&Close"
+msgstr "&Dùin"
+
+msgid "&Edit"
+msgstr "&Deasaich"
+
+msgid "&Export list"
+msgstr "&Às-phortaich liosta"
+
+msgid "&File"
+msgstr "&Faidhle"
+
+msgid "&Help"
+msgstr "&Cobhair"
+
+msgid "&Import list"
+msgstr "&Iom-phortaich liosta"
+
+msgid "&Language"
+msgstr "&Cànan"
+
+msgid "&New"
+msgstr "&Ùr"
+
+msgid "&Properties"
+msgstr "&Buadhan"
+
+msgid "&Propeties"
+msgstr "&Buadhan"
+
+msgid "&Remove"
+msgstr "&Thoir air falbh"
+
+msgid ", {} points"
+msgstr ", {} puingean"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 airson càr."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 mhionaid"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<fèin-obrachail>"
+
+msgid "<empty>"
+msgstr "<falamh>"
+
+msgid "<other>"
+msgstr "<eile>"
+
+msgid "<undefined>"
+msgstr "<gun mhìneachadh>"
+
+msgid "About"
+msgstr "Mu dhèidhinn"
+
+msgid "Add"
+msgstr "Cuir ris"
+
+msgid "Add &folder"
+msgstr "&Cuir pasgan ris"
+
+msgid "Add &references"
+msgstr "&Cuir a-steach iomraidhean"
+
+msgid "Add &subtitles"
+msgstr "&Cuir fo-thiotalan ris"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albànianach"
+
+msgid "All files"
+msgstr "A h-uile faidhlichean"
+
+msgid "All supported files"
+msgstr "A h-uile faidhle le taic"
+
+msgid "Another update in progress"
+msgstr "Ùrachadh eile a’ dol air adhart"
+
+msgid "Application upgrade"
+msgstr "Iarrtas àrdachadh"
+
+msgid "Arabic"
+msgstr "Arabach"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "A bheil thu cinnteach gu bheil thu airson sgrìobhadh thairis air faidhlichean toraidh ma tha iad ann?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "A bheil thu cinnteach gu bheil thu airson na roghainnean ath-shuidheachadh gu na roghainnean bunaiteach?"
+
+msgid "Asset installation failed"
+msgstr "Dh'fhàillig stàladh goireas"
+
+msgid "Au&to sort"
+msgstr "&Seòrsachadh fèin-ghluasadach"
+
+msgid "Audio &channels"
+msgstr "&Sianalan fuaim"
+
+msgid "Audio channels"
+msgstr "Sianalan fuaim"
+
+msgid "Audio channels:"
+msgstr "Seanalan claisneachd:"
+
+msgid "Auto detect"
+msgstr "Aithneachadh fèin-ghluasadach"
+
+msgid "Auto sort"
+msgstr "Seòrsachadh fèin-ghluasadach"
+
+msgid "Batch Processing"
+msgstr "Giullachd baidse"
+
+msgid "Batch processing"
+msgstr "Giullachd baidse"
+
+msgid "Belarusian"
+msgstr "Belarusianach"
+
+msgid "Bulgarian"
+msgstr "Bulgàrianach"
+
+msgid "Can't save subtitle file"
+msgstr "Chan urrainn dhuinn am faidhle fo-thiotal a shàbhaladh"
+
+msgid "Cancel"
+msgstr "Sguir dheth"
+
+msgid "Cannot load settings file, {}"
+msgstr "Cha ghabh am faidhle roghainnean a luchdadh, {}"
+
+msgid "Catalan"
+msgstr "Catalanach"
+
+msgid "Character &encoding"
+msgstr "&Còdachadh charactaran"
+
+msgid "Character encoding"
+msgstr "Còdachadh charactaran"
+
+msgid "Character encoding:"
+msgstr "Còdachadh charactaran:"
+
+msgid "Check for updates"
+msgstr "Thoir sùil airson ùrachaidhean"
+
+msgid "Checking for update..."
+msgstr "A’ coimhead airson ùrachadh..."
+
+msgid "Chinese"
+msgstr "Sìneach"
+
+msgid "Close"
+msgstr "Dùin"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Cha b' urrainn dhuinn fo-thiotalan sioncronaich a shàbhaladh"
+
+msgid "Couldn't synchronize"
+msgstr "Cha b' urrainn dhuinn sioncronachadh"
+
+msgid "Credits"
+msgstr "Creideasan"
+
+msgid "Croatian"
+msgstr "Croatianach"
+
+msgid "Current file:"
+msgstr "Am faidhle làithreach:"
+
+msgid "Czech"
+msgstr "Seacach"
+
+msgid "Danish"
+msgstr "Dànach"
+
+msgid "Debug"
+msgstr "Dì-bhugachadh"
+
+msgid "Debug options:"
+msgstr "Roghainnean deasbaid:"
+
+msgid "Do you want to clear all items?"
+msgstr "A bheil thu airson a h-uile stuth a ghlanadh?"
+
+msgid "Download"
+msgstr "Luchdaich a-nuas"
+
+msgid "Download assets"
+msgstr "Luchdaich sìos goireasan"
+
+msgid "Download now?"
+msgstr "Luchdaich sìos a-nis?"
+
+msgid "Downloading"
+msgstr "A' luchdachadh sìos"
+
+msgid "Downloading assets list..."
+msgstr "Luchdaich a-nuas an clàr goireasan.. ."
+
+msgid "Drop files here to add sorted"
+msgstr "Slaod na faidhlichean an seo gus an cuir thu ann an òrdugh"
+
+msgid "Dump all synchronization points"
+msgstr "Às-mhalairt a h-uile puing sioncronaidh"
+
+msgid "Dump reference words"
+msgstr "Às-mhalairt faclan iomraidh aithnichte"
+
+msgid "Dump subtitle words"
+msgstr "Às-mhalairt faclan fo-thiotal"
+
+msgid "Dump used synchronization points"
+msgstr "Às-mhalairt na puingean sioncronaidh a chaidh a chleachdadh"
+
+msgid "Dutch"
+msgstr "Duitseach"
+
+msgid "ETA:"
+msgstr "Air fhàgail:"
+
+msgid "Edit all tasks"
+msgstr "Deasaich a h-uile gnìomh"
+
+msgid "Edit failed tasks"
+msgstr "Deasaich gnìomhan a dh'fhàillig"
+
+msgid "Effort:"
+msgstr "Oidhirp:"
+
+msgid "Elapsed:"
+msgstr "Air a dhol seachad:"
+
+msgid "Enable save button"
+msgstr "Dèan comas air putan sàbhalaidh"
+
+msgid "English"
+msgstr "Sasannach"
+
+msgid "Error"
+msgstr "Mearachd"
+
+msgid "Error during reference read"
+msgstr "Mearachd rè leughadh iomraidh"
+
+msgid "Error during subtitles read"
+msgstr "Mearachd nuair a chaidh fo-thiotalan a leughadh"
+
+msgid "Estonian"
+msgstr "Estòinianach"
+
+msgid "Everything synchronized successfully"
+msgstr "Chaidh a h-uile càil a shioncronachadh gu soirbheachail"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Chaidh a h-uile càil a shioncronachadh, ach thachair mearachdan"
+
+msgid "Extractor jobs no:"
+msgstr "An àireamh de dh’ obraichean às-tharraing:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Fàrach"
+
+msgid "File name:"
+msgstr "Ainm an fhaidhle:"
+
+msgid "File type:"
+msgstr "Seòrsa faidhle:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Criathraich logaichean bho mhodalan (aon airson gach loidhne):"
+
+msgid "Finnish"
+msgstr "Fionnlaineach"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Ceartaich clàran-ama fo-thiotal toraidh le bhith air a chothromachadh, ann an diogan."
+
+msgid "Following assets could be updated:"
+msgstr "Faodar na goireasan a leanas ùrachadh:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Feumar na goireasan a leanas a luchdachadh sìos gus leantainn air adhart:"
+
+msgid "Following files could not be added:"
+msgstr "Cha b' urrainn dhuinn na faidhlichean a leanas a chur ris:"
+
+msgid "French"
+msgstr "Frangach"
+
+msgid "GUI options:"
+msgstr "GUI roghainnean:"
+
+msgid "Gaelic"
+msgstr "Gàidhlig na h-Alba"
+
+msgid "Galician"
+msgstr "Galicianach"
+
+msgid "General"
+msgstr "Coitcheann"
+
+msgid "General options:"
+msgstr "Roghainnean coitcheann:"
+
+msgid "German"
+msgstr "Gearmailteach"
+
+msgid "Got errors, synchronization failed"
+msgstr "Dh'fhàillig an sioncronachadh air sgàth mhearachdan"
+
+msgid "Greek"
+msgstr "Grèigeach"
+
+msgid "Headless options:"
+msgstr "Roghainnean loidhne-àithne (às aonais eadar-aghaidh grafaigeach):"
+
+msgid "Hebrew"
+msgstr "Eabhrach"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Dè cho mionaideach gus fo-thiotalan a shioncronachadh. Bidh luach nas àirde a’ leasachadh sioncronadh ach bheir e nas fhaide."
+
+msgid "Hungarian"
+msgstr "Hungàrianach"
+
+msgid "Icelandic"
+msgstr "Innis Tìleach"
+
+msgid "In seconds."
+msgstr "Ann an diogan."
+
+msgid "Indonesian"
+msgstr "And-Innseach"
+
+msgid "Info"
+msgstr "Fiosrachadh"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Tha an t-sioncronachadh tùsail deiseil.\n Dh'fhaodadh tu fo-thiotalan a shàbhaladh mu thràth.\nMura h-eil iad co-ionnan, fuirich airson toradh nas fheàrr."
+
+msgid "Initializing..."
+msgstr "A' tòiseachadh..."
+
+msgid "Input file:"
+msgstr "Faidhle cuir a-steach:"
+
+msgid "Invalid output pattern"
+msgstr "Pàtran toraidh mì-dhligheach"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Pàtran toraidh mì-dhligheach, prìomh fhacal mì-dhligheach: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Pàtran toraidh mì-dhligheach, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Cruth claisneachd cainnte mì-dhligheach"
+
+msgid "Italian"
+msgstr "Eadailteach"
+
+msgid "Japanese"
+msgstr "Iapanach"
+
+msgid "Korean"
+msgstr "Corèanach"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Tha e roghainneil cànan a thaghadh, ach bheir e piseach mòr air cruinneas an t-sioncronaidh.\nA bheil thu cinnteach?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Thig atharrachaidhean cànain gu buil às deidh an tagradh ath-thòiseachadh"
+
+msgid "Language:"
+msgstr "Cànan:"
+
+msgid "Languages"
+msgstr "Cànanan"
+
+msgid "Latin"
+msgstr "Laidinn"
+
+msgid "Latvian"
+msgstr "Latbhianach"
+
+msgid "License"
+msgstr "Ceadachas"
+
+msgid "Lithuanian"
+msgstr "Lithuanianach"
+
+msgid "Loading, please wait..."
+msgstr "A’ luchdachadh, fuirich thusa..."
+
+msgid "Logging level:"
+msgstr "Ìre logaidh:"
+
+msgid "Malagasy"
+msgstr "Malagasais"
+
+msgid "Malay"
+msgstr "Malaidheach"
+
+msgid "Maltese"
+msgstr "Malteseach"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Atharrachadh as àirde. Chan atharraich amannan fo-thiotalan nas motha na an luach seo. Bheir luach nas àirde nas fhaide airson sioncronachadh. Ma tha an luach seo ro ìosal, fàilligidh sioncronadh."
+
+msgid "Max adjustment:"
+msgstr "Atharrachadh as motha:"
+
+msgid "Max points distance:"
+msgstr "Claonadh as motha nam puingean:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Mearachd sioncronaidh as àirde ris an gabhar, ann an diogan. Thèid puingean sioncronaidh le mearachd nas motha na seo a thilgeil air falbh."
+
+msgid "Menu"
+msgstr "Clàr-taice"
+
+msgid "Min correlation factor:"
+msgstr "Factor co-dhàimh as ìsle:"
+
+msgid "Min points no:"
+msgstr "Àireamh as lugha de phuingean:"
+
+msgid "Min speech recognition score:"
+msgstr "Sgòr aithne cainnte as ìsle:"
+
+msgid "Min word length (letters):"
+msgstr "Faid facail as lugha (litrichean):"
+
+msgid "Min words similarity:"
+msgstr "Co-ionannachd fhaclan as lugha:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Factar co-dhàimh as ìsle, eadar 0.0 agus 1.0. Air a chleachdadh gus toradh sioncronaidh a dhearbhadh. Ma tha am feart co-dhàimh nas lugha na seo, fàilligidh sioncronadh."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Sgòr aithne cainnte as ìsle, eadar 0.0 agus 1.0. Thèid faclan a chaidh ath-sgrìobhadh le sgòr nas lugha a dhiùltadh."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Fad facal as ìsle, ann an litrichean. Cha tèid faclan nas giorra a chleachdadh mar phuingean sioncronaidh. A’ buntainn ri cànanan stèidhichte air aibideil a-mhàin."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Co-ionannachd fhaclan as ìsle airson puingean sioncronaidh. Eadar 0.0 agus 1.0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "An àireamh as lugha de phuingean sioncronaidh. Na suidhich seo ro àrd, oir dh’ fhaodadh e tòrr rudan ceàrr a thoirt gu buil."
+
+msgid "New synchronization"
+msgstr "Synchronization ùr"
+
+msgid "New version is available. Update now?"
+msgstr "Tha dreach ùr ri fhaighinn. Ùraich a-nis?"
+
+msgid "No language selected"
+msgstr "Cha deach cànan sam bith a thaghadh"
+
+msgid "No language selected for:"
+msgstr "Cha deach cànan sam bith a thaghadh airson:"
+
+msgid "No need to synchronize"
+msgstr "Chan eil feum air sioncronachadh"
+
+msgid "Norwegian"
+msgstr "Lochlannach"
+
+msgid "Not supported stream type"
+msgstr "Seòrsa slighe nach eil taic ann"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "An àireamh de snàithleanan sioncronaidh co-aontach."
+
+msgid "OK"
+msgstr "ceart gu leòr"
+
+msgid "Output directory:"
+msgstr "Clàr toraidh:"
+
+msgid "Output encoding:"
+msgstr "Còdachadh toraidh:"
+
+msgid "Output file names"
+msgstr "Ainmean faidhle toraidh"
+
+msgid "Output file not set"
+msgstr "Cha deach am faidhle toraidh a shuidheachadh"
+
+msgid "Output filename:"
+msgstr "Ainm an fhaidhle toraidh:"
+
+msgid "Output timing offset:"
+msgstr "Gluasad ùine an toraidh:"
+
+msgid "Overwrite existing files"
+msgstr "Sgrìobh thairis air na faidhlichean a tha ann mar-thà"
+
+msgid "Overwrite files?"
+msgstr "Sgrìobh thairis air faidhlichean?"
+
+msgid "Persian"
+msgstr "Persianach"
+
+msgid "Polish"
+msgstr "Pòlainneach"
+
+msgid "Portuguese"
+msgstr "Portugalach"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Cuir stad air bho bhith a’ dol a chadal aig àm sioncronaidh"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "A’ cur casg air an t-siostam bho bhith a’ dol a chadal aig àm sioncronaidh.\n Cha b’ urrainn dha obrachadh air a h-uile àrd-ùrlar."
+
+msgid "Reference file not set"
+msgstr "Chan eil am faidhle iomraidh air a shuidheachadh"
+
+msgid "References (video or other subtitles):"
+msgstr "Iomraidhean (bhidio no fo-thiotalan eile):"
+
+msgid "Remove"
+msgstr "Thoir air falbh"
+
+msgid "Remove items"
+msgstr "Thoir air falbh nithean"
+
+msgid "Restore defaults"
+msgstr "Thoir air ais roghainnean bunaiteach"
+
+msgid "Romanian"
+msgstr "Romànianach"
+
+msgid "Russian"
+msgstr "Ruiseanach"
+
+msgid "Save"
+msgstr "Sàbhail"
+
+msgid "Select"
+msgstr "Tagh"
+
+msgid "Select &all"
+msgstr "&Tagh a h-uile"
+
+msgid "Select &stream"
+msgstr "&Tagh sruth"
+
+msgid "Select all &references"
+msgstr "&Tagh a h-uile iomradh"
+
+msgid "Select all &subtitles"
+msgstr "&Tagh a h-uile fo-thiotalan"
+
+msgid "Select all o&utputs"
+msgstr "&Tagh a h-uile toradh"
+
+msgid "Select audio channels to listen to:"
+msgstr "Tagh seanalan claisneachd airson èisteachd riutha:"
+
+msgid "Select character encoding"
+msgstr "Tagh còdachadh charactaran"
+
+msgid "Select directory"
+msgstr "Tagh eòlaire"
+
+msgid "Select file"
+msgstr "Tagh faidhle"
+
+msgid "Select language"
+msgstr "Tagh cànan"
+
+msgid "Select output"
+msgstr "Tagh toradh"
+
+msgid "Select output directory"
+msgstr "Tagh eòlaire toraidh"
+
+msgid "Select output subtitles framerate:"
+msgstr "Tagh ìre frèam fo-thiotalan toraidh:"
+
+msgid "Select reference language first"
+msgstr "Tagh cànan iomraidh an toiseach"
+
+msgid "Select stream"
+msgstr "Tagh sruth"
+
+msgid "Select stream by language:"
+msgstr "Tagh sruth a-rèir cànain:"
+
+msgid "Select stream by title:"
+msgstr "Tagh sruth a-rèir tiotail:"
+
+msgid "Select stream by type:"
+msgstr "Tagh sruth a-rèir seòrsa:"
+
+msgid "Select stream:"
+msgstr "Tagh sruth:"
+
+msgid "Select streams"
+msgstr "Tagh sruthan"
+
+msgid "Serbian"
+msgstr "Serbianach"
+
+msgid "Set &input stream"
+msgstr "&Suidhich slighe a-steach"
+
+msgid "Set &output location"
+msgstr "&Suidhich àite toraidh"
+
+msgid "Settings"
+msgstr "Roghainnean"
+
+msgid "Show popups:"
+msgstr "Seall popups:"
+
+msgid "Signature verification failed"
+msgstr "Dh'fhàillig dearbhadh ainm-sgrìobhte"
+
+msgid "Slovak"
+msgstr "Slovacanach"
+
+msgid "Slovenian"
+msgstr "Slobhenianach"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Chan urrainnear cuid de na fo-thiotalan iomraidh a chòdachadh (còdachadh mì-dhligheach?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Cha ghabh cuid de na fo-thiotalan a chòdachadh (còdachadh mì-dhligheach?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Cha b' urrainn cuid de ghnìomhan a shioncronachadh"
+
+msgid "Spanish"
+msgstr "Spàinneach"
+
+msgid "Start"
+msgstr "Tòisich"
+
+msgid "Status:"
+msgstr "Inbhe:"
+
+msgid "Stop"
+msgstr "Stad"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Faidhlichean fo-thiotal"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Chan urrainn dha fo-thiotalan a bhith co-ionann ri iomradh"
+
+msgid "Subtitles not set"
+msgstr "Chan eil fo-thiotalan air an suidheachadh"
+
+msgid "Subtitles synchronized"
+msgstr "Fo-thiotalan air an sioncronachadh"
+
+msgid "Subtitles:"
+msgstr "Fo-thiotalan:"
+
+msgid "Swedish"
+msgstr "Suaineach"
+
+msgid "Synchronization"
+msgstr "Sioncronachadh"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Chan eil taic ri sioncronachadh eadar cànanan {} an-dràsta."
+
+msgid "Synchronization job:"
+msgstr "Obair sioncronaidh:"
+
+msgid "Synchronization options:"
+msgstr "Roghainnean sioncronaidh:"
+
+msgid "Synchronization terminated"
+msgstr "Thàinig crìoch air sioncronachadh"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Chan eil taic ri sioncronachadh le {} audio an-dràsta."
+
+msgid "Synchronization: 0 points"
+msgstr "Synchronization: 0 puingean"
+
+msgid "Synchronization: {} points"
+msgstr "Synchronization: {} puingean"
+
+msgid "Synchronizing..."
+msgstr "A' sioncronadh..."
+
+msgid "Task:"
+msgstr "Gnìomh:"
+
+msgid "Terminating, please wait..."
+msgstr "A’ crìochnachadh, fuirich thusa..."
+
+msgid "Terminating..."
+msgstr "A' crìochnachadh..."
+
+msgid "There are no usable streams"
+msgstr "Chan eil sruthan feumail ann"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Chan eil faclair ann airson eadar-theangachadh bho {} gu {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Chan eil slighe co-ionnan ann an {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Chan eil modail aithneachadh cainnte ann airson cànan {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "'S e inneal sioncronachaidh fo-thiotal film fèin-ghluasadach a tha seo.\nThathas a' sioncronadh le bhith ag èisteachd ris a' chlàr-fuaim, ga eadar-theangachadh ma tha feum air.\nDh'fhaodadh e fo-thiotal eile a chleachdadh mar iomradh cuideachd.\n\nÙghdar: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Fàilligeadh iomlan"
+
+msgid "Total progress:"
+msgstr "Adhartas iomlan:"
+
+msgid "Turkish"
+msgstr "Turcach"
+
+msgid "Ukrainian"
+msgstr "Ucràinis"
+
+msgid "Unexpected error occurred"
+msgstr "Thachair mearachd ris nach robh dùil"
+
+msgid "Unknown file extension"
+msgstr "Leudachadh faidhle neo-aithnichte"
+
+msgid "Update assets"
+msgstr "Ùraich na goireasan"
+
+msgid "Update instalation failed miserably"
+msgstr "Cha b' urrainn dhuinn an t-ùrachadh a stàladh"
+
+msgid "Update not available"
+msgstr "Chan eil ùrachadh ri fhaighinn"
+
+msgid "Update now?"
+msgstr "Ùraich a-nis?"
+
+msgid "Updates:"
+msgstr "Ùrachaidhean:"
+
+msgid "Upgrade"
+msgstr "Àrdaich"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Cleachdadh: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Faidhlichean bhidio"
+
+msgid "Website"
+msgstr "Làrach-lìn"
+
+msgid "Your version is up to date"
+msgstr "Tha an dreach agad ùraichte"
+
+msgid "[details]"
+msgstr "[mion-fhiosrachadh]"
+
+msgid "[errors]"
+msgstr "[mearachdan]"
+
+msgid "[hide]"
+msgstr "[falaich]"
+
+msgid "[show more]"
+msgstr "[seall barrachd]"
+
+msgid "all"
+msgstr "uile"
+
+msgid "all channels"
+msgstr "a h-uile sianal"
+
+msgid "and {} more"
+msgstr "agus {} tuilleadh"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "cuir ri còd cànain dà-litir (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "cuir a-steach còd cànain 3-litrichean (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "cuir a-steach àireamh slighe"
+
+msgid "ask for update on exit"
+msgstr "iarr ùrachadh air fàgail"
+
+msgid "audio"
+msgstr "claisneachd"
+
+msgid "auto"
+msgstr "fèin"
+
+msgid "auto select"
+msgstr "taghadh fèin-ghluasadach"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "dearbhaich ath-sgrìobhadh faidhle (ann am modh baidse)"
+
+msgid "correlation:"
+msgstr "co-dhàimh:"
+
+msgid "couldn't synchronize"
+msgstr "cha b' urrainn dhuinn sioncronachadh"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "togail àbhaisteach"
+
+msgid "custom names:"
+msgstr "ainmean àbhaisteach:"
+
+msgid "custom selection"
+msgstr "taghadh gnàthaichte"
+
+msgid "custom value:"
+msgstr "luach gnàthaichte:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "bun-roghainn"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "mìneachadh gnìomh sioncronaidh, faodar ath-aithris grunn thursan"
+
+msgid "description"
+msgstr "tuairisgeul"
+
+msgid "dictionary {} / {}"
+msgstr "faclair {} / {}"
+
+msgid "directory path"
+msgstr "slighe eòlaire"
+
+msgid "display this help text and exit"
+msgstr "seall an teacsa cuideachaidh seo agus falbh"
+
+msgid "display version information and exit"
+msgstr "taisbeanadh fiosrachadh dreach agus fàgail"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "na feuch ri fios a chur gu frithealaiche iomallach gus maoin a tha a dhìth fhaighinn"
+
+msgid "don't show this message again"
+msgstr "na seall am brath seo a-rithist"
+
+msgid "done"
+msgstr "rinn"
+
+msgid "download updates automatically"
+msgstr "Luchdaich a-nuas ùrachaidhean fèin-obrachail"
+
+msgid "downloading"
+msgstr "a' luchdachadh sìos"
+
+msgid "drop here"
+msgstr "tuiteam an seo"
+
+msgid "dump logs to specified file"
+msgstr "sgrìobh logaichean dhan fhaidhle ainmichte"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "às-mhalairt faclan gu faidhle, no gu toradh àbhaisteach ma tha PATH a dhìth; Tha SRC mar aon de:  "
+
+msgid "elapsed time:"
+msgstr "ùine seachad:"
+
+msgid "enable advanced debug options"
+msgstr "comas a thoirt do roghainnean deasbaid adhartach"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "ainm faidhle (gun slighe agus leudachadh)"
+
+msgid "files with matching streams"
+msgstr "faidhlichean le slighean co-ionnan"
+
+msgid "files without matching streams"
+msgstr "faidhlichean gun a bhith a 'maidseadh slighean"
+
+msgid "formula:"
+msgstr "foirmle:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "dè cho doirbh feuchainn (0.0 - 1.0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "mura h-eil <field> suidhichte, cuir a-steach <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "ma tha <field> suidhichte, cuir a-steach <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "cuir a-steach liosta ghnìomhan bho fhaidhle YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "cànain"
+
+msgid "language not selected"
+msgstr "cànan nach deach a thaghadh"
+
+msgid "less than minute"
+msgstr "nas lugha na mionaid"
+
+msgid "log to file"
+msgstr "sgrìobh an loga gu faidhle"
+
+msgid "max change:"
+msgstr "atharrachadh as motha:"
+
+msgid "missing assets:"
+msgstr "goireasan a dhìth:"
+
+msgid "name"
+msgstr "ainm"
+
+msgid "open batch processing window"
+msgstr "uinneag giollachd baidse fosgailte"
+
+msgid "operation failed"
+msgstr "dh'fhàillig an obrachadh"
+
+msgid "operation finished successfully"
+msgstr "obrachadh crìochnaichte gu soirbheachail"
+
+msgid "output character encoding"
+msgstr "còdachadh caractar toraidh"
+
+msgid "output file path or pattern"
+msgstr "slighe faidhle toraidh no pàtran"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "ìre frèam toraidh (airson fo-thiotalan stèidhichte air FPS)"
+
+msgid "outputs"
+msgstr "toraidhean"
+
+msgid "overwrite existing files"
+msgstr "sgrìobhadh thairis air na faidhlichean a tha ann mar-thà"
+
+msgid "path to reference file"
+msgstr "slighe gu faidhle iomraidh"
+
+msgid "path to subtitle file"
+msgstr "slighe gu faidhle fo-thiotal"
+
+msgid "pattern:"
+msgstr "pàtran:"
+
+msgid "predefined names:"
+msgstr "ainmean ro-mhìnichte:"
+
+msgid "processing..."
+msgstr "giollachd..."
+
+msgid "queued..."
+msgstr "ciudha..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "thoir iomradh air mapadh seanalan claisneachd (airson iomraidhean claisneachd)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "còdachadh caractar iomraidh (airson iomraidhean fo-thiotalan)"
+
+msgid "reference framerate"
+msgstr "ìre frèam iomraidh"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "cànan iomraidh (còd ISO 2- no 3-litir)"
+
+msgid "reference stream no"
+msgstr "slighe iomraidh àireamh"
+
+msgid "references"
+msgstr "faidhlichean iomraidh"
+
+msgid "references: "
+msgstr "faidhlichean iomraidh: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "ruith ann am modh gun cheann (gun GUI)"
+
+msgid "same as input subtitles"
+msgstr "an aon rud ri fo-thiotalan cuir a-steach"
+
+msgid "same as reference file"
+msgstr "an aon rud ris an fhaidhle iomraidh"
+
+msgid "select custom folder"
+msgstr "tagh pasgan gnàthaichte"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "tagh slighe iomraidh a rèir cànan (còd ISO 3-litir)"
+
+msgid "select reference stream by type"
+msgstr "tagh slighe iomraidh a rèir seòrsa"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "tagh slighe fo-thiotal a rèir cànan (còd ISO 3-litir)"
+
+msgid "set logging level"
+msgstr "suidhich ìre logaidh"
+
+msgid "stream"
+msgstr "sruth"
+
+msgid "subtitle character encoding"
+msgstr "còdachadh caractar fo-thiotal"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "ìre frèam fo-thiotal (airson fo-thiotalan stèidhichte air FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "cànan fo-thiotal (còd ISO 2- no 3-litir)"
+
+msgid "subtitle stream no"
+msgstr "slighe fo-thiotal àireamh"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "fo-thiotal/iomradh còd cànain 2-litir"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "fo-thiotal/iomradh còd cànain 3-litrichean"
+
+msgid "subtitle/reference file full path"
+msgstr "fo-thiotal / faidhle iomraidh làn shlighe"
+
+msgid "subtitle/reference stream number"
+msgstr "fo-thiotal / àireamh slighe iomraidh"
+
+msgid "subtitle/text"
+msgstr "fo-thiotal/teacsa"
+
+msgid "subtitles"
+msgstr "fo-thiotalan"
+
+msgid "subtitles: "
+msgstr "fo-thiotalan: "
+
+msgid "synchronizing"
+msgstr "sioncronaich"
+
+msgid "terminated"
+msgstr "criochnachadh"
+
+msgid "type"
+msgstr "seòrsa"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "cànan eadar-aghaidh cleachdaiche (còd ISO 2-litir)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "ìre briathrachais (0-3)"
+
+msgid "version "
+msgstr "dreach "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} uairean"
+
+msgid "{} min"
+msgstr "{} mion"
+
+msgid "{} minutes"
+msgstr "{} mionaidean"
+
+msgid "{} speech recognition model"
+msgstr "modail aithneachaidh cainnte {}"

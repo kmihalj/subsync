@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Eesti\nLanguage: et\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Teave"
+
+msgid "&Add files (auto sort)"
+msgstr "&Failide lisamine (automaatne sortimine)"
+
+msgid "&Close"
+msgstr "&Sulge"
+
+msgid "&Edit"
+msgstr "&Redigeeri"
+
+msgid "&Export list"
+msgstr "&Ekspordi loend"
+
+msgid "&File"
+msgstr "&Fail"
+
+msgid "&Help"
+msgstr "&Abi"
+
+msgid "&Import list"
+msgstr "&Impordi loend"
+
+msgid "&Language"
+msgstr "&Keel"
+
+msgid "&New"
+msgstr "&Uus"
+
+msgid "&Properties"
+msgstr "&Omadused"
+
+msgid "&Propeties"
+msgstr "&Omadused"
+
+msgid "&Remove"
+msgstr "&Eemalda"
+
+msgid ", {} points"
+msgstr ", {} punkti"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 auto jaoks."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minut"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automaatne>"
+
+msgid "<empty>"
+msgstr "<tühi>"
+
+msgid "<other>"
+msgstr "<muu>"
+
+msgid "<undefined>"
+msgstr "<määramata>"
+
+msgid "About"
+msgstr "Teave"
+
+msgid "Add"
+msgstr "Lisa"
+
+msgid "Add &folder"
+msgstr "&Lisa kaust"
+
+msgid "Add &references"
+msgstr "&Lisage viiteid"
+
+msgid "Add &subtitles"
+msgstr "&Lisage subtiitrid"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albaania keel"
+
+msgid "All files"
+msgstr "Kõik failid"
+
+msgid "All supported files"
+msgstr "Kõik toetatud failid"
+
+msgid "Another update in progress"
+msgstr "Teine värskendus on pooleli"
+
+msgid "Application upgrade"
+msgstr "Rakenduste uuendamine"
+
+msgid "Arabic"
+msgstr "araabia"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Kas soovite kindlasti väljundfailid üle kirjutada, kui need on olemas?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Kas soovite kindlasti vaikeseaded lähtestada?"
+
+msgid "Asset installation failed"
+msgstr "Ressursi installimine ebaõnnestus"
+
+msgid "Au&to sort"
+msgstr "&Automaatne sortimine"
+
+msgid "Audio &channels"
+msgstr "&Helikanalid"
+
+msgid "Audio channels"
+msgstr "Helikanalid"
+
+msgid "Audio channels:"
+msgstr "Helikanalid:"
+
+msgid "Auto detect"
+msgstr "Automaatne tuvastamine"
+
+msgid "Auto sort"
+msgstr "Automaatne sortimine"
+
+msgid "Batch Processing"
+msgstr "Hulgitöötlus"
+
+msgid "Batch processing"
+msgstr "Hulgitöötlus"
+
+msgid "Belarusian"
+msgstr "Valgevene"
+
+msgid "Bulgarian"
+msgstr "bulgaaria"
+
+msgid "Can't save subtitle file"
+msgstr "Subtiitrite faili ei saa salvestada"
+
+msgid "Cancel"
+msgstr "Loobu"
+
+msgid "Cannot load settings file, {}"
+msgstr "Sätete faili ei saa laadida, {}"
+
+msgid "Catalan"
+msgstr "katalaani"
+
+msgid "Character &encoding"
+msgstr "&Tähemärkide kodeering"
+
+msgid "Character encoding"
+msgstr "Tähemärkide kodeering"
+
+msgid "Character encoding:"
+msgstr "Tähemärkide kodeering:"
+
+msgid "Check for updates"
+msgstr "Kontrollige värskendusi"
+
+msgid "Checking for update..."
+msgstr "Värskenduste otsimine..."
+
+msgid "Chinese"
+msgstr "hiina keel"
+
+msgid "Close"
+msgstr "Sulge"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Sünkroonitud subtiitreid ei saanud salvestada"
+
+msgid "Couldn't synchronize"
+msgstr "Ei saanud sünkroonida"
+
+msgid "Credits"
+msgstr "Krediidid"
+
+msgid "Croatian"
+msgstr "Horvaatia"
+
+msgid "Current file:"
+msgstr "Praegune fail:"
+
+msgid "Czech"
+msgstr "tšehhi keel"
+
+msgid "Danish"
+msgstr "taani keel"
+
+msgid "Debug"
+msgstr "Silumine"
+
+msgid "Debug options:"
+msgstr "Silumisvalikud:"
+
+msgid "Do you want to clear all items?"
+msgstr "Kas soovite kõik üksused tühjendada?"
+
+msgid "Download"
+msgstr "Laadi alla"
+
+msgid "Download assets"
+msgstr "Laadige ressursse alla"
+
+msgid "Download now?"
+msgstr "Kas laadida kohe alla?"
+
+msgid "Downloading"
+msgstr "Allalaadimine"
+
+msgid "Downloading assets list..."
+msgstr "Ressursiloendi allalaadimine..."
+
+msgid "Drop files here to add sorted"
+msgstr "Sorditud lisamiseks pukseerige failid siia"
+
+msgid "Dump all synchronization points"
+msgstr "Ekspordi kõik sünkroonimispunktid"
+
+msgid "Dump reference words"
+msgstr "Ekspordi tunnustatud viitesõnad"
+
+msgid "Dump subtitle words"
+msgstr "Ekspordi subtiitrite sõnad"
+
+msgid "Dump used synchronization points"
+msgstr "Eksportige kasutatud sünkroonimispunktid"
+
+msgid "Dutch"
+msgstr "hollandi keel"
+
+msgid "ETA:"
+msgstr "Jäänud:"
+
+msgid "Edit all tasks"
+msgstr "Muutke kõiki ülesandeid"
+
+msgid "Edit failed tasks"
+msgstr "Redigeeri ebaõnnestunud ülesandeid"
+
+msgid "Effort:"
+msgstr "Põhjalikkus:"
+
+msgid "Elapsed:"
+msgstr "Kulunud:"
+
+msgid "Enable save button"
+msgstr "Luba salvestamise nupp"
+
+msgid "English"
+msgstr "inglise keel"
+
+msgid "Error"
+msgstr "Tõrge"
+
+msgid "Error during reference read"
+msgstr "Viga viite lugemisel"
+
+msgid "Error during subtitles read"
+msgstr "Viga subtiitrite lugemisel"
+
+msgid "Estonian"
+msgstr "eesti keel"
+
+msgid "Everything synchronized successfully"
+msgstr "Kõik sünkrooniti edukalt"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Kõik sünkrooniti, kuid ilmnesid vead"
+
+msgid "Extractor jobs no:"
+msgstr "Kaevandamise tööde arv:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "fääri saar"
+
+msgid "File name:"
+msgstr "Faili nimi:"
+
+msgid "File type:"
+msgstr "Failitüüp:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Moodulite logide väljafiltreerimine (üks rea kohta):"
+
+msgid "Finnish"
+msgstr "soome keel"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Parandage subtiitrite väljundi ajatemplid antud nihkega sekundites."
+
+msgid "Following assets could be updated:"
+msgstr "Värskendada saab järgmisi ressursse:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Jätkamiseks tuleb alla laadida järgmised ressursid:"
+
+msgid "Following files could not be added:"
+msgstr "Järgmisi faile ei saanud lisada:"
+
+msgid "French"
+msgstr "prantsuse keel"
+
+msgid "GUI options:"
+msgstr "GUI valikud:"
+
+msgid "Gaelic"
+msgstr "Šoti gaeli keel"
+
+msgid "Galician"
+msgstr "Galicia"
+
+msgid "General"
+msgstr "Üldine"
+
+msgid "General options:"
+msgstr "Üldised valikud:"
+
+msgid "German"
+msgstr "saksa keel"
+
+msgid "Got errors, synchronization failed"
+msgstr "Sünkroonimine nurjus vigade tõttu"
+
+msgid "Greek"
+msgstr "Kreeka"
+
+msgid "Headless options:"
+msgstr "Käsurea valikud (ilma graafilise liideseta):"
+
+msgid "Hebrew"
+msgstr "heebrea"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Kui põhjalikult subtiitreid sünkroonida. Suurem väärtus parandab sünkroonimist, kuid võtab kauem aega."
+
+msgid "Hungarian"
+msgstr "Ungari"
+
+msgid "Icelandic"
+msgstr "Islandi"
+
+msgid "In seconds."
+msgstr "Sekunditega."
+
+msgid "Indonesian"
+msgstr "Indoneesia"
+
+msgid "Info"
+msgstr "Teave"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Esialgne sünkroonimine on tehtud.\nVõiks subtiitrid juba salvestada.\nKui need ei ühti, oodake paremat tulemust."
+
+msgid "Initializing..."
+msgstr "Initsialiseerimine..."
+
+msgid "Input file:"
+msgstr "Sisendfail:"
+
+msgid "Invalid output pattern"
+msgstr "Vigane väljundmuster"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Vigane väljundmuster, sobimatu märksõna: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Vigane väljundmuster, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Vale kõne helivorming"
+
+msgid "Italian"
+msgstr "Itaalia"
+
+msgid "Japanese"
+msgstr "jaapani keel"
+
+msgid "Korean"
+msgstr "Korea"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Keele valimine on valikuline, kuid see võib oluliselt parandada sünkroonimise täpsust.\nKas olete kindel?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Keelemuudatused jõustuvad pärast rakenduse taaskäivitamist"
+
+msgid "Language:"
+msgstr "Keel:"
+
+msgid "Languages"
+msgstr "Keeled"
+
+msgid "Latin"
+msgstr "Ladina keel"
+
+msgid "Latvian"
+msgstr "läti"
+
+msgid "License"
+msgstr "Litsents"
+
+msgid "Lithuanian"
+msgstr "leedu keel"
+
+msgid "Loading, please wait..."
+msgstr "Laadimine, palun oodake..."
+
+msgid "Logging level:"
+msgstr "Logitase:"
+
+msgid "Malagasy"
+msgstr "Malagassi"
+
+msgid "Malay"
+msgstr "malai"
+
+msgid "Maltese"
+msgstr "malta keel"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maksimaalne reguleerimine. Subtiitrite ajad ei muutu rohkem kui see väärtus. Suurema väärtuse sünkroonimine võtab kauem aega. Kui see väärtus on liiga madal, siis sünkroonimine nurjub."
+
+msgid "Max adjustment:"
+msgstr "Suurim ajanihe:"
+
+msgid "Max points distance:"
+msgstr "Punktide suurim kõrvalekalle:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Maksimaalne vastuvõetav sünkroonimisviga sekundites. Sellest suurema veaga sünkroonimispunktid jäetakse kõrvale."
+
+msgid "Menu"
+msgstr "Menüü"
+
+msgid "Min correlation factor:"
+msgstr "Min korrelatsioonitegur:"
+
+msgid "Min points no:"
+msgstr "Vähim punktide arv:"
+
+msgid "Min speech recognition score:"
+msgstr "Minimaalne kõnetuvastuse skoor:"
+
+msgid "Min word length (letters):"
+msgstr "Minimaalne sõna pikkus (tähed):"
+
+msgid "Min words similarity:"
+msgstr "Min sõnade sarnasus:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Minimaalne korrelatsioonitegur, vahemikus 0,0–1,0. Kasutatakse sünkroonimise tulemuse määramiseks. Kui korrelatsioonitegur on sellest väiksem, siis sünkroonimine ebaõnnestub."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minimaalne kõnetuvastuse skoor, vahemikus 0,0–1,0. Väiksema hindega transkribeeritud sõnad lükatakse tagasi."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Sõna minimaalne pikkus, tähtedes. Lühemaid sõnu sünkroonimispunktidena ei kasutata. Kehtib ainult tähestikupõhistele keeltele."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Sünkroniseerimispunktide sõnade minimaalne sarnasus. 0,0 ja 1,0 vahel."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Sünkroniseerimispunktide minimaalne arv. Ärge seadke seda liiga kõrgeks, kuna see võib anda palju valepositiivseid tulemusi."
+
+msgid "New synchronization"
+msgstr "Uus sünkroonimine"
+
+msgid "New version is available. Update now?"
+msgstr "Uus versioon on saadaval. Kas värskendada kohe?"
+
+msgid "No language selected"
+msgstr "Keelt pole valitud"
+
+msgid "No language selected for:"
+msgstr "Keelt pole valitud järgmiste jaoks:"
+
+msgid "No need to synchronize"
+msgstr "Sünkroonimist pole vaja"
+
+msgid "Norwegian"
+msgstr "norra keel"
+
+msgid "Not supported stream type"
+msgstr "Ei toetata rajatüüpi"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Samaaegsete sünkroonimislõimede arv."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Väljundkataloog:"
+
+msgid "Output encoding:"
+msgstr "Väljundi kodeering:"
+
+msgid "Output file names"
+msgstr "Väljundfailide nimed"
+
+msgid "Output file not set"
+msgstr "Väljundfaili pole määratud"
+
+msgid "Output filename:"
+msgstr "Väljundfaili nimi:"
+
+msgid "Output timing offset:"
+msgstr "Väljundi ajastuse nihe:"
+
+msgid "Overwrite existing files"
+msgstr "Kirjutage olemasolevad failid üle"
+
+msgid "Overwrite files?"
+msgstr "Kas kirjutada failid üle?"
+
+msgid "Persian"
+msgstr "pärsia keel"
+
+msgid "Polish"
+msgstr "Poola"
+
+msgid "Portuguese"
+msgstr "portugali keel"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Takistage sünkroonimise ajal magamajäämist"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Takistab süsteemil sünkroonimise ajal magama jäämast.\nSee ei saanud töötada kõigil platvormidel."
+
+msgid "Reference file not set"
+msgstr "Viitefaili pole määratud"
+
+msgid "References (video or other subtitles):"
+msgstr "Viited (video või muud subtiitrid):"
+
+msgid "Remove"
+msgstr "Eemalda"
+
+msgid "Remove items"
+msgstr "Eemaldage üksused"
+
+msgid "Restore defaults"
+msgstr "Taasta vaikesätted"
+
+msgid "Romanian"
+msgstr "Rumeenia"
+
+msgid "Russian"
+msgstr "vene keel"
+
+msgid "Save"
+msgstr "Salvesta"
+
+msgid "Select"
+msgstr "Vali"
+
+msgid "Select &all"
+msgstr "&Vali kõik"
+
+msgid "Select &stream"
+msgstr "&Vali voog"
+
+msgid "Select all &references"
+msgstr "&Valige kõik viited"
+
+msgid "Select all &subtitles"
+msgstr "&Valige kõik subtiitrid"
+
+msgid "Select all o&utputs"
+msgstr "&Valige kõik väljundid"
+
+msgid "Select audio channels to listen to:"
+msgstr "Valige kuulamiseks helikanalid:"
+
+msgid "Select character encoding"
+msgstr "Valige märgikodeering"
+
+msgid "Select directory"
+msgstr "Valige kataloog"
+
+msgid "Select file"
+msgstr "Valige fail"
+
+msgid "Select language"
+msgstr "Valige keel"
+
+msgid "Select output"
+msgstr "Valige väljund"
+
+msgid "Select output directory"
+msgstr "Valige väljundkataloog"
+
+msgid "Select output subtitles framerate:"
+msgstr "Valige subtiitrite kaadrisagedus:"
+
+msgid "Select reference language first"
+msgstr "Valige esmalt võrdluskeel"
+
+msgid "Select stream"
+msgstr "Vali voog"
+
+msgid "Select stream by language:"
+msgstr "Vali voog keele järgi:"
+
+msgid "Select stream by title:"
+msgstr "Vali voog pealkirja järgi:"
+
+msgid "Select stream by type:"
+msgstr "Vali voog tüübi järgi:"
+
+msgid "Select stream:"
+msgstr "Vali voog:"
+
+msgid "Select streams"
+msgstr "Vali vood"
+
+msgid "Serbian"
+msgstr "Serbia"
+
+msgid "Set &input stream"
+msgstr "&Sisendraja määramine"
+
+msgid "Set &output location"
+msgstr "&Määrake väljundi asukoht"
+
+msgid "Settings"
+msgstr "Seaded"
+
+msgid "Show popups:"
+msgstr "Kuva hüpikaknad:"
+
+msgid "Signature verification failed"
+msgstr "Allkirja kinnitamine ebaõnnestus"
+
+msgid "Slovak"
+msgstr "slovaki keel"
+
+msgid "Slovenian"
+msgstr "Sloveenia"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Mõnda viitesubtiitrit ei saa dekodeerida (vale kodeering?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Mõnda subtiitrit ei saa dekodeerida (vale kodeering?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Mõnda ülesannet ei saanud sünkroonida"
+
+msgid "Spanish"
+msgstr "Hispaania keel"
+
+msgid "Start"
+msgstr "Alusta"
+
+msgid "Status:"
+msgstr "Olek:"
+
+msgid "Stop"
+msgstr "Peata"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Subtiitrite failid"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Subtiitrid ei saa olla samad, mis viited"
+
+msgid "Subtitles not set"
+msgstr "Subtiitreid pole määratud"
+
+msgid "Subtitles synchronized"
+msgstr "Subtiitrid sünkroonitud"
+
+msgid "Subtitles:"
+msgstr "Subtiitrid:"
+
+msgid "Swedish"
+msgstr "rootsi"
+
+msgid "Synchronization"
+msgstr "Sünkroonimine"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Keelte vahelist sünkroonimist {} praegu ei toetata."
+
+msgid "Synchronization job:"
+msgstr "Sünkroonimistöö:"
+
+msgid "Synchronization options:"
+msgstr "Sünkroonimisvalikud:"
+
+msgid "Synchronization terminated"
+msgstr "Sünkroonimine on lõpetatud"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Sünkroonimist heliga {} praegu ei toetata."
+
+msgid "Synchronization: 0 points"
+msgstr "Sünkroniseerimine: 0 punkti"
+
+msgid "Synchronization: {} points"
+msgstr "Sünkroniseerimine: {} punkti"
+
+msgid "Synchronizing..."
+msgstr "Sünkroonimine..."
+
+msgid "Task:"
+msgstr "Ülesanne:"
+
+msgid "Terminating, please wait..."
+msgstr "Lõpetamine, palun oodake..."
+
+msgid "Terminating..."
+msgstr "Lõpetamine..."
+
+msgid "There are no usable streams"
+msgstr "Kasutatavaid vooge ei ole"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Puudus sõnastikku tõlkimiseks {} kuni {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Riigis {} pole sobivat lugu"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Keele {} kõnetuvastusmudel puudub"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "See on automaatne filmi subtiitrite sünkroonimise tööriist.\nSünkroonimine toimub heliriba kuulamise ja vajadusel tõlkimise teel.\nVõib kasutada ka mõnda muud subtiitrit viitena.\n\nAutor: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Täielik rike"
+
+msgid "Total progress:"
+msgstr "Kogu edusammud:"
+
+msgid "Turkish"
+msgstr "türgi keel"
+
+msgid "Ukrainian"
+msgstr "Ukraina"
+
+msgid "Unexpected error occurred"
+msgstr "Ilmnes ootamatu viga"
+
+msgid "Unknown file extension"
+msgstr "Tundmatu faililaiend"
+
+msgid "Update assets"
+msgstr "Värskendage ressursse"
+
+msgid "Update instalation failed miserably"
+msgstr "Värskendust ei saanud installida"
+
+msgid "Update not available"
+msgstr "Värskendus pole saadaval"
+
+msgid "Update now?"
+msgstr "Kas värskendada kohe?"
+
+msgid "Updates:"
+msgstr "Värskendused:"
+
+msgid "Upgrade"
+msgstr "Uuenda"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Kasutus: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Videofailid"
+
+msgid "Website"
+msgstr "Veebisait"
+
+msgid "Your version is up to date"
+msgstr "Teie versioon on ajakohane"
+
+msgid "[details]"
+msgstr "[üksikasjad]"
+
+msgid "[errors]"
+msgstr "[vead]"
+
+msgid "[hide]"
+msgstr "[peida]"
+
+msgid "[show more]"
+msgstr "[näita rohkem]"
+
+msgid "all"
+msgstr "kõik"
+
+msgid "all channels"
+msgstr "kõik kanalid"
+
+msgid "and {} more"
+msgstr "ja {} veel"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "lisage kahetäheline keelekood (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "lisada kolmetäheline keelekood (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "lisada loo number"
+
+msgid "ask for update on exit"
+msgstr "Küsi väljumisel värskendust"
+
+msgid "audio"
+msgstr "heli"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "auto select"
+msgstr "automaatne valik"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "kinnitage faili ülekirjutamine (pakkirežiimis)"
+
+msgid "correlation:"
+msgstr "korrelatsioon:"
+
+msgid "couldn't synchronize"
+msgstr "ei saanud sünkroonida"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "kohandatud ehitus"
+
+msgid "custom names:"
+msgstr "kohandatud nimed:"
+
+msgid "custom selection"
+msgstr "kohandatud valik"
+
+msgid "custom value:"
+msgstr "kohandatud väärtus:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "vaikimisi"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "määratlege sünkroonimisülesanne, seda saab korrata mitu korda"
+
+msgid "description"
+msgstr "kirjeldus"
+
+msgid "dictionary {} / {}"
+msgstr "sõnastik {} / {}"
+
+msgid "directory path"
+msgstr "kataloogi tee"
+
+msgid "display this help text and exit"
+msgstr "Kuva see abitekst ja välju"
+
+msgid "display version information and exit"
+msgstr "kuva versiooniteave ja välju"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "Ärge püüdke puuduvate varade hankimiseks ühendust võtta kaugserveriga"
+
+msgid "don't show this message again"
+msgstr "ära näita seda sõnumit enam"
+
+msgid "done"
+msgstr "tehtud"
+
+msgid "download updates automatically"
+msgstr "laadige värskendused automaatselt alla"
+
+msgid "downloading"
+msgstr "allalaadimine"
+
+msgid "drop here"
+msgstr "kupsake siia"
+
+msgid "dump logs to specified file"
+msgstr "kirjutage logid määratud faili"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "eksportida sõnad faili või standardväljundisse, kui PATH puudub; SRC on üks järgmistest:  "
+
+msgid "elapsed time:"
+msgstr "kulunud aeg:"
+
+msgid "enable advanced debug options"
+msgstr "lubage täpsemad silumisvalikud"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "faili nimi (ilma tee ja laiendita)"
+
+msgid "files with matching streams"
+msgstr "faili sobivate lugudega"
+
+msgid "files without matching streams"
+msgstr "faile ilma sobivate lugudeta"
+
+msgid "formula:"
+msgstr "valem:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "kui raske proovida (0,0–1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "kui <field> pole määratud, lisage <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "kui <field> on määratud, lisage <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "impordi ülesannete loend failist YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "keel"
+
+msgid "language not selected"
+msgstr "keel pole valitud"
+
+msgid "less than minute"
+msgstr "vähem kui minut"
+
+msgid "log to file"
+msgstr "kirjuta logi faili"
+
+msgid "max change:"
+msgstr "maksimaalne muutus:"
+
+msgid "missing assets:"
+msgstr "puuduvad ressursid:"
+
+msgid "name"
+msgstr "nimi"
+
+msgid "open batch processing window"
+msgstr "avage partiitöötluse aken"
+
+msgid "operation failed"
+msgstr "operatsioon ebaõnnestus"
+
+msgid "operation finished successfully"
+msgstr "operatsioon lõppes edukalt"
+
+msgid "output character encoding"
+msgstr "väljundi märgikodeering"
+
+msgid "output file path or pattern"
+msgstr "väljundfaili tee või muster"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "väljundi kaadrisagedus (FPS-põhiste subtiitrite jaoks)"
+
+msgid "outputs"
+msgstr "väljundid"
+
+msgid "overwrite existing files"
+msgstr "kirjutage olemasolevad failid üle"
+
+msgid "path to reference file"
+msgstr "viitefaili tee"
+
+msgid "path to subtitle file"
+msgstr "tee subtiitrite failini"
+
+msgid "pattern:"
+msgstr "muster:"
+
+msgid "predefined names:"
+msgstr "eelmääratletud nimed:"
+
+msgid "processing..."
+msgstr "töötlemine..."
+
+msgid "queued..."
+msgstr "järjekorras..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "referentsi helikanalite kaardistamine (heli viidete jaoks)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "viitemärgikodeering (subtiitrite viidete jaoks)"
+
+msgid "reference framerate"
+msgstr "võrdluskaadrisagedus"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "viitekeel (2- või 3-täheline ISO-kood)"
+
+msgid "reference stream no"
+msgstr "referentsrada nr"
+
+msgid "references"
+msgstr "võrdlusfailid"
+
+msgid "references: "
+msgstr "võrdlusfailid: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "käivita peata režiimis (ilma GUI)"
+
+msgid "same as input subtitles"
+msgstr "sama mis sisendsubtiitrid"
+
+msgid "same as reference file"
+msgstr "sama viitefailiga"
+
+msgid "select custom folder"
+msgstr "valige kohandatud kaust"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "valige võrdlusrada keele järgi (3-täheline ISO-kood)"
+
+msgid "select reference stream by type"
+msgstr "valige võrdlusrada tüübi järgi"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "valige subtiitrite lugu keele järgi (3-täheline ISO-kood)"
+
+msgid "set logging level"
+msgstr "määratud logimistase"
+
+msgid "stream"
+msgstr "voog"
+
+msgid "subtitle character encoding"
+msgstr "subtiitrite märgikodeering"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "subtiitrite kaadrisagedus (FPS-põhiste subtiitrite puhul)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "subtiitrite keel (2- või 3-täheline ISO-kood)"
+
+msgid "subtitle stream no"
+msgstr "subtiitrilugu nr"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "subtiitrite/viidete kahetäheline keelekood"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "subtiitrite/viidete 3-täheline keelekood"
+
+msgid "subtitle/reference file full path"
+msgstr "subtiitrite/viitefaili täielik tee"
+
+msgid "subtitle/reference stream number"
+msgstr "subtiitrite/viiteloo number"
+
+msgid "subtitle/text"
+msgstr "alapealkiri/tekst"
+
+msgid "subtitles"
+msgstr "subtiitrid"
+
+msgid "subtitles: "
+msgstr "subtiitrid: "
+
+msgid "synchronizing"
+msgstr "sünkroonimine"
+
+msgid "terminated"
+msgstr "lõpetatud"
+
+msgid "type"
+msgstr "tüüp"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "kasutajaliidese keel (2-täheline ISO-kood)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "sõnalisuse tase (0–3)"
+
+msgid "version "
+msgstr "versioon "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} tundi"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minutit"
+
+msgid "{} speech recognition model"
+msgstr "{} kõnetuvastusmudel"

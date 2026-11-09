@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Magyar\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&A programról"
+
+msgid "&Add files (auto sort)"
+msgstr "&Fájlok hozzáadása (automatikus rendezés)"
+
+msgid "&Close"
+msgstr "&Bezárás"
+
+msgid "&Edit"
+msgstr "&Szerkesztés"
+
+msgid "&Export list"
+msgstr "&Lista exportálása"
+
+msgid "&File"
+msgstr "&Fájl"
+
+msgid "&Help"
+msgstr "&Súgó"
+
+msgid "&Import list"
+msgstr "&Lista importálása"
+
+msgid "&Language"
+msgstr "&Nyelv"
+
+msgid "&New"
+msgstr "&Új"
+
+msgid "&Properties"
+msgstr "&Tulajdonságok"
+
+msgid "&Propeties"
+msgstr "&Tulajdonságok"
+
+msgid "&Remove"
+msgstr "&Eltávolítás"
+
+msgid ", {} points"
+msgstr ", {} pont"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 autóhoz."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 perc"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automatikus>"
+
+msgid "<empty>"
+msgstr "<üres>"
+
+msgid "<other>"
+msgstr "<egyéb>"
+
+msgid "<undefined>"
+msgstr "<nincs megadva>"
+
+msgid "About"
+msgstr "A programról"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Add &folder"
+msgstr "&Mappa hozzáadása"
+
+msgid "Add &references"
+msgstr "&Referenciák hozzáadása"
+
+msgid "Add &subtitles"
+msgstr "&Feliratok hozzáadása"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "albán"
+
+msgid "All files"
+msgstr "Minden fájl"
+
+msgid "All supported files"
+msgstr "Minden támogatott fájl"
+
+msgid "Another update in progress"
+msgstr "Egy másik frissítés folyamatban"
+
+msgid "Application upgrade"
+msgstr "Alkalmazásfrissítés"
+
+msgid "Arabic"
+msgstr "arab"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Biztosan felül szeretné írni a kimeneti fájlokat, ha léteznek?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Biztosan vissza szeretné állítani a beállításokat az alapértelmezett értékekre?"
+
+msgid "Asset installation failed"
+msgstr "Az erőforrás telepítése nem sikerült"
+
+msgid "Au&to sort"
+msgstr "&Automatikus rendezés"
+
+msgid "Audio &channels"
+msgstr "&Hangcsatornák"
+
+msgid "Audio channels"
+msgstr "Hangcsatornák"
+
+msgid "Audio channels:"
+msgstr "Hangcsatornák:"
+
+msgid "Auto detect"
+msgstr "Automatikus felismerés"
+
+msgid "Auto sort"
+msgstr "Automatikus rendezés"
+
+msgid "Batch Processing"
+msgstr "Kötegelt feldolgozás"
+
+msgid "Batch processing"
+msgstr "Kötegelt feldolgozás"
+
+msgid "Belarusian"
+msgstr "fehérorosz"
+
+msgid "Bulgarian"
+msgstr "bolgár"
+
+msgid "Can't save subtitle file"
+msgstr "Nem sikerült menteni a feliratfájlt"
+
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Cannot load settings file, {}"
+msgstr "Nem lehet betölteni a beállítási fájlt, {}"
+
+msgid "Catalan"
+msgstr "katalán"
+
+msgid "Character &encoding"
+msgstr "&Karakterkódolás"
+
+msgid "Character encoding"
+msgstr "Karakterkódolás"
+
+msgid "Character encoding:"
+msgstr "Karakterkódolás:"
+
+msgid "Check for updates"
+msgstr "Ellenőrizze a frissítéseket"
+
+msgid "Checking for update..."
+msgstr "Frissítések keresése..."
+
+msgid "Chinese"
+msgstr "kínai"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Nem sikerült menteni a szinkronizált feliratokat"
+
+msgid "Couldn't synchronize"
+msgstr "Nem sikerült szinkronizálni"
+
+msgid "Credits"
+msgstr "Hitelek"
+
+msgid "Croatian"
+msgstr "horvát"
+
+msgid "Current file:"
+msgstr "Aktuális fájl:"
+
+msgid "Czech"
+msgstr "cseh"
+
+msgid "Danish"
+msgstr "dán"
+
+msgid "Debug"
+msgstr "Hibakeresés"
+
+msgid "Debug options:"
+msgstr "Hibakeresési lehetőségek:"
+
+msgid "Do you want to clear all items?"
+msgstr "Töröl minden elemet?"
+
+msgid "Download"
+msgstr "Letöltés"
+
+msgid "Download assets"
+msgstr "Források letöltése"
+
+msgid "Download now?"
+msgstr "Letöltés most?"
+
+msgid "Downloading"
+msgstr "Letöltés"
+
+msgid "Downloading assets list..."
+msgstr "Az erőforráslista letöltése..."
+
+msgid "Drop files here to add sorted"
+msgstr "Húzza ide a fájlokat rendezve hozzáadáshoz"
+
+msgid "Dump all synchronization points"
+msgstr "Az összes szinkronizálási pont exportálása"
+
+msgid "Dump reference words"
+msgstr "Exportálja a felismert hivatkozási szavakat"
+
+msgid "Dump subtitle words"
+msgstr "Feliratszavak exportálása"
+
+msgid "Dump used synchronization points"
+msgstr "Exportálja a használt szinkronizálási pontokat"
+
+msgid "Dutch"
+msgstr "holland"
+
+msgid "ETA:"
+msgstr "Hátralévő idő:"
+
+msgid "Edit all tasks"
+msgstr "Az összes feladat szerkesztése"
+
+msgid "Edit failed tasks"
+msgstr "Sikertelen feladatok szerkesztése"
+
+msgid "Effort:"
+msgstr "Alaposság:"
+
+msgid "Elapsed:"
+msgstr "Eltelt idő:"
+
+msgid "Enable save button"
+msgstr "Mentés engedélyezése gomb"
+
+msgid "English"
+msgstr "angol"
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "Error during reference read"
+msgstr "Hiba a referencia olvasása közben"
+
+msgid "Error during subtitles read"
+msgstr "Hiba a feliratok olvasása közben"
+
+msgid "Estonian"
+msgstr "észt"
+
+msgid "Everything synchronized successfully"
+msgstr "Minden sikeresen szinkronizálva"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Minden szinkronizálva volt, de hibák történtek"
+
+msgid "Extractor jobs no:"
+msgstr "Kitermelési munkák száma:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Feröeri"
+
+msgid "File name:"
+msgstr "Fájlnév:"
+
+msgid "File type:"
+msgstr "Fájltípus:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Naplók kiszűrése a modulokból (soronként egy):"
+
+msgid "Finnish"
+msgstr "finn"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Rögzítse a kimeneti feliratok időbélyegeit megadott eltolásokkal, másodpercekben."
+
+msgid "Following assets could be updated:"
+msgstr "A következő források frissíthetők:"
+
+msgid "Following assets must be download to continue:"
+msgstr "A folytatáshoz töltse le a következő forrásokat:"
+
+msgid "Following files could not be added:"
+msgstr "A következő fájlokat nem sikerült hozzáadni:"
+
+msgid "French"
+msgstr "francia"
+
+msgid "GUI options:"
+msgstr "GUI opciók:"
+
+msgid "Gaelic"
+msgstr "skót gael"
+
+msgid "Galician"
+msgstr "galíciai"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "General options:"
+msgstr "Általános lehetőségek:"
+
+msgid "German"
+msgstr "német"
+
+msgid "Got errors, synchronization failed"
+msgstr "A szinkronizálás hiba miatt nem sikerült"
+
+msgid "Greek"
+msgstr "görög"
+
+msgid "Headless options:"
+msgstr "Parancssori opciók (grafikus felület nélkül):"
+
+msgid "Hebrew"
+msgstr "héber"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Milyen alaposan szinkronizálja a feliratokat. A magasabb érték javítja a szinkronizálást, de tovább tart."
+
+msgid "Hungarian"
+msgstr "magyar"
+
+msgid "Icelandic"
+msgstr "izlandi"
+
+msgid "In seconds."
+msgstr "Másodpercek alatt."
+
+msgid "Indonesian"
+msgstr "indonéz"
+
+msgid "Info"
+msgstr "Információ"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "A kezdeti szinkronizálás megtörtént.\nMár elmenthetné a feliratokat.\nHa nem egyezik, várja meg a jobb eredményt."
+
+msgid "Initializing..."
+msgstr "Inicializálás..."
+
+msgid "Input file:"
+msgstr "Beviteli fájl:"
+
+msgid "Invalid output pattern"
+msgstr "Érvénytelen kimeneti minta"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Érvénytelen kimeneti minta, érvénytelen kulcsszó: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Érvénytelen kimeneti minta, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Érvénytelen beszédhangformátum"
+
+msgid "Italian"
+msgstr "olasz"
+
+msgid "Japanese"
+msgstr "japán"
+
+msgid "Korean"
+msgstr "koreai"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "A nyelv kiválasztása nem kötelező, de nagyban javíthatja a szinkronizálás pontosságát.\nBiztos benne?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "A nyelvi módosítások az alkalmazás újraindítása után lépnek életbe"
+
+msgid "Language:"
+msgstr "Nyelv:"
+
+msgid "Languages"
+msgstr "Nyelvek"
+
+msgid "Latin"
+msgstr "latin"
+
+msgid "Latvian"
+msgstr "lett"
+
+msgid "License"
+msgstr "Licenc"
+
+msgid "Lithuanian"
+msgstr "litván"
+
+msgid "Loading, please wait..."
+msgstr "Betöltés, kérem várjon..."
+
+msgid "Logging level:"
+msgstr "Naplózási szint:"
+
+msgid "Malagasy"
+msgstr "madagaszkári"
+
+msgid "Malay"
+msgstr "maláj"
+
+msgid "Maltese"
+msgstr "máltai"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maximális beállítás. A feliratok ideje nem változik ennél nagyobb mértékben. A magasabb érték szinkronizálása hosszabb ideig tart. Ha ez az érték túl alacsony, a szinkronizálás sikertelen lesz."
+
+msgid "Max adjustment:"
+msgstr "Legnagyobb időkorrekció:"
+
+msgid "Max points distance:"
+msgstr "Pontok legnagyobb eltérése:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Maximálisan elfogadható szinkronizálási hiba, másodpercben. Az ennél nagyobb hibával rendelkező szinkronizálási pontok el lesznek vetve."
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Min correlation factor:"
+msgstr "Minimális korrelációs tényező:"
+
+msgid "Min points no:"
+msgstr "Pontok minimális száma:"
+
+msgid "Min speech recognition score:"
+msgstr "Minimális beszédfelismerési pontszám:"
+
+msgid "Min word length (letters):"
+msgstr "Minimális szóhossz (betűk):"
+
+msgid "Min words similarity:"
+msgstr "Minimális szavak hasonlósága:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Minimális korrelációs tényező, 0,0 és 1,0 között. A szinkronizálás eredményének meghatározására szolgál. Ha a korrelációs tényező ennél kisebb, a szinkronizálás sikertelen lesz."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minimális beszédfelismerési pontszám, 0,0 és 1,0 között. A kisebb pontszámmal átírt szavakat elutasítjuk."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Minimális szóhossz, betűkkel. A rövidebb szavak nem használhatók szinkronizálási pontként. Csak ábécé alapú nyelvekre vonatkozik."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Minimális szóhasonlóság a szinkronizálási pontokhoz. 0,0 és 1,0 között."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "A szinkronizálási pontok minimális száma. Ne állítsa ezt túl magasra, mert sok hamis pozitív eredményt eredményezhet."
+
+msgid "New synchronization"
+msgstr "Új szinkronizálás"
+
+msgid "New version is available. Update now?"
+msgstr "Új verzió érhető el. Frissítés most?"
+
+msgid "No language selected"
+msgstr "Nincs kiválasztott nyelv"
+
+msgid "No language selected for:"
+msgstr "Nincs kiválasztott nyelv a következőkhöz:"
+
+msgid "No need to synchronize"
+msgstr "Nem kell szinkronizálni"
+
+msgid "Norwegian"
+msgstr "norvég"
+
+msgid "Not supported stream type"
+msgstr "Nem támogatott sávtípus"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Egyidejű szinkronizálási szálak száma."
+
+msgid "OK"
+msgstr "Rendben"
+
+msgid "Output directory:"
+msgstr "Kimeneti könyvtár:"
+
+msgid "Output encoding:"
+msgstr "Kimeneti kódolás:"
+
+msgid "Output file names"
+msgstr "Kimeneti fájlnevek"
+
+msgid "Output file not set"
+msgstr "A kimeneti fájl nincs beállítva"
+
+msgid "Output filename:"
+msgstr "Kimeneti fájlnév:"
+
+msgid "Output timing offset:"
+msgstr "Kimeneti időzítés eltolása:"
+
+msgid "Overwrite existing files"
+msgstr "Meglévő fájlok felülírása"
+
+msgid "Overwrite files?"
+msgstr "Felülírja a fájlokat?"
+
+msgid "Persian"
+msgstr "perzsa"
+
+msgid "Polish"
+msgstr "lengyel"
+
+msgid "Portuguese"
+msgstr "portugál"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Akadályozza meg, hogy szinkronizálás közben elaludjon"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Megakadályozza, hogy a rendszer szinkronizálás közben aludjon.\nNem működhet minden platformon."
+
+msgid "Reference file not set"
+msgstr "A referenciafájl nincs beállítva"
+
+msgid "References (video or other subtitles):"
+msgstr "Hivatkozások (videó vagy egyéb feliratok):"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Remove items"
+msgstr "Távolítsa el az elemeket"
+
+msgid "Restore defaults"
+msgstr "Alapértékek visszaállítása"
+
+msgid "Romanian"
+msgstr "román"
+
+msgid "Russian"
+msgstr "orosz"
+
+msgid "Save"
+msgstr "Mentés"
+
+msgid "Select"
+msgstr "Kiválasztás"
+
+msgid "Select &all"
+msgstr "&Minden kijelölése"
+
+msgid "Select &stream"
+msgstr "&Sáv kiválasztása"
+
+msgid "Select all &references"
+msgstr "&Válassza ki az összes hivatkozást"
+
+msgid "Select all &subtitles"
+msgstr "&Válassza ki az összes feliratot"
+
+msgid "Select all o&utputs"
+msgstr "&Válassza ki az összes kimenetet"
+
+msgid "Select audio channels to listen to:"
+msgstr "Válassza ki a hallgatni kívánt audiocsatornákat:"
+
+msgid "Select character encoding"
+msgstr "Válassza ki a karakterkódolást"
+
+msgid "Select directory"
+msgstr "Válassza ki a könyvtárat"
+
+msgid "Select file"
+msgstr "Válasszon fájlt"
+
+msgid "Select language"
+msgstr "Válasszon nyelvet"
+
+msgid "Select output"
+msgstr "Válassza ki a kimenetet"
+
+msgid "Select output directory"
+msgstr "Válassza ki a kimeneti könyvtárat"
+
+msgid "Select output subtitles framerate:"
+msgstr "Válassza ki a kimeneti feliratok képkockasebességét:"
+
+msgid "Select reference language first"
+msgstr "Először válassza ki a referencia nyelvet"
+
+msgid "Select stream"
+msgstr "Sáv kiválasztása"
+
+msgid "Select stream by language:"
+msgstr "Sáv kiválasztása nyelv szerint:"
+
+msgid "Select stream by title:"
+msgstr "Sáv kiválasztása cím szerint:"
+
+msgid "Select stream by type:"
+msgstr "Sáv kiválasztása típus szerint:"
+
+msgid "Select stream:"
+msgstr "Sáv kiválasztása:"
+
+msgid "Select streams"
+msgstr "Sávok kiválasztása"
+
+msgid "Serbian"
+msgstr "szerb"
+
+msgid "Set &input stream"
+msgstr "&Bemeneti sáv beállítása"
+
+msgid "Set &output location"
+msgstr "&A kimeneti hely beállítása"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Show popups:"
+msgstr "Előugró ablakok megjelenítése:"
+
+msgid "Signature verification failed"
+msgstr "Az aláírás ellenőrzése sikertelen"
+
+msgid "Slovak"
+msgstr "szlovák"
+
+msgid "Slovenian"
+msgstr "szlovén"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Egyes referenciafeliratok nem dekódolhatók (érvénytelen kódolás?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Egyes feliratok nem dekódolhatók (érvénytelen a kódolás?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Egyes feladatokat nem sikerült szinkronizálni"
+
+msgid "Spanish"
+msgstr "spanyol"
+
+msgid "Start"
+msgstr "Indítás"
+
+msgid "Status:"
+msgstr "Állapot:"
+
+msgid "Stop"
+msgstr "Leállítás"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Feliratfájlok"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "A feliratok nem egyezhetnek meg a referenciával"
+
+msgid "Subtitles not set"
+msgstr "Nincs beállítva a felirat"
+
+msgid "Subtitles synchronized"
+msgstr "Feliratok szinkronizálva"
+
+msgid "Subtitles:"
+msgstr "Feliratok:"
+
+msgid "Swedish"
+msgstr "svéd"
+
+msgid "Synchronization"
+msgstr "Szinkronizálás"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "A {} nyelvek közötti szinkronizálás jelenleg nem támogatott."
+
+msgid "Synchronization job:"
+msgstr "Szinkronizálási feladat:"
+
+msgid "Synchronization options:"
+msgstr "Szinkronizálási lehetőségek:"
+
+msgid "Synchronization terminated"
+msgstr "A szinkronizálás megszakadt"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "A {} hanggal való szinkronizálás jelenleg nem támogatott."
+
+msgid "Synchronization: 0 points"
+msgstr "Szinkronizálás: 0 pont"
+
+msgid "Synchronization: {} points"
+msgstr "Szinkronizálás: {} pont"
+
+msgid "Synchronizing..."
+msgstr "Szinkronizálás..."
+
+msgid "Task:"
+msgstr "Feladat:"
+
+msgid "Terminating, please wait..."
+msgstr "Befejezés, kérem, várjon..."
+
+msgid "Terminating..."
+msgstr "Lezárás..."
+
+msgid "There are no usable streams"
+msgstr "Nincsenek használható sávok"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Nincs szótár a {}-ről {}-re való fordításhoz"
+
+msgid "There is no matching stream in {}"
+msgstr "Nincs egyező műsorszám a {}-ban"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "A {} nyelvhez nincs beszédfelismerő modell"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Ez egy automatikus filmfelirat-szinkronizáló eszköz.\nA szinkronizálás a hangsáv meghallgatásával, szükség esetén lefordításával történik.\nReferenciaként használhat egy másik feliratot is.\n\nSzerző: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Teljes meghibásodás"
+
+msgid "Total progress:"
+msgstr "Teljes haladás:"
+
+msgid "Turkish"
+msgstr "török"
+
+msgid "Ukrainian"
+msgstr "ukrán"
+
+msgid "Unexpected error occurred"
+msgstr "Váratlan hiba történt"
+
+msgid "Unknown file extension"
+msgstr "Ismeretlen fájlkiterjesztés"
+
+msgid "Update assets"
+msgstr "Frissítse az erőforrásokat"
+
+msgid "Update instalation failed miserably"
+msgstr "A frissítést nem sikerült telepíteni"
+
+msgid "Update not available"
+msgstr "Nem érhető el frissítés"
+
+msgid "Update now?"
+msgstr "Frissítés most?"
+
+msgid "Updates:"
+msgstr "Frissítések:"
+
+msgid "Upgrade"
+msgstr "Frissítés"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Használat: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Videófájlok"
+
+msgid "Website"
+msgstr "Webhely"
+
+msgid "Your version is up to date"
+msgstr "Az Ön verziója naprakész"
+
+msgid "[details]"
+msgstr "[részletek]"
+
+msgid "[errors]"
+msgstr "[hibák]"
+
+msgid "[hide]"
+msgstr "[elrejtés]"
+
+msgid "[show more]"
+msgstr "[további megjelenítés]"
+
+msgid "all"
+msgstr "összes"
+
+msgid "all channels"
+msgstr "minden csatorna"
+
+msgid "and {} more"
+msgstr "és még {}"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "a kétbetűs nyelvi kód hozzáfűzése (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "3 betűből álló nyelvi kód hozzáfűzése (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "adja hozzá a szám számát"
+
+msgid "ask for update on exit"
+msgstr "Kérjen frissítést kilépéskor"
+
+msgid "audio"
+msgstr "audió"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "auto select"
+msgstr "automatikus kiválasztás"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "fájl felülírásának megerősítése (kötegelt módban)"
+
+msgid "correlation:"
+msgstr "korreláció:"
+
+msgid "couldn't synchronize"
+msgstr "nem sikerült szinkronizálni"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "egyedi összeállítás"
+
+msgid "custom names:"
+msgstr "egyéni nevek:"
+
+msgid "custom selection"
+msgstr "egyéni kiválasztás"
+
+msgid "custom value:"
+msgstr "egyéni érték:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "alapértelmezett"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "definiálja a szinkronizálási feladatot, többször megismételhető"
+
+msgid "description"
+msgstr "leírás"
+
+msgid "dictionary {} / {}"
+msgstr "szótár {} / {}"
+
+msgid "directory path"
+msgstr "könyvtár elérési útja"
+
+msgid "display this help text and exit"
+msgstr "jelenítse meg ezt a súgószöveget, és lépjen ki"
+
+msgid "display version information and exit"
+msgstr "Verzióinformációk megjelenítése és kilépés"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "Ne próbálja meg felvenni a kapcsolatot a távoli szerverrel a hiányzó eszközök beszerzése érdekében"
+
+msgid "don't show this message again"
+msgstr "ne jelenítse meg újra ezt az üzenetet"
+
+msgid "done"
+msgstr "kész"
+
+msgid "download updates automatically"
+msgstr "frissítések automatikus letöltése"
+
+msgid "downloading"
+msgstr "letöltés"
+
+msgid "drop here"
+msgstr "dobja ide"
+
+msgid "dump logs to specified file"
+msgstr "naplók írása a megadott fájlba"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "exportálja a szavakat fájlba, vagy szabványos kimenetre, ha a PATH hiányzik; SRC a következők egyike:  "
+
+msgid "elapsed time:"
+msgstr "eltelt idő:"
+
+msgid "enable advanced debug options"
+msgstr "Speciális hibakeresési beállítások engedélyezése"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "fájlnév (útvonal és kiterjesztés nélkül)"
+
+msgid "files with matching streams"
+msgstr "fájl egyező számokkal"
+
+msgid "files without matching streams"
+msgstr "fájlok egyező számok nélkül"
+
+msgid "formula:"
+msgstr "képlet:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "milyen nehéz megpróbálni (0,0 - 1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "ha a <field> nincs beállítva, fűzze hozzá a <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "ha <field> be van állítva, fűzze hozzá a <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "feladatok listájának importálása YAML fájlból"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "nyelv"
+
+msgid "language not selected"
+msgstr "a nyelv nincs kiválasztva"
+
+msgid "less than minute"
+msgstr "kevesebb mint perc"
+
+msgid "log to file"
+msgstr "naplózás fájlba"
+
+msgid "max change:"
+msgstr "maximális változás:"
+
+msgid "missing assets:"
+msgstr "hiányzó források:"
+
+msgid "name"
+msgstr "név"
+
+msgid "open batch processing window"
+msgstr "nyissa meg a kötegelt feldolgozási ablakot"
+
+msgid "operation failed"
+msgstr "művelet sikertelen"
+
+msgid "operation finished successfully"
+msgstr "művelet sikeresen befejeződött"
+
+msgid "output character encoding"
+msgstr "kimeneti karakterkódolás"
+
+msgid "output file path or pattern"
+msgstr "kimeneti fájl elérési útja vagy mintája"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "kimeneti képkockasebesség (FPS alapú feliratokhoz)"
+
+msgid "outputs"
+msgstr "kimenetek"
+
+msgid "overwrite existing files"
+msgstr "felülírja a meglévő fájlokat"
+
+msgid "path to reference file"
+msgstr "hivatkozási fájl elérési útja"
+
+msgid "path to subtitle file"
+msgstr "feliratfájl elérési útja"
+
+msgid "pattern:"
+msgstr "minta:"
+
+msgid "predefined names:"
+msgstr "előre meghatározott nevek:"
+
+msgid "processing..."
+msgstr "feldolgozás..."
+
+msgid "queued..."
+msgstr "sorban..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "referencia audio csatornák leképezése (audio referenciákhoz)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "referenciakarakterkódolás (a felirathivatkozásokhoz)"
+
+msgid "reference framerate"
+msgstr "referencia képkockasebesség"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "referencianyelv (2 vagy 3 betűs ISO-kód)"
+
+msgid "reference stream no"
+msgstr "referencia pálya sz"
+
+msgid "references"
+msgstr "referenciafájlok"
+
+msgid "references: "
+msgstr "referenciafájlok: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "futtatás fej nélküli módban (GUI nélkül)"
+
+msgid "same as input subtitles"
+msgstr "ugyanúgy, mint a bemeneti feliratok"
+
+msgid "same as reference file"
+msgstr "megegyezik a referenciafájllal"
+
+msgid "select custom folder"
+msgstr "válassza ki az egyéni mappát"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "a referenciasáv kiválasztása nyelv szerint (3 betűs ISO-kód)"
+
+msgid "select reference stream by type"
+msgstr "Válassza ki a referenciasávot típus szerint"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "feliratsáv kiválasztása nyelv szerint (3 betűs ISO-kód)"
+
+msgid "set logging level"
+msgstr "naplózási szint beállítása"
+
+msgid "stream"
+msgstr "sáv"
+
+msgid "subtitle character encoding"
+msgstr "felirat karakterkódolása"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "felirat képkockasebessége (FPS-alapú feliratokhoz)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "felirat nyelve (2 vagy 3 betűs ISO-kód)"
+
+msgid "subtitle stream no"
+msgstr "feliratszám sz"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "felirat/referencia 2 betűből álló nyelvi kód"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "felirat/referencia 3 betűs nyelvi kód"
+
+msgid "subtitle/reference file full path"
+msgstr "felirat/referenciafájl teljes elérési útja"
+
+msgid "subtitle/reference stream number"
+msgstr "felirat/hivatkozási szám száma"
+
+msgid "subtitle/text"
+msgstr "felirat/szöveg"
+
+msgid "subtitles"
+msgstr "feliratok"
+
+msgid "subtitles: "
+msgstr "feliratok: "
+
+msgid "synchronizing"
+msgstr "szinkronizálás"
+
+msgid "terminated"
+msgstr "megszűnt"
+
+msgid "type"
+msgstr "típus"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "felhasználói felület nyelve (2 betűs ISO kód)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "bőbeszédűségi szint (0-3)"
+
+msgid "version "
+msgstr "verzió "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} óra"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} perc"
+
+msgid "{} speech recognition model"
+msgstr "{} beszédfelismerő modell"

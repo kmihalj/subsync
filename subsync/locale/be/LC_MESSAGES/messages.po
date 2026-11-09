@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Беларуская\nLanguage: be\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&Пра праграму"
+
+msgid "&Add files (auto sort)"
+msgstr "&Дадаць файлы (аўтаматычнае сартаванне)"
+
+msgid "&Close"
+msgstr "&Закрыць"
+
+msgid "&Edit"
+msgstr "&Праўка"
+
+msgid "&Export list"
+msgstr "&Экспартаваць спіс"
+
+msgid "&File"
+msgstr "&Файл"
+
+msgid "&Help"
+msgstr "&Даведка"
+
+msgid "&Import list"
+msgstr "&Імпартаваць спіс"
+
+msgid "&Language"
+msgstr "&Мова"
+
+msgid "&New"
+msgstr "&Новы"
+
+msgid "&Properties"
+msgstr "&Уласцівасці"
+
+msgid "&Propeties"
+msgstr "&Уласцівасці"
+
+msgid "&Remove"
+msgstr "&Выдаліць"
+
+msgid ", {} points"
+msgstr ", {} балаў"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 для аўт."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 хвіліна"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<аўтаматычна>"
+
+msgid "<empty>"
+msgstr "<пуста>"
+
+msgid "<other>"
+msgstr "<іншае>"
+
+msgid "<undefined>"
+msgstr "<нявызначана>"
+
+msgid "About"
+msgstr "Пра праграму"
+
+msgid "Add"
+msgstr "Дадаць"
+
+msgid "Add &folder"
+msgstr "&Дадаць тэчку"
+
+msgid "Add &references"
+msgstr "&Дадаць спасылкі"
+
+msgid "Add &subtitles"
+msgstr "&Дадаць субтытры"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Албанская"
+
+msgid "All files"
+msgstr "Усе файлы"
+
+msgid "All supported files"
+msgstr "Усе падтрымоўваныя файлы"
+
+msgid "Another update in progress"
+msgstr "Ідзе яшчэ адно абнаўленне"
+
+msgid "Application upgrade"
+msgstr "Абнаўленне прыкладання"
+
+msgid "Arabic"
+msgstr "араб"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Вы ўпэўнены, што хочаце перазапісаць выходныя файлы, калі яны існуюць?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Вы ўпэўнены, што хочаце скінуць налады да стандартных?"
+
+msgid "Asset installation failed"
+msgstr "Збой усталявання рэсурсу"
+
+msgid "Au&to sort"
+msgstr "&Аўтаматычнае сартаванне"
+
+msgid "Audio &channels"
+msgstr "&Аўдыёканалы"
+
+msgid "Audio channels"
+msgstr "Аўдыёканалы"
+
+msgid "Audio channels:"
+msgstr "Аўдыёканалы:"
+
+msgid "Auto detect"
+msgstr "Аўтаматычнае вызначэнне"
+
+msgid "Auto sort"
+msgstr "Аўтаматычнае сартаванне"
+
+msgid "Batch Processing"
+msgstr "Пакетная апрацоўка"
+
+msgid "Batch processing"
+msgstr "Пакетная апрацоўка"
+
+msgid "Belarusian"
+msgstr "Беларуская"
+
+msgid "Bulgarian"
+msgstr "балгарская"
+
+msgid "Can't save subtitle file"
+msgstr "Немагчыма захаваць файл субтытраў"
+
+msgid "Cancel"
+msgstr "Скасаваць"
+
+msgid "Cannot load settings file, {}"
+msgstr "Немагчыма загрузіць файл налад, {}"
+
+msgid "Catalan"
+msgstr "Каталонская"
+
+msgid "Character &encoding"
+msgstr "&Кадыроўка сімвалаў"
+
+msgid "Character encoding"
+msgstr "Кадыроўка сімвалаў"
+
+msgid "Character encoding:"
+msgstr "Кадыроўка сімвалаў:"
+
+msgid "Check for updates"
+msgstr "Праверыць наяўнасць абнаўленняў"
+
+msgid "Checking for update..."
+msgstr "Праверка абнаўлення..."
+
+msgid "Chinese"
+msgstr "кітайская"
+
+msgid "Close"
+msgstr "Закрыць"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Немагчыма захаваць сінхранізаваныя субтытры"
+
+msgid "Couldn't synchronize"
+msgstr "Немагчыма сінхранізаваць"
+
+msgid "Credits"
+msgstr "Крэдыты"
+
+msgid "Croatian"
+msgstr "харвацкая"
+
+msgid "Current file:"
+msgstr "Бягучы файл:"
+
+msgid "Czech"
+msgstr "чэшская"
+
+msgid "Danish"
+msgstr "Дацкая"
+
+msgid "Debug"
+msgstr "Адладка"
+
+msgid "Debug options:"
+msgstr "Параметры адладкі:"
+
+msgid "Do you want to clear all items?"
+msgstr "Вы хочаце ачысціць усе элементы?"
+
+msgid "Download"
+msgstr "Спампаваць"
+
+msgid "Download assets"
+msgstr "Рэсурсы спампоўкі"
+
+msgid "Download now?"
+msgstr "Спампаваць?"
+
+msgid "Downloading"
+msgstr "Спампоўка"
+
+msgid "Downloading assets list..."
+msgstr "Спампоўка спісу рэсурсаў..."
+
+msgid "Drop files here to add sorted"
+msgstr "Перацягніце файлы сюды, каб дадаць адсартаваныя"
+
+msgid "Dump all synchronization points"
+msgstr "Экспарт усіх кропак сінхранізацыі"
+
+msgid "Dump reference words"
+msgstr "Экспарт распазнаных даведачных слоў"
+
+msgid "Dump subtitle words"
+msgstr "Экспарт слоў субтытраў"
+
+msgid "Dump used synchronization points"
+msgstr "Экспарт выкарыстаных кропак сінхранізацыі"
+
+msgid "Dutch"
+msgstr "галандская"
+
+msgid "ETA:"
+msgstr "Засталося:"
+
+msgid "Edit all tasks"
+msgstr "Рэдагаваць усе задачы"
+
+msgid "Edit failed tasks"
+msgstr "Рэдагаваць няўдалыя задачы"
+
+msgid "Effort:"
+msgstr "Намаганні:"
+
+msgid "Elapsed:"
+msgstr "Мінула:"
+
+msgid "Enable save button"
+msgstr "Уключыць кнопку захавання"
+
+msgid "English"
+msgstr "Англійская"
+
+msgid "Error"
+msgstr "Памылка"
+
+msgid "Error during reference read"
+msgstr "Памылка падчас чытання спасылкі"
+
+msgid "Error during subtitles read"
+msgstr "Памылка падчас чытання субтытраў"
+
+msgid "Estonian"
+msgstr "эстонская"
+
+msgid "Everything synchronized successfully"
+msgstr "Усё паспяхова сінхранізавана"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Усё было сінхранізавана, але былі памылкі"
+
+msgid "Extractor jobs no:"
+msgstr "Колькасць работ па здабычы:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Фарэрская"
+
+msgid "File name:"
+msgstr "Імя файла:"
+
+msgid "File type:"
+msgstr "Тып файла:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Адфільтраваць журналы з модуляў (па адным у радку):"
+
+msgid "Finnish"
+msgstr "фінская"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Выправіць меткі часу субтытраў па зададзеным зрушэнні ў секундах."
+
+msgid "Following assets could be updated:"
+msgstr "Наступныя рэсурсы могуць быць абноўлены:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Для працягу неабходна загрузіць наступныя рэсурсы:"
+
+msgid "Following files could not be added:"
+msgstr "Немагчыма дадаць наступныя файлы:"
+
+msgid "French"
+msgstr "французская"
+
+msgid "GUI options:"
+msgstr "GUI варыянты:"
+
+msgid "Gaelic"
+msgstr "шатландская гэльская"
+
+msgid "Galician"
+msgstr "Галісійская"
+
+msgid "General"
+msgstr "Агульныя"
+
+msgid "General options:"
+msgstr "Агульныя параметры:"
+
+msgid "German"
+msgstr "нямецкая"
+
+msgid "Got errors, synchronization failed"
+msgstr "Сінхранізацыя не атрымалася з-за памылак"
+
+msgid "Greek"
+msgstr "грэчаская"
+
+msgid "Headless options:"
+msgstr "Параметры каманднага радка (без графічнага інтэрфейсу):"
+
+msgid "Hebrew"
+msgstr "іўрыт"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Як старанна сінхранізаваць субтытры. Больш высокае значэнне паляпшае сінхранізацыю, але займае больш часу."
+
+msgid "Hungarian"
+msgstr "венгерская"
+
+msgid "Icelandic"
+msgstr "ісландская"
+
+msgid "In seconds."
+msgstr "За секунды."
+
+msgid "Indonesian"
+msgstr "Інданезійская"
+
+msgid "Info"
+msgstr "Інфармацыя"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Першапачатковая сінхранізацыя выканана.\nВы ўжо можаце захаваць субтытры.\nКалі яны не супадаюць, пачакайце лепшага выніку."
+
+msgid "Initializing..."
+msgstr "Ініцыялізацыя..."
+
+msgid "Input file:"
+msgstr "Уваходны файл:"
+
+msgid "Invalid output pattern"
+msgstr "Няправільны шаблон вываду"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Няправільны шаблон вываду, несапраўднае ключавое слова: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Няправільны шаблон вываду, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Няправільны фармат маўленчага гуку"
+
+msgid "Italian"
+msgstr "італьянская"
+
+msgid "Japanese"
+msgstr "японскі"
+
+msgid "Korean"
+msgstr "карэйская"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Выбар мовы неабавязковы, але можа значна палепшыць дакладнасць сінхранізацыі.\nВы ўпэўнены?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Змены мовы ўступяць у сілу пасля перазапуску праграмы"
+
+msgid "Language:"
+msgstr "Мова:"
+
+msgid "Languages"
+msgstr "Мовы"
+
+msgid "Latin"
+msgstr "лацінская"
+
+msgid "Latvian"
+msgstr "латышская"
+
+msgid "License"
+msgstr "Ліцэнзія"
+
+msgid "Lithuanian"
+msgstr "Літоўская"
+
+msgid "Loading, please wait..."
+msgstr "Ідзе загрузка, пачакайце..."
+
+msgid "Logging level:"
+msgstr "Узровень паведамленняў журнала:"
+
+msgid "Malagasy"
+msgstr "малагасійская"
+
+msgid "Malay"
+msgstr "малайскі"
+
+msgid "Maltese"
+msgstr "мальтыйская"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Максімальная рэгуляванне. Час субтытраў не зменіцца больш чым на гэта значэнне. Больш высокае значэнне займае больш часу для сінхранізацыі. Калі гэта значэнне занадта нізкае, сінхранізацыя не адбудзецца."
+
+msgid "Max adjustment:"
+msgstr "Максімальная карэкцыя часу:"
+
+msgid "Max points distance:"
+msgstr "Максімальнае адхіленне кропак:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Максімальная прымальная памылка сінхранізацыі, у секундах. Кропкі сінхранізацыі з памылкай, большай за гэтую, будуць адхілены."
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Min correlation factor:"
+msgstr "Мінімальны каэфіцыент карэляцыі:"
+
+msgid "Min points no:"
+msgstr "Мінімальная колькасць кропак:"
+
+msgid "Min speech recognition score:"
+msgstr "Мінімальная адзнака распазнавання маўлення:"
+
+msgid "Min word length (letters):"
+msgstr "Мінімальная даўжыня слова (літары):"
+
+msgid "Min words similarity:"
+msgstr "Мінімальнае падабенства слоў:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Мінімальны каэфіцыент карэляцыі, ад 0,0 да 1,0. Выкарыстоўваецца для вызначэння выніку сінхранізацыі. Калі каэфіцыент карэляцыі меншы за гэты, сінхранізацыя не адбудзецца."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Мінімальны бал распазнання маўлення ад 0,0 да 1,0. Словы, транскрыбаваныя з меншым лікам, будуць адхілены."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Мінімальная даўжыня слова ў літарах. Больш кароткія словы не будуць выкарыстоўвацца ў якасці кропак сінхранізацыі. Прымяняецца толькі да алфавітных моў."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Мінімальнае падабенства слоў для кропак сінхранізацыі. Паміж 0,0 і 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Мінімальная колькасць кропак сінхранізацыі. Не ўстанаўлівайце гэта занадта высока, бо гэта можа выклікаць шмат ілжывых спрацоўванняў."
+
+msgid "New synchronization"
+msgstr "Новая сінхранізацыя"
+
+msgid "New version is available. Update now?"
+msgstr "Даступная новая версія. Абнавіць?"
+
+msgid "No language selected"
+msgstr "Мова не выбрана"
+
+msgid "No language selected for:"
+msgstr "Не выбрана мова для:"
+
+msgid "No need to synchronize"
+msgstr "Не трэба сінхранізаваць"
+
+msgid "Norwegian"
+msgstr "нарвежская"
+
+msgid "Not supported stream type"
+msgstr "Тып дарожкі не падтрымліваецца"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Колькасць адначасовых патокаў сінхранізацыі."
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "Output directory:"
+msgstr "Каталог вываду:"
+
+msgid "Output encoding:"
+msgstr "Кадзіроўка вываду:"
+
+msgid "Output file names"
+msgstr "Імёны выходных файлаў"
+
+msgid "Output file not set"
+msgstr "Вывадны файл не ўстаноўлены"
+
+msgid "Output filename:"
+msgstr "Імя выхаднога файла:"
+
+msgid "Output timing offset:"
+msgstr "Зрушэнне часу вываду:"
+
+msgid "Overwrite existing files"
+msgstr "Перазапісаць існуючыя файлы"
+
+msgid "Overwrite files?"
+msgstr "Перазапісаць файлы?"
+
+msgid "Persian"
+msgstr "персідская"
+
+msgid "Polish"
+msgstr "польск"
+
+msgid "Portuguese"
+msgstr "Партугальская"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Забараніць пераход у рэжым сну падчас сінхранізацыі"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Прадухіляе пераход сістэмы ў рэжым сну падчас сінхранізацыі.\nГэта можа працаваць не на ўсіх платформах."
+
+msgid "Reference file not set"
+msgstr "Даведачны файл не ўстаноўлены"
+
+msgid "References (video or other subtitles):"
+msgstr "Спіс літаратуры (відэа ці іншыя субтытры):"
+
+msgid "Remove"
+msgstr "Выдаліць"
+
+msgid "Remove items"
+msgstr "Выдаліць элементы"
+
+msgid "Restore defaults"
+msgstr "Аднавіць налады па змаўчанні"
+
+msgid "Romanian"
+msgstr "румынская"
+
+msgid "Russian"
+msgstr "руская"
+
+msgid "Save"
+msgstr "Захаваць"
+
+msgid "Select"
+msgstr "Выбраць"
+
+msgid "Select &all"
+msgstr "&Выбраць усё"
+
+msgid "Select &stream"
+msgstr "&Выбраць паток"
+
+msgid "Select all &references"
+msgstr "&Абраць усе спасылкі"
+
+msgid "Select all &subtitles"
+msgstr "&Выбраць усе субтытры"
+
+msgid "Select all o&utputs"
+msgstr "&Выбраць усе выхады"
+
+msgid "Select audio channels to listen to:"
+msgstr "Абярыце аўдыяканалы для праслухоўвання:"
+
+msgid "Select character encoding"
+msgstr "Выберыце кадыроўку сімвалаў"
+
+msgid "Select directory"
+msgstr "Абярыце каталог"
+
+msgid "Select file"
+msgstr "Выберыце файл"
+
+msgid "Select language"
+msgstr "Выберыце мову"
+
+msgid "Select output"
+msgstr "Выберыце выхад"
+
+msgid "Select output directory"
+msgstr "Выберыце каталог вываду"
+
+msgid "Select output subtitles framerate:"
+msgstr "Выберыце частату кадраў выхадных субтытраў:"
+
+msgid "Select reference language first"
+msgstr "Спачатку выберыце даведачную мову"
+
+msgid "Select stream"
+msgstr "Выбраць паток"
+
+msgid "Select stream by language:"
+msgstr "Выбраць паток паводле мовы:"
+
+msgid "Select stream by title:"
+msgstr "Выбраць паток паводле назвы:"
+
+msgid "Select stream by type:"
+msgstr "Выбраць паток паводле тыпу:"
+
+msgid "Select stream:"
+msgstr "Выбраць паток:"
+
+msgid "Select streams"
+msgstr "Выбраць патокі"
+
+msgid "Serbian"
+msgstr "сербская"
+
+msgid "Set &input stream"
+msgstr "&Усталяваць дарожку ўводу"
+
+msgid "Set &output location"
+msgstr "&Усталяваць месца вываду"
+
+msgid "Settings"
+msgstr "Налады"
+
+msgid "Show popups:"
+msgstr "Паказаць усплывальныя вокны:"
+
+msgid "Signature verification failed"
+msgstr "Памылка праверкі подпісу"
+
+msgid "Slovak"
+msgstr "славацкая"
+
+msgid "Slovenian"
+msgstr "славенская"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Некаторыя даведачныя субтытры не могуць быць дэкадзіраваны (няправільнае кадаваньне?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Некаторыя субтытры не могуць быць дэкадзіраваны (няправільнае кадаваньне?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Некаторыя заданні не могуць быць сінхранізаваны"
+
+msgid "Spanish"
+msgstr "іспанская"
+
+msgid "Start"
+msgstr "Пачаць"
+
+msgid "Status:"
+msgstr "Статус:"
+
+msgid "Stop"
+msgstr "Спыніць"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Файлы субтытраў"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Субтытры не могуць супадаць са спасылкай"
+
+msgid "Subtitles not set"
+msgstr "Субтытры не ўстаноўлены"
+
+msgid "Subtitles synchronized"
+msgstr "Субтытры сінхранізаваныя"
+
+msgid "Subtitles:"
+msgstr "Субцітры:"
+
+msgid "Swedish"
+msgstr "шведская"
+
+msgid "Synchronization"
+msgstr "Сінхранізацыя"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Сінхранізацыя паміж мовамі {} зараз не падтрымліваецца."
+
+msgid "Synchronization job:"
+msgstr "Заданне па сінхранізацыі:"
+
+msgid "Synchronization options:"
+msgstr "Параметры сінхранізацыі:"
+
+msgid "Synchronization terminated"
+msgstr "Сінхранізацыя спынена"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Сінхранізацыя з аўдыя {} зараз не падтрымліваецца."
+
+msgid "Synchronization: 0 points"
+msgstr "Сінхранізацыя: 0 балаў"
+
+msgid "Synchronization: {} points"
+msgstr "Сінхранізацыя: {} балаў"
+
+msgid "Synchronizing..."
+msgstr "Ідзе сінхранізацыя..."
+
+msgid "Task:"
+msgstr "Заданне:"
+
+msgid "Terminating, please wait..."
+msgstr "Завяршэнне, пачакайце..."
+
+msgid "Terminating..."
+msgstr "Завяршэнне..."
+
+msgid "There are no usable streams"
+msgstr "Няма прыдатных патокаў"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Няма слоўніка для перакладу з {} на {}"
+
+msgid "There is no matching stream in {}"
+msgstr "Няма адпаведнай дарожкі ў {}"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Няма мадэлі распазнання маўлення для мовы {}"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Гэта аўтаматычны інструмент сінхранізацыі субтытраў да фільмаў.\nСінхранізацыя выконваецца шляхам праслухоўвання гукавой дарожкі, перакладу яе пры неабходнасці.\nЁн таксама можа выкарыстоўваць іншыя субтытры ў якасці спасылкі.\n\nАўтар: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Поўны правал"
+
+msgid "Total progress:"
+msgstr "Агульны прагрэс:"
+
+msgid "Turkish"
+msgstr "турэцкая"
+
+msgid "Ukrainian"
+msgstr "укр"
+
+msgid "Unexpected error occurred"
+msgstr "Адбылася нечаканая памылка"
+
+msgid "Unknown file extension"
+msgstr "Невядомае пашырэнне файла"
+
+msgid "Update assets"
+msgstr "Абнавіць рэсурсы"
+
+msgid "Update instalation failed miserably"
+msgstr "Не атрымалася ўсталяваць абнаўленне"
+
+msgid "Update not available"
+msgstr "Абнаўленне недаступнае"
+
+msgid "Update now?"
+msgstr "Абнавіць?"
+
+msgid "Updates:"
+msgstr "Абнаўленні:"
+
+msgid "Upgrade"
+msgstr "Абнавіць"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Выкарыстанне: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Відэафайлы"
+
+msgid "Website"
+msgstr "Вэб-сайт"
+
+msgid "Your version is up to date"
+msgstr "Ваша версія актуальная"
+
+msgid "[details]"
+msgstr "[падрабязней]"
+
+msgid "[errors]"
+msgstr "[памылкі]"
+
+msgid "[hide]"
+msgstr "[схаваць]"
+
+msgid "[show more]"
+msgstr "[паказаць больш]"
+
+msgid "all"
+msgstr "усе"
+
+msgid "all channels"
+msgstr "усе каналы"
+
+msgid "and {} more"
+msgstr "і яшчэ {}"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "дадайце 2-літарны код мовы (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "дадайце 3-літарны код мовы (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "дадайце нумар трэка"
+
+msgid "ask for update on exit"
+msgstr "прасіць абнаўленне пры выхадзе"
+
+msgid "audio"
+msgstr "аўдыё"
+
+msgid "auto"
+msgstr "аўто"
+
+msgid "auto select"
+msgstr "аўтаматычны выбар"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "пацвердзіць перазапіс файла (у пакетным рэжыме)"
+
+msgid "correlation:"
+msgstr "карэляцыя:"
+
+msgid "couldn't synchronize"
+msgstr "не ўдалося сінхранізаваць"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "канструкцыя на заказ"
+
+msgid "custom names:"
+msgstr "карыстальніцкія імёны:"
+
+msgid "custom selection"
+msgstr "выбар на заказ"
+
+msgid "custom value:"
+msgstr "карыстальніцкі кошт:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "прадвызначана"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "вызначыць задачу сінхранізацыі, можна паўтарыць некалькі разоў"
+
+msgid "description"
+msgstr "апісанне"
+
+msgid "dictionary {} / {}"
+msgstr "слоўнік {} / {}"
+
+msgid "directory path"
+msgstr "шлях да каталога"
+
+msgid "display this help text and exit"
+msgstr "паказаць гэты тэкст даведкі і выйсці"
+
+msgid "display version information and exit"
+msgstr "паказаць інфармацыю аб версіі і выйсці"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "не спрабуйце звязацца з аддаленым серверам, каб атрымаць адсутныя актывы"
+
+msgid "don't show this message again"
+msgstr "больш не паказваць гэта паведамленне"
+
+msgid "done"
+msgstr "выканана"
+
+msgid "download updates automatically"
+msgstr "аўтаматычная спампоўка абнаўленняў"
+
+msgid "downloading"
+msgstr "спампоўка"
+
+msgid "drop here"
+msgstr "апусціце сюды"
+
+msgid "dump logs to specified file"
+msgstr "запісаць журналы ў пазначаны файл"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "экспартаваць словы ў файл або ў стандартны вывад, калі PATH адсутнічае; SRC з'яўляецца адным з:  "
+
+msgid "elapsed time:"
+msgstr "прайшоў час:"
+
+msgid "enable advanced debug options"
+msgstr "ўключыць дадатковыя параметры адладкі"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "імя файла (без шляху і пашырэння)"
+
+msgid "files with matching streams"
+msgstr "файлаў з адпаведнымі трэкамі"
+
+msgid "files without matching streams"
+msgstr "файлаў без адпаведных трэкаў"
+
+msgid "formula:"
+msgstr "формула:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "як цяжка паспрабаваць (0,0 - 1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "калі <field> не ўстаноўлена, дадайце <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "калі ўстаноўлена <field>, дадайце <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "імпартаваць спіс заданняў з файла YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "мова"
+
+msgid "language not selected"
+msgstr "мова не выбрана"
+
+msgid "less than minute"
+msgstr "менш за хвіліну"
+
+msgid "log to file"
+msgstr "запісваць журнал у файл"
+
+msgid "max change:"
+msgstr "максімальная змена:"
+
+msgid "missing assets:"
+msgstr "адсутных рэсурсаў:"
+
+msgid "name"
+msgstr "імя"
+
+msgid "open batch processing window"
+msgstr "адкрыць акно пакетнай апрацоўкі"
+
+msgid "operation failed"
+msgstr "аперацыя не атрымалася"
+
+msgid "operation finished successfully"
+msgstr "аперацыя паспяхова завершана"
+
+msgid "output character encoding"
+msgstr "выходная кадоўка сімвалаў"
+
+msgid "output file path or pattern"
+msgstr "шлях да выходнага файла або шаблон"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "частата кадраў вываду (для субцітраў, прывязаных да кадраў)"
+
+msgid "outputs"
+msgstr "выхады"
+
+msgid "overwrite existing files"
+msgstr "перазапісаць існуючыя файлы"
+
+msgid "path to reference file"
+msgstr "шлях да даведачнага файла"
+
+msgid "path to subtitle file"
+msgstr "шлях да файла субтытраў"
+
+msgid "pattern:"
+msgstr "шаблон:"
+
+msgid "predefined names:"
+msgstr "прадвызначаныя імёны:"
+
+msgid "processing..."
+msgstr "апрацоўка..."
+
+msgid "queued..."
+msgstr "у чарзе..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "адлюстраванне эталонных аўдыяканалаў (для аўдыядаведкі)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "даведачная кадоўка сімвалаў (для спасылак на субтытры)"
+
+msgid "reference framerate"
+msgstr "эталонная частата кадраў"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "даведная мова (2- ці 3-літарны код ISO)"
+
+msgid "reference stream no"
+msgstr "эталонны трэк №"
+
+msgid "references"
+msgstr "эталонныя файлы"
+
+msgid "references: "
+msgstr "эталонныя файлы: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "запуск у рэжыме без галавы (без GUI)"
+
+msgid "same as input subtitles"
+msgstr "тое самае, што і субтытры"
+
+msgid "same as reference file"
+msgstr "тое ж, што і даведачны файл"
+
+msgid "select custom folder"
+msgstr "выберыце карыстальніцкую папку"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "выберыце эталонны трэк па мове (3-літарны код ISO)"
+
+msgid "select reference stream by type"
+msgstr "выберыце эталонны трэк па тыпу"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "выберыце дарожку субтытраў па мове (3-літарны код ISO)"
+
+msgid "set logging level"
+msgstr "усталяваць узровень запісу"
+
+msgid "stream"
+msgstr "паток"
+
+msgid "subtitle character encoding"
+msgstr "кадыроўка субтытраў"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "частата кадраў субтытраў (для субтытраў на аснове FPS)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "мова субтытраў (2- ці 3-літарны код ISO)"
+
+msgid "subtitle stream no"
+msgstr "трэк субтытраў №"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "субтытры/спасылка 2-літарны код мовы"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "субтытры/спасылка 3-літарны код мовы"
+
+msgid "subtitle/reference file full path"
+msgstr "Поўны шлях да файла субтытраў/даведкі"
+
+msgid "subtitle/reference stream number"
+msgstr "нумар субтытраў/спасылкі"
+
+msgid "subtitle/text"
+msgstr "субтытры/тэкст"
+
+msgid "subtitles"
+msgstr "субцітры"
+
+msgid "subtitles: "
+msgstr "субцітры: "
+
+msgid "synchronizing"
+msgstr "сінхранізацыя"
+
+msgid "terminated"
+msgstr "спынена"
+
+msgid "type"
+msgstr "тып"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "мова карыстальніцкага інтэрфейсу (2-літарны код ISO)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "узровень шматслоўнасці (0 - 3)"
+
+msgid "version "
+msgstr "версія "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} гадзін"
+
+msgid "{} min"
+msgstr "{} мін"
+
+msgid "{} minutes"
+msgstr "{} хвілін"
+
+msgid "{} speech recognition model"
+msgstr "{} мадэль распазнання маўлення"

@@ -1,0 +1,1197 @@
+# SubSync UI translation. GPL-3.0-or-later, as the application.
+# Machine-assisted draft; native-language review is welcome.
+msgid ""
+msgstr "Project-Id-Version: SubSync macOS ARM\nReport-Msgid-Bugs-To: https://github.com/kmihalj/subsync/issues\nPO-Revision-Date: 2026-11-09 00:00+0100\nLast-Translator: SubSync contributors\nLanguage-Team: Čeština\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Translation-Review: Machine-assisted draft; linguistic review pending\n"
+
+msgid "&About"
+msgstr "&O aplikaci"
+
+msgid "&Add files (auto sort)"
+msgstr "&Přidat soubory (automatické řazení)"
+
+msgid "&Close"
+msgstr "&Zavřít"
+
+msgid "&Edit"
+msgstr "&Úpravy"
+
+msgid "&Export list"
+msgstr "&Exportovat seznam"
+
+msgid "&File"
+msgstr "&Soubor"
+
+msgid "&Help"
+msgstr "&Nápověda"
+
+msgid "&Import list"
+msgstr "&Importovat seznam"
+
+msgid "&Language"
+msgstr "&Jazyk"
+
+msgid "&New"
+msgstr "&Nový"
+
+msgid "&Properties"
+msgstr "&Vlastnosti"
+
+msgid "&Propeties"
+msgstr "&Vlastnosti"
+
+msgid "&Remove"
+msgstr "&Odebrat"
+
+msgid ", {} points"
+msgstr ", {} bodů"
+
+msgid "-"
+msgstr "-"
+
+msgid "0 for auto."
+msgstr "0 pro auto."
+
+msgid "0.50"
+msgstr "0.50"
+
+msgid "1 minute"
+msgstr "1 minuta"
+
+msgid "999 min"
+msgstr "999 min"
+
+msgid "<auto>"
+msgstr "<automaticky>"
+
+msgid "<empty>"
+msgstr "<prázdné>"
+
+msgid "<other>"
+msgstr "<jiné>"
+
+msgid "<undefined>"
+msgstr "<nedefinováno>"
+
+msgid "About"
+msgstr "O aplikaci"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "Add &folder"
+msgstr "&Přidat složku"
+
+msgid "Add &references"
+msgstr "&Přidat reference"
+
+msgid "Add &subtitles"
+msgstr "&Přidat titulky"
+
+msgid "Advanced SSA"
+msgstr "Advanced SSA"
+
+msgid "Albanian"
+msgstr "Albán"
+
+msgid "All files"
+msgstr "Všechny soubory"
+
+msgid "All supported files"
+msgstr "Všechny podporované soubory"
+
+msgid "Another update in progress"
+msgstr "Probíhá další aktualizace"
+
+msgid "Application upgrade"
+msgstr "Upgrade aplikace"
+
+msgid "Arabic"
+msgstr "arabština"
+
+msgid "Are you sure you want to overwrite output files if they exist?"
+msgstr "Opravdu chcete přepsat výstupní soubory, pokud existují?"
+
+msgid "Are you sure you want to reset settings to defaults?"
+msgstr "Opravdu chcete obnovit výchozí nastavení?"
+
+msgid "Asset installation failed"
+msgstr "Instalace prostředku se nezdařila"
+
+msgid "Au&to sort"
+msgstr "&Automatické řazení"
+
+msgid "Audio &channels"
+msgstr "&Zvukové kanály"
+
+msgid "Audio channels"
+msgstr "Zvukové kanály"
+
+msgid "Audio channels:"
+msgstr "Zvukové kanály:"
+
+msgid "Auto detect"
+msgstr "Automatická detekce"
+
+msgid "Auto sort"
+msgstr "Automatické řazení"
+
+msgid "Batch Processing"
+msgstr "Dávkové zpracování"
+
+msgid "Batch processing"
+msgstr "Dávkové zpracování"
+
+msgid "Belarusian"
+msgstr "běloruština"
+
+msgid "Bulgarian"
+msgstr "bulharština"
+
+msgid "Can't save subtitle file"
+msgstr "Nelze uložit soubor titulků"
+
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Cannot load settings file, {}"
+msgstr "Nelze načíst soubor nastavení, {}"
+
+msgid "Catalan"
+msgstr "Katalánština"
+
+msgid "Character &encoding"
+msgstr "&Kódování znaků"
+
+msgid "Character encoding"
+msgstr "Kódování znaků"
+
+msgid "Character encoding:"
+msgstr "Kódování znaků:"
+
+msgid "Check for updates"
+msgstr "Zkontrolujte aktualizace"
+
+msgid "Checking for update..."
+msgstr "Kontrola aktualizace..."
+
+msgid "Chinese"
+msgstr "čínština"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Couldn't save synchronized subtitles"
+msgstr "Nelze uložit synchronizované titulky"
+
+msgid "Couldn't synchronize"
+msgstr "Nelze synchronizovat"
+
+msgid "Credits"
+msgstr "kreditů"
+
+msgid "Croatian"
+msgstr "Chorvatština"
+
+msgid "Current file:"
+msgstr "Aktuální soubor:"
+
+msgid "Czech"
+msgstr "česky"
+
+msgid "Danish"
+msgstr "dánština"
+
+msgid "Debug"
+msgstr "Ladění"
+
+msgid "Debug options:"
+msgstr "Možnosti ladění:"
+
+msgid "Do you want to clear all items?"
+msgstr "Chcete vymazat všechny položky?"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Download assets"
+msgstr "Stáhnout zdroje"
+
+msgid "Download now?"
+msgstr "Stáhnout nyní?"
+
+msgid "Downloading"
+msgstr "Stahování"
+
+msgid "Downloading assets list..."
+msgstr "Stahování seznamu zdrojů..."
+
+msgid "Drop files here to add sorted"
+msgstr "Sem přetáhněte soubory, které chcete přidat seřazené"
+
+msgid "Dump all synchronization points"
+msgstr "Exportovat všechny synchronizační body"
+
+msgid "Dump reference words"
+msgstr "Exportujte rozpoznaná referenční slova"
+
+msgid "Dump subtitle words"
+msgstr "Exportovat slova titulků"
+
+msgid "Dump used synchronization points"
+msgstr "Exportujte použité synchronizační body"
+
+msgid "Dutch"
+msgstr "holandština"
+
+msgid "ETA:"
+msgstr "Zbývá:"
+
+msgid "Edit all tasks"
+msgstr "Upravit všechny úkoly"
+
+msgid "Edit failed tasks"
+msgstr "Upravit neúspěšné úlohy"
+
+msgid "Effort:"
+msgstr "Úsilí:"
+
+msgid "Elapsed:"
+msgstr "Uplynulo:"
+
+msgid "Enable save button"
+msgstr "Povolit tlačítko pro uložení"
+
+msgid "English"
+msgstr "angličtina"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Error during reference read"
+msgstr "Chyba při čtení reference"
+
+msgid "Error during subtitles read"
+msgstr "Chyba při čtení titulků"
+
+msgid "Estonian"
+msgstr "estonština"
+
+msgid "Everything synchronized successfully"
+msgstr "Vše bylo úspěšně synchronizováno"
+
+msgid "Everything synchronized, but got errors"
+msgstr "Vše bylo synchronizováno, ale došlo k chybám"
+
+msgid "Extractor jobs no:"
+msgstr "Počet těžebních zakázek:"
+
+msgid "FPS"
+msgstr "FPS"
+
+msgid "Faroese"
+msgstr "Faerské ostrovy"
+
+msgid "File name:"
+msgstr "Název souboru:"
+
+msgid "File type:"
+msgstr "Typ souboru:"
+
+msgid "Filter out logs from modules (one per line):"
+msgstr "Odfiltrujte protokoly z modulů (jeden na řádek):"
+
+msgid "Finnish"
+msgstr "finština"
+
+msgid "Fix output subtitle timestamps by given offset, in seconds."
+msgstr "Opravte výstupní časová razítka titulků o daný posun v sekundách."
+
+msgid "Following assets could be updated:"
+msgstr "Následující zdroje lze aktualizovat:"
+
+msgid "Following assets must be download to continue:"
+msgstr "Pro pokračování je třeba stáhnout následující zdroje:"
+
+msgid "Following files could not be added:"
+msgstr "Nelze přidat následující soubory:"
+
+msgid "French"
+msgstr "francouzština"
+
+msgid "GUI options:"
+msgstr "GUI možností:"
+
+msgid "Gaelic"
+msgstr "Skotská gaelština"
+
+msgid "Galician"
+msgstr "galicijský"
+
+msgid "General"
+msgstr "Obecné"
+
+msgid "General options:"
+msgstr "Obecné možnosti:"
+
+msgid "German"
+msgstr "německy"
+
+msgid "Got errors, synchronization failed"
+msgstr "Synchronizace selhala kvůli chybám"
+
+msgid "Greek"
+msgstr "Řecký"
+
+msgid "Headless options:"
+msgstr "Možnosti příkazového řádku (bez grafického rozhraní):"
+
+msgid "Hebrew"
+msgstr "hebrejština"
+
+msgid "How hard should I work to synchronize subtitles. Higher value will result with better synchronization, but it will take longer."
+msgstr "Jak důkladně synchronizovat titulky. Vyšší hodnota zlepšuje synchronizaci, ale trvá déle."
+
+msgid "Hungarian"
+msgstr "maďarština"
+
+msgid "Icelandic"
+msgstr "islandský"
+
+msgid "In seconds."
+msgstr "V sekundách."
+
+msgid "Indonesian"
+msgstr "Indonéština"
+
+msgid "Info"
+msgstr "Informace"
+
+msgid "Initial synchronization is done.\nYou could save subtitles already.\nIf they don't match, wait for a better result."
+msgstr "Počáteční synchronizace je dokončena.\nTitulky již můžete uložit.\nPokud se neshodují, počkejte na lepší výsledek."
+
+msgid "Initializing..."
+msgstr "Inicializace..."
+
+msgid "Input file:"
+msgstr "Vstupní soubor:"
+
+msgid "Invalid output pattern"
+msgstr "Neplatný vzor výstupu"
+
+msgid "Invalid output pattern, invalid keyword: {}"
+msgstr "Neplatný výstupní vzor, neplatné klíčové slovo: {}"
+
+msgid "Invalid output pattern, {}"
+msgstr "Neplatný vzor výstupu, {}"
+
+msgid "Invalid speech audio format"
+msgstr "Neplatný formát zvuku řeči"
+
+msgid "Italian"
+msgstr "italsky"
+
+msgid "Japanese"
+msgstr "japonština"
+
+msgid "Korean"
+msgstr "korejština"
+
+msgid "Langauge selection is not mandatory, but could drastically improve synchronization accuracy.\nAre you sure?"
+msgstr "Výběr jazyka je volitelný, ale může výrazně zlepšit přesnost synchronizace.\nJste si jisti?"
+
+msgid "Language changes will take effect after application restart"
+msgstr "Změny jazyka se projeví po restartu aplikace"
+
+msgid "Language:"
+msgstr "Jazyk:"
+
+msgid "Languages"
+msgstr "Jazyky"
+
+msgid "Latin"
+msgstr "latinka"
+
+msgid "Latvian"
+msgstr "lotyšský"
+
+msgid "License"
+msgstr "Licence"
+
+msgid "Lithuanian"
+msgstr "litevština"
+
+msgid "Loading, please wait..."
+msgstr "Načítání, čekejte prosím..."
+
+msgid "Logging level:"
+msgstr "Úroveň protokolování:"
+
+msgid "Malagasy"
+msgstr "Malagaština"
+
+msgid "Malay"
+msgstr "Malajština"
+
+msgid "Maltese"
+msgstr "maltština"
+
+msgid "Max adjustement. Subtitle time will be changed no more than this value. Higher value will result in longer synchronization, but if you set this too low, synchronization will fail."
+msgstr "Maximální nastavení. Časy titulků se nezmění o více než tuto hodnotu. Synchronizace vyšší hodnoty trvá déle. Pokud je tato hodnota příliš nízká, synchronizace se nezdaří."
+
+msgid "Max adjustment:"
+msgstr "Maximální posun:"
+
+msgid "Max points distance:"
+msgstr "Maximální odchylka bodů:"
+
+msgid "Maximum acceptable synchronization error, in seconds. Synchronization points with error greater than this will be discarded."
+msgstr "Maximální přijatelná chyba synchronizace v sekundách. Synchronizační body s chybou větší než tato budou vyřazeny."
+
+msgid "Menu"
+msgstr "Nabídka"
+
+msgid "Min correlation factor:"
+msgstr "Min. korelační faktor:"
+
+msgid "Min points no:"
+msgstr "Minimální počet bodů:"
+
+msgid "Min speech recognition score:"
+msgstr "Minimální skóre rozpoznávání řeči:"
+
+msgid "Min word length (letters):"
+msgstr "Minimální délka slova (písmena):"
+
+msgid "Min words similarity:"
+msgstr "Min. podobnost slov:"
+
+msgid "Minimum correlation factor, between 0.0 and 1.0. Used to determine synchronization result. If correlation factor is smaller than this, synchronization will fail."
+msgstr "Minimální korelační faktor, mezi 0,0 a 1,0. Používá se k určení výsledku synchronizace. Pokud je korelační faktor menší než tento, synchronizace se nezdaří."
+
+msgid "Minimum speech recognition score, between 0.0 and 1.0. Words transcribed with smaller score will be rejected."
+msgstr "Minimální skóre rozpoznávání řeči, mezi 0,0 a 1,0. Slova přepsaná s menším skóre budou odmítnuta."
+
+msgid "Minimum word length, in letters. Shorter words will not be used as synchronization points. Applies only to alphabet-based languages."
+msgstr "Minimální délka slova v písmenech. Kratší slova nebudou použita jako synchronizační body. Platí pouze pro jazyky založené na abecedě."
+
+msgid "Minimum words similarity for synchronization points. Between 0.0 and 1.0."
+msgstr "Minimální podobnost slov pro synchronizační body. Mezi 0,0 a 1,0."
+
+msgid "Minumum number of synchronization points. Should not be set too high because it could result with generating large number of false positives."
+msgstr "Minimální počet synchronizačních bodů. Nenastavujte ji příliš vysoko, mohlo by to vést k mnoha falešným poplachům."
+
+msgid "New synchronization"
+msgstr "Nová synchronizace"
+
+msgid "New version is available. Update now?"
+msgstr "Nová verze je k dispozici. Aktualizovat nyní?"
+
+msgid "No language selected"
+msgstr "Není vybrán žádný jazyk"
+
+msgid "No language selected for:"
+msgstr "Není vybrán žádný jazyk pro:"
+
+msgid "No need to synchronize"
+msgstr "Není potřeba synchronizovat"
+
+msgid "Norwegian"
+msgstr "norština"
+
+msgid "Not supported stream type"
+msgstr "Nepodporovaný typ stopy"
+
+msgid "Number of concurrent synchronization threads."
+msgstr "Počet souběžných synchronizačních vláken."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output directory:"
+msgstr "Výstupní adresář:"
+
+msgid "Output encoding:"
+msgstr "Výstupní kódování:"
+
+msgid "Output file names"
+msgstr "Názvy výstupních souborů"
+
+msgid "Output file not set"
+msgstr "Výstupní soubor není nastaven"
+
+msgid "Output filename:"
+msgstr "Výstupní název souboru:"
+
+msgid "Output timing offset:"
+msgstr "Posun časování výstupu:"
+
+msgid "Overwrite existing files"
+msgstr "Přepsat existující soubory"
+
+msgid "Overwrite files?"
+msgstr "Přepsat soubory?"
+
+msgid "Persian"
+msgstr "perština"
+
+msgid "Polish"
+msgstr "Polština"
+
+msgid "Portuguese"
+msgstr "portugalština"
+
+msgid "Prevent from going to sleep during synchronization"
+msgstr "Zabránit přechodu do režimu spánku během synchronizace"
+
+msgid "Prevents system from going to sleep during synchronization.\nIt could not work on all platforms."
+msgstr "Zabraňuje přechodu systému do režimu spánku během synchronizace.\nNemohlo fungovat na všech platformách."
+
+msgid "Reference file not set"
+msgstr "Referenční soubor není nastaven"
+
+msgid "References (video or other subtitles):"
+msgstr "Reference (video nebo jiné titulky):"
+
+msgid "Remove"
+msgstr "Odebrat"
+
+msgid "Remove items"
+msgstr "Odstranění položek"
+
+msgid "Restore defaults"
+msgstr "Obnovit výchozí nastavení"
+
+msgid "Romanian"
+msgstr "rumunština"
+
+msgid "Russian"
+msgstr "ruština"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Select"
+msgstr "Vybrat"
+
+msgid "Select &all"
+msgstr "&Vybrat vše"
+
+msgid "Select &stream"
+msgstr "&Vybrat stopu"
+
+msgid "Select all &references"
+msgstr "&Vyberte všechny reference"
+
+msgid "Select all &subtitles"
+msgstr "&Vyberte všechny titulky"
+
+msgid "Select all o&utputs"
+msgstr "&Vyberte všechny výstupy"
+
+msgid "Select audio channels to listen to:"
+msgstr "Vyberte zvukové kanály k poslechu:"
+
+msgid "Select character encoding"
+msgstr "Vyberte kódování znaků"
+
+msgid "Select directory"
+msgstr "Vyberte adresář"
+
+msgid "Select file"
+msgstr "Vyberte soubor"
+
+msgid "Select language"
+msgstr "Vyberte jazyk"
+
+msgid "Select output"
+msgstr "Vyberte výstup"
+
+msgid "Select output directory"
+msgstr "Vyberte výstupní adresář"
+
+msgid "Select output subtitles framerate:"
+msgstr "Vyberte snímkovou frekvenci výstupu titulků:"
+
+msgid "Select reference language first"
+msgstr "Nejprve vyberte referenční jazyk"
+
+msgid "Select stream"
+msgstr "Vybrat stopu"
+
+msgid "Select stream by language:"
+msgstr "Vybrat stopu podle jazyka:"
+
+msgid "Select stream by title:"
+msgstr "Vybrat stopu podle názvu:"
+
+msgid "Select stream by type:"
+msgstr "Vybrat stopu podle typu:"
+
+msgid "Select stream:"
+msgstr "Vybrat stopu:"
+
+msgid "Select streams"
+msgstr "Vybrat stopy"
+
+msgid "Serbian"
+msgstr "srbsky"
+
+msgid "Set &input stream"
+msgstr "&Nastavit vstupní stopu"
+
+msgid "Set &output location"
+msgstr "&Nastavit umístění výstupu"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Show popups:"
+msgstr "Zobrazit vyskakovací okna:"
+
+msgid "Signature verification failed"
+msgstr "Ověření podpisu se nezdařilo"
+
+msgid "Slovak"
+msgstr "slovensky"
+
+msgid "Slovenian"
+msgstr "slovinština"
+
+msgid "Some reference subtitles can't be decoded (invalid encoding?)"
+msgstr "Některé referenční titulky nelze dekódovat (neplatné kódování?)"
+
+msgid "Some subtitles can't be decoded (invalid encoding?)"
+msgstr "Některé titulky nelze dekódovat (neplatné kódování?)"
+
+msgid "Some tasks couldn't be synchronized"
+msgstr "Některé úlohy se nepodařilo synchronizovat"
+
+msgid "Spanish"
+msgstr "španělština"
+
+msgid "Start"
+msgstr "Spustit"
+
+msgid "Status:"
+msgstr "Stav:"
+
+msgid "Stop"
+msgstr "Zastavit"
+
+msgid "Sub Station Alpha"
+msgstr "Sub Station Alpha"
+
+msgid "SubRIP"
+msgstr "SubRIP"
+
+msgid "Subtitle\nSpeech\nSynchronizer"
+msgstr "Subtitle\nSpeech\nSynchronizer"
+
+msgid "Subtitle Speech Synchronizer"
+msgstr "Subtitle Speech Synchronizer"
+
+msgid "Subtitle files"
+msgstr "Soubory s titulky"
+
+msgid "Subtitles can't be the same as reference"
+msgstr "Titulky nemohou být stejné jako reference"
+
+msgid "Subtitles not set"
+msgstr "Titulky nejsou nastaveny"
+
+msgid "Subtitles synchronized"
+msgstr "Titulky synchronizovány"
+
+msgid "Subtitles:"
+msgstr "Titulky:"
+
+msgid "Swedish"
+msgstr "Švédština"
+
+msgid "Synchronization"
+msgstr "Synchronizace"
+
+msgid "Synchronization between languages {} is currently not supported."
+msgstr "Synchronizace mezi jazyky {} aktuálně není podporována."
+
+msgid "Synchronization job:"
+msgstr "Úloha synchronizace:"
+
+msgid "Synchronization options:"
+msgstr "Možnosti synchronizace:"
+
+msgid "Synchronization terminated"
+msgstr "Synchronizace ukončena"
+
+msgid "Synchronization with {} audio is currently not supported."
+msgstr "Synchronizace se zvukem {} aktuálně není podporována."
+
+msgid "Synchronization: 0 points"
+msgstr "Synchronizace: 0 bodů"
+
+msgid "Synchronization: {} points"
+msgstr "Synchronizace: {} bodů"
+
+msgid "Synchronizing..."
+msgstr "Synchronizace..."
+
+msgid "Task:"
+msgstr "Úkol:"
+
+msgid "Terminating, please wait..."
+msgstr "Ukončování, čekejte prosím..."
+
+msgid "Terminating..."
+msgstr "Ukončování..."
+
+msgid "There are no usable streams"
+msgstr "Nejsou k dispozici žádné použitelné stopy"
+
+msgid "There is no dictionary for transaltion from {} to {}"
+msgstr "Neexistuje žádný slovník pro překlad z {} do {}"
+
+msgid "There is no matching stream in {}"
+msgstr "V {} není žádná odpovídající stopa"
+
+msgid "There is no speech recognition model for language {}"
+msgstr "Pro jazyk {} neexistuje žádný model rozpoznávání řeči"
+
+msgid "This is an automatic movie subtitle synchronization tool.\nSynchronization is done by listening to the audio track, translating it if necessary.\nIt could also use another subtitle as a reference.\n\nAuthor: Michał Szymaniak"
+msgstr "Toto je nástroj pro automatickou synchronizaci filmových titulků.\nSynchronizace se provádí poslechem zvukové stopy a v případě potřeby jejím překladem.\nMůže také použít jiné titulky jako referenci.\n\nAutor: Michał Szymaniak"
+
+msgid "Total failure"
+msgstr "Celkové selhání"
+
+msgid "Total progress:"
+msgstr "Celkový pokrok:"
+
+msgid "Turkish"
+msgstr "turečtina"
+
+msgid "Ukrainian"
+msgstr "Ukrajinština"
+
+msgid "Unexpected error occurred"
+msgstr "Došlo k neočekávané chybě"
+
+msgid "Unknown file extension"
+msgstr "Neznámá přípona souboru"
+
+msgid "Update assets"
+msgstr "Aktualizovat zdroje"
+
+msgid "Update instalation failed miserably"
+msgstr "Aktualizaci nelze nainstalovat"
+
+msgid "Update not available"
+msgstr "Aktualizace není k dispozici"
+
+msgid "Update now?"
+msgstr "Aktualizovat nyní?"
+
+msgid "Updates:"
+msgstr "Aktualizace:"
+
+msgid "Upgrade"
+msgstr "Aktualizovat"
+
+msgid "Usage: {} [OPTIONS]"
+msgstr "Použití: {} [OPTIONS]"
+
+msgid "Video files"
+msgstr "Video soubory"
+
+msgid "Website"
+msgstr "Webové stránky"
+
+msgid "Your version is up to date"
+msgstr "Vaše verze je aktuální"
+
+msgid "[details]"
+msgstr "[podrobnosti]"
+
+msgid "[errors]"
+msgstr "[chyby]"
+
+msgid "[hide]"
+msgstr "[skrýt]"
+
+msgid "[show more]"
+msgstr "[zobrazit více]"
+
+msgid "all"
+msgstr "všechny"
+
+msgid "all channels"
+msgstr "všechny kanály"
+
+msgid "and {} more"
+msgstr "a {} další"
+
+msgid "append 2-letters language code (ISO 639-1)"
+msgstr "připojit 2písmenný kód jazyka (ISO 639-1)"
+
+msgid "append 3-letters language code (ISO 639-2/B)"
+msgstr "připojit 3písmenný kód jazyka (ISO 639-2/B)"
+
+msgid "append stream number"
+msgstr "přidat číslo skladby"
+
+msgid "ask for update on exit"
+msgstr "požádat o aktualizaci při ukončení"
+
+msgid "audio"
+msgstr "zvuk"
+
+msgid "auto"
+msgstr "auto"
+
+msgid "auto select"
+msgstr "automatický výběr"
+
+msgid "confirm file overwrite (in batch mode)"
+msgstr "potvrďte přepsání souboru (v dávkovém režimu)"
+
+msgid "correlation:"
+msgstr "korelace:"
+
+msgid "couldn't synchronize"
+msgstr "se nepodařilo synchronizovat"
+
+msgid "critical"
+msgstr "critical"
+
+msgid "custom build"
+msgstr "zakázková výroba"
+
+msgid "custom names:"
+msgstr "vlastních jmen:"
+
+msgid "custom selection"
+msgstr "vlastní výběr"
+
+msgid "custom value:"
+msgstr "vlastní hodnota:"
+
+msgid "debug"
+msgstr "debug"
+
+msgid "default"
+msgstr "výchozí"
+
+msgid "define synchronization task, can be repeated multiple times"
+msgstr "definovat úlohu synchronizace, lze ji opakovat vícekrát"
+
+msgid "description"
+msgstr "popis"
+
+msgid "dictionary {} / {}"
+msgstr "slovník {} / {}"
+
+msgid "directory path"
+msgstr "cesta k adresáři"
+
+msgid "display this help text and exit"
+msgstr "zobrazte tento text nápovědy a ukončete jej"
+
+msgid "display version information and exit"
+msgstr "zobrazení informací o verzi a ukončení"
+
+msgid "don't attempt to contact remote server to get missing assets"
+msgstr "nepokoušejte se kontaktovat vzdálený server, abyste získali chybějící aktiva"
+
+msgid "don't show this message again"
+msgstr "tuto zprávu již nezobrazovat"
+
+msgid "done"
+msgstr "hotovo"
+
+msgid "download updates automatically"
+msgstr "stahovat aktualizace automaticky"
+
+msgid "downloading"
+msgstr "stahování"
+
+msgid "drop here"
+msgstr "přihoďte sem"
+
+msgid "dump logs to specified file"
+msgstr "zapisovat protokoly do zadaného souboru"
+
+msgid "dump words to file, or to standard output if there is no PATH, SRC is one of:  "
+msgstr "exportujte slova do souboru nebo na standardní výstup, pokud chybí PATH; SRC je jedním z:  "
+
+msgid "elapsed time:"
+msgstr "uplynulý čas:"
+
+msgid "enable advanced debug options"
+msgstr "povolit pokročilé možnosti ladění"
+
+msgid "error"
+msgstr "error"
+
+msgid "file name (without path and extension)"
+msgstr "název souboru (bez cesty a přípony)"
+
+msgid "files with matching streams"
+msgstr "souborů s odpovídajícími stopami"
+
+msgid "files without matching streams"
+msgstr "souborů bez odpovídajících stop"
+
+msgid "formula:"
+msgstr "vzorec:"
+
+msgid "fps"
+msgstr "fps"
+
+msgid "how hard to try (0.0 - 1.0)"
+msgstr "jak těžké to zkusit (0,0 – 1,0)"
+
+msgid "id"
+msgstr "id"
+
+msgid "if <field> is not set, append <value>"
+msgstr "pokud není nastaveno <field>, přidejte <value>"
+
+msgid "if <field> is set, append <value>"
+msgstr "pokud je nastaveno <field>, přidejte <value>"
+
+msgid "import list of tasks from YAML file"
+msgstr "importovat seznam úkolů ze souboru YAML"
+
+msgid "info"
+msgstr "info"
+
+msgid "language"
+msgstr "jazyk"
+
+msgid "language not selected"
+msgstr "jazyk není vybrán"
+
+msgid "less than minute"
+msgstr "méně než minuta"
+
+msgid "log to file"
+msgstr "zapisovat protokol do souboru"
+
+msgid "max change:"
+msgstr "max změna:"
+
+msgid "missing assets:"
+msgstr "chybějící zdroje:"
+
+msgid "name"
+msgstr "jméno"
+
+msgid "open batch processing window"
+msgstr "otevřít okno dávkového zpracování"
+
+msgid "operation failed"
+msgstr "operace se nezdařila"
+
+msgid "operation finished successfully"
+msgstr "operace úspěšně dokončena"
+
+msgid "output character encoding"
+msgstr "kódování výstupních znaků"
+
+msgid "output file path or pattern"
+msgstr "výstupní cesta k souboru nebo vzor"
+
+msgid "output framerate (for FPS-based subtitles)"
+msgstr "výstupní snímková frekvence (pro FPS titulky)"
+
+msgid "outputs"
+msgstr "výstupů"
+
+msgid "overwrite existing files"
+msgstr "přepsat existující soubory"
+
+msgid "path to reference file"
+msgstr "cesta k referenčnímu souboru"
+
+msgid "path to subtitle file"
+msgstr "cesta k souboru titulků"
+
+msgid "pattern:"
+msgstr "vzor:"
+
+msgid "predefined names:"
+msgstr "předdefinovaných jmen:"
+
+msgid "processing..."
+msgstr "zpracování..."
+
+msgid "queued..."
+msgstr "ve frontě..."
+
+msgid "reference audio channels mapping (for audio references)"
+msgstr "mapování referenčních zvukových kanálů (pro zvukové reference)"
+
+msgid "reference character encoding (for subtitle references)"
+msgstr "kódování referenčních znaků (pro odkazy na titulky)"
+
+msgid "reference framerate"
+msgstr "referenční snímková frekvence"
+
+msgid "reference language (2- or 3-letter ISO code)"
+msgstr "referenční jazyk (2- nebo 3písmenný kód ISO)"
+
+msgid "reference stream no"
+msgstr "referenční kolej č"
+
+msgid "references"
+msgstr "referenční soubory"
+
+msgid "references: "
+msgstr "referenční soubory: "
+
+msgid "run in headless mode (without GUI)"
+msgstr "běh v režimu bez hlavy (bez GUI)"
+
+msgid "same as input subtitles"
+msgstr "stejné jako vstupní titulky"
+
+msgid "same as reference file"
+msgstr "stejné jako referenční soubor"
+
+msgid "select custom folder"
+msgstr "vyberte vlastní složku"
+
+msgid "select reference stream by language (3-letter ISO code)"
+msgstr "výběr referenční stopy podle jazyka (3písmenný kód ISO)"
+
+msgid "select reference stream by type"
+msgstr "vyberte referenční stopu podle typu"
+
+msgid "select subtitle stream by language (3-letter ISO code)"
+msgstr "vyberte stopu titulků podle jazyka (3písmenný kód ISO)"
+
+msgid "set logging level"
+msgstr "nastavit úroveň protokolování"
+
+msgid "stream"
+msgstr "stopa"
+
+msgid "subtitle character encoding"
+msgstr "kódování znaků titulků"
+
+msgid "subtitle framerate (for FPS-based subtitles)"
+msgstr "snímková frekvence titulků (pro FPS titulky)"
+
+msgid "subtitle language (2- or 3-letter ISO code)"
+msgstr "jazyk titulků (2- nebo 3písmenný kód ISO)"
+
+msgid "subtitle stream no"
+msgstr "titulková stopa č"
+
+msgid "subtitle/reference 2-letters language code"
+msgstr "titulky/odkaz 2písmenný kód jazyka"
+
+msgid "subtitle/reference 3-letters language code"
+msgstr "titulky/odkaz 3písmenný kód jazyka"
+
+msgid "subtitle/reference file full path"
+msgstr "úplná cesta titulkového/referenčního souboru"
+
+msgid "subtitle/reference stream number"
+msgstr "číslo titulků/referenční stopy"
+
+msgid "subtitle/text"
+msgstr "titulky/text"
+
+msgid "subtitles"
+msgstr "titulky"
+
+msgid "subtitles: "
+msgstr "titulky: "
+
+msgid "synchronizing"
+msgstr "synchronizace"
+
+msgid "terminated"
+msgstr "ukončeno"
+
+msgid "type"
+msgstr "typ"
+
+msgid "user interface language (2-letter ISO code)"
+msgstr "jazyk uživatelského rozhraní (2písmenný kód ISO)"
+
+msgid "verbosity level (0 - 3)"
+msgstr "úroveň podrobnosti (0 - 3)"
+
+msgid "version "
+msgstr "verze "
+
+msgid "warning"
+msgstr "warning"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if:<field>:<value>}"
+msgstr "{if:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{if_not:<field>:<value>}"
+msgstr "{if_not:<field>:<value>}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_dir}"
+msgstr "{ref_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang2}"
+msgstr "{ref_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_lang}"
+msgstr "{ref_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_name}"
+msgstr "{ref_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_no}"
+msgstr "{ref_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{ref_path}"
+msgstr "{ref_path}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_dir}"
+msgstr "{sub_dir}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang2}"
+msgstr "{sub_lang2}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_lang}"
+msgstr "{sub_lang}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_name}"
+msgstr "{sub_name}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_no}"
+msgstr "{sub_no}"
+
+#. Literal filename-pattern token; do not translate.
+msgid "{sub_path}"
+msgstr "{sub_path}"
+
+msgid "{} hours"
+msgstr "{} hodin"
+
+msgid "{} min"
+msgstr "{} min"
+
+msgid "{} minutes"
+msgstr "{} minut"
+
+msgid "{} speech recognition model"
+msgstr "{} model rozpoznávání řeči"
