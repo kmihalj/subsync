@@ -15,7 +15,7 @@ from subsync.gui.components import filedlg
 from subsync import subtitle
 from subsync.gui.syncwin import SyncWin
 from subsync.gui.batchwin import BatchWin
-from subsync.gui import syncwin, batchwin
+from subsync.gui import syncwin, batchwin, busydlg
 from subsync.synchro.output import OutputFile
 from subsync.assets import mgr as asset_manager
 
@@ -241,6 +241,15 @@ class DialogTests(unittest.TestCase):
                 patch.object(filedlg, 'ensureOutputDirectory', return_value=None):
             self.assertIsNone(filedlg.showSaveFileDlg(None))
             self.assertEqual(settings.lastdir, '/old')
+
+    def test_busy_dialog_timer_uses_integer_milliseconds(self):
+        for seconds, expected in ((.1, 100), (.025, 25), (.00001, 1)):
+            dialog = MagicMock()
+            timer = MagicMock()
+            with patch.object(busydlg.wx, 'Timer', return_value=timer):
+                busydlg.BusyDlg.ShowModalWhile(dialog, lambda: True, seconds)
+            timer.Start.assert_called_once_with(expected)
+            self.assertIs(type(timer.Start.call_args.args[0]), int)
 
 
 class StoreAssetsTests(unittest.TestCase):
