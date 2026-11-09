@@ -1,5 +1,6 @@
-// Integration regressions for the PS5 endpointer and FFmpeg channel-layout port.
+// Integration regressions for native speech streaming and FFmpeg channel layouts.
 #include "media/speechrec.h"
+#include "media/speechsegmenter.h"
 #include "media/resampler.h"
 #include <fstream>
 #include <iostream>

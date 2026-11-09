@@ -1,18 +1,15 @@
 #!/bin/bash
 # Compile and run deterministic timing properties against the isolated PS5 build.
 set -Eeuo pipefail
-ROOT=$(cd "$(dirname "$0")/../.." && pwd)
-BUILD=${SUBSYNC_BUILD_ROOT:-$ROOT/.build}
-PREFIX="$BUILD/modern-prefix"
-PS_SOURCE="$BUILD/modern-sources/pocketsphinx-5.1.1"
-export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig"
-export PKG_CONFIG_LIBDIR="$PKG_CONFIG_PATH"
-mkdir -p "$BUILD/tests"
-read -r -a PC_FLAGS <<< "$(pkg-config --cflags --libs libavformat libavcodec libavutil pocketsphinx)"
+source "$(dirname "$0")/native-test-common.sh"
+native_test_require_ffmpeg avformat avcodec avutil
+MODEL_FIXTURE=$(native_test_speech_model speech-invariance)
+trap 'rm -rf "$MODEL_FIXTURE"' EXIT
 "${CXX:-clang++}" -std=c++14 -O1 -arch arm64 -mmacosx-version-min=11.0 \
-    -Wl,-rpath,"$PREFIX/lib" -I"$ROOT/gizmo" "${PC_FLAGS[@]}" \
+    "${NATIVE_TEST_CFLAGS[@]}" \
     "$ROOT/gizmo/test/speech-invariance.cpp" "$ROOT/gizmo/media/speechrec.cpp" \
     "$ROOT/gizmo/general/exception.cpp" "$ROOT/gizmo/text/words.cpp" \
-    "$ROOT/gizmo/text/utf8.cpp" -o "$BUILD/tests/speech-invariance-test"
-"$BUILD/tests/speech-invariance-test" "$PREFIX/share/pocketsphinx/model/en-us" \
-    "$PS_SOURCE/test/data/goforward.raw"
+    "$ROOT/gizmo/text/utf8.cpp" "$FRONTEND_ARCHIVE" \
+    "${NATIVE_TEST_LDFLAGS[@]}" -lavformat -lavcodec -lavutil -lpocketsphinx \
+    -o "$BUILD/tests/speech-invariance-test"
+"$BUILD/tests/speech-invariance-test" "$MODEL_FIXTURE" "$TEST_PCM"
