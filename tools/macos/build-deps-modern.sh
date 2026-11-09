@@ -61,7 +61,13 @@ if [[ ! -f "$PREFIX/.ffmpeg-$FFMPEG_VERSION" ]]; then
     ) >"$BUILD/logs/modern-ffmpeg.log" 2>&1
     touch "$PREFIX/.ffmpeg-$FFMPEG_VERSION"
 fi
-if [[ ! -f "$PS_MARKER" ]]; then
+PS_INSTALLED_SOURCE=''
+if [[ -f "$PREFIX/.subsync-pocketsphinx-source" ]]; then
+    PS_INSTALLED_SOURCE=$(<"$PREFIX/.subsync-pocketsphinx-source")
+fi
+if [[ ! -f "$PS_MARKER" || "$PS_INSTALLED_SOURCE" != "$PS_SOURCE" \
+    || ! -f "$PREFIX/lib/libpocketsphinx.dylib" \
+    || ! -f "$PREFIX/include/pocketsphinx.h" ]]; then
     # A patch-specific source/build directory prevents a previous unpatched
     # install marker or CMake cache from silently reusing a different decoder.
     mkdir -p "$PS_SOURCE"

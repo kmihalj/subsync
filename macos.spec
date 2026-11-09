@@ -18,6 +18,9 @@ data_files = [
     ('gizmo/frontend/LICENSE.compatibility', 'licenses/frontend'),
     ('gizmo/frontend/LICENSE.pocketsphinx', 'licenses/frontend'),
     ('gizmo/frontend/UPSTREAM.md', 'licenses/frontend'),
+    # Preserve every retained per-file notice and provenance receipt in the
+    # binary distribution, including the historical compatibility portions.
+    ('gizmo/frontend', 'licenses/frontend/source'),
 ]
 for distribution in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy'):
     data_files += copy_metadata(distribution)
