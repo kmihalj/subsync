@@ -14,6 +14,10 @@ class AboutWin(subsync.gui.layout.aboutwin.AboutWin):
         except:
             pass
 
+        self.m_staticText10.SetLabel(self.m_staticText10.GetLabel() + '\n\n' +
+                _('Fork author and maintainer: {}').format('Krešimir Mihalj') +
+                '\nhttps://github.com/kmihalj/subsync')
+
         self.m_buttonClose.SetFocus()
         self.Fit()
         self.Layout()
@@ -35,7 +39,11 @@ class AboutWin(subsync.gui.layout.aboutwin.AboutWin):
         wx.LaunchDefaultBrowser('https://github.com/kmihalj/subsync')
 
 
-credits='''FFmpeg - Copyright (c) the FFmpeg developers - LGPLv2.1 or later
+credits='''SubSync macOS ARM fork - Krešimir Mihalj (kmihalj)
+https://github.com/kmihalj/subsync
+Original SubSync - Michał Szymaniak (sc0ty)
+
+FFmpeg - Copyright (c) the FFmpeg developers - LGPLv2.1 or later
 CMU Sphinx - Copyright (c) 1999-2016 Carnegie Mellon University - BSD license
 wxWindows - Copyright (c) 1998-2005 Julian Smart, Robert Roebling et al - wxWindows Library Licence
 pybind11 - Copyright (c) 2016 Wenzel Jakob - BSD license

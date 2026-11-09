@@ -23,7 +23,11 @@ See the installation notes in the release and DMG for first-launch instructions.
 The single maintained version is on `main` and targets macOS ARM64 only.
 See [build and validation details](doc/macos-modern-deps.md).
 
-Based on [sc0ty/SubSync](https://github.com/sc0ty/subsync) by Michał Szymaniak.
+Fork author and maintainer: **[Krešimir Mihalj (kmihalj)](https://github.com/kmihalj)**.
+This fork adds native macOS ARM support, current media/speech libraries,
+compatibility improvements and expanded interface translations.
+
+Original SubSync author: **[Michał Szymaniak (sc0ty)](https://github.com/sc0ty/subsync)**.
 Original copyright notices and third-party licenses are retained.
 
 ## Support development

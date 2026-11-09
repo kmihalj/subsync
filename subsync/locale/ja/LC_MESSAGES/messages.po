@@ -1195,3 +1195,7 @@ msgstr "{} 分"
 
 msgid "{} speech recognition model"
 msgstr "{} の音声認識モデル"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "フォークの作者・保守担当者: {}"

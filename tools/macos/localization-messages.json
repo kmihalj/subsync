@@ -391,5 +391,6 @@
   "{} hours",
   "{} min",
   "{} minutes",
-  "{} speech recognition model"
+  "{} speech recognition model",
+  "Fork author and maintainer: {}"
 ]

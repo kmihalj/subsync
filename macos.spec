@@ -1,6 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 import os
 import runpy
+import sysconfig
 from PyInstaller.utils.hooks import copy_metadata
 
 version = {}
@@ -30,9 +31,10 @@ data_files = [
     # Preserve every retained per-file notice and provenance receipt in the
     # binary distribution, including the historical compatibility portions.
     ('gizmo/frontend', 'licenses/frontend/source'),
+    (os.path.join(sysconfig.get_path('stdlib'), 'LICENSE.txt'), 'licenses/python'),
 ]
-for distribution in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy'):
-    data_files += copy_metadata(distribution)
+for dependency in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy', 'pybind11', 'pyinstaller'):
+    data_files += copy_metadata(dependency)
 
 a = Analysis(
     ['bin/subsync'],

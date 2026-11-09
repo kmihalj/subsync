@@ -1195,3 +1195,7 @@ msgstr "{} minitra"
 
 msgid "{} speech recognition model"
 msgstr "maodely famantarana fitenenana {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Mpanoratra sy mpikojakoja ny fork: {}"

@@ -1195,3 +1195,7 @@ msgstr "{} perc"
 
 msgid "{} speech recognition model"
 msgstr "{} beszédfelismerő modell"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "A fork szerzője és karbantartója: {}"

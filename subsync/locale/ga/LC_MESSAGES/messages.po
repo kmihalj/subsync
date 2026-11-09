@@ -1195,3 +1195,7 @@ msgstr "{} nóiméad"
 
 msgid "{} speech recognition model"
 msgstr "samhail aitheantais cainte {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Údar agus cothabhálaí an fhorc: {}"

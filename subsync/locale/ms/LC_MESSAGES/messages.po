@@ -1195,3 +1195,7 @@ msgstr "{} minit"
 
 msgid "{} speech recognition model"
 msgstr "model pengecaman pertuturan {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Pengarang dan penyelenggara fork: {}"

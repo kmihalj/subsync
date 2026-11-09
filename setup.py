@@ -332,9 +332,8 @@ def write_version_file(version_long, version, path=None):
 setup(
         name = 'subsync',
         version = read_version()[1],
-        author = 'Michał Szymaniak',
-        author_email = 'sc0typl@gmail.com',
-        url = 'https://github.com/sc0ty/subsync',
+        author = 'Krešimir Mihalj (macOS ARM fork); Michał Szymaniak (original SubSync)',
+        url = 'https://github.com/kmihalj/subsync',
         description = 'Subtitle Speech Synchronizer',
         license='GPLv3',
         python_requires = '>=3.5',

@@ -1195,3 +1195,7 @@ msgstr "{} хвілін"
 
 msgid "{} speech recognition model"
 msgstr "{} мадэль распазнання маўлення"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Аўтар і суправаджальнік форка: {}"

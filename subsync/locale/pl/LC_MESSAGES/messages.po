@@ -2040,3 +2040,7 @@ msgstr "Niedozwolony wzór wyjściowy"
 
 #~ msgid "Signature download failed"
 #~ msgstr "Błąd pobierania sygnatury"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Autor i opiekun forka: {}"

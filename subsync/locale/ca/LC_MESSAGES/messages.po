@@ -1195,3 +1195,7 @@ msgstr "{} minuts"
 
 msgid "{} speech recognition model"
 msgstr "model de reconeixement de veu de {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Autor i mantenidor de la bifurcació: {}"

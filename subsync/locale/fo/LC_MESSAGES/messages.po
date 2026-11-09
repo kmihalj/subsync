@@ -1195,3 +1195,7 @@ msgstr "{} minuttir"
 
 msgid "{} speech recognition model"
 msgstr "talukennismyndil fyri {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Høvundur og viðlíkahaldari av frágreiningini: {}"

@@ -1195,3 +1195,7 @@ msgstr "{} 分钟"
 
 msgid "{} speech recognition model"
 msgstr "{} 语音识别模型"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "分支作者及维护者：{}"

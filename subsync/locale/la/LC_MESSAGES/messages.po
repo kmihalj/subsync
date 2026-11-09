@@ -1195,3 +1195,7 @@ msgstr "{} minuta"
 
 msgid "{} speech recognition model"
 msgstr "exemplar agnitionis vocis {}"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Auctor et curator huius rami: {}"

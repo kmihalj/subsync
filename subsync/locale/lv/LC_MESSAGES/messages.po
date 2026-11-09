@@ -1195,3 +1195,7 @@ msgstr "{} minūtes"
 
 msgid "{} speech recognition model"
 msgstr "{} runas atpazīšanas modelis"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Atzara autors un uzturētājs: {}"

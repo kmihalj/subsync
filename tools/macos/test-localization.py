@@ -36,7 +36,7 @@ class CatalogTests(unittest.TestCase):
 
     def test_all_actual_catalogs_and_mo_roundtrip(self):
         messages = catalog.source_messages()
-        self.assertEqual(len(messages), 393)
+        self.assertEqual(len(messages), 394)
         self.assertEqual(set(translations.listLanguages()), set(NAMES))
         for code in sorted(set(NAMES) - {'en'}):
             with self.subTest(locale=code):

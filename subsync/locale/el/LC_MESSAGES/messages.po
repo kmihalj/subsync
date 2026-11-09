@@ -1195,3 +1195,7 @@ msgstr "{} λεπτά"
 
 msgid "{} speech recognition model"
 msgstr "{} μοντέλο αναγνώρισης ομιλίας"
+
+
+msgid "Fork author and maintainer: {}"
+msgstr "Δημιουργός και συντηρητής του fork: {}"
