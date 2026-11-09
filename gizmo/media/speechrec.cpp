@@ -3,11 +3,14 @@
 #include "general/exception.h"
 #include <cstring>
 #include <cstdint>
+#include <cmath>
+#include <sstream>
+#include <iomanip>
 
 using namespace std;
 
 SpeechRecognition::SpeechRecognition() :
-    m_ps(NULL), m_config(NULL), m_vad(NULL),
+    m_ps(NULL), m_config(NULL), m_frontend(NULL), m_decoderOpen(false),
     m_utteranceStarted(false), m_haveTimestamp(false), m_flushed(false),
     m_framePeriod(0.0), m_deltaTime(0.0), m_utteranceTime(0.0),
     m_timeBase(0.0), m_minProb(1.0f), m_minLen(0)
@@ -24,7 +27,7 @@ SpeechRecognition::SpeechRecognition() :
 SpeechRecognition::~SpeechRecognition()
 {
     // Destructors must also release resources after a failed/cancelled start.
-    ps_vad_free(m_vad);
+    ss_frontend_free(m_frontend);
     ps_free(m_ps);
     ps_config_free(m_config);
 }
@@ -63,30 +66,20 @@ bool SpeechRecognition::removeWordsListener(WordsListener listener)
 void SpeechRecognition::setMinWordProb(float minProb) { m_minProb = minProb; }
 void SpeechRecognition::setMinWordLen(unsigned minLen) { m_minLen = minLen; }
 
-void SpeechRecognition::resetVad()
+void SpeechRecognition::createFrontend()
 {
-    ps_vad_free(m_vad);
-    const int sampleRate = static_cast<int>(ps_config_int(m_config, "samprate"));
-    m_vad = ps_vad_init(PS_VAD_LOOSE, sampleRate, 0.01);
-    if (m_vad == NULL)
-        throw EXCEPTION("can't init speech voice activity detection")
-            .module("SpeechRecognition", "ps_vad_init");
-    const size_t frameSize = ps_vad_frame_size(m_vad);
-    const long frate = ps_config_int(m_config, "frate");
-    // SphinxBase defaults: prespeech 20, confirmation 10, hangover 50
-    // recognition frames. Derive durations from the model's frame rate,
-    // independently of the VAD's actual supported input frame size.
-    const auto frames = [=](unsigned legacyFrames) {
-        const uint64_t numerator = uint64_t(legacyFrames) * sampleRate;
-        const uint64_t denominator = uint64_t(frate) * frameSize;
-        return static_cast<size_t>((numerator + denominator - 1) / denominator);
-    };
-    m_segments.reset(new SpeechSegmenter(frames(20), frames(10), frames(50),
-            [this](const int16_t *pcm, size_t count, uint64_t first, bool begin, bool end) {
-                processSpeech(pcm, count, first, begin, end);
-            }));
-    m_samples.clear();
-    m_flushed = false;
+    ss_frontend_free(m_frontend);
+    m_frontend = NULL;
+    ps_config_t *configuration=ps_get_config(m_ps);
+    // Match the original 1s_c_d_dd frontend buffer, while feature extraction
+    // and search use the current decoder through its public CEP interface.
+    m_frontend=ss_frontend_create_config(configuration,7);
+    if (!m_frontend)
+        throw EXCEPTION("can't initialize compatibility frontend")
+            .module("SpeechRecognition","createFrontend");
+    if (ss_frontend_ceplen(m_frontend)!=ps_config_int(configuration,"ceplen"))
+        throw EXCEPTION("compatibility frontend feature dimensions differ")
+            .module("SpeechRecognition","createFrontend");
 }
 
 void SpeechRecognition::start(const AVStream *stream)
@@ -107,18 +100,38 @@ void SpeechRecognition::start(const AVStream *stream)
     m_utteranceTime = 0.0;
     m_haveTimestamp = false;
     m_utteranceStarted = false;
-    resetVad();
+    createFrontend();
+    if (ps_start_utt(m_ps)<0)
+        throw EXCEPTION("can't start speech recognition")
+            .module("SpeechRecognition","ps_start_utt");
+    m_decoderOpen=true;
+    m_flushed=false;
+}
+
+int SpeechRecognition::cepCallback(void *context,float **cep,int frames,int streamFrame)
+{
+    return static_cast<SpeechRecognition*>(context)->processCep(cep,frames,streamFrame);
+}
+
+int SpeechRecognition::processCep(float **cep,int frames,int streamFrame)
+{
+    if (streamFrame>0)
+        m_utteranceTime=streamFrame*m_framePeriod;
+    return ps_process_cep(m_ps,cep,frames,FALSE,FALSE);
 }
 
 void SpeechRecognition::endUtterance()
 {
-    if (!m_utteranceStarted)
-        return;
-    if (ps_end_utt(m_ps) < 0)
+    if (!m_decoderOpen) return;
+    if (ss_frontend_end_utt(m_frontend,cepCallback,this)<0)
+        throw EXCEPTION("can't drain compatibility frontend")
+            .module("SpeechRecognition","frontendEndUtterance");
+    if (ps_end_utt(m_ps)<0)
         throw EXCEPTION("can't end utterance")
-            .module("SpeechRecognition", "ps_end_utt");
-    m_utteranceStarted = false;
-    parseUtterance();
+            .module("SpeechRecognition","ps_end_utt");
+    m_decoderOpen=false;
+    if (m_utteranceStarted) parseUtterance();
+    m_utteranceStarted=false;
 }
 
 void SpeechRecognition::stop()
@@ -126,89 +139,54 @@ void SpeechRecognition::stop()
     if (m_ps) {
         flush();
         ps_free(m_ps);
-        m_ps = NULL;
+        m_ps=NULL;
     }
-    ps_vad_free(m_vad);
-    m_vad = NULL;
-    m_samples.clear();
-}
-
-void SpeechRecognition::processSpeech(const int16_t *samples, size_t count,
-        uint64_t firstSample, bool begin, bool end)
-{
-    if (begin) {
-        if (ps_start_utt(m_ps) < 0)
-            throw EXCEPTION("can't start utterance")
-                .module("SpeechRecognition", "ps_start_utt");
-        m_utteranceStarted = true;
-        m_utteranceTime = static_cast<double>(firstSample)
-            / static_cast<double>(ps_config_int(m_config, "samprate"));
-    }
-    if (count && ps_process_raw(m_ps, samples, count, FALSE, FALSE) < 0)
-        throw EXCEPTION("speech recognition error")
-            .module("SpeechRecognition", "ps_process_raw");
-    if (end)
-        endUtterance();
-}
-
-void SpeechRecognition::processVadFrame(const int16_t *samples, size_t count)
-{
-    const size_t frameSize = ps_vad_frame_size(m_vad);
-    // Classify a padded final frame, but never send fabricated PCM to ASR.
-    std::vector<int16_t> padded;
-    const int16_t *input = samples;
-    if (count != frameSize) {
-        padded.assign(frameSize, 0);
-        std::copy(samples, samples + count, padded.begin());
-        input = padded.data();
-    }
-    const ps_vad_class_t decision = ps_vad_classify(m_vad, input);
-    if (decision == PS_VAD_ERROR)
-        throw EXCEPTION("speech voice activity detection error")
-            .module("SpeechRecognition", "ps_vad_classify");
-    m_segments->push(samples, count, decision == PS_VAD_SPEECH);
+    ss_frontend_free(m_frontend);
+    m_frontend=NULL;
 }
 
 void SpeechRecognition::feed(const AVFrame *frame)
 {
     if (!m_haveTimestamp) {
-        m_deltaTime = frame->pts == AV_NOPTS_VALUE ? 0.0 : m_timeBase * frame->pts;
-        m_haveTimestamp = true;
+        m_deltaTime=frame->pts==AV_NOPTS_VALUE?0.0:m_timeBase*frame->pts;
+        m_haveTimestamp=true;
     }
-    const int16_t *data = reinterpret_cast<const int16_t*>(frame->data[0]);
-    m_samples.insert(m_samples.end(), data, data + frame->nb_samples);
-    const size_t frameSize = ps_vad_frame_size(m_vad);
-    size_t consumed = 0;
-    while (m_samples.size() - consumed >= frameSize) {
-        processVadFrame(m_samples.data() + consumed, frameSize);
-        consumed += frameSize;
+    const int16_t *data=reinterpret_cast<const int16_t*>(frame->data[0]);
+    if (ss_frontend_process(m_frontend,data,frame->nb_samples,cepCallback,this)<0)
+        throw EXCEPTION("compatibility frontend processing error")
+            .module("SpeechRecognition","frontendProcess");
+    const bool speech=ss_frontend_in_speech(m_frontend);
+    if (speech && !m_utteranceStarted)
+        m_utteranceStarted=true;
+    if (!speech && m_utteranceStarted) {
+        endUtterance();
+        if (ss_frontend_start_utt(m_frontend)<0 || ps_start_utt(m_ps)<0)
+            throw EXCEPTION("can't start utterance")
+                .module("SpeechRecognition","startUtterance");
+        m_decoderOpen=true;
     }
-    m_samples.erase(m_samples.begin(), m_samples.begin() + consumed);
 }
 
 void SpeechRecognition::flush()
 {
-    if (m_vad == NULL || m_flushed)
-        return;
-    if (!m_samples.empty())
-        processVadFrame(m_samples.data(), m_samples.size());
-    m_segments->flush();
-    m_samples.clear();
-    m_flushed = true;
+    if (!m_ps || m_flushed) return;
+    endUtterance();
+    m_flushed=true;
 }
 
 void SpeechRecognition::discontinuity()
 {
+    if (!m_ps) return;
     flush();
-    m_deltaTime = 0.0;
-    m_haveTimestamp = false;
-    // The compatibility function returns -1 if an asset disables noise
-    // removal: in that configuration there are no noise statistics to reset.
-    if (m_ps && ps_config_bool(m_config, "remove_noise") && ps_start_stream(m_ps) < 0)
-        throw EXCEPTION("can't reset speech recognition engine")
-            .module("SpeechRecognition", "ps_start_stream");
-    if (m_ps)
-        resetVad();
+    m_deltaTime=0.0;
+    m_utteranceTime=0.0;
+    m_haveTimestamp=false;
+    ss_frontend_start_stream(m_frontend);
+    if (ss_frontend_start_utt(m_frontend)<0 || ps_start_utt(m_ps)<0)
+        throw EXCEPTION("can't restart speech recognition")
+            .module("SpeechRecognition","discontinuity");
+    m_decoderOpen=true;
+    m_flushed=false;
 }
 
 void SpeechRecognition::parseUtterance()

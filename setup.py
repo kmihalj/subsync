@@ -89,7 +89,7 @@ class build_ext(setuptools.command.build_ext.build_ext):
                 ]
 
         if use_pkg_config:
-            pkgs = [ 'lib' + name for name in ffmpeg_libs ] + sphinx_libs
+            pkgs = sphinx_libs + [ 'lib' + name for name in ffmpeg_libs ]
             self.cflags       += self.get_pkg_config('--cflags-only-other', pkgs)
             self.ldflags      += self.get_pkg_config('--libs-only-other',   pkgs)
             self.include_dirs += self.get_pkg_config('--cflags-only-I', pkgs, strip_prefixes=['-I'])
@@ -98,6 +98,11 @@ class build_ext(setuptools.command.build_ext.build_ext):
 
         else:
             self.libraries += ffmpeg_libs + sphinx_libs
+
+        frontend_build = os.environ.get('SUBSYNC_FRONTEND_BUILD',
+                os.path.join(os.path.dirname(__file__), '.build', 'native-frontend'))
+        self.library_dirs.append(os.path.join(frontend_build, 'lib'))
+        self.libraries.append('subsyncfrontend')
 
         import pybind11
         self.include_dirs += self.get_paths(pybind11.get_include(), '')

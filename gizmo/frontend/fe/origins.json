@@ -1,0 +1,121 @@
+{
+  "files": [
+    {
+      "file": "fe.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe.h",
+      "sha256": "8b2b5270d8d516189c07b7733da71c3150933f9eb964c2cb70c14f184e2c2ef2"
+    },
+    {
+      "file": "fe_interface.c",
+      "origin": "src-legacy/sphinxbase-617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_interface.c",
+      "sha256": "2a65f1e60d592d319bbf3432ca2f2698712839b6044de005113ca9f9a87c50c2"
+    },
+    {
+      "file": "fe_internal.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_internal.h",
+      "sha256": "9ab5e34193037733d06f25a58568c2f2805eeef24a74f453a27c8248edf6c1b8"
+    },
+    {
+      "file": "fe_noise.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_noise.c",
+      "sha256": "5d552c2e8beaaa318b4374d5a7e299a959ea435b5fec9e0c2db0b8dc03b69c65"
+    },
+    {
+      "file": "fe_noise.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_noise.h",
+      "sha256": "6678f1d5a80181a7661d1abf5180ef1845f9c1254ec8506060d630f13c19c05b"
+    },
+    {
+      "file": "fe_prespch_buf.c",
+      "origin": "src-legacy/sphinxbase-617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_prespch_buf.c",
+      "sha256": "6a69d40a313a539ac4ccf49f4575607b0aaa5f0a082e30aad4abdb07ec0b8313"
+    },
+    {
+      "file": "fe_prespch_buf.h",
+      "origin": "src-legacy/sphinxbase-617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_prespch_buf.h",
+      "sha256": "642bf3cac4e0bd2eed6a12d9ef6301fb4663c3bc3277017236ee23cffb8b6491"
+    },
+    {
+      "file": "fe_sigproc.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_sigproc.c",
+      "sha256": "2519fdc4c2ae4bd3a93f81bfd6d15788273e511391794da5b9237baf705979e7"
+    },
+    {
+      "file": "fe_type.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_type.h",
+      "sha256": "4f9ca9bb09e6f5bf918313d7c7a8792b84882502421f780a897586c85e899c4e"
+    },
+    {
+      "file": "fe_warp.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp.c",
+      "sha256": "230b73f615eac29c45da5213870e9ed1d60cd561201aa25e24a1554121bd0412"
+    },
+    {
+      "file": "fe_warp.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp.h",
+      "sha256": "782f9e92578aa9411ee8c013c564ca8507ce1310a62754529645a6c159c0a2c4"
+    },
+    {
+      "file": "fe_warp_affine.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_affine.c",
+      "sha256": "39a6d69029bf0a3554fca7dcd15f4545e70e0dec789d731ced0247d22e57357a"
+    },
+    {
+      "file": "fe_warp_affine.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_affine.h",
+      "sha256": "c771d84b7762e7baedf6ebde7e5a906a612f2913608ae15a6f59e88670691487"
+    },
+    {
+      "file": "fe_warp_inverse_linear.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_inverse_linear.c",
+      "sha256": "4ca32c3dbbeb829cc2cd1e8ece0176e94a35132961c97c4b642bd00df055416c"
+    },
+    {
+      "file": "fe_warp_inverse_linear.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_inverse_linear.h",
+      "sha256": "1cb1afc44bad8f43e5299b70a04ed96e809de640fb748693fdced8a8417cb8c9"
+    },
+    {
+      "file": "fe_warp_piecewise_linear.c",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_piecewise_linear.c",
+      "sha256": "2a7da8478d7193bb214751317ccddd4632fdc6c2022cd9ece39110d2de20f89c"
+    },
+    {
+      "file": "fe_warp_piecewise_linear.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fe_warp_piecewise_linear.h",
+      "sha256": "c2aa01d09537d2b2bdcbc157afbc2811b092404abc8dad2a43af31bb45a012be"
+    },
+    {
+      "file": "fixpoint.h",
+      "origin": "modern-sources/pocketsphinx-5.1.1/src/fe/fixpoint.h",
+      "sha256": "252328aebc23ac2f67442d325a575e5bf455763efff5bdfd53b266631f7270c9"
+    }
+  ],
+  "adaptation": "Current PocketSphinx 5.1.1 validation/initialization/DSP/warps; SphinxBase SNR-VAD, prespeech buffer and global stream frame clock restored. No model parser or ASR code is copied.",
+  "additional_origins": [
+    {
+      "origin": "SphinxBase 617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_noise.c",
+      "sha256": "e529cf0a740b19a983fcb76960a6470875d582b9423894a240a19b61825be2d4",
+      "use": "Classic energy/SNR VAD decision and hangover only; current noise helpers retained."
+    },
+    {
+      "origin": "SphinxBase 617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_internal.h",
+      "sha256": "30305c95bbe29c0b3f7af2f0bff8effd243b56b4cfb08778ee994400bea99fa2",
+      "use": "Private VAD/prespeech state definitions."
+    },
+    {
+      "origin": "SphinxBase 617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe/fe_sigproc.c",
+      "sha256": "b1b5933e76bc76eac2bc449b40c0899509b2e8e99a7335031b7f12376c1f1ffe",
+      "use": "VAD hand-off after the current MFCC pipeline."
+    },
+    {
+      "origin": "PocketSphinx v5.1.1/src/fe/fe_interface.c",
+      "sha256": "3ae510ade9cf12b52985e6905d6b94c93f88c41da20e4b9b9dd1a91ba1237ad0",
+      "use": "Current configuration validation, parameter parsing and initialization bodies retained."
+    }
+  ],
+  "upstreams": [
+    "https://github.com/cmusphinx/pocketsphinx/tree/v5.1.1/src/fe",
+    "https://github.com/cmusphinx/sphinxbase/tree/617e53691889336a482631380f75b453445d0dae/src/libsphinxbase/fe"
+  ]
+}

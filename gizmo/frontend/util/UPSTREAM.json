@@ -1,0 +1,46 @@
+{
+  "upstream": "https://github.com/cmusphinx/pocketsphinx",
+  "tag": "v5.1.1",
+  "commit": "511126b492dcb267cf30d49d631946d7b61a9530",
+  "archive_sha256": "e2db414eb66618cd0a98de77507db32517a48f6900b06bfb94c0acc4bef5761d",
+  "files": [
+    {
+      "path": "src/util/ckd_alloc.c",
+      "sha256": "b5a28527faae747527242b483204625100213e711d5aa249dbd5bcc396dfea99"
+    },
+    {
+      "path": "src/util/ckd_alloc.h",
+      "sha256": "e391d6e44cd2f3d8bcf31d7e039e1c27f84bee00c1fad9b255d7efc2857d7f38"
+    },
+    {
+      "path": "src/util/strfuncs.c",
+      "sha256": "26200560a8092b93a6c74b6e24f43089e95d2dc4879a22a0a50cd58d09731e0a"
+    },
+    {
+      "path": "src/util/strfuncs.h",
+      "sha256": "6bf4095ed712430b55d7aa28a68cfabcf0073b78261379552d013da0ef480bf2"
+    },
+    {
+      "path": "src/util/genrand.c",
+      "sha256": "861a74c009356d4e5bcaecf7ce802133a81ef6e43e869a0bcf3ddfdd0173503b"
+    },
+    {
+      "path": "src/util/genrand.h",
+      "sha256": "10cb41e45f79b6a103a8765d424337af0f86cff1df49a63bda0e570804466ba6"
+    },
+    {
+      "path": "src/util/thread_local.h",
+      "sha256": "516c6c56e1582d15536b5dd9dbe1740cefa8645c6ff9e5e13674b8848e643fb0"
+    },
+    {
+      "path": "src/util/byteorder.h",
+      "sha256": "84c91d163cad8aea1e2f69fffa6ba8841e733242ca04c0246a41018c26466f2a"
+    }
+  ],
+  "modifications": {
+    "strfuncs.c": "Replace private sb_strtod dependency with public macOS strtod_l using an isolated C numeric locale; retain upstream string utilities and notices.",
+    "err.h": "Local shim for the installed public pocketsphinx/err.h.",
+    "cmd_ln.h": "Local shim for config_adapter.h; no legacy parser or private configuration ABI."
+  },
+  "build": "C17, macOS arm64, floating-point, private prefixed symbols, hidden static archive; thread-local RNG."
+}
