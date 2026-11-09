@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--source', type=pathlib.Path,
                     default=pathlib.Path.home() / 'Library/Preferences/subsync')
 parser.add_argument('--destination', type=pathlib.Path,
-                    default=pathlib.Path.home() / 'Library/Application Support/SubSync ARM')
+                    default=pathlib.Path.home() / 'Library/Application Support/SubSync ARM Modern')
 args = parser.parse_args()
 source = args.source.expanduser().resolve(strict=True)
 destination = args.destination.expanduser().resolve()

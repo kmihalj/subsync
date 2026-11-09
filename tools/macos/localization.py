@@ -11,6 +11,7 @@ from collections import Counter
 from functools import lru_cache
 import gettext
 import io
+import importlib.util
 import json
 from pathlib import Path
 import re
@@ -21,8 +22,11 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
-from subsync.data.uilanguages import NAMES
+registry_spec = importlib.util.spec_from_file_location('ui_locale_registry',
+        ROOT / 'subsync/data/uilanguages.py')
+registry = importlib.util.module_from_spec(registry_spec)
+registry_spec.loader.exec_module(registry)
+NAMES = registry.NAMES
 
 SOURCE = Path(__file__).with_name('localization-messages.json')
 LOCALES = ROOT / 'subsync/locale'

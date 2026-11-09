@@ -9,14 +9,13 @@ under `~/Library/Preferences/subsync`, or original Plex media/subtitle files.
 Builds, downloaded sources, copied models, test outputs and private media
 excerpts belong in ignored `.build/`, `.venv/`, `build/` or `dist/` directories.
 
-`macos-arm64` preserves the legacy speech engine for behavioral comparisons.
-Keep FFmpeg/PocketSphinx API and speech/VAD modernization in
-`experimental/modern-deps` until its output has been compared with the legacy
-build. Do not change matching thresholds merely to make a comparison pass.
-The experimental app must not link or bundle deprecated SphinxBase, SphinxAD,
-or legacy PocketSphinx libraries. Old libraries are test-only references.
+The single maintained version lives on `main` and uses the current FFmpeg
+and PocketSphinx engine with the owned compatibility frontend. Do not change
+matching thresholds merely to make a comparison pass. Do not link or bundle
+deprecated SphinxBase, SphinxAD or legacy PocketSphinx libraries. Historical
+libraries and immutable old app snapshots are test-only references in .build.
 
-Use separate app names, bundle identifiers and profiles for each variant.
+Use a separate app name, bundle identifier and profile from the installed Intel app.
 Keep the upstream Intel application updater disabled.
 
 For changed media/recognition code, run the meaningful media integration tests
@@ -25,5 +24,4 @@ and isolated synchronization comparisons. Verify final bundles with
 Keep copyrighted media and model data out of Git and uploaded artifacts.
 Public validation notes should describe private fixtures without their paths.
 
-See `doc/macos-arm64.md` and, on the experimental branch,
-`doc/macos-modern-deps.md` for build and validation commands.
+See `doc/macos-modern-deps.md` for build and validation commands.

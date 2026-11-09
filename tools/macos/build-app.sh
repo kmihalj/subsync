@@ -29,7 +29,7 @@ fi
 PYTHON="$ROOT/.venv/bin/python"
 "$UV" pip sync --python "$PYTHON" tools/macos/requirements-build.txt
 export PATH="$ROOT/.venv/bin:$ROOT/.build/bin:$PATH"
-export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM Modern}
+export SUBSYNC_APP_NAME=${SUBSYNC_APP_NAME:-SubSync ARM}
 export SUBSYNC_BUNDLE_ID=${SUBSYNC_BUNDLE_ID:-org.kmihalj.subsync.arm64.modern}
 export SUBSYNC_DEPS_PREFIX=${SUBSYNC_DEPS_PREFIX:-$ROOT/.build/modern-prefix}
 PREFIX=$SUBSYNC_DEPS_PREFIX

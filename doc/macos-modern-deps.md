@@ -1,4 +1,4 @@
-# Experimental macOS ARM build with current libraries
+# Native macOS ARM build with current libraries
 
 This branch targets Apple Silicon only. It builds FFmpeg 9.0.2 and
 PocketSphinx 5.1.1 from the sources and SHA256 hashes recorded in
@@ -37,10 +37,11 @@ From an Apple Silicon Mac:
 tools/macos/build-app.sh
 ```
 
-On this experimental branch the default dependency script, prefix, app name
+The default dependency script, prefix, app name
 and bundle identifier all select the modern build. Optional
 `SUBSYNC_DEPS_PREFIX` and `SUBSYNC_APP_NAME` overrides support isolated builds.
-The historical build instructions belong to the `macos-arm64` branch.
+The single maintained source branch is `main`; historical engine variants
+are retained only as private regression references.
 
 The default minimum target is macOS 11.0. All build products stay inside the
 checkout. The script does not replace an installed application.
@@ -88,9 +89,8 @@ It runs without Python or dynamic-library path overrides.
 All three packaged comparisons pass the documented regression tolerances,
 and the original app and preferences/models are unchanged by content hash.
 The modern recognizer's real-media output is measurably different; the
-`macos-arm64` branch remains the preferred build for preserving existing
-SubSync results. More representative film comparisons are needed before
-promoting this experimental branch.
+initial adapter was superseded by the compatibility frontend described
+below. Historical results remain here as validation evidence.
 
 The 433 existing algorithm assertions pass. Additional native integration
 checks cover silence, separated utterances, media timestamps, discontinuity,
@@ -139,7 +139,7 @@ imperfect proxies, not proof of universally better recognition. A severe
 12 dB synthetic white-noise stress case still fails the default minimum
 point count in both original and updated engines.
 
-The branch remains experimental. The installed original app, its profiles
+The installed original app, its profiles
 and all source media/captions remain unchanged by the recorded safety checks.
 
 `tools/macos/compare-suite.py` prepares private multi-film offset/drift

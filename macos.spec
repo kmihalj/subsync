@@ -4,7 +4,7 @@ from PyInstaller.utils.hooks import copy_metadata
 
 version = {}
 exec(open(os.path.join(SPECPATH, 'subsync', 'version.py')).read(), version)
-app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM Modern')
+app_name = os.environ.get('SUBSYNC_APP_NAME', 'SubSync ARM')
 bundle_id = os.environ.get('SUBSYNC_BUNDLE_ID', 'org.kmihalj.subsync.arm64.modern')
 prefix = os.environ.get('SUBSYNC_DEPS_PREFIX', os.path.join(SPECPATH, '.build', 'modern-prefix'))
 data_files = [
@@ -12,7 +12,6 @@ data_files = [
     ('subsync/key.pub', '.'),
     ('subsync/img', 'img'),
     ('subsync/locale', 'locale'),
-    ('doc/macos-arm64.md', 'documentation'),
     ('doc/macos-modern-deps.md', 'documentation'),
     (os.path.join(prefix, 'share', 'licenses'), 'licenses/native'),
     ('gizmo/frontend/LICENSE.compatibility', 'licenses/frontend'),
