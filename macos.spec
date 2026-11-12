@@ -1,5 +1,6 @@
 # -*- mode: python ; coding: utf-8 -*-
 import os
+from pathlib import Path
 import runpy
 import sysconfig
 from PyInstaller.utils.hooks import copy_metadata
@@ -35,6 +36,13 @@ data_files = [
 ]
 for dependency in ('wxPython', 'cryptography', 'certifi', 'requests', 'pysubs2', 'PyYAML', 'cffi', 'numpy', 'pybind11', 'pyinstaller'):
     data_files += copy_metadata(dependency)
+
+bundled_assets = os.environ.get('SUBSYNC_BUNDLED_ASSETS')
+if bundled_assets:
+    bundled_assets = Path(bundled_assets).resolve(strict=True)
+    if not any(bundled_assets.glob('speech/*.speech')) or not any(bundled_assets.glob('dict/*.dict')):
+        raise ValueError('Bundled assets must include speech models and dictionaries')
+    data_files.append((str(bundled_assets), 'bundled-assets'))
 
 a = Analysis(
     ['bin/subsync'],
@@ -76,6 +84,7 @@ app = BUNDLE(
         'CFBundleLocalizations': sorted(ui_languages),
         'LSApplicationCategoryType': 'public.app-category.video',
         'SubSyncDistribution': distribution,
+        'SubSyncBundledAssets': bool(bundled_assets),
         'LSMinimumSystemVersion': os.environ.get('MACOSX_DEPLOYMENT_TARGET', '11.0'),
         'NSHighResolutionCapable': True,
     },

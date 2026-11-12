@@ -26,8 +26,9 @@ comparisons.
 
 The application uses the separate `SubSync ARM Modern` preference directory.
 `SUBSYNC_CONFIG_DIR` can override it for isolated tests.
-Existing `.speech` models and dictionaries are read through the existing asset
-loader. Model data is not embedded in the application bundle.
+The Standard package reads downloaded models and dictionaries from the profile.
+The Offline package reads the pinned resources bundled in the app, with the
+profile as a fallback for previously installed data.
 
 ## Build
 
@@ -36,6 +37,20 @@ From an Apple Silicon Mac:
 ```sh
 tools/macos/build-app.sh
 ```
+
+To build the Offline package, prepare the [pinned language data](offline-assets.md)
+and use a separate output directory so both DMGs can be retained.
+
+```sh
+python3 tools/macos/prepare-offline-assets.py .build/offline-assets
+SUBSYNC_BUNDLED_ASSETS="$PWD/.build/offline-assets" \
+SUBSYNC_DIST_DIR="$PWD/.build/offline-dist" \
+SUBSYNC_PYINSTALLER_WORK_DIR="$PWD/.build/offline-build" \
+tools/macos/build-app.sh
+```
+
+Use the same release version and build number for both packages. The packaging
+script adds `-offline` to the filename when the app contains language data.
 
 The default dependency script, prefix, app name
 and bundle identifier all select the modern build. Optional

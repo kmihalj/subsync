@@ -103,6 +103,14 @@ def verify(app):
     distribution = info.get('SubSyncDistribution')
     if distribution not in ('public', 'appstore'):
         errors.append('Unknown or missing distribution policy')
+    bundled = app / 'Contents/Resources/bundled-assets'
+    models = len(list(bundled.glob('speech/*.speech')))
+    dictionaries = len(list(bundled.glob('dict/*.dict')))
+    if info.get('SubSyncBundledAssets', False):
+        if not models or not dictionaries:
+            errors.append('Offline bundle is missing speech models or dictionaries')
+    elif bundled.exists():
+        errors.append('Unexpected bundled assets in the standard app')
     if distribution == 'appstore':
         raw = output('/usr/bin/codesign', '-d', '--entitlements', ':-', str(app))
         try:
@@ -127,7 +135,8 @@ def verify(app):
               'declared_minimum_macos': declared, 'binary_minimum_macos': required,
               'version': info.get('CFBundleShortVersionString'),
               'build': info.get('CFBundleVersion'), 'ui_languages': len(advertised),
-              'distribution': distribution,
+              'distribution': distribution, 'bundled_models': models,
+              'bundled_dictionaries': dictionaries,
               'errors': errors}
     print(json.dumps(result, indent=2))
     return not errors

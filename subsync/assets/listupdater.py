@@ -22,6 +22,8 @@ class ListUpdater(object):
 
     def run(self):
         """Start updater (asynchronously)."""
+        if not config.assetsurl:
+            return
         if self.isRunning():
             raise RuntimeError(_('Another update in progress'))
 
@@ -34,7 +36,7 @@ class ListUpdater(object):
 
     def isUpdated(self):
         """Check if update was run and succeeded."""
-        return self._updated
+        return self._updated or not config.assetsurl
 
     def isRunning(self):
         """Check if update is running."""

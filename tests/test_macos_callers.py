@@ -284,6 +284,43 @@ class StoreAssetsTests(unittest.TestCase):
         self.assertEqual({call.args[0] for call in manager.getAsset.call_args_list}, set(remote))
 
 
+class OfflineAssetsTests(unittest.TestCase):
+    def test_bundled_data_takes_precedence_and_is_read_only(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            bundled = root / 'bundle' / 'dict'
+            cached = root / 'cache' / 'dict'
+            bundled.mkdir(parents=True)
+            cached.mkdir(parents=True)
+            dictionary = bundled / 'eng-hrv.dict'
+            dictionary.write_text('#dictionary/eng/hrv/1.0.0\nhello|bok\n')
+            (cached / 'eng-hrv.dict').write_text('#dictionary/eng/hrv/2.0.0\n')
+            (cached / 'eng-fre.dict').write_text('#dictionary/eng/fre/1.1.0\n')
+            with patch.multiple(asset_manager.config, bundledassetdir=str(bundled.parent),
+                                assetdir=str(cached.parent)):
+                asset = asset_manager.item.DictAsset('dict', ('eng', 'hrv'))
+                self.assertEqual(asset.localVersion(), (1, 0, 0))
+                self.assertEqual(list(asset.readDictionary()), [('hello', 'bok')])
+                asset._removeLocalData()
+                self.assertTrue(dictionary.is_file())
+                fallback = asset_manager.item.DictAsset('dict', ('eng', 'fre'))
+                self.assertEqual(fallback.localVersion(), (1, 1, 0))
+
+    def test_offline_ignores_cached_catalog_and_never_refreshes_it(self):
+        with tempfile.TemporaryDirectory() as temp, \
+                patch.object(asset_manager.AssetManager, '_updateAssetsRemoteData') as update, \
+                patch.object(asset_manager.listupdater.requests, 'get') as get:
+            catalog = Path(temp) / 'assets.json'
+            catalog.write_text('{"speech/eng": {}}')
+            with patch.multiple(asset_manager.config, assetsurl=None, assetspath=str(catalog)):
+                manager = asset_manager.AssetManager()
+                updater = manager.getAssetListUpdater()
+                updater.run()
+                updater.wait()
+                self.assertTrue(updater.isUpdated())
+            update.assert_not_called()
+            get.assert_not_called()
+
 class NativeBusyDialogTests(unittest.TestCase):
     def test_real_wx_timer_completes_busy_dialog(self):
         app = busydlg.wx.GetApp()

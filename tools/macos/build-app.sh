@@ -14,6 +14,8 @@ export UV_PYTHON_INSTALL_DIR="$ROOT/.build/python"
 export UV_PYTHON_BIN_DIR="$ROOT/.build/bin"
 export PYTHONNOUSERSITE=1
 export SUBSYNC_CONFIG_DIR="$ROOT/.build/build-profile"
+export SUBSYNC_DIST_DIR=${SUBSYNC_DIST_DIR:-$ROOT/dist}
+WORK=${SUBSYNC_PYINSTALLER_WORK_DIR:-$ROOT/build}
 mkdir -p "$ROOT/.build/logs"
 if [[ ! -x .build/bootstrap/bin/uv ]]; then
     python3 -m venv .build/bootstrap
@@ -63,8 +65,8 @@ tools/macos/test-frontend-invalid.sh
 tools/macos/test-frontend-stream.sh
 tools/macos/test-modern-media.sh --original-packets
 tools/macos/test-speech-invariance.sh --original-packets
-"$PYTHON" -m PyInstaller --noconfirm --clean macos.spec
+"$PYTHON" -m PyInstaller --noconfirm --clean --distpath "$SUBSYNC_DIST_DIR" --workpath "$WORK" macos.spec
 APP_NAME=$SUBSYNC_APP_NAME
-"$PYTHON" tools/macos/verify-bundle.py "dist/$APP_NAME.app"
+"$PYTHON" tools/macos/verify-bundle.py "$SUBSYNC_DIST_DIR/$APP_NAME.app"
 tools/package-macos.sh
-echo "Built: $ROOT/dist/$APP_NAME.app"
+echo "Built: $SUBSYNC_DIST_DIR/$APP_NAME.app"

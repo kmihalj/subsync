@@ -1,4 +1,4 @@
-SubSync 1.0.2 — macOS Apple Silicon
+SubSync @VERSION@ — macOS Apple Silicon — @VARIANT@
 
 INSTALL
 Open this DMG and drag SubSync.app to Applications.
@@ -22,14 +22,19 @@ The interface offers 46 languages. The first run uses the system language;
 you can choose another language in Settings and restart the app.
 Drop a subtitle or reference file from Finder onto the corresponding input.
 Translations are machine-assisted drafts; native-language corrections are welcome.
-Interface languages are separate from speech-recognition models. Required
-models and translation dictionaries are offered for download when needed.
+Standard is the smaller download. It downloads and saves each model or
+dictionary the first time you need it. Offline includes models and dictionaries
+in SubSync.app so its included languages work without a connection. Both DMGs
+contain the same app version. Install the one you want to use.
+Offline includes all nine speech models and 217 bilingual dictionaries
+from the original catalog used to build this release.
+Details: https://github.com/kmihalj/subsync/blob/main/doc/offline-assets.md
 English audio with Croatian subtitles is covered by the regression tests.
 Other catalog models have not all been runtime-tested in this fork.
 
 PRIVACY
-Audio, video and subtitle processing stays on your Mac. Model/catalog downloads
-require network access. Source media and subtitles are not uploaded.
+Audio, video and subtitle processing stays on your Mac. The Standard version
+contacts the asset server for its catalog and downloads.
 See https://github.com/kmihalj/subsync/blob/main/doc/privacy.md
 
 FREE SOFTWARE AND SUPPORT
@@ -41,6 +46,10 @@ Original SubSync author: Michał Szymaniak (sc0ty)
 GPLv3; original and third-party notices are included in the application.
 
 HRVATSKI
+Standardni DMG je manji. Model ili rječnik preuzme i spremi kad ga prvi put
+zatrebate. Offline DMG već ima uključene modele i rječnike pa s njima radi bez
+interneta. Offline sadrži svih devet modela i 217 rječnika iz kataloga korištenog
+za izradu ovog izdanja. Oba paketa sadrže istu verziju aplikacije SubSync.app.
 Povucite SubSync.app u Applications.
 Ako čuvate postojeću Intel aplikaciju, novu stavite u drugu mapu, npr.
 ~/Applications, kako je ne biste zamijenili.

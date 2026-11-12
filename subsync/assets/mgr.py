@@ -37,7 +37,7 @@ class AssetManager(object):
         self._assetsLock = threading.RLock()
 
         try:
-            if os.path.isfile(config.assetspath):
+            if config.assetsurl and os.path.isfile(config.assetspath):
                 logger.info('reading remote asset list from %s', config.assetspath)
                 with open(config.assetspath, encoding='utf8') as fp:
                     self._updateAssetsRemoteData(json.load(fp))

@@ -38,6 +38,12 @@ class Asset(object):
 
         fname = '{}.{}'.format('-'.join(params), type)
         self.path = os.path.join(config.assetdir, type, fname)
+        self._bundled = False
+        if config.bundledassetdir:
+            bundled_path = os.path.join(config.bundledassetdir, type, fname)
+            if os.path.isfile(bundled_path):
+                self.path = bundled_path
+                self._bundled = True
         self.localDir = None
 
     def getId(self):
@@ -118,6 +124,8 @@ class Asset(object):
     def _removeLocalData(self):
         with self._lock:
             self._local = {}
+            if self._bundled:
+                return
             try:
                 if self.path and os.path.isfile(self.path):
                     logger.info('removing %s', self.path)

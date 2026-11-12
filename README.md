@@ -13,8 +13,22 @@ interface and synchronization algorithm.
 
 ## Download
 
-Download the compiled DMG from the [latest release](https://github.com/kmihalj/subsync/releases/latest).
-It contains `SubSync.app` and an Applications shortcut.
+Choose one DMG from the [latest release](https://github.com/kmihalj/subsync/releases/latest).
+
+| Download | Which one should I choose? |
+| --- | --- |
+| **Standard** (`SubSync-…-arm64.dmg`) | Choose this for a smaller download and the full online language catalog. SubSync downloads each required speech model or dictionary the first time you use it and saves it for later. |
+| **Offline** (`SubSync-…-arm64-offline.dmg`) | Choose this if you want to synchronize without an internet connection right away. This package includes nine speech models and 217 bilingual dictionaries. See the [included languages and data sources](doc/offline-assets.md). |
+
+Both DMGs contain the same version of `SubSync.app` with the same interface and
+synchronization engine. Drag the app from the DMG you choose to Applications.
+The app uses a speech model for the language spoken in the reference audio and
+a dictionary when the subtitle and reference languages differ. For example, a
+Croatian subtitle synced to English audio uses the English model and the
+English–Croatian dictionary.
+
+[Upute na hrvatskom](doc/downloads-hr.md)
+
 The current community build is ad-hoc signed and is not Apple notarized.
 See the installation notes in the release and DMG for first-launch instructions.
 
@@ -22,7 +36,7 @@ See the installation notes in the release and DMG for first-launch instructions.
 
 The single maintained version is on `main` and targets macOS ARM64 only.
 See [build and validation details](doc/macos-modern-deps.md),
-[release validation](doc/validation-1.0.2.md),
+[release validation](doc/validation-1.0.3.md),
 [privacy information](doc/privacy.md) and the optional
 [App Store preparation target](doc/app-store-preparation.md).
 
