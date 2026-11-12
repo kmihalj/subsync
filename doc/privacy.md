@@ -4,11 +4,12 @@ SubSync processes selected video, audio and subtitle files locally on your Mac.
 It does not upload their contents, perform cloud transcription, require an
 account, include advertising, or send analytics/crash reports to the maintainer.
 
-The app can contact GitHub and the model-hosting locations listed in the signed
-asset catalog to check/download that catalog, speech models and translation
-dictionaries. Those hosts receive normal network request information, such as
-your IP address. Opening project or GitHub Sponsors links uses your browser and
-the privacy policies of those services.
+The app retrieves the asset catalog from GitHub over HTTPS. It can contact the
+locations listed in the catalog to download speech models and translation
+dictionaries, and verifies each downloaded archive's signature before installing
+it. Those hosts receive normal network request information, such as your IP
+address. Opening project or GitHub Sponsors links uses your browser and the
+privacy policies of those services.
 
 Preferences, downloaded model data and optional diagnostic logs are stored
 locally. Logs and user-exported diagnostic word lists can contain filenames or

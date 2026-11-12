@@ -22,7 +22,7 @@ See the installation notes in the release and DMG for first-launch instructions.
 
 The single maintained version is on `main` and targets macOS ARM64 only.
 See [build and validation details](doc/macos-modern-deps.md),
-[release validation](doc/validation-1.0.1.md),
+[release validation](doc/validation-1.0.2.md),
 [privacy information](doc/privacy.md) and the optional
 [App Store preparation target](doc/app-store-preparation.md).
 

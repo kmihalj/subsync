@@ -1202,3 +1202,6 @@ msgstr "포크 작성자 및 유지 관리자: {}"
 
 msgid "Support development"
 msgstr "개발 후원"
+
+msgid "Drop a file here"
+msgstr "파일을 여기에 놓으세요"

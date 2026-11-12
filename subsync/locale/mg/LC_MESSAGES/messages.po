@@ -1202,3 +1202,6 @@ msgstr "Mpanoratra sy mpikojakoja ny fork: {}"
 
 msgid "Support development"
 msgstr "Tohano ny fampandrosoana"
+
+msgid "Drop a file here"
+msgstr "Apetraho eto ny rakitra iray"

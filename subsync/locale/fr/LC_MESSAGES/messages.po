@@ -1202,3 +1202,6 @@ msgstr "Auteur et responsable de la maintenance du fork : {}"
 
 msgid "Support development"
 msgstr "Soutenir le développement"
+
+msgid "Drop a file here"
+msgstr "Déposez un fichier ici"

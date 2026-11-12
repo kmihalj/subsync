@@ -1202,3 +1202,6 @@ msgstr "مؤلف النسخة المتفرعة والمسؤول عن صيانت�
 
 msgid "Support development"
 msgstr "ادعم التطوير"
+
+msgid "Drop a file here"
+msgstr "أفلت ملفًا هنا"

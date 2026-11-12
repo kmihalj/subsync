@@ -1202,3 +1202,6 @@ msgstr "分支作者及维护者：{}"
 
 msgid "Support development"
 msgstr "支持开发"
+
+msgid "Drop a file here"
+msgstr "将文件拖放到此处"

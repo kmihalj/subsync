@@ -2047,3 +2047,6 @@ msgstr "Autor i opiekun forka: {}"
 
 msgid "Support development"
 msgstr "Wesprzyj rozwój"
+
+msgid "Drop a file here"
+msgstr "Upuść tutaj plik"

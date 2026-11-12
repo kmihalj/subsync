@@ -1,4 +1,4 @@
-SubSync 1.0.1 — macOS Apple Silicon
+SubSync 1.0.2 — macOS Apple Silicon
 
 INSTALL
 Open this DMG and drag SubSync.app to Applications.
@@ -20,6 +20,7 @@ No script in this download changes your system security settings.
 LANGUAGES AND MODELS
 The interface offers 46 languages. The first run uses the system language;
 you can choose another language in Settings and restart the app.
+Drop a subtitle or reference file from Finder onto the corresponding input.
 Translations are machine-assisted drafts; native-language corrections are welcome.
 Interface languages are separate from speech-recognition models. Required
 models and translation dictionaries are offered for download when needed.

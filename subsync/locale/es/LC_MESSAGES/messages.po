@@ -1202,3 +1202,6 @@ msgstr "Autor y mantenedor de la bifurcación: {}"
 
 msgid "Support development"
 msgstr "Apoyar el desarrollo"
+
+msgid "Drop a file here"
+msgstr "Suelta un archivo aquí"

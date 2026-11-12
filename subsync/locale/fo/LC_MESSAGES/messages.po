@@ -1202,3 +1202,6 @@ msgstr "Høvundur og viðlíkahaldari av frágreiningini: {}"
 
 msgid "Support development"
 msgstr "Stuðla menningini"
+
+msgid "Drop a file here"
+msgstr "Slepp einari fílu her"

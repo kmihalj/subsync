@@ -1202,3 +1202,6 @@ msgstr "Autori dhe mirëmbajtësi i degëzimit: {}"
 
 msgid "Support development"
 msgstr "Mbështet zhvillimin"
+
+msgid "Drop a file here"
+msgstr "Lëshoni një skedar këtu"

@@ -1202,3 +1202,6 @@ msgstr "Awtur u manutentur tal-fork: {}"
 
 msgid "Support development"
 msgstr "Appoġġja l-iżvilupp"
+
+msgid "Drop a file here"
+msgstr "Waqqa’ fajl hawn"

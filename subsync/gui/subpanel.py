@@ -14,6 +14,7 @@ class InputPanel(subsync.gui.layout.subpanel.SubtitlePanel):
     def __init__(self, parent, *args, **kwargs):
         super().__init__(parent)
         filedrop.setFileDropTarget(self, OnDropFile=self.onDropSubFile)
+        self.m_textSubPath.SetHint(_('Drop a file here'))
         self.stream = None
         self.defaultLangKey = None
 

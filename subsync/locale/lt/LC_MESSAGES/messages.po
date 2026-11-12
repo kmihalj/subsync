@@ -1202,3 +1202,6 @@ msgstr "Atšakos autorius ir prižiūrėtojas: {}"
 
 msgid "Support development"
 msgstr "Paremti kūrimą"
+
+msgid "Drop a file here"
+msgstr "Nuvilkite failą čia"

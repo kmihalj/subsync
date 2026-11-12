@@ -1202,3 +1202,6 @@ msgstr "A fork szerzője és karbantartója: {}"
 
 msgid "Support development"
 msgstr "A fejlesztés támogatása"
+
+msgid "Drop a file here"
+msgstr "Húzzon ide egy fájlt"

@@ -1202,3 +1202,6 @@ msgstr "Haru autor ja hooldaja: {}"
 
 msgid "Support development"
 msgstr "Toeta arendust"
+
+msgid "Drop a file here"
+msgstr "Pukseerige fail siia"

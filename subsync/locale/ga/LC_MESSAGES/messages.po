@@ -1202,3 +1202,6 @@ msgstr "Údar agus cothabhálaí an fhorc: {}"
 
 msgid "Support development"
 msgstr "Tacaigh leis an bhforbairt"
+
+msgid "Drop a file here"
+msgstr "Scaoil comhad anseo"

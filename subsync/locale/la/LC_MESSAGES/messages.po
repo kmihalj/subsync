@@ -1202,3 +1202,6 @@ msgstr "Auctor et curator huius rami: {}"
 
 msgid "Support development"
 msgstr "Progressum sustine"
+
+msgid "Drop a file here"
+msgstr "Depone fasciculum hic"

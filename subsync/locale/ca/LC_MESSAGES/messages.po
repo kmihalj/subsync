@@ -1202,3 +1202,6 @@ msgstr "Autor i mantenidor de la bifurcació: {}"
 
 msgid "Support development"
 msgstr "Dona suport al desenvolupament"
+
+msgid "Drop a file here"
+msgstr "Deixa anar un fitxer aquí"

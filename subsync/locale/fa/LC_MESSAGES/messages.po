@@ -1202,3 +1202,6 @@ msgstr "نویسنده و نگهدارندهٔ انشعاب: {}"
 
 msgid "Support development"
 msgstr "حمایت از توسعه"
+
+msgid "Drop a file here"
+msgstr "یک فایل را اینجا رها کنید"

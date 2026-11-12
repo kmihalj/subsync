@@ -1202,3 +1202,6 @@ msgstr "Автор и сопровождающий форка: {}"
 
 msgid "Support development"
 msgstr "Поддержать разработку"
+
+msgid "Drop a file here"
+msgstr "Перетащите файл сюда"

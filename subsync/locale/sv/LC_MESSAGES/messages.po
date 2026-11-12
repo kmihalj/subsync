@@ -1202,3 +1202,6 @@ msgstr "Författare och underhållare av förgreningen: {}"
 
 msgid "Support development"
 msgstr "Stöd utvecklingen"
+
+msgid "Drop a file here"
+msgstr "Släpp en fil här"

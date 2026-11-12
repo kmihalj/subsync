@@ -1202,3 +1202,6 @@ msgstr "Haaran tekijä ja ylläpitäjä: {}"
 
 msgid "Support development"
 msgstr "Tue kehitystä"
+
+msgid "Drop a file here"
+msgstr "Pudota tiedosto tähän"

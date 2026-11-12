@@ -1202,3 +1202,6 @@ msgstr "Autor i održavatelj forka: {}"
 
 msgid "Support development"
 msgstr "Podrži razvoj"
+
+msgid "Drop a file here"
+msgstr "Ispusti datoteku ovdje"

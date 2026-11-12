@@ -6,6 +6,7 @@ from subsync.gui.settingswin import SettingsWin
 from subsync.gui.downloadwin import DownloadWin
 from subsync.gui.aboutwin import AboutWin
 from subsync.gui.components import assetsdlg
+from subsync.gui.components import filedrop
 from subsync.gui.busydlg import BusyDlg
 from subsync.gui.errorwin import error_dlg, showExceptionDlg
 from subsync.synchro import SyncTask
@@ -54,6 +55,9 @@ def logRunCmd(task):
 class MainWin(subsync.gui.layout.mainwin.MainWin):
     def __init__(self, parent, task=None):
         super().__init__(parent)
+
+        filedrop.setFileDropTarget(self.m_staticText3, OnDropFile=self.m_panelSub.onDropSubFile)
+        filedrop.setFileDropTarget(self.m_staticText31, OnDropFile=self.m_panelRef.onDropSubFile)
 
         img.setWinIcon(self)
         self.m_buttonMenu.SetLabel(u'\u22ee') # 2630

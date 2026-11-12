@@ -1202,3 +1202,6 @@ msgstr "Atzara autors un uzturētājs: {}"
 
 msgid "Support development"
 msgstr "Atbalstīt izstrādi"
+
+msgid "Drop a file here"
+msgstr "Nometiet failu šeit"

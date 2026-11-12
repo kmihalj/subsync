@@ -45,7 +45,7 @@ class OpenWin(subsync.gui.layout.openwin.OpenWin):
 
         self.m_buttonOpen.Show(allowOpen)
         if allowOpen:
-            filedrop.setFileDropTarget(self, OnDropFile=self.onDropFile)
+            filedrop.setFileDropTarget(self.m_panelMain, OnDropFile=self.onDropFile)
 
         self.Fit()
         self.Layout()
@@ -145,7 +145,8 @@ class OpenWin(subsync.gui.layout.openwin.OpenWin):
             self.openStream(file)
 
     def onDropFile(self, x, y, filename):
-        self.openStream(path=filename)
+        # Finish the native drag before opening the loading dialog.
+        wx.CallAfter(self.openStream, path=filename)
         return True
 
 

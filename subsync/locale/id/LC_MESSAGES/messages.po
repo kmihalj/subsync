@@ -1202,3 +1202,6 @@ msgstr "Penulis dan pemelihara fork: {}"
 
 msgid "Support development"
 msgstr "Dukung pengembangan"
+
+msgid "Drop a file here"
+msgstr "Letakkan berkas di sini"
